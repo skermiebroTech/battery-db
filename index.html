@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laptop Battery Finder</title>
+  <meta name="description" content="Search laptop models to find the OEM battery part number, type code, capacity and cell count.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='9' width='23' height='14' rx='3' fill='%2322c55e'/%3E%3Crect x='27' y='13' width='3' height='6' rx='1' fill='%2322c55e'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1><span class="logo" aria-hidden="true"></span> Laptop Battery Finder</h1>
+      <p class="sub">Type a laptop model, a brand, or a battery code. Results update as you type.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls" aria-label="Search">
+      <label class="search">
+        <span class="sr-only">Search</span>
+        <input id="q" type="search" placeholder="e.g. Latitude 7430, X1 Carbon Gen 9, CC03XL, A2389" autocomplete="off" autofocus>
+        <button id="clear" type="button" title="Clear search" aria-label="Clear search">&times;</button>
+      </label>
+      <div class="row">
+        <div id="brands" class="chips" role="group" aria-label="Filter by brand"></div>
+        <div class="view" role="group" aria-label="View">
+          <button id="view-laptops" class="on" type="button">Laptops</button>
+          <button id="view-batteries" type="button">Batteries</button>
+        </div>
+      </div>
+      <p id="count" class="count" aria-live="polite"></p>
+    </section>
+
+    <section id="results" aria-live="polite"></section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Part numbers come from manufacturer manuals and parts listings. A <b>medium</b> confidence means a parts shop or iFixit listed the code. Check the label inside the laptop before you order.</p>
+    <p>Data: <code>data/batteries.csv</code>. Press <kbd>/</kbd> to jump to the search box.</p>
+  </footer>
+
+  <script src="data/batteries.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
