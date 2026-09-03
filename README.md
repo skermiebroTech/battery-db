@@ -1,4 +1,4 @@
-# Laptop Battery Finder
+# Laptop Battery Finder!
 
 A static, searchable database of laptop models and the OEM battery each one takes.
 It runs on GitHub Pages with no build step and no server.
