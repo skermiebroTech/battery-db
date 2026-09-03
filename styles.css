@@ -115,3 +115,4 @@ kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4p
   .card { grid-template-columns: 1fr; }
   .card .thumb { width: 100%; height: 120px; }
 }
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; appearance: none; }

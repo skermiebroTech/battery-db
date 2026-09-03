@@ -1,7 +1,7 @@
 window.BATTERIES = [
  {
   "brand": "Acer",
-  "model": "Acer Aspire 3 A315-59 (15.6-inch)",
+  "model": "Aspire 3 A315-59 (15.6-inch)",
   "alias": [
    "Aspire A315-59"
   ],
@@ -44,7 +44,6 @@ window.BATTERIES = [
   "alias": [
    "Apple MacBook Pro 13-inch 2020 (A2251)",
    "Apple T2 MacBookPro16,2",
-   "MacBook Pro",
    "MacBookPro16,2"
   ],
   "battery_type": [
@@ -138,7 +137,6 @@ window.BATTERIES = [
   "brand": "Apple",
   "model": "MacBook Pro (16-inch, 2019)",
   "alias": [
-   "MacBook Pro",
    "MacBook Pro 16\" 2019"
   ],
   "battery_type": [
@@ -158,7 +156,6 @@ window.BATTERIES = [
   "brand": "Apple",
   "model": "MacBook Pro (15-inch, 2018)",
   "alias": [
-   "MacBook Pro",
    "MacBook Pro 15\" 2018"
   ],
   "battery_type": [
@@ -348,9 +345,7 @@ window.BATTERIES = [
  {
   "brand": "Apple",
   "model": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports) A2251",
-  "alias": [
-   "MacBook Pro 13-Inch"
-  ],
+  "alias": [],
   "battery_type": [
    "A1964"
   ],
@@ -385,10 +380,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Inspiron 13 5330 (2023)",
-  "alias": [
-   "Inspiron 13 5330"
-  ],
+  "model": "Inspiron 13 5330 (2023)",
+  "alias": [],
   "battery_type": [
    "V6W33"
   ],
@@ -405,10 +398,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Inspiron 14 5420 (2022)",
-  "alias": [
-   "Inspiron 14 5420"
-  ],
+  "model": "Inspiron 14 5420 (2022)",
+  "alias": [],
   "battery_type": [
    "V6W33"
   ],
@@ -425,10 +416,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Inspiron 14 5440 (2024)",
-  "alias": [
-   "Inspiron 14 5440"
-  ],
+  "model": "Inspiron 14 5440 (2024)",
+  "alias": [],
   "battery_type": [
    "V6W33"
   ],
@@ -446,7 +435,7 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Inspiron 14 5491 2-in-1",
+  "model": "Inspiron 14 5491 2-in-1",
   "alias": [
    "Inspiron 5491 2n1"
   ],
@@ -465,7 +454,7 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Inspiron 15 5505 (AMD)",
+  "model": "Inspiron 15 5505 (AMD)",
   "alias": [
    "Inspiron 5505"
   ],
@@ -485,7 +474,7 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Inspiron 14 7490",
+  "model": "Inspiron 14 7490",
   "alias": [
    "Inspiron 7490"
   ],
@@ -504,7 +493,7 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Inspiron 15 7506 2-in-1",
+  "model": "Inspiron 15 7506 2-in-1",
   "alias": [
    "Inspiron 7506 2n1"
   ],
@@ -524,10 +513,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 3330 (2022) laptop",
-  "alias": [
-   "Latitude 3330"
-  ],
+  "model": "Latitude 3330 (2022)",
+  "alias": [],
   "battery_type": [
    "G91J0"
   ],
@@ -545,10 +532,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 3420",
-  "alias": [
-   "Latitude 3420"
-  ],
+  "model": "Latitude 3420",
+  "alias": [],
   "battery_type": [
    "G91J0"
   ],
@@ -565,10 +550,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 3510",
-  "alias": [
-   "Latitude 3510"
-  ],
+  "model": "Latitude 3510",
+  "alias": [],
   "battery_type": [
    "JK6Y6"
   ],
@@ -585,10 +568,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 3520",
-  "alias": [
-   "Latitude 3520"
-  ],
+  "model": "Latitude 3520",
+  "alias": [],
   "battery_type": [
    "G91J0"
   ],
@@ -605,10 +586,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5300 2-in-1",
-  "alias": [
-   "Latitude 5300 2-in-1"
-  ],
+  "model": "Latitude 5300 2-in-1",
+  "alias": [],
   "battery_type": [
    "0G74G"
   ],
@@ -625,10 +604,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5310 2-in-1",
-  "alias": [
-   "Latitude 5310 2-in-1"
-  ],
+  "model": "Latitude 5310 2-in-1",
+  "alias": [],
   "battery_type": [
    "0G74G"
   ],
@@ -645,10 +622,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5320 laptop",
-  "alias": [
-   "Latitude 5320"
-  ],
+  "model": "Latitude 5320",
+  "alias": [],
   "battery_type": [
    "9JM71"
   ],
@@ -665,10 +640,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5330 laptop",
-  "alias": [
-   "Latitude 5330"
-  ],
+  "model": "Latitude 5330",
+  "alias": [],
   "battery_type": [
    "M69D0"
   ],
@@ -686,10 +659,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5410",
-  "alias": [
-   "Latitude 5410"
-  ],
+  "model": "Latitude 5410",
+  "alias": [],
   "battery_type": [
    "1V1XF"
   ],
@@ -707,10 +678,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5420",
-  "alias": [
-   "Latitude 5420"
-  ],
+  "model": "Latitude 5420",
+  "alias": [],
   "battery_type": [
    "WY9DX"
   ],
@@ -727,10 +696,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5430",
-  "alias": [
-   "Latitude 5430"
-  ],
+  "model": "Latitude 5430",
+  "alias": [],
   "battery_type": [
    "M69D0"
   ],
@@ -748,10 +715,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5440",
-  "alias": [
-   "Latitude 5440"
-  ],
+  "model": "Latitude 5440",
+  "alias": [],
   "battery_type": [
    "GRWKG"
   ],
@@ -768,10 +733,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5450",
-  "alias": [
-   "Latitude 5450"
-  ],
+  "model": "Latitude 5450",
+  "alias": [],
   "battery_type": [
    "DR02P"
   ],
@@ -790,10 +753,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5520",
-  "alias": [
-   "Latitude 5520"
-  ],
+  "model": "Latitude 5520",
+  "alias": [],
   "battery_type": [
    "WY9DX"
   ],
@@ -810,10 +771,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 5531",
-  "alias": [
-   "Latitude 5531"
-  ],
+  "model": "Latitude 5531",
+  "alias": [],
   "battery_type": [
    "GRT01"
   ],
@@ -829,10 +788,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7220 Rugged Extreme Tablet",
-  "alias": [
-   "Latitude 7220 Rugged Extreme Tablet"
-  ],
+  "model": "Latitude 7220 Rugged Extreme Tablet",
+  "alias": [],
   "battery_type": [
    "J7HTX"
   ],
@@ -849,10 +806,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7230 Rugged Extreme Tablet",
-  "alias": [
-   "Latitude 7230 Rugged Extreme Tablet"
-  ],
+  "model": "Latitude 7230 Rugged Extreme Tablet",
+  "alias": [],
   "battery_type": [
    "6WVHD"
   ],
@@ -869,10 +824,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7310 laptop",
-  "alias": [
-   "Latitude 7310"
-  ],
+  "model": "Latitude 7310",
+  "alias": [],
   "battery_type": [
    "35J09"
   ],
@@ -889,10 +842,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7320 laptop",
-  "alias": [
-   "Latitude 7320"
-  ],
+  "model": "Latitude 7320",
+  "alias": [],
   "battery_type": [
    "9JM71"
   ],
@@ -909,10 +860,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7330 laptop",
-  "alias": [
-   "Latitude 7330"
-  ],
+  "model": "Latitude 7330",
+  "alias": [],
   "battery_type": [
    "M69D0"
   ],
@@ -931,10 +880,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7400",
-  "alias": [
-   "Latitude 7400"
-  ],
+  "model": "Latitude 7400",
+  "alias": [],
   "battery_type": [
    "0G74G"
   ],
@@ -951,10 +898,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7410 laptop",
-  "alias": [
-   "Latitude 7410"
-  ],
+  "model": "Latitude 7410",
+  "alias": [],
   "battery_type": [
    "35J09"
   ],
@@ -972,7 +917,7 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 14 Rugged Extreme 7414",
+  "model": "Latitude 14 Rugged Extreme 7414",
   "alias": [
    "Latitude 7414"
   ],
@@ -993,10 +938,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7420 laptop",
-  "alias": [
-   "Latitude 7420"
-  ],
+  "model": "Latitude 7420",
+  "alias": [],
   "battery_type": [
    "7FMXV"
   ],
@@ -1014,10 +957,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7424 Rugged Extreme",
-  "alias": [
-   "Latitude 7424 Rugged Extreme"
-  ],
+  "model": "Latitude 7424 Rugged Extreme",
+  "alias": [],
   "battery_type": [
    "7WNW1"
   ],
@@ -1033,10 +974,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7430 laptop",
-  "alias": [
-   "Latitude 7430"
-  ],
+  "model": "Latitude 7430",
+  "alias": [],
   "battery_type": [
    "293F1"
   ],
@@ -1055,10 +994,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7440 laptop (aluminium)",
-  "alias": [
-   "Latitude 7440"
-  ],
+  "model": "Latitude 7440 laptop (aluminium)",
+  "alias": [],
   "battery_type": [
    "WW8N8"
   ],
@@ -1076,10 +1013,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7450 laptop (aluminium)",
-  "alias": [
-   "Latitude 7450"
-  ],
+  "model": "Latitude 7450 laptop (aluminium)",
+  "alias": [],
   "battery_type": [
    "WW8N8"
   ],
@@ -1097,10 +1032,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7490",
-  "alias": [
-   "Latitude 7490"
-  ],
+  "model": "Latitude 7490",
+  "alias": [],
   "battery_type": [
    "DJ1J0"
   ],
@@ -1117,10 +1050,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7520",
-  "alias": [
-   "Latitude 7520"
-  ],
+  "model": "Latitude 7520",
+  "alias": [],
   "battery_type": [
    "7FMXV"
   ],
@@ -1137,10 +1068,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 7640",
-  "alias": [
-   "Latitude 7640"
-  ],
+  "model": "Latitude 7640",
+  "alias": [],
   "battery_type": [
    "WW8N8"
   ],
@@ -1158,10 +1087,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Latitude 9520 laptop",
-  "alias": [
-   "Latitude 9520"
-  ],
+  "model": "Latitude 9520",
+  "alias": [],
   "battery_type": [
    "V5K68"
   ],
@@ -1179,10 +1106,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 3541 (15.6in mobile workstation)",
-  "alias": [
-   "Precision 3541"
-  ],
+  "model": "Precision 3541 (15.6in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "3HWPP"
   ],
@@ -1200,10 +1125,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 3551 (15.6in mobile workstation)",
-  "alias": [
-   "Precision 3551"
-  ],
+  "model": "Precision 3551 (15.6in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "3HWPP"
   ],
@@ -1221,10 +1144,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 5480 (14in mobile workstation)",
-  "alias": [
-   "Precision 5480"
-  ],
+  "model": "Precision 5480 (14in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "P83V9"
   ],
@@ -1242,10 +1163,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 5530 (15.6in mobile workstation)",
-  "alias": [
-   "Precision 5530"
-  ],
+  "model": "Precision 5530 (15.6in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "6GTPY"
   ],
@@ -1262,10 +1181,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 5540 (15.6in mobile workstation)",
-  "alias": [
-   "Precision 5540"
-  ],
+  "model": "Precision 5540 (15.6in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "6GTPY"
   ],
@@ -1282,10 +1199,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 5550 (15.6in mobile workstation)",
-  "alias": [
-   "Precision 5550"
-  ],
+  "model": "Precision 5550 (15.6in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "69KF2"
   ],
@@ -1302,10 +1217,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 5560 (15.6in mobile workstation)",
-  "alias": [
-   "Precision 5560"
-  ],
+  "model": "Precision 5560 (15.6in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "69KF2"
   ],
@@ -1322,10 +1235,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 5570 (15.6in mobile workstation)",
-  "alias": [
-   "Precision 5570"
-  ],
+  "model": "Precision 5570 (15.6in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "69KF2"
   ],
@@ -1342,10 +1253,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 7540 (15.6in mobile workstation)",
-  "alias": [
-   "Precision 7540"
-  ],
+  "model": "Precision 7540 (15.6in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "NYFJH"
   ],
@@ -1362,10 +1271,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 7550 (15.6in mobile workstation)",
-  "alias": [
-   "Precision 7550"
-  ],
+  "model": "Precision 7550 (15.6in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "PKWVM"
   ],
@@ -1382,10 +1289,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 7560 (15.6in mobile workstation)",
-  "alias": [
-   "Precision 7560"
-  ],
+  "model": "Precision 7560 (15.6in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "PKWVM"
   ],
@@ -1402,10 +1307,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 7670 (16in mobile workstation)",
-  "alias": [
-   "Precision 7670"
-  ],
+  "model": "Precision 7670 (16in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "X9FTM"
   ],
@@ -1422,10 +1325,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Precision 7680 (16in mobile workstation)",
-  "alias": [
-   "Precision 7680"
-  ],
+  "model": "Precision 7680 (16in mobile workstation)",
+  "alias": [],
   "battery_type": [
    "X9FTM"
   ],
@@ -1442,10 +1343,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Vostro 14 5410",
-  "alias": [
-   "Vostro 14 5410"
-  ],
+  "model": "Vostro 14 5410",
+  "alias": [],
   "battery_type": [
    "V6W33"
   ],
@@ -1462,10 +1361,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Vostro 15 5510",
-  "alias": [
-   "Vostro 15 5510"
-  ],
+  "model": "Vostro 15 5510",
+  "alias": [],
   "battery_type": [
    "V6W33"
   ],
@@ -1482,7 +1379,7 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell Vostro 13 5320",
+  "model": "Vostro 13 5320",
   "alias": [
    "Vostro 5320"
   ],
@@ -1502,10 +1399,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell XPS 13 7390 (clamshell; not the 7390 2-in-1)",
-  "alias": [
-   "XPS 13 7390"
-  ],
+  "model": "XPS 13 7390 (clamshell; not the 7390 2-in-1)",
+  "alias": [],
   "battery_type": [
    "DXGH8"
   ],
@@ -1523,10 +1418,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell XPS 13 9300",
-  "alias": [
-   "XPS 13 9300"
-  ],
+  "model": "XPS 13 9300",
+  "alias": [],
   "battery_type": [
    "WN0N0"
   ],
@@ -1545,10 +1438,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell XPS 13 9305",
-  "alias": [
-   "XPS 13 9305"
-  ],
+  "model": "XPS 13 9305",
+  "alias": [],
   "battery_type": [
    "WN0N0"
   ],
@@ -1567,10 +1458,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell XPS 13 9370",
-  "alias": [
-   "XPS 13 9370"
-  ],
+  "model": "XPS 13 9370",
+  "alias": [],
   "battery_type": [
    "DXGH8"
   ],
@@ -1588,10 +1477,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell XPS 15 7590",
-  "alias": [
-   "XPS 15 7590"
-  ],
+  "model": "XPS 15 7590",
+  "alias": [],
   "battery_type": [
    "6GTPY"
   ],
@@ -1608,10 +1495,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell XPS 15 9500",
-  "alias": [
-   "XPS 15 9500"
-  ],
+  "model": "XPS 15 9500",
+  "alias": [],
   "battery_type": [
    "69KF2"
   ],
@@ -1628,10 +1513,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell XPS 15 9510",
-  "alias": [
-   "XPS 15 9510"
-  ],
+  "model": "XPS 15 9510",
+  "alias": [],
   "battery_type": [
    "69KF2"
   ],
@@ -1648,10 +1531,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell XPS 15 9520",
-  "alias": [
-   "XPS 15 9520"
-  ],
+  "model": "XPS 15 9520",
+  "alias": [],
   "battery_type": [
    "69KF2"
   ],
@@ -1668,10 +1549,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dell",
-  "model": "Dell XPS 15 9530 (2023)",
-  "alias": [
-   "XPS 15 9530"
-  ],
+  "model": "XPS 15 9530 (2023)",
+  "alias": [],
   "battery_type": [
    "69KF2"
   ],
@@ -1687,10 +1566,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dynabook",
-  "model": "Dynabook Portege X30L-K (13.3in)",
-  "alias": [
-   "PORTEGE X30L-K"
-  ],
+  "model": "Portege X30L-K (13.3in)",
+  "alias": [],
   "battery_type": [
    "PS0011UA1BRS"
   ],
@@ -1706,10 +1583,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dynabook",
-  "model": "Dynabook Portege X30W-K (13.3in convertible 2-in-1)",
-  "alias": [
-   "PORTEGE X30W-K"
-  ],
+  "model": "Portege X30W-K (13.3in convertible 2-in-1)",
+  "alias": [],
   "battery_type": [
    "PS0010UA1BRS"
   ],
@@ -1725,10 +1600,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dynabook",
-  "model": "Dynabook Portege X40-J (14in)",
-  "alias": [
-   "PORTEGE X40-J"
-  ],
+  "model": "Portege X40-J (14in)",
+  "alias": [],
   "battery_type": [
    "PS0104UA1BRS"
   ],
@@ -1745,10 +1618,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dynabook",
-  "model": "Dynabook Portege X40-M (14in)",
-  "alias": [
-   "PORTEGE X40-M"
-  ],
+  "model": "Portege X40-M (14in)",
+  "alias": [],
   "battery_type": [
    "not found"
   ],
@@ -1764,10 +1635,8 @@ window.BATTERIES = [
  },
  {
   "brand": "Dynabook",
-  "model": "Dynabook Portege X40L-K (14in)",
-  "alias": [
-   "PORTEGE X40L-K"
-  ],
+  "model": "Portege X40L-K (14in)",
+  "alias": [],
   "battery_type": [
    "PS0122NA1BRS"
   ],
@@ -1785,10 +1654,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook 830 G5 Notebook PC (2018, 13.3 in)",
-  "alias": [
-   "EliteBook 830 G5"
-  ],
+  "model": "EliteBook 830 G5 Notebook PC (2018, 13.3 in)",
+  "alias": [],
   "battery_type": [
    "SS03XL"
   ],
@@ -1805,10 +1672,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook 830 G8 Notebook PC (2021, 13.3 in)",
-  "alias": [
-   "EliteBook 830 G8 Notebook PC"
-  ],
+  "model": "EliteBook 830 G8 Notebook PC (2021, 13.3 in)",
+  "alias": [],
   "battery_type": [
    "CC03XL"
   ],
@@ -1825,10 +1690,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook x360 1030 G3 (2018, 13.3 in convertible)",
-  "alias": [
-   "EliteBook x360 1030 G3"
-  ],
+  "model": "EliteBook x360 1030 G3 (2018, 13.3 in convertible)",
+  "alias": [],
   "battery_type": [
    "BM04XL"
   ],
@@ -1845,10 +1708,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook x360 1030 G4 (2019, 13.3 in convertible)",
-  "alias": [
-   "EliteBook x360 1030 G4"
-  ],
+  "model": "EliteBook x360 1030 G4 (2019, 13.3 in convertible)",
+  "alias": [],
   "battery_type": [
    "BM04XL"
   ],
@@ -1865,10 +1726,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook x360 830 G8 Notebook PC (2021, 13.3 in convertible)",
-  "alias": [
-   "EliteBook x360 830 G8 Notebook PC"
-  ],
+  "model": "EliteBook x360 830 G8 Notebook PC (2021, 13.3 in convertible)",
+  "alias": [],
   "battery_type": [
    "CX03XL"
   ],
@@ -1885,10 +1744,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP Elite Dragonfly G2 Notebook PC (2021, 13.3 in convertible)",
-  "alias": [
-   "HP Elite Dragonfly G2 Notebook PC"
-  ],
+  "model": "Elite Dragonfly G2 Notebook PC (2021, 13.3 in convertible)",
+  "alias": [],
   "battery_type": [
    "EP04XL"
   ],
@@ -1907,10 +1764,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP Elite x360 1040 14 inch G10 2-in-1 Notebook PC (2023)",
-  "alias": [
-   "HP Elite x360 1040 14 inch G10 2-in-1 Notebook PC"
-  ],
+  "model": "Elite x360 1040 14 inch G10 2-in-1 Notebook PC (2023)",
+  "alias": [],
   "battery_type": [
    "WP03XL"
   ],
@@ -1929,10 +1784,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP Elite x360 830 13 inch G10 2-in-1 Notebook PC (2023)",
-  "alias": [
-   "HP Elite x360 830 13 inch G10 2-in-1 Notebook PC"
-  ],
+  "model": "Elite x360 830 13 inch G10 2-in-1 Notebook PC (2023)",
+  "alias": [],
   "battery_type": [
    "WP03XL"
   ],
@@ -1951,10 +1804,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP Elite x360 830 13 inch G9 2-in-1 Notebook PC (2022)",
-  "alias": [
-   "HP Elite x360 830 13 inch G9 2-in-1 Notebook PC"
-  ],
+  "model": "Elite x360 830 13 inch G9 2-in-1 Notebook PC (2022)",
+  "alias": [],
   "battery_type": [
    "WP03XL"
   ],
@@ -1972,10 +1823,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook 630 13 inch G9 Notebook PC (2022)",
-  "alias": [
-   "HP EliteBook 630 13 inch G9 Notebook PC"
-  ],
+  "model": "EliteBook 630 13 inch G9 Notebook PC (2022)",
+  "alias": [],
   "battery_type": [
    "RH03XL"
   ],
@@ -1993,10 +1842,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook 630 13.3 inch G11 Notebook PC (2024)",
-  "alias": [
-   "HP EliteBook 630 13.3 inch G11 Notebook PC"
-  ],
+  "model": "EliteBook 630 13.3 inch G11 Notebook PC (2024)",
+  "alias": [],
   "battery_type": [
    "RX03XL"
   ],
@@ -2014,10 +1861,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook 640 14 inch G9 Notebook PC (2022)",
-  "alias": [
-   "HP EliteBook 640 14 inch G9 Notebook PC"
-  ],
+  "model": "EliteBook 640 14 inch G9 Notebook PC (2022)",
+  "alias": [],
   "battery_type": [
    "RH03XL"
   ],
@@ -2035,10 +1880,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook 650 15.6 inch G9 Notebook PC (2022)",
-  "alias": [
-   "HP EliteBook 650 15.6 inch G9 Notebook PC"
-  ],
+  "model": "EliteBook 650 15.6 inch G9 Notebook PC (2022)",
+  "alias": [],
   "battery_type": [
    "RH03XL"
   ],
@@ -2056,10 +1899,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook 830 13 inch G9 Notebook PC (2022)",
-  "alias": [
-   "HP EliteBook 830 13 inch G9 Notebook PC"
-  ],
+  "model": "EliteBook 830 13 inch G9 Notebook PC (2022)",
+  "alias": [],
   "battery_type": [
    "WP03XL"
   ],
@@ -2077,10 +1918,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook 840 G7 Notebook PC (2020, 14 in)",
-  "alias": [
-   "HP EliteBook 840 G7 Notebook PC"
-  ],
+  "model": "EliteBook 840 G7 Notebook PC (2020, 14 in)",
+  "alias": [],
   "battery_type": [
    "CC03XL"
   ],
@@ -2097,10 +1936,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook 840 G8 Notebook PC (2021, 14 in)",
-  "alias": [
-   "HP EliteBook 840 G8 Notebook PC"
-  ],
+  "model": "EliteBook 840 G8 Notebook PC (2021, 14 in)",
+  "alias": [],
   "battery_type": [
    "CC03XL"
   ],
@@ -2117,10 +1954,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook 850 G8 Notebook PC (2021, 15.6 in)",
-  "alias": [
-   "HP EliteBook 850 G8 Notebook PC"
-  ],
+  "model": "EliteBook 850 G8 Notebook PC (2021, 15.6 in)",
+  "alias": [],
   "battery_type": [
    "CC03XL"
   ],
@@ -2137,10 +1972,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook x360 1030 G7 Notebook PC (2020, 13.3 in convertible)",
-  "alias": [
-   "HP EliteBook x360 1030 G7 Notebook PC"
-  ],
+  "model": "EliteBook x360 1030 G7 Notebook PC (2020, 13.3 in convertible)",
+  "alias": [],
   "battery_type": [
    "HK04XL"
   ],
@@ -2157,10 +1990,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook x360 1030 G8 Notebook PC (2021, 13.3 in convertible)",
-  "alias": [
-   "HP EliteBook x360 1030 G8 Notebook PC"
-  ],
+  "model": "EliteBook x360 1030 G8 Notebook PC (2021, 13.3 in convertible)",
+  "alias": [],
   "battery_type": [
    "HK04XL"
   ],
@@ -2177,10 +2008,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook x360 1040 G6 Notebook PC (2019, 14 in convertible)",
-  "alias": [
-   "HP EliteBook x360 1040 G6"
-  ],
+  "model": "EliteBook x360 1040 G6 Notebook PC (2019, 14 in convertible)",
+  "alias": [],
   "battery_type": [
    "BL04XL"
   ],
@@ -2197,10 +2026,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP EliteBook x360 1040 G8 Notebook PC (2021, 14 in convertible)",
-  "alias": [
-   "HP EliteBook x360 1040 G8 Notebook PC"
-  ],
+  "model": "EliteBook x360 1040 G8 Notebook PC (2021, 14 in convertible)",
+  "alias": [],
   "battery_type": [
    "HK04XL"
   ],
@@ -2218,7 +2045,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ENVY 13-ah0000 series laptop (2018, 13.3 in)",
+  "model": "ENVY 13-ah0000 series laptop (2018, 13.3 in)",
   "alias": [
    "HP ENVY Laptop 13-ah0xxx"
   ],
@@ -2238,7 +2065,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ENVY x360 15-dr1000 series convertible (2019, 15.6 in)",
+  "model": "ENVY x360 15-dr1000 series convertible (2019, 15.6 in)",
   "alias": [
    "HP ENVY x360 Convertible 15-dr1xxx"
   ],
@@ -2258,10 +2085,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP Pro x360 435 13.3 inch G10 Notebook PC (2023, convertible)",
-  "alias": [
-   "HP Pro x360 435 13.3 inch G10 Notebook PC"
-  ],
+  "model": "Pro x360 435 13.3 inch G10 Notebook PC (2023, convertible)",
+  "alias": [],
   "battery_type": [
    "SX03XL"
   ],
@@ -2279,10 +2104,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 440 14 inch G10 Notebook PC (2023)",
-  "alias": [
-   "HP ProBook 440 14 inch G10 Notebook PC"
-  ],
+  "model": "ProBook 440 14 inch G10 Notebook PC (2023)",
+  "alias": [],
   "battery_type": [
    "RH03XL"
   ],
@@ -2300,10 +2123,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 440 14 inch G9 Notebook PC (2022)",
-  "alias": [
-   "HP ProBook 440 14 inch G9 Notebook PC"
-  ],
+  "model": "ProBook 440 14 inch G9 Notebook PC (2022)",
+  "alias": [],
   "battery_type": [
    "RH03XL"
   ],
@@ -2321,10 +2142,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 440 G8 Notebook PC (2021, 14 in)",
-  "alias": [
-   "HP ProBook 440 G8 Notebook PC"
-  ],
+  "model": "ProBook 440 G8 Notebook PC (2021, 14 in)",
+  "alias": [],
   "battery_type": [
    "RH03XL"
   ],
@@ -2341,7 +2160,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 450 G10 Notebook PC",
+  "model": "ProBook 450 G10 Notebook PC",
   "alias": [
    "HP ProBook 450 15.6 inch G10 Notebook PC"
   ],
@@ -2361,7 +2180,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 450 G9 Notebook PC",
+  "model": "ProBook 450 G9 Notebook PC",
   "alias": [
    "HP ProBook 450 15.6 inch G9 Notebook PC"
   ],
@@ -2381,7 +2200,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 630 G8 Notebook PC",
+  "model": "ProBook 630 G8 Notebook PC",
   "alias": [],
   "battery_type": [
    "RH03XL"
@@ -2398,10 +2217,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 635 Aero G7 Notebook PC",
-  "alias": [
-   "HP ProBook 635 Aero G7"
-  ],
+  "model": "ProBook 635 Aero G7 Notebook PC",
+  "alias": [],
   "battery_type": [
    "GR03XL"
   ],
@@ -2418,7 +2235,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 650 G8 Notebook PC",
+  "model": "ProBook 650 G8 Notebook PC",
   "alias": [],
   "battery_type": [
    "RH03XL"
@@ -2435,7 +2252,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP Spectre x360 13-aw0000 series (2019, 13.3 inch)",
+  "model": "Spectre x360 13-aw0000 series (2019, 13.3 inch)",
   "alias": [
    "HP Spectre x360 Convertible 13-aw0xxx"
   ],
@@ -2454,7 +2271,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Firefly 14 G7 Mobile Workstation",
+  "model": "ZBook Firefly 14 G7 Mobile Workstation",
   "alias": [],
   "battery_type": [
    "CC03XL"
@@ -2471,7 +2288,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Firefly 14 inch G8 Mobile Workstation PC",
+  "model": "ZBook Firefly 14 inch G8 Mobile Workstation PC",
   "alias": [],
   "battery_type": [
    "CC03XL"
@@ -2488,7 +2305,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Firefly 15 G7 Mobile Workstation",
+  "model": "ZBook Firefly 15 G7 Mobile Workstation",
   "alias": [],
   "battery_type": [
    "CC03XL"
@@ -2505,7 +2322,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Firefly 15.6 inch G8 Mobile Workstation PC",
+  "model": "ZBook Firefly 15.6 inch G8 Mobile Workstation PC",
   "alias": [],
   "battery_type": [
    "CC03XL"
@@ -2522,7 +2339,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Power G7 Mobile Workstation",
+  "model": "ZBook Power G7 Mobile Workstation",
   "alias": [],
   "battery_type": [
    "IR06XL"
@@ -2539,7 +2356,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Studio 16 inch G9 Mobile Workstation PC",
+  "model": "ZBook Studio 16 inch G9 Mobile Workstation PC",
   "alias": [],
   "battery_type": [
    "MN06XL"
@@ -2556,7 +2373,7 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Studio G7 Mobile Workstation",
+  "model": "ZBook Studio G7 Mobile Workstation",
   "alias": [],
   "battery_type": [
    "MB06XL"
@@ -2573,10 +2390,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Studio x360 G5 Mobile Workstation",
-  "alias": [
-   "HP ZBook Studio x360 G5"
-  ],
+  "model": "ZBook Studio x360 G5 Mobile Workstation",
+  "alias": [],
   "battery_type": [
    "ZG06XL"
   ],
@@ -2611,10 +2426,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 430 G6 Notebook PC",
-  "alias": [
-   "ProBook 430 G6"
-  ],
+  "model": "ProBook 430 G6 Notebook PC",
+  "alias": [],
   "battery_type": [
    "RE03XL"
   ],
@@ -2630,10 +2443,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 430 G7 Notebook PC",
-  "alias": [
-   "ProBook 430 G7"
-  ],
+  "model": "ProBook 430 G7 Notebook PC",
+  "alias": [],
   "battery_type": [
    "RE03XL"
   ],
@@ -2649,10 +2460,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 430 G8 Notebook PC",
-  "alias": [
-   "ProBook 430 G8"
-  ],
+  "model": "ProBook 430 G8 Notebook PC",
+  "alias": [],
   "battery_type": [
    "RH03XL"
   ],
@@ -2668,10 +2477,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 440 G7 Notebook PC",
-  "alias": [
-   "ProBook 440 G7"
-  ],
+  "model": "ProBook 440 G7 Notebook PC",
+  "alias": [],
   "battery_type": [
    "RE03XL"
   ],
@@ -2687,10 +2494,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ProBook 450 G8 Notebook PC",
-  "alias": [
-   "ProBook 450 G8 Notebook PC"
-  ],
+  "model": "ProBook 450 G8 Notebook PC",
+  "alias": [],
   "battery_type": [
    "RH03XL"
   ],
@@ -2706,10 +2511,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook 15 G6 Mobile Workstation",
-  "alias": [
-   "ZBook 15 G6"
-  ],
+  "model": "ZBook 15 G6 Mobile Workstation",
+  "alias": [],
   "battery_type": [
    "VX04XL"
   ],
@@ -2725,10 +2528,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Studio G3 Mobile Workstation",
-  "alias": [
-   "ZBook Studio G3"
-  ],
+  "model": "ZBook Studio G3 Mobile Workstation",
+  "alias": [],
   "battery_type": [
    "ZO04XL"
   ],
@@ -2745,10 +2546,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Studio G4 Mobile Workstation",
-  "alias": [
-   "ZBOOK STUDIO G4"
-  ],
+  "model": "ZBook Studio G4 Mobile Workstation",
+  "alias": [],
   "battery_type": [
    "ZO04XL"
   ],
@@ -2765,10 +2564,8 @@ window.BATTERIES = [
  },
  {
   "brand": "HP",
-  "model": "HP ZBook Studio G5 Mobile Workstation",
-  "alias": [
-   "ZBook Studio G5"
-  ],
+  "model": "ZBook Studio G5 Mobile Workstation",
+  "alias": [],
   "battery_type": [
    "ZG06XL"
   ],
@@ -2828,9 +2625,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkBook 13s IML",
-  "alias": [
-   "Lenovo ThinkBook 13s-IML"
-  ],
+  "alias": [],
   "battery_type": [
    "L18M4PF0"
   ],
@@ -2850,9 +2645,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkBook 14 IML",
-  "alias": [
-   "Lenovo ThinkBook 14-IML"
-  ],
+  "alias": [],
   "battery_type": [
    "L19C3PF1"
   ],
@@ -2872,9 +2665,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkBook 14s IML",
-  "alias": [
-   "Lenovo ThinkBook 14s-IML"
-  ],
+  "alias": [],
   "battery_type": [
    "L18M4PF0"
   ],
@@ -2894,9 +2685,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkBook 15p IMH (Gen 1)",
-  "alias": [
-   "Lenovo ThinkBook 15p"
-  ],
+  "alias": [],
   "battery_type": [
    "L19M3PD9"
   ],
@@ -3033,9 +2822,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad E14 Gen 3 (AMD)",
-  "alias": [
-   "ThinkPad E14 Gen 3"
-  ],
+  "alias": [],
   "battery_type": [
    "L19M3PD5"
   ],
@@ -3056,9 +2843,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad E15 Gen 2 (Intel)",
-  "alias": [
-   "ThinkPad E15 Gen 2"
-  ],
+  "alias": [],
   "battery_type": [
    "L19M3PD5"
   ],
@@ -3079,9 +2864,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad E15 Gen 4 (Intel)",
-  "alias": [
-   "ThinkPad E15 Gen 4"
-  ],
+  "alias": [],
   "battery_type": [
    "L20L3PD4"
   ],
@@ -3100,9 +2883,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad L13 (Gen 1)",
-  "alias": [
-   "ThinkPad L13"
-  ],
+  "alias": [],
   "battery_type": [
    "L18M4P90"
   ],
@@ -3144,9 +2925,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad P14s Gen 2 (Intel)",
-  "alias": [
-   "ThinkPad P14s Gen 2i"
-  ],
+  "alias": [],
   "battery_type": [
    "L18M3P73"
   ],
@@ -3188,9 +2967,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad P15s Gen 2 (Intel)",
-  "alias": [
-   "ThinkPad P15s Gen 2i"
-  ],
+  "alias": [],
   "battery_type": [
    "L18M3P71"
   ],
@@ -3230,9 +3007,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad T14 Gen 1 (Intel)",
-  "alias": [
-   "ThinkPad T14 Gen 1"
-  ],
+  "alias": [],
   "battery_type": [
    "L18M3P73"
   ],
@@ -3254,9 +3029,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad T14 Gen 2 (AMD)",
-  "alias": [
-   "ThinkPad T14 Gen 2a"
-  ],
+  "alias": [],
   "battery_type": [
    "L18M3P73"
   ],
@@ -3278,9 +3051,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad T14 Gen 2 (Intel)",
-  "alias": [
-   "ThinkPad T14 Gen 2i"
-  ],
+  "alias": [],
   "battery_type": [
    "L18M3P73"
   ],
@@ -3302,9 +3073,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad T14 Gen 3 (Intel)",
-  "alias": [
-   "ThinkPad T14 Gen 3"
-  ],
+  "alias": [],
   "battery_type": [
    "L21M3P71"
   ],
@@ -3328,9 +3097,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad T14 Gen 4 (Intel)",
-  "alias": [
-   "ThinkPad T14 Gen 4"
-  ],
+  "alias": [],
   "battery_type": [
    "L21M3P71"
   ],
@@ -3354,9 +3121,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad T14s Gen 1 (Intel)",
-  "alias": [
-   "ThinkPad T14s Gen 1"
-  ],
+  "alias": [],
   "battery_type": [
    "L18M3PD1"
   ],
@@ -3378,9 +3143,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad T14s Gen 2 (Intel)",
-  "alias": [
-   "ThinkPad T14s Gen 2i"
-  ],
+  "alias": [],
   "battery_type": [
    "L20M4P72"
   ],
@@ -3400,9 +3163,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad T14s Gen 3 (Intel)",
-  "alias": [
-   "ThinkPad T14s Gen 3"
-  ],
+  "alias": [],
   "battery_type": [
    "L21L4P73"
   ],
@@ -3524,9 +3285,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad X1 Carbon 7th Gen",
-  "alias": [
-   "ThinkPad X1 Carbon 7th"
-  ],
+  "alias": [],
   "battery_type": [
    "L18M4P72"
   ],
@@ -3648,9 +3407,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad X13 Gen 3 (Intel)",
-  "alias": [
-   "ThinkPad X13 Gen 3"
-  ],
+  "alias": [],
   "battery_type": [
    "L20C3P72"
   ],
@@ -3668,9 +3425,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad X13 Gen 4 (Intel)",
-  "alias": [
-   "ThinkPad X13 Gen 4"
-  ],
+  "alias": [],
   "battery_type": [
    "L22B4P70"
   ],
@@ -3715,9 +3470,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "ThinkPad X13 Yoga Gen 2 (Intel)",
-  "alias": [
-   "ThinkPad X13 Yoga Gen 2"
-  ],
+  "alias": [],
   "battery_type": [
    "L20M3P71"
   ],
@@ -3777,9 +3530,7 @@ window.BATTERIES = [
  {
   "brand": "Lenovo",
   "model": "Yoga Slim 7 13ITL5 (82CU)",
-  "alias": [
-   "Yoga Slim 7 13ITL5"
-  ],
+  "alias": [],
   "battery_type": [
    "L19M4PF7"
   ],
