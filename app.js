@@ -145,6 +145,7 @@
   q.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(() => { state.query = q.value.trim(); syncHash(); render(); }, 80); });
   $("#clear").addEventListener("click", () => { q.value = ""; state.query = ""; syncHash(); render(); q.focus(); });
   document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && box.open) { box.close(); return; }
     if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); q.select(); }
     if (e.key === "Escape" && document.activeElement === q) { q.value = ""; state.query = ""; syncHash(); render(); }
   });
@@ -180,6 +181,7 @@
     history.replaceState(null, "", h ? "#" + h : location.pathname + location.search);
   }
   function readHash() {
+    if (box.open) box.close();
     const p = new URLSearchParams(location.hash.slice(1));
     state.query = p.get("q") || ""; q.value = state.query;
     state.brand = brands.includes(p.get("brand")) ? p.get("brand") : "";
