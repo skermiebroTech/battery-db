@@ -33,8 +33,17 @@
   }
   function confBadge(c) { return `<span class="conf ${esc(c)}">${esc(c || "unknown")} confidence</span>`; }
   function thumb(r) {
-    if (r.image) return `<div class="thumb"><img src="${esc(r.image)}" alt="${esc(r.battery_type[0] || "battery")} battery" loading="lazy"></div>`;
+    if (r.image) {
+      const code = esc(r.battery_type[0] || "battery");
+      return `<button type="button" class="thumb" data-img="${esc(r.image)}" data-cap="${code}" title="Click to enlarge"><img src="${esc(r.image)}" alt="${code} battery" loading="lazy"></button>`;
+    }
     return `<div class="thumb">no photo yet</div>`;
+  }
+  function photoSrc(r) {
+    if (!r.image_source) return "";
+    let host = "";
+    try { host = new URL(r.image_source).hostname.replace(/^www\./, ""); } catch (e) { host = "source"; }
+    return `<a href="${esc(r.image_source)}" target="_blank" rel="noopener" title="${esc(r.image_note || "Photo source")}">photo: ${esc(host)}${r.image_note ? " *" : ""}</a>`;
   }
 
   // ---------- rendering ----------
@@ -51,7 +60,7 @@
         <h2><span class="brand">${hilite(r.brand, toks)}</span> ${hilite(r.model, toks)}</h2>
         ${alias}
         <div class="parts">${types}${parts}</div>
-        <div class="meta">${cap ? `<span>${esc(cap)}</span>` : ""}${confBadge(r.confidence)}${src}</div>
+        <div class="meta">${cap ? `<span>${esc(cap)}</span>` : ""}${confBadge(r.confidence)}${src}${photoSrc(r)}</div>
         ${notes}
       </div>
     </article>`;
@@ -61,11 +70,11 @@
     const map = new Map();
     for (const r of rows) {
       const key = r.brand + "|" + (r.battery_type[0] || r.part_numbers[0] || "?");
-      if (!map.has(key)) map.set(key, { brand: r.brand, code: r.battery_type[0] || r.part_numbers[0] || "?", parts: new Set(), wh: r.wh, cells: r.cells, image: r.image, laptops: [] });
+      if (!map.has(key)) map.set(key, { brand: r.brand, code: r.battery_type[0] || r.part_numbers[0] || "?", parts: new Set(), wh: r.wh, cells: r.cells, image: r.image, image_source: r.image_source, image_note: r.image_note, laptops: [] });
       const g = map.get(key);
       r.part_numbers.forEach((p) => g.parts.add(p));
       r.battery_type.forEach((p) => g.parts.add(p));
-      if (!g.image && r.image) g.image = r.image;
+      if (!g.image && r.image) { g.image = r.image; g.image_source = r.image_source; g.image_note = r.image_note; }
       g.laptops.push(r.model);
     }
     return [...map.values()].sort((a, b) => a.brand.localeCompare(b.brand) || a.code.localeCompare(b.code));
@@ -78,7 +87,7 @@
       <div>
         <h2><span class="brand">${hilite(g.brand, toks)}</span> ${pn(g.code, toks, true)}</h2>
         <div class="parts">${parts}</div>
-        <div class="meta">${cap ? `<span>${esc(cap)}</span>` : ""}<span>fits ${g.laptops.length} model${g.laptops.length === 1 ? "" : "s"}</span></div>
+        <div class="meta">${cap ? `<span>${esc(cap)}</span>` : ""}<span>fits ${g.laptops.length} model${g.laptops.length === 1 ? "" : "s"}</span>${photoSrc(g)}</div>
         <ul class="laptops">${g.laptops.map((m) => `<li>${hilite(m, toks)}</li>`).join("")}</ul>
       </div>
     </article>`;
@@ -138,6 +147,17 @@
   document.addEventListener("keydown", (e) => {
     if (e.key === "/" && document.activeElement !== q) { e.preventDefault(); q.focus(); q.select(); }
     if (e.key === "Escape" && document.activeElement === q) { q.value = ""; state.query = ""; syncHash(); render(); }
+  });
+
+  // ---------- lightbox ----------
+  const box = document.createElement("dialog"); box.className = "lightbox";
+  box.innerHTML = `<button type="button" class="close" aria-label="Close">&times;</button><img alt=""><p></p>`;
+  document.body.appendChild(box);
+  box.addEventListener("click", (e) => { if (e.target === box || e.target.classList.contains("close")) box.close(); });
+  results.addEventListener("click", (e) => {
+    const t = e.target.closest(".thumb[data-img]"); if (!t) return;
+    box.querySelector("img").src = t.dataset.img; box.querySelector("img").alt = t.dataset.cap + " battery";
+    box.querySelector("p").textContent = t.dataset.cap; box.showModal();
   });
 
   // ---------- copy on click ----------

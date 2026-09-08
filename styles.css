@@ -82,6 +82,13 @@ h1 { margin: 0; font-size: 26px; display: flex; align-items: center; gap: 10px; 
   justify-content: center; color: var(--muted); font-size: 11px; overflow: hidden;
 }
 .card .thumb img { width: 100%; height: 100%; object-fit: contain; }
+button.thumb { border: 1px solid var(--line); padding: 0; cursor: zoom-in; background: #fff; }
+button.thumb:hover { border-color: var(--accent); }
+.lightbox { border: 0; border-radius: 12px; padding: 12px; background: var(--card); color: var(--ink); max-width: min(92vw, 720px); }
+.lightbox::backdrop { background: rgba(0, 0, 0, .6); }
+.lightbox img { display: block; max-width: 100%; max-height: 70vh; margin: 0 auto; background: #fff; border-radius: 8px; }
+.lightbox p { margin: 10px 0 0; text-align: center; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.lightbox .close { position: absolute; top: 6px; right: 8px; border: 0; background: transparent; color: var(--muted); font-size: 24px; cursor: pointer; }
 .card h2 { margin: 0; font-size: 17px; }
 .card h2 .brand { color: var(--muted); font-weight: 500; }
 .card .alias { color: var(--muted); font-size: 13px; margin: 2px 0 0; }

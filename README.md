@@ -26,6 +26,8 @@ The URL hash keeps the search, so you can share a link such as `#q=latitude%2074
    | `source_url` | Page that gave the part number |
    | `notes` | Free text |
    | `image` | Path to a photo in `img/`, for example `img/dell-mhr4g.jpg` |
+   | `image_source` | Page the photo came from |
+   | `image_note` | Caveat about the photo, for example when it shows an equivalent pack |
 
 2. Run the build script. It writes `data/batteries.js`, which the page loads.
 
