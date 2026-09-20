@@ -50,6 +50,8 @@ The URL hash keeps the search, so you can share a link such as `#q=latitude%2074
 3. In the repository, open **Settings > Pages**. Under **Build and deployment**, set **Source** to *Deploy from a branch*, pick `main` and `/ (root)`, then save.
 4. The site appears at `https://<user>.github.io/battery-db/`.
 
+The favicons and the web manifest are in `icons/` and `favicon.ico`. The SVG in `icons/favicon.svg` is the master. The PNG and ICO files are exports of it.
+
 All paths in the site are relative, so the sub-path works without any config.
 The `.nojekyll` file stops GitHub from running Jekyll on the folder.
 
