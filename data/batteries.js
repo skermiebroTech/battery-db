@@ -6041,5 +6041,649 @@ window.BATTERIES = [
   "charger_confidence": "high",
   "charger_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_Slim_7_13ITL5/Yoga_Slim_7_13ITL5_Spec.html",
   "charger_notes": "PSREF: 65W USB-C slim AC adapter PD 3.0 (2-pin wall-mount or 3-pin by country). Lenovo FRU numbers vary by region."
+ },
+ {
+  "brand": "Metabox",
+  "model": "Alpha-S (NP60PNP)",
+  "alias": [],
+  "battery_type": [
+   "NP50BAT-4-73"
+  ],
+  "part_numbers": [
+   "NP50BAT-4-73",
+   "6-87-NPSSS-73A00",
+   "NP50BAT-4-54",
+   "6-87-NP5KS-53G00",
+   "6-87-NP5KS-51B00"
+  ],
+  "wh": 73,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://metabox.com.au/contentPrime.asp?id=NP60PNP_techspecs",
+  "notes": "Metabox NP60PNP tech spec: removable 4-cell polymer pack 73 Wh (15.4 V, approx 4730 mAh). The 73 Wh pack is NP50BAT-4-73; the same NP50/NP60PNP chassis also ships with the 54 Wh NP50BAT-4-54 (laptopwithlinux lists 54 Wh). Part number to chassis link is from battery shops, not from Metabox. Chassis: Clevo NP60PNP 16-inch barebone (Metabox Alpha-S / Prime-16).",
+  "image": "img/metabox-np50bat-4-73.jpg",
+  "image_source": "https://shop-battery.com/product/10129/NP50BAT-4-73",
+  "image_note": "",
+  "charger_watts": 280,
+  "charger_connector": "5.5x2.5 mm barrel",
+  "charger_output": "20V 14A",
+  "charger_part_numbers": [
+   "A18-280P1A",
+   "A280A005P",
+   "A17-180P4A"
+  ],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://metabox.com.au/contentPrime.asp?id=NP60PNP_techspecs",
+  "charger_notes": "Metabox NP60PNP tech spec: 280 W adapter, DC 20 V 14 A (high-TGP RTX config). Lower GPU configs of the same chassis ship a 180 W 19.5 V 9.23 A adapter (Chicony A17-180P4A). Adapter part numbers are from adapter shops; connector size from battery-vendor.com NP60PNP listing. Part number detail: A17-180P4A: 180 W option."
+ },
+ {
+  "brand": "Metabox",
+  "model": "Alpha-V (V158PNP)",
+  "alias": [],
+  "battery_type": [
+   "V150BAT-4-53"
+  ],
+  "part_numbers": [
+   "V150BAT-4-53",
+   "6-87-V150S-53A00"
+  ],
+  "wh": 53.35,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://metabox.com.au/contentPrime.asp?id=V158PNP_techspecs",
+  "notes": "Metabox V158PNP tech spec: removable 4-cell polymer pack 53.35 Wh. Part number V150BAT-4-53 (15.4 V 3510 mAh) from cdrtd.com Alpha-V V158PNP listing. Chassis: Clevo V158PNP 15.6-inch barebone (Metabox Alpha-V).",
+  "image": "img/metabox-v150bat-4-53.jpg",
+  "image_source": "https://shop-battery.com/product/7735/V150BAT-4-53",
+  "image_note": "",
+  "charger_watts": 180,
+  "charger_connector": "5.5x2.5 mm barrel",
+  "charger_output": "19.5V 9.23A",
+  "charger_part_numbers": [
+   "A17-180P4A",
+   "A12-180P1A",
+   "A17-150P2A",
+   "A17-120P2A"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://metabox.com.au/contentPrime.asp?id=V158PNP_techspecs",
+  "charger_notes": "Metabox V158PNP tech spec: adapter depends on GPU. RTX 3060 = 180 W 19.5 V 9.23 A; RTX 3050/3050 Ti = 150 W 19.5 V 7.7 A; GTX 1650 = 120 W 19.5 V 6.15 A. Connector size from battery-vendor.com V158PNPQ listing. Chicony part numbers from adapter shops. Part number detail: A17-150P2A: 150 W option; A17-120P2A: 120 W option."
+ },
+ {
+  "brand": "Metabox",
+  "model": "Alpha-XR (NH77ER)",
+  "alias": [],
+  "battery_type": [
+   "NH50BAT-4"
+  ],
+  "part_numbers": [
+   "NH50BAT-4",
+   "6-87-NH50S-41C00",
+   "4ICR19/66"
+  ],
+  "wh": 48.96,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://metabox.com.au/contentPrime.asp?id=NH77ER_techspecs",
+  "notes": "Metabox NH77ER tech spec: removable 4-cell smart Li-ion pack 48.96 Wh (14.4 V 3400 mAh). Part number NH50BAT-4 from cdrtd.com NH77ERQ listing. Chassis: Clevo NH77ER / NH77ERQ 17.3-inch barebone (Metabox Alpha-XR).",
+  "image": "img/metabox-nh50bat-4.jpg",
+  "image_source": "https://laptopwithlinux.com/product/spare-battery-nh50bat-4/",
+  "image_note": "",
+  "charger_watts": 230,
+  "charger_connector": "5.5x2.5 mm barrel",
+  "charger_output": "19.5V 11.8A",
+  "charger_part_numbers": [
+   "A17-230P1A",
+   "A12-230P1A",
+   "ADP-230EB T"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://metabox.com.au/contentPrime.asp?id=NH77ER_techspecs",
+  "charger_notes": "Metabox NH77ER tech spec: 230 W adapter, DC 19.5 V 11.8 A (RTX 3070 140 W TGP). Connector size from battery-vendor.com Alpha-XR NH77ER 230 W listing. Chicony part numbers from adapter shops."
+ },
+ {
+  "brand": "Metabox",
+  "model": "Prime-S (PC50HR)",
+  "alias": [],
+  "battery_type": [
+   "PC50BAT-3"
+  ],
+  "part_numbers": [
+   "PC50BAT-3",
+   "6-87-PC50S-72A02",
+   "6-87-PC50S-72A00",
+   "3ICP6/64/115"
+  ],
+  "wh": 73,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://metabox.com.au/contentPrime.asp?id=PC50HR_techspecs",
+  "notes": "Metabox PC50HR tech spec: removable 3-cell smart Li-ion pack 73 Wh (11.4 V 6220 mAh). Part number PC50BAT-3 from batteryclub.org and cdrtd.com. Chassis: Clevo PC50HR 15.6-inch barebone (Metabox Prime-S).",
+  "image": "img/metabox-pc50bat-3.jpg",
+  "image_source": "https://www.batterymall.com/products/pc50bat-3-laptop-battery-for-hasee-s9-ca7ns-cpc5s02",
+  "image_note": "",
+  "charger_watts": 180,
+  "charger_connector": "5.5x2.5 mm barrel",
+  "charger_output": "19.5V 9.23A",
+  "charger_part_numbers": [
+   "A17-180P4A",
+   "A12-180P1A"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://metabox.com.au/contentPrime.asp?id=PC50HR_techspecs",
+  "charger_notes": "Metabox PC50HR tech spec: 180 W adapter, DC 19.5 V 9.23 A. Connector size from battery-vendor.com PC50HR 180 W listing. Chicony part number from adapter shops."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Book 2 (13.5-inch with keyboard base)",
+  "alias": [],
+  "battery_type": [
+   "G3HTA044H"
+  ],
+  "part_numbers": [
+   "G3HTA044H",
+   "DAK822470K",
+   "G3HTA050H",
+   "G3HTA049H",
+   "G3HTA048H"
+  ],
+  "wh": 18,
+  "cells": 2,
+  "confidence": "high",
+  "source_url": "https://www.ifixit.com/products/surface-book-1st-gen-replacement-tablet-battery",
+  "notes": "Two batteries. Tablet (model 1832/1835 screen): G3HTA044H / DAK822470K, 7.5V 2387mAh 18Wh, 2 cells. Keyboard base with GTX 1050 (model 1835): G3HTA050H / G3HTA049H, 11.36V 57.3Wh (ifixit https://www.ifixit.com/products/surface-book-3-13-5-battery). Keyboard base without dGPU (model 1832): G3HTA048H, 7.5V 6800mAh 51Wh, 4 cells (Electronics360 teardown). Battery capacity: 18 (tablet) + 57.3 (i7 base) or 51 (i5 base). Cells: 2 (tablet); 4 (base).",
+  "image": "img/microsoft-g3hta044h.jpg",
+  "image_source": "https://www.batterymall.com/products/microsoft-surface-g3hta044h-g3hta045h-tablet-battery-for-book-2-screen-battery",
+  "image_note": "",
+  "charger_watts": 39,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 2.58A (i5) / 15V 6.33A (i7)",
+  "charger_part_numbers": [
+   "1800",
+   "1798"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-book",
+  "charger_notes": "Microsoft lists Model 1800 as 39W (15V 2.58A) for the 13-inch without Nvidia GPU and Model 1798 as 95W (15V 6.33A; 102W with the 5V USB-A port) for the 13-inch with Nvidia GPU. Charger wattage: 39 (i5) / 102 (i7 with GPU). Part number detail: 1800: i5; 1798: i7 with GTX 1050."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Book 3 (13.5-inch with keyboard base)",
+  "alias": [],
+  "battery_type": [
+   "G3HTA044H"
+  ],
+  "part_numbers": [
+   "G3HTA044H",
+   "DAK822470K",
+   "G3HTA050H",
+   "G3HTA049H",
+   "G3HTA048H",
+   "G3HTA064H",
+   "G3HTA065H"
+  ],
+  "wh": 18,
+  "cells": 2,
+  "confidence": "medium",
+  "source_url": "https://www.ifixit.com/products/surface-book-3-13-5-battery",
+  "notes": "Two batteries. Tablet (model 1900 screen): same 18Wh 2-cell pack as Surface Book 2 13.5, G3HTA044H / DAK822470K (third-party shop irelandbattery.com; not confirmed by ifixit). Keyboard base with GTX 1650 (model 1909): G3HTA050H / G3HTA049H, 11.36V 57.3Wh (ifixit, high). Keyboard base without dGPU (model 1907): G3HTA048H 51Wh. G3HTA064H / G3HTA065H (55Wh, 4 cells) are also sold for the 1909 base. Total 69Wh (i5) / 75.3Wh (i7) per SurfaceTip. Battery capacity: 18 (tablet) + 57.3 (dGPU base) or 51 (no-dGPU base). Cells: 2 (tablet); 4 (base).",
+  "image": "img/microsoft-g3hta044h.jpg",
+  "image_source": "https://www.batterymall.com/products/microsoft-surface-g3hta044h-g3hta045h-tablet-battery-for-book-2-screen-battery",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 4A (i5) / 15V 6.33A (i7)",
+  "charger_part_numbers": [
+   "1706",
+   "1798"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-book",
+  "charger_notes": "Microsoft lists Model 1706 as 60W (15V 4A; 65W with the 5V USB-A port) for the 13.5-inch without Nvidia GPU and Model 1798 as 95W (15V 6.33A) for the 13.5-inch with Nvidia GPU. Charger wattage: 65 (i5) / 102 (i7 with GPU). Part number detail: 1706: i5; 1798: i7 with GTX 1650."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Laptop 3 (13.5-inch)",
+  "alias": [],
+  "battery_type": [
+   "G3HTA052H"
+  ],
+  "part_numbers": [
+   "G3HTA052H",
+   "DYNT02",
+   "G3HTA053H"
+  ],
+  "wh": 45.8,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://www.ifixit.com/products/surface-laptop-3-13-5-inch-battery",
+  "notes": "ifixit: battery model G3HTA052H, compatible part DYNT02, 7.55V 6050mAh, fits the 13.5-inch model 1867/1868 only (35mm flex cable). Cell count is not printed on ifixit; 2S2P (4 cells) is the common listing, some vendors say 6. The 15-inch uses G3HTA057H/G3HTA058H.",
+  "image": "img/microsoft-g3hta052h.jpg",
+  "image_source": "https://www.batterymall.com/products/kingsener-g3hta052h-dynt02-laptop-battery-for-microsoft-surface-laptop-3-13-5-inch-1867-1868-7-58v-6041mah-45-8wh",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 4A",
+  "charger_part_numbers": [
+   "1706"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-laptop",
+  "charger_notes": "Microsoft lists Model 1706, 60W (15V 4A) for Surface Laptop 3 13.5; the adapter is sold as 65W because of the 5V 1A USB-A port."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Laptop 4 (13.5-inch)",
+  "alias": [],
+  "battery_type": [
+   "G3HTA052H"
+  ],
+  "part_numbers": [
+   "G3HTA052H",
+   "DYNT02"
+  ],
+  "wh": 45.8,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://www.polartech.com.au/products/g3hta052h-microsoft-surface-laptop-3-4-5-6-13-5-replacement-battery",
+  "notes": "Same pack as Surface Laptop 3 13.5: G3HTA052H / DYNT02, 7.58V 6041mAh 45.8Wh (retailers polartech, esourceparts, laptopbattery.co.uk; ifixit Answers thread 831766 also treats Laptop 3 and 4 13.5 batteries as the same). SurfaceTip lists 45.8Wh for Laptop 4 13.5.",
+  "image": "img/microsoft-g3hta052h.jpg",
+  "image_source": "https://www.batterymall.com/products/kingsener-g3hta052h-dynt02-laptop-battery-for-microsoft-surface-laptop-3-13-5-inch-1867-1868-7-58v-6041mah-45-8wh",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 4A",
+  "charger_part_numbers": [
+   "1706"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-laptop",
+  "charger_notes": "Microsoft lists Model 1706, 60W (15V 4A) for Surface Laptop 4 13.5."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Laptop 5 (13.5-inch)",
+  "alias": [],
+  "battery_type": [
+   "G3HTA052H"
+  ],
+  "part_numbers": [
+   "G3HTA052H",
+   "DYNT02",
+   "U1V-00001"
+  ],
+  "wh": 45.8,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-5/surface-laptop-5-device-information-and-service-parts",
+  "notes": "Models 1950 (fabric) / 1951 (metal). Microsoft sells the battery only as a Chassis + Battery CRU: U1V-00001 Platinum, U1V-00002 Black, U1V-00003 Sage, U1V-00004 Sandstone (FRU U1L-0000x). The pack inside is the G3HTA052H / DYNT02 7.58V 45.8Wh unit per retailers (polartech, cdrtd, laptopbattery.com.sg). SurfaceTip lists 45.8Wh.",
+  "image": "img/microsoft-g3hta052h.jpg",
+  "image_source": "https://www.batterymall.com/products/kingsener-g3hta052h-dynt02-laptop-battery-for-microsoft-surface-laptop-3-13-5-inch-1867-1868-7-58v-6041mah-45-8wh",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 4A",
+  "charger_part_numbers": [
+   "1706"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-laptop",
+  "charger_notes": "Microsoft lists Model 1706, 60W (15V 4A) for Surface Laptop 5 13.5."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Laptop 6 for Business (13.5-inch)",
+  "alias": [],
+  "battery_type": [
+   "G3HTA052H"
+  ],
+  "part_numbers": [
+   "B0Y-00001",
+   "G3HTA052H"
+  ],
+  "wh": 45.8,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://www.ifixit.com/products/surface-laptop-6-for-business-13-5-battery-genuine",
+  "notes": "ifixit genuine Microsoft part B0Y-00001, battery model G3HTA052H, 7.58V 6041mAh 45.8Wh (Microsoft spec sheet quotes 47Wh nominal). Same pack family as Surface Laptop 3/4/5 13.5. Cell count not printed; 2S2P (4 cells) assumed.",
+  "image": "img/microsoft-g3hta052h.jpg",
+  "image_source": "https://www.batterymall.com/products/kingsener-g3hta052h-dynt02-laptop-battery-for-microsoft-surface-laptop-3-13-5-inch-1867-1868-7-58v-6041mah-45-8wh",
+  "image_note": "",
+  "charger_watts": 39,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 2.6A",
+  "charger_part_numbers": [
+   "1963"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-laptop",
+  "charger_notes": "Microsoft lists Model 1963, 39W (15V 2.6A) in the box for Surface Laptop 6 13.5; fast charge needs 60W (Model 1706 or USB-C PD). Also charges over USB-C."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Laptop for Business, 7th Edition, 13.8-inch (Intel)",
+  "alias": [],
+  "battery_type": [
+   "G3HTA077H"
+  ],
+  "part_numbers": [
+   "C0A-00001",
+   "G3HTA077H"
+  ],
+  "wh": 52.33,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.ifixit.com/products/surface-laptop-7-13-8-battery-genuine",
+  "notes": "ifixit genuine part C0A-00001, battery model G3HTA077H, 11.38V 4598mAh 52.33Wh, listed for Surface Laptop 7 13.8-inch without stating Snapdragon or Intel. Microsoft Learn tech specs for the Intel 7th Edition 13.8 give 54Wh nominal / 52Wh min, which matches this pack. Cell count not published; 11.38V implies a 3-series pack. Battery capacity: 52.33 (min; 54 nominal).",
+  "image": "img/microsoft-g3hta077h.png",
+  "image_source": "https://www.polartech.com.au/products/g3hta077h-microsoft-surface-laptop-7-13-8-series-replacement-battery",
+  "image_note": "",
+  "charger_watts": 39,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 2.6A",
+  "charger_part_numbers": [
+   "1963"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-laptop",
+  "charger_notes": "Microsoft lists Model 1963, 39W (15V 2.6A) for Surface Laptop 7th Edition 13.8 Intel; fast charge needs 60W. Learn tech specs: power supply in the box only in select markets and configurations, 13.8-inch = 39W. Usb-c charging also supported."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Laptop Studio (1st generation, 14.4-inch)",
+  "alias": [],
+  "battery_type": [
+   "G3HTA072H"
+  ],
+  "part_numbers": [
+   "G3HTA072H",
+   "G3HTA071H"
+  ],
+  "wh": 56.3,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.microsoft.com/en-us/d/replacement-battery-for-surface-laptop-studio/8pd1jgz1hnhj",
+  "notes": "Model 1964. Microsoft Store sells a genuine Replacement Battery for Surface Laptop Studio (Model 1964) but does not print the pack code; retailers (Amazon, eBay, Walmart, BatteryClerk) list it as G3HTA072H / G3HTA071H, 11.38V 4948mAh 56.3Wh. SurfaceTip: 58Wh nominal / 56.3Wh min. Cell count not published; 11.38V implies a 3-series pack. Battery capacity: 56.3 (min; 58 nominal).",
+  "image": "img/microsoft-g3hta072h.jpg",
+  "image_source": "https://www.pcnation.com/battery-technology-g3hta071h-bti-nq1154",
+  "image_note": "Photo shows the BTI G3HTA071H-BTI compatible pack. Page lists G3HTA072H and G3HTA071H as replaced part numbers (Surface Laptop Studio 1964).",
+  "charger_watts": 65,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 4A (i5) / 15V 6.33A (i7)",
+  "charger_part_numbers": [
+   "1706",
+   "1798"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-laptop-studio",
+  "charger_notes": "Microsoft lists Model 1706, 60W (15V 4A) for the Core i5 without Nvidia GPU and Model 1798, 95W (15V 6.33A; 102W with the 5V USB-A port) for the Core i7 with Nvidia GPU. Charger wattage: 65 (i5) / 102 (i7 with RTX 3050 Ti). Part number detail: 1706: i5; 1798: i7 with RTX 3050 Ti."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Pro 10 for Business (13-inch)",
+  "alias": [],
+  "battery_type": [
+   "MQ20"
+  ],
+  "part_numbers": [
+   "50C-00001",
+   "MQ20",
+   "DYNM04"
+  ],
+  "wh": 46.52,
+  "cells": 2,
+  "confidence": "high",
+  "source_url": "https://www.ifixit.com/products/surface-pro-10-for-business-battery-genuine",
+  "notes": "ifixit genuine part 50C-00001, battery model MQ20, 8.8V 6138mAh 46.52Wh. Microsoft Learn service parts list confirms battery SKU 50C-00001 for Surface Pro 10 for Business (https://learn.microsoft.com/en-us/surface/service-guides/surface-pro-11-and-pro-10-business/surface-pro-11-and-pro-10-business-device-information-and-service-parts). DYNM04 appears on eBay listings of the same pack. Cell count not published; 8.8V implies a 2-series pack. Not user-serviceable without the Device Entry Kit.",
+  "image": "img/microsoft-mq20.png",
+  "image_source": "https://www.polartech.com.au/products/dynm04-mq20-microsoft-surface-pro-9-surface-pro-10-surface-pro-11-lcd-version-replacement-battery",
+  "image_note": "",
+  "charger_watts": 39,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 2.6A",
+  "charger_part_numbers": [
+   "1963"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-pro",
+  "charger_notes": "Microsoft lists Model 1963, 39W (15V 2.6A) in the box for Surface Pro 10 for Business; minimum 39W, fast charge 45W. Usb-c charging also supported."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Pro (5th Gen, 2017)",
+  "alias": [],
+  "battery_type": [
+   "G3HTA038H"
+  ],
+  "part_numbers": [
+   "G3HTA038H",
+   "DYNM02"
+  ],
+  "wh": 45,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://www.ifixit.com/products/surface-pro-5-6-replacement-battery",
+  "notes": "Model 1796. 7.57 V 5940 mAh 45 Wh (Microsoft nominal 45 Wh). Cell code 2(1ICP4/52/108+1ICP4/45/114)-2 = 2S2P = 4 cells. Same battery as Surface Pro 6. Not user-serviceable.",
+  "image": "img/microsoft-g3hta038h.jpg",
+  "image_source": "https://www.laptopbatteryexpress.com/G3HTA038H-Battery-for-Microsoft-Surface-Pro-5-1796-p/msft-dym02-38h.htm",
+  "image_note": "",
+  "charger_watts": 44,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 2.58A (+5V 1A USB-A)",
+  "charger_part_numbers": [
+   "1800"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-pro",
+  "charger_notes": "Microsoft lists model 1800 as 39 W to the device; retail label is 44 W with the USB port. Core m3 units shipped with 24 W model 1735 (15V 1.6A)."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Pro 6",
+  "alias": [],
+  "battery_type": [
+   "G3HTA038H"
+  ],
+  "part_numbers": [
+   "G3HTA038H",
+   "DYNM02"
+  ],
+  "wh": 45,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://www.ifixit.com/products/surface-pro-5-6-replacement-battery",
+  "notes": "Models 1796/1807/1809. 7.57 V 5940 mAh 45 Wh. Cell code 2(1ICP4/52/108+1ICP4/45/114)-2 = 2S2P = 4 cells. Same battery as Surface Pro 5. Not user-serviceable.",
+  "image": "img/microsoft-g3hta038h.jpg",
+  "image_source": "https://www.laptopbatteryexpress.com/G3HTA038H-Battery-for-Microsoft-Surface-Pro-5-1796-p/msft-dym02-38h.htm",
+  "image_note": "",
+  "charger_watts": 44,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 2.58A (+5V 1A USB-A)",
+  "charger_part_numbers": [
+   "1800"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-pro",
+  "charger_notes": "Microsoft lists model 1800 as 39 W to the device; retail label is 44 W with the USB port."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Pro 7",
+  "alias": [],
+  "battery_type": [
+   "G3HTA061H"
+  ],
+  "part_numbers": [
+   "G3HTA061H",
+   "DYNM03"
+  ],
+  "wh": 43.2,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://www.ifixit.com/products/surface-pro-7-battery",
+  "notes": "Model 1866. 7.57 V 5702 mAh 43.2 Wh (Microsoft nominal 46.5 Wh). 4 cells per third-party listings (2S2P). Not user-serviceable.",
+  "image": "img/microsoft-g3hta061h.jpg",
+  "image_source": "https://www.aolstecell.com/microsoft/g3hta061h-battery-for-surface-pro-7",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 4A (+5V 1A USB-A)",
+  "charger_part_numbers": [
+   "1706"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-pro",
+  "charger_notes": "Microsoft lists model 1706 as 60 W to the device; retail label is 65 W with the USB port."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Pro 7+ for Business",
+  "alias": [],
+  "battery_type": [
+   "G3HTA074H"
+  ],
+  "part_numbers": [
+   "G3HTA074H",
+   "DYNH03",
+   "G3HTA073H",
+   "GA3HTA025H"
+  ],
+  "wh": 48.9,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://www.ifixit.com/products/microsoft-surface-pro-7-plus-battery",
+  "notes": "Models 1960/1961. 7.58 V 6444 mAh 48.87 Wh (Microsoft nominal 50.4 Wh). Cell count derived from 7.58 V 2S pack with ~6400 mAh = 2S2P = 4 cells; no page confirms it. Removable SSD but battery not user-serviceable.",
+  "image": "img/microsoft-g3hta074h.jpg",
+  "image_source": "https://shop-battery.com/product/7740/G3HTA074H",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 4A (+5V 1A USB-A)",
+  "charger_part_numbers": [
+   "1706"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-pro",
+  "charger_notes": "Microsoft lists model 1706 as 60 W to the device; retail label is 65 W with the USB port."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Pro 8 (13-inch)",
+  "alias": [],
+  "battery_type": [
+   "96BTA016H"
+  ],
+  "part_numbers": [
+   "96BTA016H",
+   "96BTA015H",
+   "DYNC01"
+  ],
+  "wh": 50.2,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://support.microsoft.com/en-us/surface/surface-pro-8-features-and-specs-80d10ad3-52c1-4ded-a3be-ede236b9de93",
+  "notes": "Models 1982 (LTE)/1983 (Wi-Fi). Microsoft: nominal 51.5 Wh, min 50.2 Wh. Third-party listings: 11.38 V 4414 mAh 50.2 Wh. Cell count derived from 11.38 V = 3S; no page confirms it. Part numbers from third-party listings (Microsoft does not publish a CRU battery part for Pro 8).",
+  "image": "img/microsoft-96bta016h.jpg",
+  "image_source": "https://www.batterymall.com/products/96bta016h-laptop-battery-for-microsoft-surface-pro-8-1982-1983",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 4A (+5V 1A USB-A)",
+  "charger_part_numbers": [
+   "1706"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-pro",
+  "charger_notes": "Microsoft lists model 1706 as 60 W to the device; retail label is 65 W with the USB port."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Pro 9 (Intel, Wi-Fi, 13-inch)",
+  "alias": [],
+  "battery_type": [
+   "MQ20"
+  ],
+  "part_numbers": [
+   "MQ20",
+   "DYNM04",
+   "M1163985-018",
+   "WGN-00001"
+  ],
+  "wh": 46.5,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://www.ifixit.com/products/surface-pro-9-battery-genuine",
+  "notes": "Model 2038. 7.58 V 6138 mAh 46.52 Wh (Microsoft nominal 47.7 Wh, min 46.5 Wh). iFixit genuine part IF164-027-2. Microsoft CRU WGN-00001. 4 cells per third-party listings. Same MQ20 pack is used in Pro 10 and Pro 11 LCD.",
+  "image": "img/microsoft-mq20.png",
+  "image_source": "https://www.polartech.com.au/products/dynm04-mq20-microsoft-surface-pro-9-surface-pro-10-surface-pro-11-lcd-version-replacement-battery",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 4A (+5V 1A USB-A)",
+  "charger_part_numbers": [
+   "1706"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-pro",
+  "charger_notes": "Microsoft lists model 1706 as 60 W to the device; retail label is 65 W with the USB port."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Pro 9 with 5G (SQ3, 13-inch)",
+  "alias": [],
+  "battery_type": [
+   "MQ20"
+  ],
+  "part_numbers": [
+   "MQ20",
+   "DYNM04",
+   "M1163984-018",
+   "WIA-00001"
+  ],
+  "wh": 46.5,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://www.ifixit.com/products/surface-pro-9-5g-battery-genuine",
+  "notes": "Models 1996 (Sub6)/1997 (mmWave). Microsoft nominal 47.7 Wh, min 46.5 Wh. iFixit genuine part IF164-029-2; Microsoft CRU WIA-00001 (FRU WFP-00001). Third-party listings give the same MQ20/DYNM04 pack as the Intel Pro 9 (7.58 V 6138 mAh, 4 cells).",
+  "image": "img/microsoft-mq20.png",
+  "image_source": "https://www.polartech.com.au/products/dynm04-mq20-microsoft-surface-pro-9-surface-pro-10-surface-pro-11-lcd-version-replacement-battery",
+  "image_note": "",
+  "charger_watts": 39,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 2.6A",
+  "charger_part_numbers": [
+   "1963"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-pro",
+  "charger_notes": "Ships with the 39 W model 1963 (no USB port), not the 65 W 1706. Minimum charging 39 W."
+ },
+ {
+  "brand": "Microsoft",
+  "model": "Surface Pro X (SQ1/SQ2, 13-inch)",
+  "alias": [],
+  "battery_type": [
+   "G3HTA056H"
+  ],
+  "part_numbers": [
+   "G3HTA056H",
+   "MQ03"
+  ],
+  "wh": 38.2,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://support.microsoft.com/en-us/surface/models/surface-pro-x-features-and-specs",
+  "notes": "Models 1876 (SQ1 and SQ2)/2010. Microsoft: nominal 39.2 Wh, min 38.2 Wh. Third-party: 7.58 V 5039 mAh 38.2 Wh, 4 cells. Part number from battery shops (batterymall, laptopbatteryexpress); no Microsoft page lists it.",
+  "image": "img/microsoft-g3hta056h.jpg",
+  "image_source": "https://www.laptopbatteryexpress.com/G3HTA056H-Battery-for-Microsoft-Surface-Pro-X-13-p/msft-mspx.htm",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Surface Connect",
+  "charger_output": "15V 4A (+5V 1A USB-A)",
+  "charger_part_numbers": [
+   "1706"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://support.microsoft.com/en-us/surface/battery/surface-charging-requirements-and-power-supplies-surface-pro",
+  "charger_notes": "Microsoft lists model 1706 as 60 W to the device; retail label is 65 W with the USB port."
  }
 ];
