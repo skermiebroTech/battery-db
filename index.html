@@ -12,13 +12,13 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
   <link rel="manifest" href="icons/site.webmanifest">
   <meta name="theme-color" content="#14532d">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=92ba7d38">
 </head>
 <body>
   <header class="top">
     <div class="wrap">
       <h1><span class="logo" aria-hidden="true"></span> Laptop Battery Finder</h1>
-      <p class="sub">Type a laptop model, a brand, or a battery code. Results update as you type.</p>
+      <p class="sub">Type a laptop model, a brand, a battery code, or a charger part number. Results update as you type.</p>
     </div>
   </header>
 
@@ -34,6 +34,7 @@
         <div class="view" role="group" aria-label="View">
           <button id="view-laptops" class="on" type="button">Laptops</button>
           <button id="view-batteries" type="button">Batteries</button>
+          <button id="view-chargers" type="button">Chargers</button>
         </div>
       </div>
       <p id="count" class="count" aria-live="polite"></p>
@@ -47,7 +48,7 @@
     <p>Data: <code>data/batteries.csv</code>. Press <kbd>/</kbd> to jump to the search box.</p>
   </footer>
 
-  <script src="data/batteries.js"></script>
-  <script src="app.js"></script>
+  <script src="data/batteries.js?v=a7aed388"></script>
+  <script src="app.js?v=87c767ea"></script>
 </body>
 </html>

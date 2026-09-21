@@ -107,6 +107,10 @@ button.thumb:hover { border-color: var(--accent); }
 details.notes summary { cursor: pointer; }
 mark { background: var(--hi); color: inherit; padding: 0 1px; border-radius: 2px; }
 
+.charger { margin: 10px 0 0; padding-top: 8px; border-top: 1px dashed var(--line); }
+.charger .parts { margin: 0; }
+.tag { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+.thumb.plug { font-size: 13px; font-weight: 600; letter-spacing: .04em; }
 .bcard .laptops { margin: 8px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
 .bcard .laptops li { background: var(--chip); border: 1px solid var(--line); border-radius: 6px; padding: 3px 8px; font-size: 13px; }
 

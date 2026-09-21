@@ -11,7 +11,8 @@
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   function tokens(query) { return query.toLowerCase().split(/\s+/).filter(Boolean); }
   function hay(r) {
-    return [r.brand, r.model, ...(r.alias || []), ...(r.part_numbers || []), ...(r.battery_type || [])].join(" ");
+    return [r.brand, r.model, ...(r.alias || []), ...(r.part_numbers || []), ...(r.battery_type || []),
+      ...(r.charger_part_numbers || []), r.charger_connector || "", r.charger_watts ? r.charger_watts + "W" : ""].join(" ");
   }
   // Every token must appear somewhere (with punctuation and spaces ignored, so "x1carbon" and "cc03 xl" both work).
   function matches(r, toks) {
@@ -47,6 +48,18 @@
   }
 
   // ---------- rendering ----------
+  function chargerBlock(r, toks) {
+    if (!r.charger_watts && !r.charger_connector) return "";
+    const label = [r.charger_watts ? `${r.charger_watts} W` : "", r.charger_connector].filter(Boolean).join(" · ");
+    const parts = (r.charger_part_numbers || []).map((p) => pn(p, toks, false)).join("");
+    const src = r.charger_source_url ? `<a href="${esc(r.charger_source_url)}" target="_blank" rel="noopener">source</a>` : "";
+    const notes = r.charger_notes ? `<details class="notes"><summary>Charger notes</summary>${esc(r.charger_notes)}</details>` : "";
+    return `<div class="charger">
+      <div class="parts"><span class="tag">Charger</span><span class="pn type" data-copy="${esc(label)}">${hilite(label, toks)}</span>${parts}</div>
+      <div class="meta">${r.charger_output ? `<span>${esc(r.charger_output)}</span>` : ""}${confBadge(r.charger_confidence)}${src}</div>
+      ${notes}
+    </div>`;
+  }
   function laptopCard(r, toks) {
     const types = r.battery_type.map((c) => pn(c, toks, true)).join("");
     const parts = r.part_numbers.filter((p) => !r.battery_type.includes(p)).map((p) => pn(p, toks, false)).join("");
@@ -62,6 +75,33 @@
         <div class="parts">${types}${parts}</div>
         <div class="meta">${cap ? `<span>${esc(cap)}</span>` : ""}${confBadge(r.confidence)}${src}${photoSrc(r)}</div>
         ${notes}
+        ${chargerBlock(r, toks)}
+      </div>
+    </article>`;
+  }
+
+  function chargerGroups(rows) {
+    const map = new Map();
+    for (const r of rows) {
+      if (!r.charger_watts && !r.charger_connector) continue;
+      const key = r.brand + "|" + r.charger_watts + "|" + r.charger_connector;
+      if (!map.has(key)) map.set(key, { brand: r.brand, watts: r.charger_watts, connector: r.charger_connector, output: r.charger_output, parts: new Set(), laptops: [] });
+      const g = map.get(key);
+      (r.charger_part_numbers || []).forEach((p) => g.parts.add(p));
+      g.laptops.push(r.model);
+    }
+    return [...map.values()].sort((a, b) => a.brand.localeCompare(b.brand) || (a.watts || 0) - (b.watts || 0) || a.connector.localeCompare(b.connector));
+  }
+  function chargerCard(g, toks) {
+    const label = [g.watts ? `${g.watts} W` : "", g.connector].filter(Boolean).join(" · ");
+    const parts = [...g.parts].map((p) => pn(p, toks, false)).join("");
+    return `<article class="card bcard">
+      <div class="thumb plug" aria-hidden="true">${g.connector && /usb-c/i.test(g.connector) ? "USB-C" : "barrel"}</div>
+      <div>
+        <h2><span class="brand">${hilite(g.brand, toks)}</span> ${pn(label, toks, true)}</h2>
+        <div class="parts">${parts}</div>
+        <div class="meta">${g.output ? `<span>${esc(g.output)}</span>` : ""}<span>fits ${g.laptops.length} model${g.laptops.length === 1 ? "" : "s"}</span></div>
+        <ul class="laptops">${g.laptops.map((m) => `<li>${hilite(m, toks)}</li>`).join("")}</ul>
       </div>
     </article>`;
   }
@@ -111,6 +151,10 @@
     if (state.view === "laptops") {
       count.textContent = `${rows.length} laptop model${rows.length === 1 ? "" : "s"}`;
       results.innerHTML = rows.slice(0, 200).map((r) => laptopCard(r, toks)).join("") + (rows.length > 200 ? `<p class="empty">Showing the first 200. Add a word to narrow the list.</p>` : "");
+    } else if (state.view === "chargers") {
+      const groups = chargerGroups(rows);
+      count.textContent = `${groups.length} charger type${groups.length === 1 ? "" : "s"} across ${rows.length} laptops`;
+      results.innerHTML = groups.map((g) => chargerCard(g, toks)).join("");
     } else {
       const groups = batteryGroups(rows);
       count.textContent = `${groups.length} battery model${groups.length === 1 ? "" : "s"} across ${rows.length} laptops`;
@@ -133,10 +177,12 @@
   // ---------- view toggle ----------
   $("#view-laptops").addEventListener("click", () => setView("laptops"));
   $("#view-batteries").addEventListener("click", () => setView("batteries"));
+  $("#view-chargers").addEventListener("click", () => setView("chargers"));
   function setView(v) {
     state.view = v;
     $("#view-laptops").classList.toggle("on", v === "laptops");
     $("#view-batteries").classList.toggle("on", v === "batteries");
+    $("#view-chargers").classList.toggle("on", v === "chargers");
     syncHash(); render();
   }
 
@@ -186,7 +232,7 @@
     state.query = p.get("q") || ""; q.value = state.query;
     state.brand = brands.includes(p.get("brand")) ? p.get("brand") : "";
     brandsEl.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.brand === state.brand));
-    setView(p.get("view") === "batteries" ? "batteries" : "laptops");
+    setView(["batteries", "chargers"].includes(p.get("view")) ? p.get("view") : "laptops");
   }
   window.addEventListener("hashchange", readHash);
   readHash();

@@ -28,6 +28,13 @@ The URL hash keeps the search, so you can share a link such as `#q=latitude%2074
    | `image` | Path to a photo in `img/`, for example `img/dell-mhr4g.jpg` |
    | `image_source` | Page the photo came from |
    | `image_note` | Caveat about the photo, for example when it shows an equivalent pack |
+   | `charger_watts` | Wattage of the adapter the laptop shipped with |
+   | `charger_connector` | Plug type, for example `USB-C` or `Dell 7.4mm barrel` |
+   | `charger_output` | Voltage and current, for example `20V 3.25A` |
+   | `charger_part_numbers` | OEM adapter part number(s), separated by `; ` |
+   | `charger_confidence` | `high`, `medium`, or `low` |
+   | `charger_source_url` | Page that gave the adapter data |
+   | `charger_notes` | Other wattages or connectors that shipped with some configs |
 
 2. Run the build script. It writes `data/batteries.js`, which the page loads.
 
