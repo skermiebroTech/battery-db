@@ -58,7 +58,25 @@ window.BATTERIES = [
   "service_manual_url": "https://laptopmedia.com/highlights/how-to-open-acer-aspire-3-a315-59-disassembly-and-upgrade-options/",
   "repair_confidence": "low",
   "repair_notes": "No public Acer service guide for A315-59; parts are from teardowns and the usual Aspire 3 FRU layout. Keyboard is riveted to the top cover. DC-in jack is on a cable. Some SKUs have soldered RAM plus one slot. No Acer service guide found; the repair flags are not confirmed.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Display panel": [
+    "KL.1560E.033",
+    "KL.15605.072"
+   ],
+   "Hinges": [
+    "33.K6WN2.003",
+    "33.K6WN2.002"
+   ],
+   "Touchpad": [
+    "56.K6WN2.001"
+   ],
+   "Palmrest/top cover": [
+    "6B.K6SN2.001"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://geniusparts.co.uk/collections/acer/a315-59",
+  "pn_notes": "Parts seller listings. Palmrest/top cover: silver, US International keyboard. Hinges: first is the pair, second is the left hinge. Battery: two listed compatible Acer battery numbers."
  },
  {
   "brand": "Apple",
@@ -117,7 +135,39 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/MacBook_Pro_13%22_Four_Thunderbolt_Ports_2019",
   "repair_confidence": "medium",
   "repair_notes": "Battery is glued to the top case; Apple replaces it with the top case, iFixit sells it alone. Keyboard only comes with the top case. RAM, SSD and Wi-Fi are soldered. USB-C ports are on small modular boards.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-02514",
+    "923-02515"
+   ],
+   "Battery": [
+    "A1964"
+   ],
+   "Fan": [
+    "923-02580",
+    "923-02581"
+   ],
+   "Palmrest/top cover": [
+    "661-13159",
+    "661-13160"
+   ],
+   "Display assembly": [
+    "661-12829",
+    "661-12830"
+   ],
+   "USB-C port board": [
+    "923-02497"
+   ],
+   "System board": [
+    "661-12813",
+    "661-12818",
+    "661-12826",
+    "661-12827"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a1989-mid-2019",
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. System board: 4 of many CPU/RAM/SSD variants. Fans: left, right."
  },
  {
   "brand": "Apple",
@@ -178,7 +228,46 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Parts/MacBook_Pro_13%22_Four_Thunderbolt_Ports_2020",
   "repair_confidence": "medium",
   "repair_notes": "Battery is glued to the top case; Apple replaces it with the top case, iFixit sells it alone. Keyboard only comes with the top case. RAM, SSD and Wi-Fi are soldered. USB-C ports are on small modular boards.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-04157",
+    "923-04158"
+   ],
+   "Battery": [
+    "A1964"
+   ],
+   "Fan": [
+    "923-04237",
+    "923-04238"
+   ],
+   "Touchpad": [
+    "661-16096",
+    "661-16097"
+   ],
+   "Palmrest/top cover": [
+    "661-15956",
+    "661-15957"
+   ],
+   "Display assembly": [
+    "661-15732",
+    "661-15733"
+   ],
+   "USB-C port board": [
+    "923-04254"
+   ],
+   "Audio/headphone board": [
+    "923-04235",
+    "923-04236"
+   ],
+   "System board": [
+    "661-15938",
+    "661-15939",
+    "661-15942"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a2251-2020",
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. System board: 3 of many variants. Fans: left, right."
  },
  {
   "brand": "Apple",
@@ -237,7 +326,54 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/MacBook_Air_13%22_2020",
   "repair_confidence": "medium",
   "repair_notes": "Keyboard only comes with the top case. Battery is glued but sold alone. RAM, SSD and Wi-Fi are soldered. USB-C ports are a modular part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-03980",
+    "923-03981",
+    "923-03982"
+   ],
+   "Battery": [
+    "661-15395",
+    "923-03990"
+   ],
+   "Fan": [
+    "923-03989"
+   ],
+   "Speakers": [
+    "923-03988"
+   ],
+   "Touchpad": [
+    "661-15392",
+    "661-15393",
+    "661-15394"
+   ],
+   "Palmrest/top cover": [
+    "661-15386",
+    "661-15387",
+    "661-15388"
+   ],
+   "Display assembly": [
+    "661-15389",
+    "661-15390",
+    "661-15391"
+   ],
+   "USB-C port board": [
+    "923-02813"
+   ],
+   "Audio/headphone board": [
+    "923-03986",
+    "923-03987"
+   ],
+   "System board": [
+    "661-14741",
+    "661-14746",
+    "661-14756",
+    "661-14757"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-air-13-inch-a2179-2020",
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour sets are space gray, silver, gold (audio board: space gray/gold, then silver). System board: 4 of many variants."
  },
  {
   "brand": "Apple",
@@ -295,7 +431,40 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/MacBook_Pro_13%22_Two_Thunderbolt_Ports_2019",
   "repair_confidence": "medium",
   "repair_notes": "Single fan. Battery is glued to the top case; iFixit sells it alone. Keyboard only comes with the top case. RAM, SSD and Wi-Fi are soldered. USB-C ports are on a small modular board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-03204",
+    "923-03205"
+   ],
+   "Battery": [
+    "A2171"
+   ],
+   "Fan": [
+    "923-03523"
+   ],
+   "Palmrest/top cover": [
+    "661-12993",
+    "661-12994",
+    "661-13618",
+    "661-13619"
+   ],
+   "Display assembly": [
+    "661-12829",
+    "661-12830"
+   ],
+   "USB-C port board": [
+    "923-03210"
+   ],
+   "System board": [
+    "661-12566",
+    "661-12567",
+    "661-12568",
+    "661-12571"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a2159-2019",
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. System board: 4 of many variants."
  },
  {
   "brand": "Apple",
@@ -354,7 +523,39 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/MacBook_Pro_13%22_Two_Thunderbolt_Ports_2020",
   "repair_confidence": "medium",
   "repair_notes": "Single fan. Battery is glued to the top case; iFixit sells it alone. Keyboard only comes with the top case. RAM, SSD and Wi-Fi are soldered. USB-C ports are on a small modular board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-04011",
+    "923-04012"
+   ],
+   "Battery": [
+    "A2171"
+   ],
+   "Fan": [
+    "923-04170"
+   ],
+   "Touchpad": [
+    "661-15992",
+    "661-15993"
+   ],
+   "Palmrest/top cover": [
+    "661-15736",
+    "661-15737"
+   ],
+   "Display assembly": [
+    "661-15732",
+    "661-15733"
+   ],
+   "USB-C port board": [
+    "923-04165"
+   ],
+   "System board": [
+    "661-15734"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a2289-2020",
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. System board: 1 variant found."
  },
  {
   "brand": "Apple",
@@ -411,7 +612,62 @@ window.BATTERIES = [
   "service_manual_url": "https://support.apple.com/en-us/100586",
   "repair_confidence": "high",
   "repair_notes": "Apple Self Service Repair manual. Fanless. Battery is its own part. Keyboard only comes with the top case. RAM, SSD and Wi-Fi are soldered. USB-C ports are on the Input/Output board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-04300",
+    "923-04301",
+    "923-04302",
+    "923-04303",
+    "923-04304",
+    "923-04305"
+   ],
+   "Battery": [
+    "661-16086"
+   ],
+   "Speakers": [
+    "923-03678"
+   ],
+   "Touchpad": [
+    "661-16825",
+    "661-16826",
+    "661-16827"
+   ],
+   "Palmrest/top cover": [
+    "661-16831",
+    "661-16833",
+    "661-16835"
+   ],
+   "Display assembly": [
+    "661-16806",
+    "661-16807",
+    "661-16808"
+   ],
+   "USB-C port board": [
+    "923-03553"
+   ],
+   "Audio/headphone board": [
+    "923-03672",
+    "923-03673"
+   ],
+   "Touch ID board": [
+    "661-15412"
+   ],
+   "Antennas": [
+    "923-04327"
+   ],
+   "System board": [
+    "661-16809",
+    "661-16810",
+    "661-16819",
+    "661-16822"
+   ],
+   "Display cable": [
+    "923-04718"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://support.apple.com/en-us/100587",
+  "pn_notes": "Apple exploded view. Colours: space gray, silver, gold (bottom case: 7-core/8-core GPU per colour; audio board: space gray/gold, then silver). Top case numbers are US English. USB-C port board is the input/output board. System board: 4 of 16 variants (each also has a 661-275xx alternate)."
  },
  {
   "brand": "Apple",
@@ -469,7 +725,37 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/MacBook_Pro_16%22_2019",
   "repair_confidence": "medium",
   "repair_notes": "Two fans. Left and right USB-C boards are modular. Battery is glued to the top case; iFixit sells it alone. Keyboard only comes with the top case. RAM, SSD and Wi-Fi are soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-03844",
+    "923-03845"
+   ],
+   "Battery": [
+    "A2113"
+   ],
+   "Fan": [
+    "923-03874",
+    "923-03875"
+   ],
+   "Palmrest/top cover": [
+    "661-13161",
+    "661-13162"
+   ],
+   "Display assembly": [
+    "661-14200",
+    "661-14201"
+   ],
+   "USB-C port board": [
+    "923-03934"
+   ],
+   "System board": [
+    "661-14104",
+    "661-14114"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-16-inch-a2141-2019",
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. Fans: left, right. System board: 2 of many variants."
  },
  {
   "brand": "Apple",
@@ -527,7 +813,41 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/MacBook_Pro_15%22_2018",
   "repair_confidence": "medium",
   "repair_notes": "Two fans. USB-C ports are on small modular boards. Battery is glued to the top case; iFixit sells it alone. Keyboard only comes with the top case. RAM, SSD and Wi-Fi are soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-00485",
+    "923-02510"
+   ],
+   "Battery": [
+    "A1953"
+   ],
+   "Fan": [
+    "923-02538",
+    "923-02539"
+   ],
+   "Palmrest/top cover": [
+    "661-10345",
+    "661-10346",
+    "661-10347",
+    "661-10348"
+   ],
+   "Display assembly": [
+    "661-10355",
+    "661-10356"
+   ],
+   "USB-C port board": [
+    "923-02497"
+   ],
+   "System board": [
+    "661-09989",
+    "661-10009",
+    "661-10013",
+    "661-10202"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-15-inch-a1990-mid-2018",
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. System board: 4 of many 2018 variants."
  },
  {
   "brand": "Apple",
@@ -587,7 +907,65 @@ window.BATTERIES = [
   "service_manual_url": "https://support.apple.com/en-us/102712",
   "repair_confidence": "high",
   "repair_notes": "Apple Self Service Repair manual. Battery is sold by Apple only with the top case and keyboard; iFixit sells it alone. Two fans are their own parts; the heatsink is part of the logic board. MagSafe 3 and USB-C ports are on their own boards. Display hinge covers are the only hinge parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-08545",
+    "923-08546"
+   ],
+   "Battery": [
+    "A2519"
+   ],
+   "Fan": [
+    "923-06778",
+    "923-06759"
+   ],
+   "Speakers": [
+    "923-10066"
+   ],
+   "Touchpad": [
+    "661-32206",
+    "661-32208"
+   ],
+   "Palmrest/top cover": [
+    "661-32210",
+    "661-32211"
+   ],
+   "Display assembly": [
+    "661-32207",
+    "661-32209"
+   ],
+   "USB-C port board": [
+    "923-06760"
+   ],
+   "MagSafe 3 board": [
+    "923-06870",
+    "923-06871"
+   ],
+   "Audio/headphone board": [
+    "923-06757"
+   ],
+   "Touch ID board": [
+    "661-30422"
+   ],
+   "Lid angle sensor": [
+    "661-23649"
+   ],
+   "Antennas": [
+    "923-08547"
+   ],
+   "BMU flex cable": [
+    "923-06765"
+   ],
+   "System board": [
+    "661-27685",
+    "661-27705",
+    "661-27715",
+    "661-27730"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://support.apple.com/en-us/102713",
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of many M2 Pro/Max variants (10c/16g, 12c/19g, 12c/30g, 12c/38g, lowest RAM/SSD)."
  },
  {
   "brand": "Apple",
@@ -646,7 +1024,65 @@ window.BATTERIES = [
   "service_manual_url": "https://support.apple.com/en-us/118617",
   "repair_confidence": "high",
   "repair_notes": "Apple Self Service Repair manual. Battery is sold by Apple only with the top case and keyboard; iFixit sells it alone. Two fans are their own parts; the heatsink is part of the logic board. MagSafe 3 and USB-C ports are on their own boards. Display hinge covers are the only hinge parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-09954",
+    "923-09955"
+   ],
+   "Battery": [
+    "A2977"
+   ],
+   "Fan": [
+    "923-10084",
+    "923-10112"
+   ],
+   "Speakers": [
+    "923-10066"
+   ],
+   "Touchpad": [
+    "661-38735",
+    "661-38736"
+   ],
+   "Palmrest/top cover": [
+    "661-37958",
+    "661-38738"
+   ],
+   "Display assembly": [
+    "661-37952",
+    "661-37953"
+   ],
+   "USB-C port board": [
+    "923-10062"
+   ],
+   "MagSafe 3 board": [
+    "923-10116",
+    "923-10117"
+   ],
+   "Audio/headphone board": [
+    "923-10115"
+   ],
+   "Touch ID board": [
+    "661-38768"
+   ],
+   "Lid angle sensor": [
+    "661-38779"
+   ],
+   "Antennas": [
+    "923-09226"
+   ],
+   "BMU flex cable": [
+    "923-10050"
+   ],
+   "System board": [
+    "661-36925",
+    "661-36933",
+    "661-36941",
+    "661-36948"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://support.apple.com/en-us/103935",
+  "pn_notes": "Apple exploded view. Colour pairs are space black then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of many M3 Pro variants (11c/14g and 12c/18g, 18 GB or 36 GB, 1 TB)."
  },
  {
   "brand": "Apple",
@@ -705,7 +1141,65 @@ window.BATTERIES = [
   "service_manual_url": "https://support.apple.com/en-us/100549",
   "repair_confidence": "high",
   "repair_notes": "Apple Self Service Repair manual. Battery is sold by Apple only with the top case and keyboard; iFixit sells it alone. Two fans are their own parts; the heatsink is part of the logic board. MagSafe 3 and USB-C ports are on their own boards. Display hinge covers are the only hinge parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-06702",
+    "923-06703"
+   ],
+   "Battery": [
+    "A2519"
+   ],
+   "Fan": [
+    "923-06778",
+    "923-06759"
+   ],
+   "Speakers": [
+    "923-10066"
+   ],
+   "Touchpad": [
+    "661-23551",
+    "661-23552"
+   ],
+   "Palmrest/top cover": [
+    "661-21972",
+    "661-21973"
+   ],
+   "Display assembly": [
+    "661-21970",
+    "661-21971"
+   ],
+   "USB-C port board": [
+    "923-06760"
+   ],
+   "MagSafe 3 board": [
+    "923-06870",
+    "923-06871"
+   ],
+   "Audio/headphone board": [
+    "923-06757"
+   ],
+   "Touch ID board": [
+    "661-23549"
+   ],
+   "Lid angle sensor": [
+    "661-23649"
+   ],
+   "Antennas": [
+    "923-06758"
+   ],
+   "BMU flex cable": [
+    "923-06765"
+   ],
+   "System board": [
+    "661-21255",
+    "661-21275",
+    "661-21285",
+    "661-21295"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://support.apple.com/en-us/100550",
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of 50 variants (M1 Pro 8c/14g, M1 Pro 10c/16g, M1 Max 24g, M1 Max 32g; lowest RAM, 512 GB)."
  },
  {
   "brand": "Apple",
@@ -763,7 +1257,65 @@ window.BATTERIES = [
   "service_manual_url": "https://support.apple.com/en-us/100568",
   "repair_confidence": "high",
   "repair_notes": "Apple Self Service Repair manual. Battery is sold by Apple only with the top case and keyboard; iFixit sells it alone. Two fans are their own parts; the heatsink is part of the logic board. MagSafe 3 and USB-C ports are on their own boards. Display hinge covers are the only hinge parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-06750",
+    "923-06751"
+   ],
+   "Battery": [
+    "A2527"
+   ],
+   "Fan": [
+    "923-06789",
+    "923-06788"
+   ],
+   "Speakers": [
+    "923-10067"
+   ],
+   "Touchpad": [
+    "661-23673",
+    "661-23674"
+   ],
+   "Palmrest/top cover": [
+    "661-21974",
+    "661-21975"
+   ],
+   "Display assembly": [
+    "661-21968",
+    "661-21969"
+   ],
+   "USB-C port board": [
+    "923-06760"
+   ],
+   "MagSafe 3 board": [
+    "923-06870",
+    "923-06871"
+   ],
+   "Audio/headphone board": [
+    "923-06757"
+   ],
+   "Touch ID board": [
+    "661-23550"
+   ],
+   "Lid angle sensor": [
+    "661-23648"
+   ],
+   "Antennas": [
+    "923-06790"
+   ],
+   "BMU flex cable": [
+    "923-06794"
+   ],
+   "System board": [
+    "661-21315",
+    "661-21320",
+    "661-21325",
+    "661-21330"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://support.apple.com/en-us/100569",
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of the M1 Max variants (24-core GPU 32/64 GB, 32-core GPU 32/64 GB; 512 GB)."
  },
  {
   "brand": "Apple",
@@ -822,7 +1374,65 @@ window.BATTERIES = [
   "service_manual_url": "https://support.apple.com/en-us/100549",
   "repair_confidence": "high",
   "repair_notes": "Apple Self Service Repair manual. Battery is sold by Apple only with the top case and keyboard; iFixit sells it alone. Two fans are their own parts; the heatsink is part of the logic board. MagSafe 3 and USB-C ports are on their own boards. Display hinge covers are the only hinge parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-06702",
+    "923-06703"
+   ],
+   "Battery": [
+    "A2519"
+   ],
+   "Fan": [
+    "923-06778",
+    "923-06759"
+   ],
+   "Speakers": [
+    "923-10066"
+   ],
+   "Touchpad": [
+    "661-23551",
+    "661-23552"
+   ],
+   "Palmrest/top cover": [
+    "661-21972",
+    "661-21973"
+   ],
+   "Display assembly": [
+    "661-21970",
+    "661-21971"
+   ],
+   "USB-C port board": [
+    "923-06760"
+   ],
+   "MagSafe 3 board": [
+    "923-06870",
+    "923-06871"
+   ],
+   "Audio/headphone board": [
+    "923-06757"
+   ],
+   "Touch ID board": [
+    "661-23549"
+   ],
+   "Lid angle sensor": [
+    "661-23649"
+   ],
+   "Antennas": [
+    "923-06758"
+   ],
+   "BMU flex cable": [
+    "923-06765"
+   ],
+   "System board": [
+    "661-21255",
+    "661-21265",
+    "661-21275",
+    "661-21280"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://support.apple.com/en-us/100550",
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of the M1 Pro variants (8c/14g 16 GB, 10c/14g 16 GB, 10c/16g 16 GB, 10c/16g 32 GB; 512 GB)."
  },
  {
   "brand": "Apple",
@@ -881,7 +1491,65 @@ window.BATTERIES = [
   "service_manual_url": "https://support.apple.com/en-us/100568",
   "repair_confidence": "high",
   "repair_notes": "Apple Self Service Repair manual. Battery is sold by Apple only with the top case and keyboard; iFixit sells it alone. Two fans are their own parts; the heatsink is part of the logic board. MagSafe 3 and USB-C ports are on their own boards. Display hinge covers are the only hinge parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-06750",
+    "923-06751"
+   ],
+   "Battery": [
+    "A2527"
+   ],
+   "Fan": [
+    "923-06789",
+    "923-06788"
+   ],
+   "Speakers": [
+    "923-10067"
+   ],
+   "Touchpad": [
+    "661-23673",
+    "661-23674"
+   ],
+   "Palmrest/top cover": [
+    "661-21974",
+    "661-21975"
+   ],
+   "Display assembly": [
+    "661-21968",
+    "661-21969"
+   ],
+   "USB-C port board": [
+    "923-06760"
+   ],
+   "MagSafe 3 board": [
+    "923-06870",
+    "923-06871"
+   ],
+   "Audio/headphone board": [
+    "923-06757"
+   ],
+   "Touch ID board": [
+    "661-23550"
+   ],
+   "Lid angle sensor": [
+    "661-23648"
+   ],
+   "Antennas": [
+    "923-06790"
+   ],
+   "BMU flex cable": [
+    "923-06794"
+   ],
+   "System board": [
+    "661-21305",
+    "661-21306",
+    "661-21310",
+    "661-21311"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://support.apple.com/en-us/100569",
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of the M1 Pro variants (16 GB 512 GB/1 TB, 32 GB 512 GB/1 TB)."
  },
  {
   "brand": "Apple",
@@ -940,7 +1608,61 @@ window.BATTERIES = [
   "service_manual_url": "https://support.apple.com/en-us/100530",
   "repair_confidence": "high",
   "repair_notes": "Apple Self Service Repair manual. Battery is sold by Apple only with the top case and keyboard; iFixit sells it alone. Fan is its own part; the heatsink is part of the logic board. USB-C ports are on the Input/Output board. RAM, SSD and Wi-Fi are soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-04714",
+    "923-04715"
+   ],
+   "Battery": [
+    "A2171"
+   ],
+   "Fan": [
+    "923-05206"
+   ],
+   "Speakers": [
+    "923-04169"
+   ],
+   "Touchpad": [
+    "661-18429",
+    "661-18430"
+   ],
+   "Palmrest/top cover": [
+    "661-18432",
+    "661-18433"
+   ],
+   "Display assembly": [
+    "661-17548",
+    "661-17549"
+   ],
+   "USB-C port board": [
+    "923-05220"
+   ],
+   "Audio/headphone board": [
+    "923-05048",
+    "923-05049"
+   ],
+   "Touch ID board": [
+    "661-18346"
+   ],
+   "Antennas": [
+    "923-05050"
+   ],
+   "BMU flex cable": [
+    "923-01448"
+   ],
+   "Display cable": [
+    "923-05384"
+   ],
+   "System board": [
+    "661-17057",
+    "661-17058",
+    "661-17061",
+    "661-17062"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://support.apple.com/en-us/100531",
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. USB-C port board is the input/output board. Antennas is the vent/antenna module. System board: 4 of 8 variants (8/16 GB, 256/512 GB)."
  },
  {
   "brand": "Apple",
@@ -998,7 +1720,61 @@ window.BATTERIES = [
   "service_manual_url": "https://support.apple.com/en-us/100511",
   "repair_confidence": "high",
   "repair_notes": "Apple Self Service Repair manual. Battery is sold by Apple only with the top case and keyboard; iFixit sells it alone. Fan is its own part; the heatsink is part of the logic board. USB-C ports are on the Input/Output board. RAM, SSD and Wi-Fi are soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-07578",
+    "923-07579"
+   ],
+   "Battery": [
+    "A2171"
+   ],
+   "Fan": [
+    "923-05206"
+   ],
+   "Speakers": [
+    "923-04169"
+   ],
+   "Touchpad": [
+    "661-27532",
+    "661-27533"
+   ],
+   "Palmrest/top cover": [
+    "661-27530",
+    "661-27531"
+   ],
+   "Display assembly": [
+    "661-17548",
+    "661-17549"
+   ],
+   "USB-C port board": [
+    "923-05220"
+   ],
+   "Audio/headphone board": [
+    "923-05048",
+    "923-05049"
+   ],
+   "Touch ID board": [
+    "661-18346"
+   ],
+   "Antennas": [
+    "923-07619"
+   ],
+   "BMU flex cable": [
+    "923-01448"
+   ],
+   "Display cable": [
+    "923-05384"
+   ],
+   "System board": [
+    "661-25671",
+    "661-25672",
+    "661-25675",
+    "661-25676"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://support.apple.com/en-us/100512",
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. USB-C port board is the input/output board. Antennas is the vent/antenna module. System board: 4 of 12 variants (8/16 GB, 256/512 GB)."
  },
  {
   "brand": "Apple",
@@ -1057,7 +1833,43 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/MacBook_Pro_13%22_Four_Thunderbolt_Ports_2019",
   "repair_confidence": "medium",
   "repair_notes": "Battery is glued to the top case; Apple replaces it with the top case, iFixit sells it alone. Keyboard only comes with the top case. RAM, SSD and Wi-Fi are soldered. USB-C ports are on small modular boards.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-02514",
+    "923-02515"
+   ],
+   "Battery": [
+    "A1964"
+   ],
+   "Fan": [
+    "923-02580",
+    "923-02581"
+   ],
+   "Palmrest/top cover": [
+    "661-10040",
+    "661-10361",
+    "661-13159",
+    "661-13160"
+   ],
+   "Display assembly": [
+    "661-10037",
+    "661-10357",
+    "661-12829",
+    "661-12830"
+   ],
+   "USB-C port board": [
+    "923-02497"
+   ],
+   "System board": [
+    "661-09739",
+    "661-09743",
+    "661-12813",
+    "661-12818"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a1989",
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. Top case and display: first pair 2018, second pair 2019. System board: 4 of many CPU/RAM/SSD variants. Fans: left, right."
  },
  {
   "brand": "Apple",
@@ -1114,7 +1926,46 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Parts/MacBook_Pro_13%22_Four_Thunderbolt_Ports_2020",
   "repair_confidence": "medium",
   "repair_notes": "Battery is glued to the top case; Apple replaces it with the top case, iFixit sells it alone. Keyboard only comes with the top case. RAM, SSD and Wi-Fi are soldered. USB-C ports are on small modular boards.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-04157",
+    "923-04158"
+   ],
+   "Battery": [
+    "A1964"
+   ],
+   "Fan": [
+    "923-04237",
+    "923-04238"
+   ],
+   "Touchpad": [
+    "661-16096",
+    "661-16097"
+   ],
+   "Palmrest/top cover": [
+    "661-15956",
+    "661-15957"
+   ],
+   "Display assembly": [
+    "661-15732",
+    "661-15733"
+   ],
+   "USB-C port board": [
+    "923-04254"
+   ],
+   "Audio/headphone board": [
+    "923-04235",
+    "923-04236"
+   ],
+   "System board": [
+    "661-15938",
+    "661-15939",
+    "661-15942"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a2251-2020",
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. System board: 3 of many variants. Fans: left, right."
  },
  {
   "brand": "Apple",
@@ -1172,7 +2023,53 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/MacBook_Air_13%22_2019",
   "repair_confidence": "medium",
   "repair_notes": "Keyboard only comes with the top case. Battery is glued but sold alone. RAM, SSD and Wi-Fi are soldered. USB-C ports are a modular part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "923-03270",
+    "923-03271",
+    "923-03272"
+   ],
+   "Battery": [
+    "923-03022"
+   ],
+   "Fan": [
+    "923-02438"
+   ],
+   "Speakers": [
+    "923-02441"
+   ],
+   "Touchpad": [
+    "661-11906",
+    "661-11907",
+    "661-11908"
+   ],
+   "Palmrest/top cover": [
+    "661-12592",
+    "661-12593",
+    "661-12594"
+   ],
+   "Display assembly": [
+    "661-12586",
+    "661-12587",
+    "661-12588"
+   ],
+   "USB-C port board": [
+    "923-02813"
+   ],
+   "Audio/headphone board": [
+    "923-02823",
+    "923-02824"
+   ],
+   "System board": [
+    "661-12832",
+    "661-12836",
+    "661-12837",
+    "661-12838"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-air-13-inch-a1932-mid-2019",
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour sets are space gray, silver, gold (audio board: space gray/gold, then silver). System board: 4 of many variants."
  },
  {
   "brand": "Dell",
@@ -1234,7 +2131,19 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual19654563-inspiron-13-5330-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Two fans (left and right) are their own parts. USB-C charge ports are on the system board. Keyboard only comes with the palm-rest assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "V6W33"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "G83J7"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1752",
+  "pn_notes": "Parts seller listing of Dell part numbers. Wi-Fi card: listed compatible Intel AX201/AX211 cards. Palmrest listings found were Spanish only, so they are left out."
  },
  {
   "brand": "Dell",
@@ -1293,7 +2202,42 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual9286027-inspiron-14-5420-nvidia-geforce-mx570-570a-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Keyboard only comes with the palm-rest assembly. Display is only serviced as a full assembly in the service manual.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "694J7"
+   ],
+   "Battery": [
+    "V6W33"
+   ],
+   "Speakers": [
+    "6RRWX"
+   ],
+   "Palmrest/top cover": [
+    "PRPVC"
+   ],
+   "Display assembly": [
+    "56NW8",
+    "TTMG3",
+    "XYWVK",
+    "9MRD3",
+    "9X12K"
+   ],
+   "DC-in / charge port": [
+    "GJNH4"
+   ],
+   "System board": [
+    "84GYN",
+    "X6MPM"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "G83J7"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1594",
+  "pn_notes": "Parts seller listing of Dell part numbers (DDR4 and DDR5 versions). Bottom cover and palmrest (backlit keyboard) are Pebble Green. Display: FHD+ green, FHD+ silver, FHD+ touch silver, QHD+ silver, QHD+ green. Speakers part includes WLAN antennas. System board: i7-1260P with Nvidia, i7-1255U UMA."
  },
  {
   "brand": "Dell",
@@ -1353,7 +2297,19 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual32653454-inspiron-14-5440-owner-s-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Display bezel, panel and camera have procedures only for the plastic-chassis model; the aluminum model is serviced as a display assembly. Keyboard only comes with the palm-rest assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "V6W33",
+    "G91J0"
+   ],
+   "Camera": [
+    "85RC2",
+    "TV949"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1741",
+  "pn_notes": "Parts seller listing of Dell part numbers. Battery: 54 Wh 4-cell, 41 Wh 3-cell. Camera: FHD, HD RGB."
  },
  {
   "brand": "Dell",
@@ -1413,7 +2369,29 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/inspiron-14-5491-2-in-1-laptop_Service-Manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "2-in-1 touch display is only serviced as a full assembly. Keyboard only comes with the palm-rest assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "0V9J6"
+   ],
+   "Battery": [
+    "YRDD6"
+   ],
+   "Fan": [
+    "G0D3G"
+   ],
+   "Palmrest/top cover": [
+    "725N7"
+   ],
+   "Display assembly": [
+    "C9W4D"
+   ],
+   "DC-in / charge port": [
+    "0F903"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1362",
+  "pn_notes": "Parts seller listing of Dell part numbers. Palmrest includes backlit keyboard. Display: FHD touch assembly (blue)."
  },
  {
   "brand": "Dell",
@@ -1475,7 +2453,37 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/inspiron-15-5505-laptop_Service-Manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "Two M.2 SSD slots. Display is only serviced as a full assembly. Keyboard only comes with the palm-rest assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "H5CKD",
+    "JK6Y6"
+   ],
+   "Speakers": [
+    "CNTVP"
+   ],
+   "Touchpad": [
+    "RM79C",
+    "87F8V",
+    "V61GY"
+   ],
+   "Palmrest/top cover": [
+    "7Y1DT"
+   ],
+   "Display assembly": [
+    "K37D1",
+    "7X5T5",
+    "9WDWJ"
+   ],
+   "I/O board": [
+    "TFKNY"
+   ],
+   "System board": [
+    "GFPRC"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1421",
+  "pn_notes": "Parts seller listing of Dell part numbers. Battery: 53 Wh 4-cell, 40 Wh 3-cell. Palmrest includes non-backlit keyboard. Touchpad: third is light blue. System board: Ryzen 7 4700U only."
  },
  {
   "brand": "Dell",
@@ -1534,7 +2542,37 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/inspiron-14-7490-laptop_Service-Manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Wi-Fi card is removed only as a step of the system-board procedure. Keyboard is its own part but is held by 28 screws and needs removal of the system board. USB-C charge port is on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "DXGH8"
+   ],
+   "Coin-cell battery": [
+    "W6NPD"
+   ],
+   "Fan": [
+    "9JN72",
+    "YV2YK"
+   ],
+   "Keyboard": [
+    "0XKGG",
+    "2RVRV",
+    "M0H4C",
+    "N11KN"
+   ],
+   "Display assembly": [
+    "4X9XJ",
+    "K7RNP"
+   ],
+   "I/O board": [
+    "HT63C"
+   ],
+   "Power button": [
+    "RXK89"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1369",
+  "pn_notes": "Parts seller listing of Dell part numbers. Fan: UMA, then Nvidia discrete. Keyboard: US backlit variants. Power button includes the fingerprint reader."
  },
  {
   "brand": "Dell",
@@ -1596,7 +2634,49 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual37836994-inspiron-7506-2-in-1-silver-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Keyboard comes only with the palm-rest assembly. The 2-in-1 display is serviced only as a full assembly. The Black edition has its own service manual.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "H5CKD",
+    "JK6Y6",
+    "3HWPP"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J"
+   ],
+   "Fan": [
+    "CTCNV"
+   ],
+   "Speakers": [
+    "GHFW6",
+    "XDPWP"
+   ],
+   "Touchpad": [
+    "3PNM5"
+   ],
+   "Display assembly": [
+    "RYKP9"
+   ],
+   "DC-in / charge port": [
+    "VGYC4"
+   ],
+   "I/O board": [
+    "7K2GR",
+    "HKMJ8"
+   ],
+   "Fingerprint reader": [
+    "F3XW3"
+   ],
+   "System board": [
+    "YGNMD",
+    "FW6F0",
+    "VMRNH",
+    "G72HV"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1450",
+  "pn_notes": "Silver and Black models use different parts. Speakers and I/O board: first is Silver, second is Black. Fingerprint reader F3XW3 is for the Black model. System board: 4 of many variants; G72HV is Black with discrete GPU."
  },
  {
   "brand": "Dell",
@@ -1656,7 +2736,40 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual52834346-latitude-3330-latitude-3330-2-in-1-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Keyboard comes only with the palm-rest assembly. The service manual lists only the full display assembly. The USB-C power-adapter port is a cabled part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G91J0",
+    "V6W33"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "G83J7",
+    "N33GX"
+   ],
+   "Heatsink": [
+    "VD768"
+   ],
+   "Speakers": [
+    "V53RH"
+   ],
+   "DC-in / charge port": [
+    "NWVD3"
+   ],
+   "I/O board": [
+    "GMC6F",
+    "VTFX1"
+   ],
+   "Fingerprint reader": [
+    "YPN0M"
+   ],
+   "System board": [
+    "0FH52"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1588",
+  "pn_notes": "Wi-Fi: AX201 (XVV0P, P1C6J), AX211 (G83J7), Realtek RTL8821CE (N33GX). System board: one i5 variant only."
  },
  {
   "brand": "Dell",
@@ -1716,7 +2829,62 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/latitude-14-3420-laptop_owners-manual4_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard comes only with the palm-rest assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G91J0",
+    "V6W33"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "YK9VT",
+    "D4V21"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Coin-cell battery": [
+    "41DJ7",
+    "JMN4J"
+   ],
+   "Heatsink": [
+    "281DX",
+    "VM785",
+    "3N6FT"
+   ],
+   "Speakers": [
+    "C402X"
+   ],
+   "Palmrest/top cover": [
+    "1W2NK",
+    "N1YGD"
+   ],
+   "Display panel": [
+    "3477W",
+    "HJJHT",
+    "JN7TT",
+    "9PN3R"
+   ],
+   "Display bezel": [
+    "RCMKN"
+   ],
+   "Display back cover": [
+    "2K5F8"
+   ],
+   "Display cable": [
+    "0TTK5"
+   ],
+   "DC-in / charge port": [
+    "HJW4D",
+    "WJ4CJ"
+   ],
+   "Power button": [
+    "281XV"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1537",
+  "pn_notes": "Heatsink: 281DX Tiger Lake UMA, VM785 Ice Lake UMA, 3N6FT discrete GPU. DC-in: HJW4D 11th Gen, WJ4CJ 10th Gen. Display panel: first two FHD non-touch, last two FHD touch (seller cross-listing). Power button entry is the cover without fingerprint reader. Palmrest includes keyboard."
  },
  {
   "brand": "Dell",
@@ -1775,7 +2943,71 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual38973999-latitude-3510-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Keyboard comes only with the palm-rest assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "H5CKD",
+    "JK6Y6"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "D4V21",
+    "97XFP"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Fan": [
+    "CHNHW"
+   ],
+   "Heatsink": [
+    "C844H"
+   ],
+   "Speakers": [
+    "0WV2P",
+    "YP88H"
+   ],
+   "Touchpad": [
+    "HVFDG"
+   ],
+   "Palmrest/top cover": [
+    "RM8M0",
+    "JYG4Y"
+   ],
+   "Display panel": [
+    "1PVM5",
+    "PWX18",
+    "NM22V"
+   ],
+   "Display bezel": [
+    "GCK6R",
+    "T83XD"
+   ],
+   "Camera": [
+    "G4JK9"
+   ],
+   "Display cable": [
+    "JTY6T",
+    "1PKVH"
+   ],
+   "DC-in / charge port": [
+    "7DM5H"
+   ],
+   "I/O board": [
+    "Y67KR"
+   ],
+   "Power button": [
+    "5NJF3",
+    "PTJ6D"
+   ],
+   "System board": [
+    "2G2J7",
+    "PD7RH"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1399",
+  "pn_notes": "Palmrest RM8M0 includes backlit US keyboard. Display panel: 1PVM5, PWX18 FHD; NM22V FHD touch. Bezel: GCK6R HD cam, T83XD IR cam. Display cable: JTY6T non-touch HD cam, 1PKVH touch/IR. Fan and heatsink are for integrated graphics."
  },
  {
   "brand": "Dell",
@@ -1834,7 +3066,42 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual33655251-latitude-3520-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Keyboard comes only with the palm-rest assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G91J0",
+    "V6W33"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "YK9VT",
+    "D4V21",
+    "97XFP"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Heatsink": [
+    "7F9F7"
+   ],
+   "Speakers": [
+    "2R8WN"
+   ],
+   "Display panel": [
+    "4RRP5",
+    "7XMDT"
+   ],
+   "DC-in / charge port": [
+    "HJW4D",
+    "WJ4CJ"
+   ],
+   "Power button": [
+    "VF0WT"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1517",
+  "pn_notes": "Display panel: both are HD (1366x768) panels. DC-in: HJW4D 11th Gen, WJ4CJ 10th Gen. Power button entry is the cover without fingerprint reader. Heatsink is for 11th Gen UMA."
  },
  {
   "brand": "Dell",
@@ -1893,7 +3160,65 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/latitude-13-5300-2-in-1-laptop_owners-manual2_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "The 2-in-1 touch display is serviced only as a full assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "0G74G",
+    "MXV9V"
+   ],
+   "Bottom cover": [
+    "68VFW"
+   ],
+   "Wi-Fi card": [
+    "T0HRM",
+    "7CDRN",
+    "D4V21",
+    "97XFP",
+    "8PKF4"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Coin-cell battery": [
+    "M7MH9"
+   ],
+   "Heatsink": [
+    "TJ2C0"
+   ],
+   "Speakers": [
+    "TD2P1"
+   ],
+   "Keyboard": [
+    "5GJY7",
+    "1V8KY",
+    "09N8M"
+   ],
+   "Palmrest/top cover": [
+    "KPYGK",
+    "RG4TR",
+    "XX47C"
+   ],
+   "Display assembly": [
+    "FPXN5",
+    "9N8C9",
+    "H1YFF",
+    "FD0N3",
+    "FKV32",
+    "00NWN"
+   ],
+   "DC-in / charge port": [
+    "D5TX7"
+   ],
+   "Smart card reader": [
+    "HXJ88"
+   ],
+   "System board": [
+    "4DMYY",
+    "5PW9V"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1301",
+  "pn_notes": "Keyboard: first two backlit, 09N8M not backlit. Palmrest: all with smart card cut-out. Display assembly: all FHD touch; FD0N3, FKV32, 00NWN have HD camera. Bottom cover 68VFW is the WWAN version. System board: 2 i7 variants only."
  },
  {
   "brand": "Dell",
@@ -1954,7 +3279,55 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/latitude-13-5310-2-in-1-laptop_owners-manual2_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "The 2-in-1 touch display is serviced only as a full assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "0G74G",
+    "MXV9V"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "D4V21"
+   ],
+   "Coin-cell battery": [
+    "M7MH9"
+   ],
+   "Fan": [
+    "K6X87"
+   ],
+   "Heatsink": [
+    "4PWF8"
+   ],
+   "Speakers": [
+    "TD2P1"
+   ],
+   "Keyboard": [
+    "5GJY7",
+    "1V8KY",
+    "3R1CN",
+    "09N8M"
+   ],
+   "Palmrest/top cover": [
+    "CC56W"
+   ],
+   "Display assembly": [
+    "876VP",
+    "3NP0P",
+    "T9NVY",
+    "RFX28",
+    "80YP3"
+   ],
+   "Smart card reader": [
+    "HXJ88"
+   ],
+   "System board": [
+    "YRD5G",
+    "30FT5"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1395",
+  "pn_notes": "Keyboard: 5GJY7, 1V8KY backlit; 09N8M not backlit; 3R1CN listed as 5310 2-in-1 keyboard. Display assembly: all FHD touch; 876VP, 80YP3 IR camera; 3NP0P, RFX28 HD camera. System board: 2 i7 variants only."
  },
  {
   "brand": "Dell",
@@ -2013,7 +3386,63 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual30446307-latitude-5320-latitude-5320-2in1-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Charging is through the USB-C ports on the system board. The display panel is a separate part on the clamshell; the 2-in-1 display is serviced as an assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "9JM71",
+    "7FMXV"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "YK9VT",
+    "D4V21"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Fan": [
+    "CJCNP"
+   ],
+   "Heatsink": [
+    "VNX78"
+   ],
+   "Speakers": [
+    "WXXDD"
+   ],
+   "Keyboard": [
+    "J8Y7H",
+    "18YPJ"
+   ],
+   "Display bezel": [
+    "G2DGW",
+    "8F8VW",
+    "GTCP9"
+   ],
+   "Camera": [
+    "XH90J"
+   ],
+   "Display back cover": [
+    "YKJ71"
+   ],
+   "Fingerprint reader": [
+    "5XWCJ"
+   ],
+   "System board": [
+    "XHHKK",
+    "DFNFK",
+    "XPJVD",
+    "K4YGD"
+   ],
+   "LED board": [
+    "0M804"
+   ],
+   "Infrared camera": [
+    "XH90J"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1465",
+  "pn_notes": "Keyboard: both backlit. Bezel: G2DGW RGB cam, 8F8VW IR cam, GTCP9 IR with proximity sensor. XH90J is the FHD RGB+IR camera module. Fingerprint reader is the power button board with reader. System board: 4 of several variants."
  },
  {
   "brand": "Dell",
@@ -2073,7 +3502,44 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual27461876-latitude-5330-latitude-5330-2in1-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Charging is through the USB-C ports on the system board. The display panel is a separate part on the clamshell; the 2-in-1 display is serviced as an assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "07KRV"
+   ],
+   "Wi-Fi card": [
+    "G83J7"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Fan": [
+    "090TD"
+   ],
+   "Heatsink": [
+    "093FD"
+   ],
+   "Speakers": [
+    "095G1"
+   ],
+   "Keyboard": [
+    "J8Y7H"
+   ],
+   "Palmrest/top cover": [
+    "070YP"
+   ],
+   "Display bezel": [
+    "05RGK"
+   ],
+   "System board": [
+    "WTY2W",
+    "0M22M",
+    "2DPKK",
+    "Y16J7"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1586",
+  "pn_notes": "Keyboard is backlit (shared with 5320/7320). Palmrest 070YP has no smart card. Bezel 05RGK is for the HD camera. System board: 4 variants (i5/i7)."
  },
  {
   "brand": "Dell",
@@ -2133,7 +3599,88 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual18434818-latitude-5410-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Fan is part of the heatsink assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "1V1XF",
+    "3HWPP"
+   ],
+   "Bottom cover": [
+    "0W819",
+    "KT4P6"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "T0HRM",
+    "7CDRN",
+    "D4V21"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Coin-cell battery": [
+    "MR652"
+   ],
+   "Heatsink": [
+    "XYG4C",
+    "29MKF"
+   ],
+   "Speakers": [
+    "0DHFT"
+   ],
+   "Keyboard": [
+    "H2DXX",
+    "3J9FC",
+    "RN86F",
+    "DMGJV"
+   ],
+   "Palmrest/top cover": [
+    "42DWJ"
+   ],
+   "Display panel": [
+    "8KN8F",
+    "K2JN7",
+    "MVV4J",
+    "6WW5K",
+    "RG38H",
+    "4MK53"
+   ],
+   "Display bezel": [
+    "R5YKP"
+   ],
+   "Camera": [
+    "V976R"
+   ],
+   "Hinges": [
+    "33YJW",
+    "HTF3C"
+   ],
+   "DC-in / charge port": [
+    "129F1"
+   ],
+   "Fingerprint reader": [
+    "VHHY3"
+   ],
+   "Smart card reader": [
+    "7TY79"
+   ],
+   "System board": [
+    "5TWVF",
+    "2FGH4",
+    "33T9K",
+    "98W3W"
+   ],
+   "Display cable": [
+    "93M87",
+    "JHDVT"
+   ],
+   "LED board": [
+    "4TNV6"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1403",
+  "pn_notes": "Keyboard: H2DXX, 3J9FC backlit dual point; RN86F backlit; DMGJV single point not backlit. Display panel: first three FHD, last three FHD touch. Heatsink: XYG4C heatsink only, 29MKF heatsink with fan (UMA); fan alone MXH2W. Palmrest 42DWJ has smart card and dual point. System board: 4 of many variants."
  },
  {
   "brand": "Dell",
@@ -2193,7 +3740,79 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual30947785-latitude-5420-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Fan is part of the heat sink. Charging is through the USB-C ports on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "WY9DX",
+    "RJ40G"
+   ],
+   "Bottom cover": [
+    "63DTN"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "YK9VT",
+    "D4V21"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Heatsink": [
+    "HX40M"
+   ],
+   "Speakers": [
+    "W3929"
+   ],
+   "Keyboard": [
+    "CW3R5",
+    "MV4X8",
+    "8MJ5F",
+    "MFC90"
+   ],
+   "Display panel": [
+    "GC2FN",
+    "CYHFW",
+    "WCDHX",
+    "Y6G33",
+    "6HXWT",
+    "T066T"
+   ],
+   "Display bezel": [
+    "KMVJT",
+    "GY37D"
+   ],
+   "Camera": [
+    "7JXD1"
+   ],
+   "Hinges": [
+    "0FJ0X",
+    "MX89N"
+   ],
+   "Smart card reader": [
+    "4PH29"
+   ],
+   "Power button": [
+    "8W7TH"
+   ],
+   "System board": [
+    "47J2X",
+    "M51J7",
+    "88CNX",
+    "3P5X2"
+   ],
+   "Display cable": [
+    "WN8JV",
+    "VPHFP",
+    "K19NX"
+   ],
+   "LED board": [
+    "H4YYK",
+    "1G1MX"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1468",
+  "pn_notes": "Keyboard: CW3R5, MV4X8 backlit; 8MJ5F, MFC90 per seller not marked backlit. Display panel: first five FHD non-touch, T066T FHD touch. Bezel: KMVJT mic only, GY37D IR cam. Display cable: WN8JV HD cam, VPHFP IR cam, K19NX IR with proximity. Power button entry is the cover without fingerprint reader. Heatsink HX40M includes the fan (UMA). System board: 4 of many variants."
  },
  {
   "brand": "Dell",
@@ -2252,7 +3871,64 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual22516136-latitude-5430-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Fan is part of the heat-sink assembly. Charging is through the USB-C ports on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "07KRV"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "G83J7",
+    "YK9VT"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Speakers": [
+    "0X60D"
+   ],
+   "Keyboard": [
+    "CW3R5",
+    "MV4X8",
+    "8MJ5F",
+    "MFC90"
+   ],
+   "Palmrest/top cover": [
+    "WXKXK",
+    "4HDP0"
+   ],
+   "Display panel": [
+    "VXGJX"
+   ],
+   "Display bezel": [
+    "KMVJT",
+    "GY37D"
+   ],
+   "Hinges": [
+    "0FJ0X",
+    "MX89N"
+   ],
+   "Smart card reader": [
+    "4PH29"
+   ],
+   "Power button": [
+    "8W7TH"
+   ],
+   "Display cable": [
+    "WN8JV",
+    "57FP7",
+    "CVVX3",
+    "9Y1XX",
+    "K19NX"
+   ],
+   "LED board": [
+    "H4YYK",
+    "1G1MX"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1583",
+  "pn_notes": "Keyboard: CW3R5, MV4X8 backlit. Palmrest has no smart card. Display panel VXGJX is FHD touch privacy (EPY). Display cable: WN8JV HD cam, 57FP7 IR cam, CVVX3 EMZA cam, 9Y1XX touch IR/EMZA, K19NX IR/proximity. Power button entry is the cover without fingerprint reader."
  },
  {
   "brand": "Dell",
@@ -2313,7 +3989,40 @@ window.BATTERIES = [
   "service_manual_url": "https://www.dell.com/support/manuals/en-us/latitude-14-5440-laptop/latitude-5440-owners-manual/",
   "repair_confidence": "high",
   "repair_notes": "Charging is through the USB-C ports on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "GRWKG",
+    "JTG7N"
+   ],
+   "Wi-Fi card": [
+    "G83J7"
+   ],
+   "Heatsink": [
+    "N1MC3"
+   ],
+   "Keyboard": [
+    "MV4X8",
+    "MFC90"
+   ],
+   "Palmrest/top cover": [
+    "3NPXM",
+    "HJXXN"
+   ],
+   "Display bezel": [
+    "7C42D"
+   ],
+   "Camera": [
+    "Y9V72",
+    "89MTT"
+   ],
+   "Hinges": [
+    "RM86H",
+    "RWF43"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1658",
+  "pn_notes": "Keyboard: MV4X8 backlit. Palmrest has smart card and NFC. Camera: Y9V72 FHD RGB, 89MTT RGB+IR. Heatsink is for UMA graphics."
  },
  {
   "brand": "Dell",
@@ -2374,7 +4083,32 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual8349694-latitude-5450-owner-s-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Charging is through the Thunderbolt 4 ports on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "GRWKG",
+    "JTG7N"
+   ],
+   "Wi-Fi card": [
+    "G83J7"
+   ],
+   "Heatsink": [
+    "YH5R1"
+   ],
+   "Keyboard": [
+    "10TD8"
+   ],
+   "Palmrest/top cover": [
+    "3NPXM",
+    "HJXXN"
+   ],
+   "Hinges": [
+    "RM86H",
+    "RWF43"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1726",
+  "pn_notes": "Keyboard 10TD8 is backlit. Palmrest has smart card and NFC. Heatsink is for UMA graphics."
  },
  {
   "brand": "Dell",
@@ -2434,7 +4168,76 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual21054440-latitude-5520-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Charging is through the USB-C ports on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "WY9DX",
+    "RJ40G"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "YK9VT",
+    "D4V21",
+    "97XFP"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Fan": [
+    "DXJNV"
+   ],
+   "Heatsink": [
+    "6274V",
+    "W8T3N"
+   ],
+   "Speakers": [
+    "K41DJ"
+   ],
+   "Keyboard": [
+    "RHGTP",
+    "N7N16",
+    "KRJFY"
+   ],
+   "Palmrest/top cover": [
+    "73N6X"
+   ],
+   "Display panel": [
+    "4RRP5",
+    "7XMDT"
+   ],
+   "Display bezel": [
+    "CR63R",
+    "GYKGD"
+   ],
+   "Camera": [
+    "7JXD1"
+   ],
+   "Smart card reader": [
+    "FXKWT"
+   ],
+   "System board": [
+    "DPC2R",
+    "MKYVR",
+    "G60M3",
+    "9PTKC"
+   ],
+   "Display back cover": [
+    "8CDH5"
+   ],
+   "Display cable": [
+    "1DVTD",
+    "XJRYW"
+   ],
+   "Sensor board": [
+    "PRG5M"
+   ],
+   "LED board": [
+    "YN0W7"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1466",
+  "pn_notes": "Keyboard: RHGTP, N7N16 backlit; KRJFY not backlit. Heatsink: 6274V UMA, W8T3N discrete. Display panel: both HD; FHD panels listed only by vendor code. Bezel: CR63R mic only, GYKGD HD cam. Display cable: 1DVTD non-touch HD cam, XJRYW touch FHD IR. Sensor board is the Hall sensor board. System board: 4 of many variants."
  },
  {
   "brand": "Dell",
@@ -2493,7 +4296,49 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual22998011-latitude-5531-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Fan comes with the heat sink assembly. Charging is through the USB-C ports on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "GRT01",
+    "9JRV0"
+   ],
+   "Wi-Fi card": [
+    "G83J7"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Speakers": [
+    "G4RVC"
+   ],
+   "Keyboard": [
+    "RHGTP",
+    "N7N16",
+    "KRJFY"
+   ],
+   "Palmrest/top cover": [
+    "P192K",
+    "9P20W"
+   ],
+   "Display panel": [
+    "454PY",
+    "7XMDT"
+   ],
+   "Smart card reader": [
+    "FXKWT"
+   ],
+   "Power button": [
+    "P2VP1"
+   ],
+   "System board": [
+    "9WGF2"
+   ],
+   "Display cable": [
+    "H2D99"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1584",
+  "pn_notes": "Keyboard: RHGTP, N7N16 backlit; KRJFY not backlit. Display panel: 454PY FHD, 7XMDT HD. Palmrest has no smart card. Power button entry is the cover without fingerprint reader. System board: one i5 UMA variant only."
  },
  {
   "brand": "Dell",
@@ -2553,7 +4398,26 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/latitude-12-7220-tablet_owners-manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "Tablet with no built-in keyboard; the keyboard is an optional accessory. The DC-in port comes as one part with the micro serial port.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "J7HTX",
+    "2JT7D"
+   ],
+   "Wi-Fi card": [
+    "T0HRM",
+    "7CDRN"
+   ],
+   "Coin-cell battery": [
+    "5RV5R"
+   ],
+   "Display assembly": [
+    "5TWP8",
+    "0RFRG"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1397",
+  "pn_notes": "Few parts listed for this tablet. Display assembly is the 11.6in FHD touch assembly. Battery numbers copied from input."
  },
  {
   "brand": "Dell",
@@ -2611,7 +4475,20 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual25603516-latitude-7230-rugged-extreme-tablet-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Tablet with no built-in keyboard. RAM is soldered. Fan comes with the SSD heat sink. Charging is through the USB-C port on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Wi-Fi card": [
+    "G83J7"
+   ],
+   "WWAN card": [
+    "C0RVH",
+    "2GKJR",
+    "49GXJ",
+    "HMGJ3"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1693",
+  "pn_notes": "Few parts listed for this tablet. WWAN cards are DW5821e variants. The power button board F64GJ is also listed but not in the part list."
  },
  {
   "brand": "Dell",
@@ -2672,7 +4549,56 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual34740638-latitude-7310-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Fan is part of the heatsink assembly. Charging is through the USB-C ports on the system board. Display is serviced only as a full assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "JHT2H"
+   ],
+   "Bottom cover": [
+    "V97PK"
+   ],
+   "WWAN card": [
+    "PH6K2",
+    "C0RVH",
+    "GTGNN",
+    "3X3VJ"
+   ],
+   "Heatsink": [
+    "CPDCC"
+   ],
+   "Speakers": [
+    "9FK63"
+   ],
+   "Keyboard": [
+    "7T0WC",
+    "1VJ7V"
+   ],
+   "Palmrest/top cover": [
+    "FKF26",
+    "X7X32",
+    "932KF",
+    "2YJVH",
+    "CDTH2"
+   ],
+   "Display assembly": [
+    "71P68",
+    "H5C4J",
+    "HV1D5",
+    "8M85K",
+    "5RG53"
+   ],
+   "I/O board": [
+    "D93G0"
+   ],
+   "Smart card reader": [
+    "70TP1"
+   ],
+   "System board": [
+    "0N7RN"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1406",
+  "pn_notes": "Keyboard: both backlit. Palmrest: FKF26 no smart card; X7X32, 932KF, 2YJVH with smart card; CDTH2 with NFC. Display assembly: all FHD; 71P68, H5C4J with IR camera. Heatsink and I/O board and speakers are the non-WWAN versions. WWAN: DW5821e (PH6K2, C0RVH, GTGNN), DW5829e (3X3VJ). System board: one i7 variant only."
  },
  {
   "brand": "Dell",
@@ -2731,7 +4657,64 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual47943686-latitude-7320-latitude-7320-2-in-1-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Fan is part of the heatsink assembly. Charging is through the Thunderbolt ports on the system board. Display is serviced only as a full assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "9JM71",
+    "7FMXV"
+   ],
+   "Bottom cover": [
+    "X7JCM"
+   ],
+   "WWAN card": [
+    "GTGNN",
+    "3X3VJ"
+   ],
+   "Heatsink": [
+    "XCNHG"
+   ],
+   "Speakers": [
+    "HY9DK"
+   ],
+   "Keyboard": [
+    "J8Y7H",
+    "18YPJ"
+   ],
+   "Palmrest/top cover": [
+    "Y82P1",
+    "CTRYN",
+    "7KJ1P",
+    "61R1T"
+   ],
+   "Display assembly": [
+    "V9CJR",
+    "W4M0N"
+   ],
+   "I/O board": [
+    "R5FK6"
+   ],
+   "Audio/headphone board": [
+    "0X7HM",
+    "K374P"
+   ],
+   "Fingerprint reader": [
+    "XV6JH"
+   ],
+   "Smart card reader": [
+    "X9MX5"
+   ],
+   "System board": [
+    "YWWRP",
+    "H2KK6",
+    "VPDVN",
+    "7MHG4"
+   ],
+   "Antennas": [
+    "KGRCG"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1469",
+  "pn_notes": "Keyboard: both backlit. Display assembly: V9CJR FHD, W4M0N FHD touch. Palmrest Y82P1/CTRYN has no smart card. I/O board R5FK6 is the left USB-C board. Fingerprint reader is the power button board with reader. Antennas KGRCG is the WLAN antenna module. System board: 4 of several variants (shared with 7420/7520)."
  },
  {
   "brand": "Dell",
@@ -2792,7 +4775,38 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual34581431-latitude-7330-latitude-7330-2-in-1-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Fan is removed with the heat-sink. Charging is through the Thunderbolt ports on the system board. Display is serviced only as a full assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "07KRV"
+   ],
+   "WWAN card": [
+    "49GXJ"
+   ],
+   "Keyboard": [
+    "J8Y7H",
+    "18YPJ"
+   ],
+   "Palmrest/top cover": [
+    "3DJH2",
+    "M08W6"
+   ],
+   "I/O board": [
+    "D6XWN"
+   ],
+   "Audio/headphone board": [
+    "9YW6V"
+   ],
+   "Fingerprint reader": [
+    "CV430"
+   ],
+   "System board": [
+    "XDXC6",
+    "VW5PK"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1577",
+  "pn_notes": "Keyboard: both backlit (shared with 5320/7320). Palmrest has smart card. I/O board D6XWN is the left USB-C board. Fingerprint reader is the power button board with reader. System board: i5 and i7 variants only."
  },
  {
   "brand": "Dell",
@@ -2851,7 +4865,97 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/latitude-14-7400-laptop_owners-manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "Fan is part of the heatsink fan assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "0G74G",
+    "MXV9V"
+   ],
+   "Bottom cover": [
+    "V532K",
+    "NGT3G"
+   ],
+   "Wi-Fi card": [
+    "T0HRM",
+    "7CDRN",
+    "D4V21",
+    "97XFP"
+   ],
+   "WWAN card": [
+    "PH6K2",
+    "C0RVH",
+    "GTGNN"
+   ],
+   "Heatsink": [
+    "HCYN0"
+   ],
+   "Speakers": [
+    "P743W"
+   ],
+   "Keyboard": [
+    "RN86F"
+   ],
+   "Palmrest/top cover": [
+    "VNRK9",
+    "2R7XW",
+    "V9PFX"
+   ],
+   "Display assembly": [
+    "C2F46",
+    "GDYF8",
+    "T9MMY",
+    "5NDRY"
+   ],
+   "Display panel": [
+    "WV157",
+    "W9NTD",
+    "JTPF4",
+    "TWX6K"
+   ],
+   "Display bezel": [
+    "2455H",
+    "3JK47",
+    "PVG9F",
+    "JWWXN",
+    "2CJ11"
+   ],
+   "Camera": [
+    "HK46K",
+    "93THN"
+   ],
+   "Hinges": [
+    "1PKC5",
+    "WXHRX"
+   ],
+   "DC-in / charge port": [
+    "T77NM"
+   ],
+   "Smart card reader": [
+    "FYRMK"
+   ],
+   "Power button": [
+    "PGC42"
+   ],
+   "System board": [
+    "FHPJ8",
+    "WRHWP",
+    "M2JD3",
+    "G2KKX"
+   ],
+   "Display cable": [
+    "71R98",
+    "8XJN2",
+    "5CPXN",
+    "XV96Y",
+    "0JGGW",
+    "X93YR"
+   ],
+   "LED board": [
+    "VXCK6"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1293",
+  "pn_notes": "Keyboard RN86F is backlit. Heatsink HCYN0 includes the fan. Display assembly: C2F46, T9MMY, 5NDRY touch; GDYF8 non-touch IR. Display panel: WV157 FHD, W9NTD and JTPF4 FHD touch, TWX6K FHD privacy. Camera: HK46K HD, 93THN IR. Power button entry is the cover. Palmrest 2R7XW has smart card; V9PFX aluminum. System board: 4 of several variants."
  },
  {
   "brand": "Dell",
@@ -2912,7 +5016,69 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual43099455-latitude-7410-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Fan is part of the heatsink assembly. Charging is through the USB-C ports on the system board. Display is serviced only as a full assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "JHT2H",
+    "Y7HR3"
+   ],
+   "Bottom cover": [
+    "V987T",
+    "03YJ6",
+    "G0F5T"
+   ],
+   "WWAN card": [
+    "PH6K2",
+    "C0RVH",
+    "GTGNN",
+    "3X3VJ"
+   ],
+   "Heatsink": [
+    "2V3MP",
+    "DPJG0"
+   ],
+   "Speakers": [
+    "NFH3D",
+    "YRJ99",
+    "9GMP5"
+   ],
+   "Keyboard": [
+    "GMM47",
+    "CVGNH"
+   ],
+   "Palmrest/top cover": [
+    "WD7WH",
+    "0PRV6",
+    "5TPMG",
+    "JHDW4",
+    "W0WKK"
+   ],
+   "Display assembly": [
+    "1J7GR",
+    "164R1",
+    "J52W0",
+    "XWD0J",
+    "MCJ79",
+    "GP62K"
+   ],
+   "I/O board": [
+    "WP85P"
+   ],
+   "Fingerprint reader": [
+    "0W5Y5"
+   ],
+   "Smart card reader": [
+    "4RC5V"
+   ],
+   "System board": [
+    "0N7RN"
+   ],
+   "Antennas": [
+    "NC4DT"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1404",
+  "pn_notes": "Keyboard: GMM47 backlit, CVGNH not backlit. Speakers: NFH3D/YRJ99 for 3/4-cell battery, 9GMP5 for 6-cell. Palmrest: first four for 4-cell battery (5TPMG, JHDW4 with smart card), W0WKK for 6-cell. Display assembly: 1J7GR, 164R1 FHD; J52W0, XWD0J FHD touch; MCJ79, GP62K UHD. Heatsink includes the fan. System board: one i7 variant only."
  },
  {
   "brand": "Dell",
@@ -2974,7 +5140,41 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/latitude-14-7414-laptop_owners-manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "Many parts need the removal of the handle, press latch doors and several boards first.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "769J0"
+   ],
+   "Wi-Fi card": [
+    "8XG1T",
+    "CNP0J"
+   ],
+   "WWAN card": [
+    "D1H0N"
+   ],
+   "Coin-cell battery": [
+    "5RV5R"
+   ],
+   "Heatsink": [
+    "TK2G2"
+   ],
+   "I/O board": [
+    "7M8N1"
+   ],
+   "System board": [
+    "992HR"
+   ],
+   "GPS module": [
+    "VJYPW"
+   ],
+   "Battery": [
+    "9WMN7",
+    "CJ2K1",
+    "DKNKD"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=593",
+  "pn_notes": "Wi-Fi: Intel AC 8260 variants. WWAN is DW5808e. I/O board 7M8N1 has USB, RJ-45, serial and SD. Heatsink is for UMA graphics. System board: one i3 variant only. Battery numbers copied from input."
  },
  {
   "brand": "Dell",
@@ -3036,7 +5236,69 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual49216287-latitude-7420-latitude-7420-2-in-1-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Fan is part of the heatsink assembly. Charging is through the Thunderbolt ports on the system board. Display is serviced only as a full assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "9JM71",
+    "7FMXV"
+   ],
+   "Bottom cover": [
+    "K15VD",
+    "YN0M4"
+   ],
+   "WWAN card": [
+    "GTGNN",
+    "3X3VJ"
+   ],
+   "Heatsink": [
+    "0WR96"
+   ],
+   "Speakers": [
+    "TDM2Y"
+   ],
+   "Keyboard": [
+    "CW3R5",
+    "MV4X8",
+    "8MJ5F",
+    "MFC90"
+   ],
+   "Palmrest/top cover": [
+    "3693G",
+    "8HVCY"
+   ],
+   "Display assembly": [
+    "19X7P",
+    "T4H9P",
+    "KR9XD",
+    "NR53F",
+    "9CG83",
+    "P6GD8"
+   ],
+   "I/O board": [
+    "VY00G"
+   ],
+   "Audio/headphone board": [
+    "0X7HM",
+    "K374P"
+   ],
+   "Fingerprint reader": [
+    "XV6JH"
+   ],
+   "Smart card reader": [
+    "THF8F"
+   ],
+   "System board": [
+    "YWWRP",
+    "H2KK6",
+    "VPDVN",
+    "7MHG4"
+   ],
+   "Antennas": [
+    "6WX9K"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1472",
+  "pn_notes": "Keyboard: CW3R5, MV4X8 backlit. Display assembly: 19X7P FHD HD cam; T4H9P, KR9XD FHD IR cam; NR53F, 9CG83 FHD touch; P6GD8 UHD. Heatsink includes the fan. I/O board VY00G is the left USB-C board. Palmrest has no smart card. System board: 4 of several variants."
  },
  {
   "brand": "Dell",
@@ -3094,7 +5356,53 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/latitude-14-7424-laptop_owners-manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "The fan is only on the optional discrete GPU heatsink fan assembly. The DC-in jack is cabled to the system board but has no removal procedure of its own; it stays with the bottom chassis assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "7WNW1"
+   ],
+   "Wi-Fi card": [
+    "8F3Y8"
+   ],
+   "WWAN card": [
+    "PH6K2",
+    "C0RVH",
+    "GTGNN"
+   ],
+   "Coin-cell battery": [
+    "5RV5R"
+   ],
+   "Heatsink": [
+    "4K6KK"
+   ],
+   "Display assembly": [
+    "VD3XR"
+   ],
+   "I/O board": [
+    "2236M",
+    "5W9P3"
+   ],
+   "Smart card reader": [
+    "P8Y5G"
+   ],
+   "System board": [
+    "Y7FK3",
+    "WM45H",
+    "W6G3H"
+   ],
+   "Stylus": [
+    "07M2D"
+   ],
+   "Battery bay": [
+    "T63X2"
+   ],
+   "Discrete GPU heatsink fan": [
+    "FYCC3",
+    "2GR7W"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1197",
+  "pn_notes": "I/O board: 2236M USB/audio, 5W9P3 RJ-45/serial. Display assembly VD3XR is FHD touch without camera. System board: 3 variants; W6G3H has discrete AMD GPU. Discrete GPU heatsink fan is the PCIe heatsink and system fan."
  },
  {
   "brand": "Dell",
@@ -3155,7 +5463,73 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual43745619-latitude-7430-latitude-7430-2-in-1-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered to the system board. The fan comes only as part of the heat-sink and fan assembly. The USB-C/Thunderbolt charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "C4NP8",
+    "M58Y4"
+   ],
+   "Battery": [
+    "293F1",
+    "M69D0",
+    "07KRV",
+    "FK0VR"
+   ],
+   "WWAN card": [
+    "49GXJ",
+    "HMGJ3"
+   ],
+   "Heatsink": [
+    "CMX1D"
+   ],
+   "Speakers": [
+    "TK45V"
+   ],
+   "Keyboard": [
+    "MF1DR",
+    "CW3R5",
+    "8MJ5F",
+    "MFC90",
+    "MV4X8",
+    "CM7JH"
+   ],
+   "Palmrest/top cover": [
+    "WG7N4",
+    "VCTNC",
+    "M38XN",
+    "DX3CD",
+    "YG2VX",
+    "528J1"
+   ],
+   "Display assembly": [
+    "VV171",
+    "PX65K",
+    "XCH22"
+   ],
+   "I/O board": [
+    "1J1WM"
+   ],
+   "Audio/headphone board": [
+    "9YW6V"
+   ],
+   "Smart card reader": [
+    "THF8F"
+   ],
+   "Power button (with optional fingerprint reader)": [
+    "CV430"
+   ],
+   "System board": [
+    "XDXC6",
+    "VW5PK",
+    "3VFKG",
+    "5WNM1"
+   ],
+   "Antennas": [
+    "CXC4W"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1580",
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3216,7 +5590,55 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual32605743-latitude-7440-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered to the system board. The fan comes only as part of the heat-sink and fan assembly. The USB-C/Thunderbolt charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "K62KJ",
+    "59FJ6",
+    "V36KP",
+    "YWH07"
+   ],
+   "Battery": [
+    "WW8N8",
+    "66DWX",
+    "FH97R"
+   ],
+   "Heatsink": [
+    "21KT2"
+   ],
+   "Speakers": [
+    "X7CCF"
+   ],
+   "Keyboard": [
+    "H3DHT",
+    "D0M6K"
+   ],
+   "Palmrest/top cover": [
+    "DNVM4",
+    "VTG62",
+    "RDY5H",
+    "121K9",
+    "46RT6",
+    "4PMF4"
+   ],
+   "Display assembly": [
+    "G1Y09",
+    "NMVHC"
+   ],
+   "I/O board": [
+    "VN5NJ"
+   ],
+   "System board": [
+    "PPRRG",
+    "2K0Y8",
+    "PHNFN"
+   ],
+   "Battery cable": [
+    "C11NX"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1650",
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3276,7 +5698,43 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual22274845-latitude-7450-owner-s-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered to the system board. The fan comes only as part of the heat-sink and fan assembly. The USB-C/Thunderbolt charge ports are on the system board. The manual lists a \"heat-sink with fan\" part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "WW8N8",
+    "66DWX",
+    "FH97R"
+   ],
+   "Speakers": [
+    "05MJP"
+   ],
+   "Keyboard": [
+    "TRN4T"
+   ],
+   "Palmrest/top cover": [
+    "DNVM4",
+    "VTG62",
+    "RDY5H",
+    "121K9",
+    "46RT6",
+    "H9CW2"
+   ],
+   "Display assembly": [
+    "9J8PK",
+    "FC3KK"
+   ],
+   "I/O board": [
+    "XCH82"
+   ],
+   "System board": [
+    "V31NP"
+   ],
+   "Battery cable": [
+    "C11NX"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1717",
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3335,7 +5793,107 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/latitude-14-7490-laptop_owners-manual2_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "The heat sink assembly includes the system fan. The keyboard comes off its keyboard tray. Touch and non-touch panels have different procedures.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "VTDDW",
+    "F4GHK"
+   ],
+   "Battery": [
+    "DJ1J0",
+    "F3YGT"
+   ],
+   "Wi-Fi card": [
+    "8F3Y8",
+    "D4V21",
+    "97XFP",
+    "7CDRN",
+    "2C9PW"
+   ],
+   "WWAN card": [
+    "K9CNF",
+    "27F80",
+    "8XNMF",
+    "MR7VT",
+    "RHPNG"
+   ],
+   "Coin-cell battery": [
+    "44YK6",
+    "V5XF3",
+    "CP5CV",
+    "04CTM",
+    "C8KT2",
+    "0F1DN"
+   ],
+   "Heatsink": [
+    "2T9GV"
+   ],
+   "Speakers": [
+    "8KM5J"
+   ],
+   "Keyboard": [
+    "6NK3R",
+    "4VMV0",
+    "00M14",
+    "41MMG",
+    "94F68",
+    "D19TR"
+   ],
+   "Palmrest/top cover": [
+    "HPH9G",
+    "N0T29",
+    "R0J8H",
+    "JGJWJ",
+    "TDYRC",
+    "NH8HX"
+   ],
+   "Display panel": [
+    "4VTXP",
+    "R6D8G",
+    "F3FWN",
+    "48DGW",
+    "6HY1W",
+    "83VK3"
+   ],
+   "Display bezel": [
+    "YM89X",
+    "3WMTY",
+    "RJYR0"
+   ],
+   "Camera": [
+    "K49W1",
+    "Y5VF8",
+    "PYJNX",
+    "9YYN2"
+   ],
+   "DC-in / charge port": [
+    "8GJM9"
+   ],
+   "Smart card reader": [
+    "T54GY"
+   ],
+   "System board": [
+    "T0VJ3",
+    "C56HH",
+    "YKF3V",
+    "13K4Y"
+   ],
+   "Touchpad buttons": [
+    "XKYX9",
+    "8NFW6",
+    "GX20W"
+   ],
+   "LED board": [
+    "Y81KR"
+   ],
+   "Hinge caps": [
+    "2PDG6",
+    "H3RVV",
+    "TPM8H"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1103",
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3396,7 +5954,64 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual21920206-latitude-7520-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered to the system board. The fan comes only as part of the heat-sink and fan assembly. The USB-C/Thunderbolt charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "TPPGR",
+    "7MCRD",
+    "KYNG9"
+   ],
+   "Battery": [
+    "7FMXV",
+    "9JM71"
+   ],
+   "WWAN card": [
+    "R74W0"
+   ],
+   "Heatsink": [
+    "5GG6X"
+   ],
+   "Keyboard": [
+    "MF1DR",
+    "CW3R5",
+    "8MJ5F",
+    "MFC90",
+    "MV4X8",
+    "CM7JH"
+   ],
+   "Palmrest/top cover": [
+    "2RPYX",
+    "HHX2W",
+    "7NVR7",
+    "04VCJ",
+    "CG0D2",
+    "DHT6D"
+   ],
+   "Display assembly": [
+    "VDFH4",
+    "FFH15",
+    "X2YG3",
+    "WYV63",
+    "Y30M9"
+   ],
+   "I/O board": [
+    "J48HH"
+   ],
+   "System board": [
+    "H2KK6",
+    "7MHG4",
+    "VPDVN",
+    "9RW31"
+   ],
+   "Speaker board": [
+    "VJJMR"
+   ],
+   "Tweeters": [
+    "06XCT"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1467",
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3456,7 +6071,31 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual32370065-latitude-7640-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered to the system board. The fan comes only as part of the heat-sink and fan assembly. The USB-C/Thunderbolt charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "YDJ56"
+   ],
+   "Battery": [
+    "WW8N8",
+    "66DWX",
+    "FH97R"
+   ],
+   "Keyboard": [
+    "H3DHT",
+    "D0M6K"
+   ],
+   "I/O board": [
+    "NM2Y6"
+   ],
+   "System board": [
+    "PPRRG",
+    "2K0Y8",
+    "PHNFN"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1649",
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3516,7 +6155,45 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual26913256-latitude-9520-latitude-9520-2-in-1-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Replacement system boards come with the heat sink and fan already installed; the manual says not to remove them. RAM and Wi-Fi are soldered. The Thunderbolt charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "47PW8",
+    "8G0TK"
+   ],
+   "Battery": [
+    "V5K68",
+    "TVKGH",
+    "N7HT0"
+   ],
+   "Keyboard": [
+    "23PXK",
+    "G3CMD",
+    "3R93D"
+   ],
+   "Palmrest/top cover": [
+    "0HY1W",
+    "CCK8M",
+    "3HVVG",
+    "07XD0",
+    "8R5KP",
+    "K8YPC"
+   ],
+   "Display assembly": [
+    "52JJ6"
+   ],
+   "I/O board": [
+    "4RJ1Y"
+   ],
+   "System board": [
+    "372Y7",
+    "9825N",
+    "GVMP9",
+    "V7583"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1494",
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3577,7 +6254,99 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual32067929-dell-precision-3541-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The fan screws to the heat-sink assembly and the manual shows it as its own step. The display panel and bezel procedures are for non-touch displays. The DC-in port is a separate part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "VR2C7",
+    "6K2VM"
+   ],
+   "Battery": [
+    "3HWPP",
+    "R8D7N",
+    "1FXDH"
+   ],
+   "Wi-Fi card": [
+    "T0HRM",
+    "D4V21",
+    "97XFP",
+    "7CDRN"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Coin-cell battery": [
+    "44YK6",
+    "V5XF3",
+    "CP5CV",
+    "04CTM",
+    "C8KT2",
+    "0F1DN"
+   ],
+   "Fan": [
+    "CVMC1",
+    "HFVP0"
+   ],
+   "Heatsink": [
+    "5R2HY",
+    "FHYC0",
+    "CVMC1"
+   ],
+   "Speakers": [
+    "8TWJ9"
+   ],
+   "Keyboard": [
+    "D74KX",
+    "DJXM0",
+    "M25NK",
+    "MMH7V",
+    "RG3RK",
+    "TCWPM"
+   ],
+   "Palmrest/top cover": [
+    "R2MG9",
+    "1YYTD",
+    "MVPGM",
+    "W3KYG",
+    "MCYN7",
+    "3VWH7"
+   ],
+   "Display panel": [
+    "3GMFC",
+    "WMXMD",
+    "W93R4",
+    "NM22V",
+    "KFMYW",
+    "4RRP5"
+   ],
+   "Display bezel": [
+    "CR8D3",
+    "PYH4J",
+    "1TJ8R",
+    "N8H52",
+    "RKD8R"
+   ],
+   "DC-in / charge port": [
+    "W3P6G"
+   ],
+   "Smart card reader": [
+    "G9X28"
+   ],
+   "System board": [
+    "82V39",
+    "00KFM",
+    "4JFKD",
+    "6H0J3"
+   ],
+   "Touchpad buttons": [
+    "YPHVV"
+   ],
+   "LED board": [
+    "RNF94",
+    "4N2R4"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1316",
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3638,7 +6407,88 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/precision-15-3551-laptop_Owners-Manual2_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "The fan screws to the heat-sink assembly and the manual shows it as its own step. The display panel and bezel procedures are for non-touch displays. The DC-in port is a separate part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5T9XX",
+    "XT9VH"
+   ],
+   "Battery": [
+    "3HWPP",
+    "R8D7N",
+    "1FXDH"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "D4V21",
+    "97XFP"
+   ],
+   "WWAN card": [
+    "H9WGV"
+   ],
+   "Fan": [
+    "HY6C8",
+    "58FXF"
+   ],
+   "Heatsink": [
+    "M5JXW",
+    "2K4Y3"
+   ],
+   "Speakers": [
+    "8TWJ9"
+   ],
+   "Keyboard": [
+    "D74KX",
+    "DJXM0",
+    "M25NK",
+    "MMH7V",
+    "RG3RK",
+    "TCWPM"
+   ],
+   "Palmrest/top cover": [
+    "GYXMR",
+    "2V0C1",
+    "XF7C2",
+    "CNN07",
+    "JWMFR",
+    "DG4DC"
+   ],
+   "Display panel": [
+    "3GMFC",
+    "WMXMD",
+    "W93R4",
+    "NM22V",
+    "KFMYW",
+    "4RRP5"
+   ],
+   "Display bezel": [
+    "V826K",
+    "JTJ83",
+    "77N90",
+    "RM658",
+    "2PVM7"
+   ],
+   "DC-in / charge port": [
+    "W3P6G"
+   ],
+   "System board": [
+    "JNTPG",
+    "9XKR8",
+    "33T3Y",
+    "39YDX"
+   ],
+   "Touchpad buttons": [
+    "XJ53Y",
+    "TY8H6",
+    "781D2"
+   ],
+   "LED board": [
+    "4N2R4"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1441",
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3698,7 +6548,30 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual19818761-precision-5480-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The keyboard comes only with the palm-rest assembly. RAM and Wi-Fi are soldered. The left and right fans are separate parts. The Thunderbolt charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "V0V1C",
+    "8RYJC"
+   ],
+   "Battery": [
+    "P83V9",
+    "YXP8T",
+    "CDTT2"
+   ],
+   "Fan": [
+    "3FCRK",
+    "5CPMD"
+   ],
+   "Palmrest/top cover": [
+    "H7J9K"
+   ],
+   "Smart card reader": [
+    "1J1CX"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1694",
+  "pn_notes": "Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3759,7 +6632,69 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/precision-15-5530-laptop_Owners-Manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "The keyboard is a separate part, but you must remove almost every other part (system board included) to replace it. Only the full display assembly has a procedure. The DC-in barrel connector is a separate part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "GHG50",
+    "3GNY8",
+    "7R0RK",
+    "H7FWF"
+   ],
+   "Battery": [
+    "6GTPY",
+    "H5H20"
+   ],
+   "Wi-Fi card": [
+    "2C9PW"
+   ],
+   "Coin-cell battery": [
+    "W6NPD"
+   ],
+   "Fan": [
+    "TK9J1",
+    "08YY9"
+   ],
+   "Heatsink": [
+    "XRGF6"
+   ],
+   "Speakers": [
+    "TX47W"
+   ],
+   "Keyboard": [
+    "GDT9F",
+    "WDHC2"
+   ],
+   "Palmrest/top cover": [
+    "2K6RG",
+    "JG1FC",
+    "282HT",
+    "4X63T",
+    "621WK"
+   ],
+   "Display assembly": [
+    "3FY9C",
+    "691FN",
+    "5CPJ2",
+    "J0YKF"
+   ],
+   "DC-in / charge port": [
+    "64TM0"
+   ],
+   "Audio/headphone board": [
+    "WD50F"
+   ],
+   "Power button (with optional fingerprint reader)": [
+    "0HF75"
+   ],
+   "System board": [
+    "5R14M",
+    "KMYJT",
+    "3DPFV",
+    "3FYD6"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1257",
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3818,7 +6753,61 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual27025299-precision-5540-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The keyboard is a separate part, but you must remove almost every other part (system board included) to replace it. Only the full display assembly has a procedure. The DC-in barrel connector is a separate part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "XX03W",
+    "1G70K",
+    "J7PGR"
+   ],
+   "Battery": [
+    "6GTPY",
+    "H5H20"
+   ],
+   "Wi-Fi card": [
+    "D4V21",
+    "7CDRN"
+   ],
+   "Fan": [
+    "V9H8N",
+    "F01PX"
+   ],
+   "Heatsink": [
+    "751F2",
+    "CJPJX",
+    "KNH4K"
+   ],
+   "Keyboard": [
+    "1KXV5",
+    "2JGWG"
+   ],
+   "Palmrest/top cover": [
+    "2K6RG",
+    "JG1FC",
+    "282HT",
+    "4X63T",
+    "621WK"
+   ],
+   "Display assembly": [
+    "MHWR3",
+    "9V876",
+    "C41VT",
+    "7FG50",
+    "1VYKY",
+    "3FKRX"
+   ],
+   "DC-in / charge port": [
+    "64TM0"
+   ],
+   "System board": [
+    "24X86",
+    "DJD5G",
+    "GCN0K",
+    "HCR3F"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1344",
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3879,7 +6868,48 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual43436424-dell-precision-5550-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The keyboard comes only with the palm-rest assembly. Wi-Fi is soldered. The two Thunderbolt charge ports are on the system board; the right USB-C port on the I/O board does not list Power Delivery.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "FMW6X"
+   ],
+   "Battery": [
+    "69KF2",
+    "8FCTC"
+   ],
+   "Fan": [
+    "09RK6",
+    "DJH35"
+   ],
+   "Heatsink": [
+    "R4GV7",
+    "442PH"
+   ],
+   "Palmrest/top cover": [
+    "6JV4G",
+    "08NGH",
+    "24K6R",
+    "DKFWH",
+    "2R4V9",
+    "5Y9T0"
+   ],
+   "Display assembly": [
+    "F45JY",
+    "NC75F",
+    "0HW3Y",
+    "4MCR0",
+    "GMW9D",
+    "PX8V8"
+   ],
+   "System board": [
+    "0M55X",
+    "6G3G6",
+    "9RKCG",
+    "W081T"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1458",
+  "pn_notes": "System board: only some CPU variants are listed. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3939,7 +6969,46 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual44781765-precision-5560-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The keyboard comes only with the palm-rest assembly. Wi-Fi is soldered. The right USB-C port (with Power Delivery) is on the I/O board; the two Thunderbolt charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "9RFWJ"
+   ],
+   "Battery": [
+    "69KF2",
+    "8FCTC"
+   ],
+   "Fan": [
+    "CN1MT",
+    "FK50V"
+   ],
+   "Heatsink": [
+    "GX5W2",
+    "359CG"
+   ],
+   "Palmrest/top cover": [
+    "NT8X6",
+    "DH0DC",
+    "DKFWH",
+    "H56H5"
+   ],
+   "Display assembly": [
+    "F45JY",
+    "NC75F",
+    "0HW3Y",
+    "4MCR0",
+    "GMW9D",
+    "PX8V8"
+   ],
+   "I/O board": [
+    "4DV9Y"
+   ],
+   "System board": [
+    "WPMMN"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1526",
+  "pn_notes": "System board: only some CPU variants are listed. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -3999,7 +7068,43 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual8040475-precision-5570-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The keyboard comes only with the palm-rest assembly. Wi-Fi is soldered. The right USB-C port (with Power Delivery) is on the I/O board; the two Thunderbolt charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "G14CP"
+   ],
+   "Battery": [
+    "69KF2",
+    "8FCTC"
+   ],
+   "Fan": [
+    "594WG",
+    "MC4KC"
+   ],
+   "Heatsink": [
+    "V9PVY"
+   ],
+   "Palmrest/top cover": [
+    "GN0D2",
+    "RTNNF",
+    "M7T24"
+   ],
+   "Display assembly": [
+    "2VYMF",
+    "5TRT8"
+   ],
+   "I/O board": [
+    "4DV9Y"
+   ],
+   "System board": [
+    "DPVMT"
+   ],
+   "LED board": [
+    "NN69N"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1568",
+  "pn_notes": "System board: only some CPU variants are listed. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4058,7 +7163,84 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/precision-15-7540-laptop_Owners-Manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "The two fans are part of the heat-sink assembly. The discrete GPU is on a removable graphics card.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "15HJ5",
+    "56FGF"
+   ],
+   "Battery": [
+    "NYFJH",
+    "5TF10"
+   ],
+   "Wi-Fi card": [
+    "8F3Y8",
+    "D4V21",
+    "8GJD6",
+    "97XFP",
+    "7CDRN",
+    "4MPRF"
+   ],
+   "Coin-cell battery": [
+    "C8KT2",
+    "8CX00",
+    "8KKXR",
+    "0F1DN"
+   ],
+   "Heatsink": [
+    "1209N",
+    "TW1KC",
+    "RX1Y7",
+    "M2F8R"
+   ],
+   "Keyboard": [
+    "266YW",
+    "0NMVF",
+    "06P79",
+    "0DK60"
+   ],
+   "Palmrest/top cover": [
+    "RGCRD",
+    "7KCXT",
+    "YJTD6",
+    "T2M67",
+    "6P79X",
+    "XMPHG"
+   ],
+   "Display assembly": [
+    "FJ99D"
+   ],
+   "Display panel": [
+    "D86JG",
+    "KGT56",
+    "1PVM5",
+    "XWHYC",
+    "PWX18",
+    "24GYY"
+   ],
+   "Display bezel": [
+    "7N2C8",
+    "D06KK"
+   ],
+   "DC-in / charge port": [
+    "PXXFG"
+   ],
+   "Smart card reader": [
+    "MW78P"
+   ],
+   "System board": [
+    "DKGFW",
+    "2H58H",
+    "11M3F",
+    "42T5V"
+   ],
+   "Display cable": [
+    "YRN03",
+    "YK9RG"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1329",
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4119,7 +7301,113 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual61528227-precision-7550-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The two fans are part of the heat-sink assembly. The display panel, bezel and camera procedures are for non-touch displays. The discrete GPU is on a removable graphics card.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "1M0MR",
+    "FYPGV",
+    "RR57H"
+   ],
+   "Battery": [
+    "PKWVM",
+    "C903V"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "KPV20",
+    "0GNKT",
+    "YRDHN",
+    "P9C34"
+   ],
+   "WWAN card": [
+    "K6VX5",
+    "JG0NM"
+   ],
+   "Coin-cell battery": [
+    "F90J6",
+    "8F7G4",
+    "MR652"
+   ],
+   "Heatsink": [
+    "3XNJY",
+    "GM3PG",
+    "VP4F7"
+   ],
+   "Speakers": [
+    "CFC0H"
+   ],
+   "Keyboard": [
+    "713DM",
+    "178XR",
+    "1WYH2",
+    "8XY7G"
+   ],
+   "Palmrest/top cover": [
+    "0DT37",
+    "JD4YM",
+    "KMPN3",
+    "PC1C6",
+    "HJHF7",
+    "RN0W0"
+   ],
+   "Display assembly": [
+    "HKTD7",
+    "W62VF",
+    "JK5G8"
+   ],
+   "Display panel": [
+    "PWX18",
+    "24GYY",
+    "6N3YH",
+    "DV5C5",
+    "7NVD7",
+    "CT3C7"
+   ],
+   "Display bezel": [
+    "6WT7M",
+    "9485G",
+    "NTTNJ"
+   ],
+   "Hinges": [
+    "7NMPC",
+    "WV663"
+   ],
+   "DC-in / charge port": [
+    "1X26W"
+   ],
+   "Smart card reader": [
+    "RNJ7M"
+   ],
+   "System board": [
+    "W842V",
+    "0GCHK",
+    "240T8",
+    "DD58W"
+   ],
+   "GPU card": [
+    "FRH7R"
+   ],
+   "SD card reader": [
+    "D0NRY"
+   ],
+   "Touchpad buttons": [
+    "FKXDH"
+   ],
+   "Power button board": [
+    "32DCD",
+    "7R96X",
+    "0FKP7",
+    "D8HJY"
+   ],
+   "Display cable": [
+    "CM4DM",
+    "XCT4N",
+    "CHHPX"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1460",
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4178,7 +7466,89 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual37098678-precision-7560-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The two fans are part of the heat-sink assembly. The display panel, bezel and camera procedures are for non-touch displays. The manual has no coin-cell battery procedure. The discrete GPU is on a removable graphics card.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "P7P81",
+    "P9W6Y",
+    "R07Y1"
+   ],
+   "Battery": [
+    "PKWVM",
+    "C903V"
+   ],
+   "WWAN card": [
+    "KY6XN",
+    "M8VKD"
+   ],
+   "Heatsink": [
+    "1Y5D1",
+    "8RVMW",
+    "JP1DP"
+   ],
+   "Speakers": [
+    "CFC0H"
+   ],
+   "Keyboard": [
+    "713DM",
+    "178XR",
+    "1WYH2",
+    "8XY7G"
+   ],
+   "Palmrest/top cover": [
+    "5D3YK",
+    "F6F47",
+    "TW58P"
+   ],
+   "Display assembly": [
+    "HKTD7",
+    "W62VF",
+    "JK5G8"
+   ],
+   "Display panel": [
+    "24GYY",
+    "6N3YH",
+    "DV5C5",
+    "7NVD7",
+    "CT3C7",
+    "F8FGD"
+   ],
+   "Display bezel": [
+    "6WT7M",
+    "9485G",
+    "NTTNJ"
+   ],
+   "Hinges": [
+    "7NMPC",
+    "WV663"
+   ],
+   "DC-in / charge port": [
+    "VD0T7"
+   ],
+   "Smart card reader": [
+    "VRD06"
+   ],
+   "System board": [
+    "G8MW0"
+   ],
+   "SD card reader": [
+    "2TM25"
+   ],
+   "Touchpad buttons": [
+    "FKXDH"
+   ],
+   "Power button board": [
+    "D8HJY"
+   ],
+   "Display cable": [
+    "PF7W2"
+   ],
+   "Battery cable": [
+    "N11W2"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1524",
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4238,7 +7608,66 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual26321886-precision-7670-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The two fans come off with the heat sink as one assembly. Only the full display assembly has a procedure. RAM is SO-DIMM or CAMM, depending on the configuration. The service manual has no Wi-Fi or WWAN card procedure, but the spec lists M.2 slots for them.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "305YY",
+    "6VXVX",
+    "9VR67",
+    "37JT4",
+    "F23H9",
+    "N92TY"
+   ],
+   "Battery": [
+    "X9FTM",
+    "RCVVT"
+   ],
+   "WWAN card": [
+    "CC11K"
+   ],
+   "Speakers": [
+    "3FWY4"
+   ],
+   "Keyboard": [
+    "RHGTP",
+    "KRJFY",
+    "N7N16",
+    "PWYP2"
+   ],
+   "Palmrest/top cover": [
+    "2GKJD",
+    "YPCM3"
+   ],
+   "Display assembly": [
+    "46RFV",
+    "18G7F",
+    "4CT24",
+    "6KTVN",
+    "FKJDN",
+    "HTFMC"
+   ],
+   "DC-in / charge port": [
+    "VD7CJ"
+   ],
+   "Smart card reader": [
+    "JF4WH"
+   ],
+   "Power button board": [
+    "X029X",
+    "N646P",
+    "P1G0N",
+    "J1R8M"
+   ],
+   "Memory interposer board": [
+    "DM7N3",
+    "RN12H"
+   ],
+   "Battery cable": [
+    "GHPF7"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1619",
+  "pn_notes": "Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4298,7 +7727,73 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual32902787-precision-7680-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The two fans come off with the heat sink as one assembly. Only the full display assembly has a procedure. RAM is SO-DIMM or CAMM, depending on the configuration.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "24H21",
+    "RKCMR",
+    "V5T9N",
+    "YWTXD"
+   ],
+   "Battery": [
+    "X9FTM",
+    "RCVVT"
+   ],
+   "Wi-Fi card": [
+    "G83J7"
+   ],
+   "WWAN card": [
+    "CC11K"
+   ],
+   "Speakers": [
+    "3FWY4"
+   ],
+   "Keyboard": [
+    "RHGTP",
+    "KRJFY",
+    "N7N16",
+    "PWYP2"
+   ],
+   "Palmrest/top cover": [
+    "YPCM3"
+   ],
+   "Display assembly": [
+    "46RFV",
+    "18G7F",
+    "4CT24",
+    "6KTVN",
+    "FKJDN",
+    "HTFMC"
+   ],
+   "DC-in / charge port": [
+    "VD7CJ"
+   ],
+   "Smart card reader": [
+    "JF4WH"
+   ],
+   "System board": [
+    "P0RWW",
+    "XRC2C"
+   ],
+   "SD card reader": [
+    "W1M1G"
+   ],
+   "Power button board": [
+    "X029X",
+    "N646P",
+    "P1G0N",
+    "J1R8M"
+   ],
+   "Memory interposer board": [
+    "DM7N3",
+    "DY9M7"
+   ],
+   "Battery cable": [
+    "GHPF7"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1665",
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4358,7 +7853,50 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual50726797-vostro-14-5410-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The keyboard is part of the palm-rest assembly. The fan and the heat sink are separate parts. The DC-in port is a separate part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "1D46R",
+    "2YGH5"
+   ],
+   "Battery": [
+    "V6W33",
+    "G91J0"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "1275K"
+   ],
+   "Heatsink": [
+    "FVP9M"
+   ],
+   "Speakers": [
+    "THN6V"
+   ],
+   "Palmrest/top cover": [
+    "7XR80",
+    "7CX64",
+    "0GYXJ",
+    "0JFFT"
+   ],
+   "Display assembly": [
+    "X08K8",
+    "WGK52"
+   ],
+   "I/O board": [
+    "6K5G9",
+    "C7N67"
+   ],
+   "System board": [
+    "4MDYP",
+    "2PXHN",
+    "TGWCJ",
+    "XJ8WK"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=145&subid=1521",
+  "pn_notes": "System board: 4 of many CPU variants. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4416,7 +7954,55 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual38764916-vostro-15-5510-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The keyboard is part of the palm-rest assembly. The fan and the heat sink are separate parts. The DC-in port is a separate part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "6F5C1"
+   ],
+   "Battery": [
+    "V6W33",
+    "G91J0"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J"
+   ],
+   "Fan": [
+    "KRK6P"
+   ],
+   "Heatsink": [
+    "DWNYR"
+   ],
+   "Speakers": [
+    "TYRXP"
+   ],
+   "Touchpad": [
+    "F8VYM"
+   ],
+   "Display assembly": [
+    "6092Y",
+    "1FRG3",
+    "2HXPF"
+   ],
+   "DC-in / charge port": [
+    "VP7D8"
+   ],
+   "I/O board": [
+    "6NH0F",
+    "WP6X0"
+   ],
+   "System board": [
+    "PHRMM",
+    "7KTNC",
+    "828FX",
+    "H9WXW"
+   ],
+   "Battery cable": [
+    "8RV7V"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=145&subid=1599",
+  "pn_notes": "System board: 4 of many CPU variants. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4480,7 +8066,24 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual7748477-vostro-5320-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "The keyboard is part of the palm-rest assembly. RAM is soldered. The left and right fans are separate parts. The Thunderbolt charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "V6W33",
+    "G91J0"
+   ],
+   "Wi-Fi card": [
+    "XVV0P",
+    "P1C6J",
+    "G83J7"
+   ],
+   "Display assembly": [
+    "YGYWV",
+    "59G60"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=145&subid=1604",
+  "pn_notes": "Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4540,7 +8143,55 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/xps-13-7390-laptop_service-manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "Some units have separate fans; others have a combined heat-sink and fan assembly. The keyboard is a separate part, but you must remove the system board to replace it. RAM and Wi-Fi are soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "49W35",
+    "6956H",
+    "X3DF2"
+   ],
+   "Battery": [
+    "DXGH8",
+    "H754V",
+    "G8VCF"
+   ],
+   "Coin-cell battery": [
+    "W6NPD"
+   ],
+   "Heatsink": [
+    "WCX2D"
+   ],
+   "Keyboard": [
+    "6Y7DJ",
+    "FVW9W",
+    "3CM18",
+    "FXCRT",
+    "RMCR1"
+   ],
+   "Palmrest/top cover": [
+    "69GRJ",
+    "T4CF4",
+    "52FJR",
+    "DP52R",
+    "KPRW0",
+    "9G07V"
+   ],
+   "Display assembly": [
+    "4FNTY",
+    "VCN84",
+    "291GW",
+    "29HRY",
+    "XPNX9"
+   ],
+   "System board": [
+    "0PD70",
+    "68V0G",
+    "7G1Y1",
+    "F3VKC"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1335",
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4601,7 +8252,49 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/xps-13-9300-laptop_service-manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "The keyboard, speakers and power button come only with the palm-rest assembly. RAM and Wi-Fi are soldered. The Thunderbolt charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "3KJK7",
+    "T3Y7G"
+   ],
+   "Battery": [
+    "WN0N0",
+    "722KK",
+    "2XXFW",
+    "FP86V"
+   ],
+   "Fan": [
+    "FRK0V",
+    "WX28K"
+   ],
+   "Heatsink": [
+    "5TY0F"
+   ],
+   "Palmrest/top cover": [
+    "6JC7G",
+    "Y75C4",
+    "GT8XM",
+    "7K5MC",
+    "YR0PM"
+   ],
+   "Display assembly": [
+    "4MFP0",
+    "5KP73",
+    "5Y4HV",
+    "GM6DH",
+    "HCVMT",
+    "RGG8M"
+   ],
+   "System board": [
+    "8M10C",
+    "VN757",
+    "GRKMN",
+    "N59RC"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1436",
+  "pn_notes": "System board: 4 of many CPU variants. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4662,7 +8355,37 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/xps-13-9305-laptop_service-manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "On i5/i7 models the fans come only with the heat-sink and fan assembly; on i3 models the fans are separate. The keyboard is a separate part, but you must remove the system board to replace it. RAM and Wi-Fi are soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "X3DF2"
+   ],
+   "Battery": [
+    "WN0N0",
+    "722KK",
+    "2XXFW",
+    "FP86V"
+   ],
+   "Heatsink": [
+    "V7PMV"
+   ],
+   "Keyboard": [
+    "6Y7DJ",
+    "3CM18"
+   ],
+   "Palmrest/top cover": [
+    "KPRW0",
+    "9G07V"
+   ],
+   "Display assembly": [
+    "4FNTY"
+   ],
+   "System board": [
+    "5MPW9"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1488",
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
  },
  {
   "brand": "Dell",
@@ -4722,7 +8445,35 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/xps-13-9370-laptop_Service-Manual_de-de.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. The USB-C charge ports are on the system board. The keyboard comes out only after the system board. The fingerprint reader is part of the power button.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "DXGH8",
+    "H754V",
+    "G8VCF"
+   ],
+   "Coin-cell battery": [
+    "W6NPD"
+   ],
+   "Fan": [
+    "980WH",
+    "19Y00"
+   ],
+   "Heatsink": [
+    "PNWJR"
+   ],
+   "Keyboard": [
+    "FVW9W"
+   ],
+   "Palmrest/top cover": [
+    "69GRJ"
+   ],
+   "Display assembly": [
+    "0NHPC"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1200",
+  "pn_notes": "Parts seller data. Battery copied from battery data. Fan is the dual fan assembly (two DP/Ns listed). Keyboard: backlit, white. Display: 4K UHD touch, rose gold."
  },
  {
   "brand": "Dell",
@@ -4780,7 +8531,56 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/xps-15-7590-laptop_service-manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "The keyboard comes out only after almost all other parts, including the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "6GTPY",
+    "H5H20"
+   ],
+   "Wi-Fi card": [
+    "TKNXX",
+    "D4V21",
+    "97XFP",
+    "8PKF4"
+   ],
+   "Fan": [
+    "F01PX",
+    "V9H8N"
+   ],
+   "Heatsink": [
+    "751F2"
+   ],
+   "Speakers": [
+    "TX47W"
+   ],
+   "Palmrest/top cover": [
+    "2K6RG",
+    "JG1FC"
+   ],
+   "Display assembly": [
+    "MHWR3",
+    "9V876",
+    "C41VT",
+    "7FG50"
+   ],
+   "DC-in / charge port": [
+    "64TM0"
+   ],
+   "Fingerprint reader": [
+    "0HF75"
+   ],
+   "Power button": [
+    "0HF75"
+   ],
+   "Hard drive": [
+    "3FDY3"
+   ],
+   "Coin-cell battery": [
+    "W6NPD"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1321",
+  "pn_notes": "Parts seller data. Battery copied from battery data. Wi-Fi: Killer 1650x, DW1820 (two DP/Ns), DW1820A. Fan: left CPU, right GPU. Heatsink: discrete Nvidia model. Palmrest (with keyboard and touchpad): two DP/Ns. Display: FHD IR silver, FHD gray, UHD touch, OLED UHD. Fingerprint reader is on the power button board. Hard drive: caddy only."
  },
  {
   "brand": "Dell",
@@ -4840,7 +8640,42 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/xps-15-9500-laptop_service-manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "Charges over USB-C; the USB-C ports are on the system board. The I/O board has the SD card reader and audio jack. Wi-Fi is not a separate part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "0RRHV"
+   ],
+   "Battery": [
+    "69KF2",
+    "8FCTC"
+   ],
+   "Fan": [
+    "09RK6",
+    "DJH35"
+   ],
+   "Heatsink": [
+    "R4GV7",
+    "442PH"
+   ],
+   "Speakers": [
+    "6NVTX"
+   ],
+   "Palmrest/top cover": [
+    "08NGH",
+    "6JV4G",
+    "DKFWH",
+    "24K6R"
+   ],
+   "Display assembly": [
+    "F45JY",
+    "NC75F"
+   ],
+   "I/O board": [
+    "H2HGT"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1437",
+  "pn_notes": "Parts seller data. Fan: left CPU, right GPU. Heatsink: integrated, discrete graphics. Palmrest includes backlit keyboard and touchpad (seller lists several DP/Ns). Display: 4K UHD+ touch (silver, gray). I/O board is the SD card reader board."
  },
  {
   "brand": "Dell",
@@ -4899,7 +8734,28 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/topicspdf/xps-15-9510-laptop_service-manual_en-us.pdf",
   "repair_confidence": "high",
   "repair_notes": "Charges over USB-C; the USB-C ports are on the system board. The I/O board has the SD card reader and audio jack. Wi-Fi is not a separate part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "69KF2",
+    "8FCTC"
+   ],
+   "Heatsink": [
+    "GX5W2"
+   ],
+   "Speakers": [
+    "6NVTX"
+   ],
+   "Palmrest/top cover": [
+    "NT8X6"
+   ],
+   "Display assembly": [
+    "F45JY",
+    "NC75F"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1534",
+  "pn_notes": "Parts seller data. Heatsink: integrated graphics model. Speakers: seller lists 6NVTX for 9500 and 9510. Display: 4K UHD+ touch (silver, gray)."
  },
  {
   "brand": "Dell",
@@ -4960,7 +8816,22 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual10586682-xps-15-9520-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Charges over USB-C; the USB-C ports are on the system board. The I/O board has the SD card reader and audio board. Wi-Fi is not a separate part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "69KF2",
+    "8FCTC"
+   ],
+   "Palmrest/top cover": [
+    "VHN0D",
+    "R4N39"
+   ],
+   "LED board": [
+    "NN69N"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1549",
+  "pn_notes": "Parts seller data. Palmrest includes keyboard and touchpad, US International. LED board is the status LED with cable. The display lid seller parts are back covers only."
  },
  {
   "brand": "Dell",
@@ -5019,7 +8890,21 @@ window.BATTERIES = [
   "service_manual_url": "https://dl.dell.com/content/manual19878846-xps-15-9530-service-manual.pdf?language=en-us",
   "repair_confidence": "high",
   "repair_notes": "Charges over USB-C; the USB-C ports are on the system board. The I/O board has the SD card reader; the audio jack is part of the bottom cover. Wi-Fi is not a separate part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "69KF2"
+   ],
+   "Palmrest/top cover": [
+    "VHN0D",
+    "R4N39"
+   ],
+   "LED board": [
+    "NN69N"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1647",
+  "pn_notes": "Parts seller data. Palmrest (shared with XPS 15 9520) includes keyboard and touchpad, US International. LED board is the status LED with cable."
  },
  {
   "brand": "Dynabook",
@@ -5077,7 +8962,22 @@ window.BATTERIES = [
   "service_manual_url": "https://aps2.support.emea.dynabook.com/kb0/MAN23040T0000R01_MM_X30L-K.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are on the system board. The USB-C charge ports are on the system board. The panel is held by tape.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G71C000MQ110",
+    "G71C000MA210"
+   ],
+   "Display panel": [
+    "G33C0009Q110",
+    "G33C0009X110",
+    "G33C000AS110",
+    "G33C000AR110",
+    "G33C000AW110"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://aps2.support.emea.dynabook.com/kb0/MAN23040T0000R01_MM_X30L-K.pdf",
+  "pn_notes": "The maintenance manual lists part codes only for the battery and the 13.3 in FHD LCD modules (five panel sources); its FRU list has no codes for other parts."
  },
  {
   "brand": "Dynabook",
@@ -5135,7 +9035,27 @@ window.BATTERIES = [
   "service_manual_url": "https://aps2.support.emea.dynabook.com/kb0/MAN2504110000R01_MM_X30W-K.pdf",
   "repair_confidence": "high",
   "repair_notes": "The touch panel is sold as an LCD unit with camera and is held by tape. RAM and Wi-Fi are on the system board. The USB-C charge ports are on the system board. Two fans.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G71C000M7110",
+    "G71C000M9110",
+    "G71C000M7210",
+    "G71C000MX110",
+    "G71C000M9210"
+   ],
+   "Keyboard": [
+    "G83C000L45US",
+    "G83C000L46US",
+    "G83C000L55US"
+   ],
+   "Display panel": [
+    "G83C000L3110",
+    "G83C000L3210"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://aps2.support.emea.dynabook.com/kb0/MAN2504110000R01_MM_X30W-K.pdf",
+  "pn_notes": "The manual covers X30W-J and X30W-K together. Keyboard: US layout; first two have white backlight, last has red backlight. Display panel: 13.3 in FHD touch LCD modules. The manual lists no codes for other parts."
  },
  {
   "brand": "Dynabook",
@@ -5193,7 +9113,20 @@ window.BATTERIES = [
   "service_manual_url": "https://aps2.support.emea.dynabook.com/kb0/MAN0B03ZJ0002R01_MM_X40-J.pdf",
   "repair_confidence": "high",
   "repair_notes": "The keyboard is only sold with the cover (palmrest) assembly. The USB-C charge ports are on the system board; the small USB board has only the USB-A ports.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G71C000M8110",
+    "G71C000MA110"
+   ],
+   "Display panel": [
+    "G33C000AC110",
+    "G33C0009S110",
+    "G33C000A9110"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://aps2.support.emea.dynabook.com/kb0/MAN0B03ZJ0002R01_MM_X40-J.pdf",
+  "pn_notes": "The maintenance manual lists part codes only for the battery and the 14 in FHD LCD modules (three panel sources)."
  },
  {
   "brand": "Dynabook",
@@ -5251,7 +9184,10 @@ window.BATTERIES = [
   "service_manual_url": "https://anz.dynabook.com/laptop/portege-x40-m/series2/specification.php",
   "repair_confidence": "low",
   "repair_notes": "No maintenance manual found. The parts list is a guess from the X40L-K manual; check before you buy parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {},
+  "pn_confidence": "low",
+  "pn_source_url": "https://support.dynabook.com/support/modelHome?freeText=X4050568H",
+  "pn_notes": "No maintenance manual or parts list with part codes found for the X40-M."
  },
  {
   "brand": "Dynabook",
@@ -5311,7 +9247,18 @@ window.BATTERIES = [
   "service_manual_url": "https://aps2.support.emea.dynabook.com/kb0/MAN2504120000R01_MM_X40L-K.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are on the system board. The USB-C charge ports are on the system board. The panel is held by tape.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G71C000MT110",
+    "G71C000MV110"
+   ],
+   "Display panel": [
+    "G33C000AX110"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://aps2.support.emea.dynabook.com/kb0/MAN2504120000R01_MM_X40L-K.pdf",
+  "pn_notes": "The maintenance manual lists part codes only for the battery (65 Wh) and the 14 in WUXGA LCD module."
  },
  {
   "brand": "HP",
@@ -5370,7 +9317,108 @@ window.BATTERIES = [
   "service_manual_url": "https://h10032.www1.hp.com/ctg/Manual/c06189588.pdf",
   "repair_confidence": "high",
   "repair_notes": "Touch and privacy displays are sold only as a full assembly. The barrel and USB-C power connectors are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L13674-001"
+   ],
+   "Battery": [
+    "933321-855"
+   ],
+   "RAM": [
+    "865396-855",
+    "862398-855",
+    "862397-855"
+   ],
+   "SSD": [
+    "L13728-001",
+    "L13727-001",
+    "L13726-001",
+    "L13721-001",
+    "L13722-001",
+    "L13720-001"
+   ],
+   "Wi-Fi card": [
+    "915623-001",
+    "851592-001",
+    "851594-001"
+   ],
+   "WWAN card": [
+    "L15398-001",
+    "845710-003"
+   ],
+   "Coin-cell battery": [
+    "L13694-001"
+   ],
+   "Fan": [
+    "L13679-001"
+   ],
+   "Heatsink": [
+    "L13680-001"
+   ],
+   "Speakers": [
+    "L13684-001"
+   ],
+   "Touchpad": [
+    "L15394-001",
+    "L13685-001"
+   ],
+   "Keyboard": [
+    "L13691-001",
+    "L13698-001",
+    "L15500-001"
+   ],
+   "Palmrest/top cover": [
+    "L13831-001"
+   ],
+   "Display panel": [
+    "L14387-001",
+    "L14390-001",
+    "L14395-001",
+    "L13829-001",
+    "L47440-001"
+   ],
+   "Display bezel": [
+    "L14934-001",
+    "L14933-001",
+    "L14932-001",
+    "L14931-001"
+   ],
+   "Camera": [
+    "L13677-001",
+    "L13676-001"
+   ],
+   "Hinges": [
+    "L13683-001",
+    "L17975-001"
+   ],
+   "Fingerprint reader": [
+    "L13681-001"
+   ],
+   "Smart card reader": [
+    "L13690-001"
+   ],
+   "Power button": [
+    "L13687-001"
+   ],
+   "System board": [
+    "L13711-001",
+    "L13709-001",
+    "L13712-001",
+    "L13710-001"
+   ],
+   "RJ-45 board": [
+    "L19425-001"
+   ],
+   "NFC module": [
+    "L14385-001"
+   ],
+   "Touchpad button board": [
+    "L19426-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://h10032.www1.hp.com/ctg/Manual/c06189588.pdf",
+  "pn_notes": "The guide gives no part number for the whole display assembly (touch and privacy units are whole-unit spares only). Keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: with NFC, without NFC. Display panel: FHD HD-camera, FHD IR, FHD touch IR, FHD privacy WWAN, FHD touch WWAN. Hinges: non-touch, touch. Camera: HD, IR. Wi-Fi: Realtek RTL8822BE, Intel 8265 vPro, Intel 8265. System board: i7-8550U, i5-8250U, i7-8650U, i5-8350U (-001 non-Windows, -601 Windows); more variants exist."
  },
  {
   "brand": "HP",
@@ -5429,7 +9477,107 @@ window.BATTERIES = [
   "service_manual_url": "https://h10032.www1.hp.com/ctg/Manual/c07496812.pdf",
   "repair_confidence": "high",
   "repair_notes": "Source is the HP Interactive Part Locator. The keyboard is sold with the top cover.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M36396-001"
+   ],
+   "Battery": [
+    "L78555-005"
+   ],
+   "RAM": [
+    "M09713-001",
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "L85358-001",
+    "L85348-001",
+    "L85360-001",
+    "L85364-001",
+    "L85350-001",
+    "L85354-001"
+   ],
+   "Wi-Fi card": [
+    "L92722-001",
+    "L92724-001"
+   ],
+   "WWAN card": [
+    "L70670-001",
+    "L83053-001"
+   ],
+   "Coin-cell battery": [
+    "L13694-001"
+   ],
+   "Fan": [
+    "M07102-001"
+   ],
+   "Heatsink": [
+    "M07204-001"
+   ],
+   "Speakers": [
+    "M08523-001"
+   ],
+   "Touchpad": [
+    "M36399-001",
+    "M36400-001"
+   ],
+   "Palmrest/top cover": [
+    "M36413-001",
+    "M36415-001",
+    "M36414-001"
+   ],
+   "Display panel": [
+    "M36418-001",
+    "M36416-001",
+    "M36417-001",
+    "M36419-001"
+   ],
+   "Display bezel": [
+    "M08545-001",
+    "M08546-001",
+    "M08547-001",
+    "M08548-001",
+    "M15624-001"
+   ],
+   "Camera": [
+    "M07216-001",
+    "M08549-001"
+   ],
+   "Hinges": [
+    "M08555-001"
+   ],
+   "DC-in / charge port": [
+    "M15626-001"
+   ],
+   "Fingerprint reader": [
+    "M36397-001"
+   ],
+   "Smart card reader": [
+    "M08551-001"
+   ],
+   "System board": [
+    "M36402-001",
+    "M36401-001"
+   ],
+   "USB board": [
+    "M36398-001"
+   ],
+   "NFC module": [
+    "M07214-001"
+   ],
+   "Hub board": [
+    "M07210-001",
+    "M07211-001"
+   ],
+   "Microphone board": [
+    "M07208-001",
+    "M07209-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manua.ls/hp/elitebook-830-g8/manual",
+  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide (pages 29-32). No display assembly spare; order subcomponents. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: without, with NFC antenna. Display panel: 1000 nit privacy, 250 nit, 250 nit touch, 400 nit. Camera: RGB, IR. Smart card reader is the card reader board. Hub board: RGB/mic, IR. Microphone: main, third mic. System board: i7-1165G7, i5-1135G7 (-001 non-Windows, -601 Windows). DC-in is the power connector cable."
  },
  {
   "brand": "HP",
@@ -5489,7 +9637,66 @@ window.BATTERIES = [
   "service_manual_url": "https://content.etilize.com/User-Manual/1059496127.pdf",
   "repair_confidence": "high",
   "repair_notes": "Touch displays are sold only as full hinge-ups. The fan comes with the heat sink. RAM and Wi-Fi are soldered. The USB-C charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L31851-001"
+   ],
+   "Battery": [
+    "L02478-855"
+   ],
+   "SSD": [
+    "L31874-001",
+    "L31879-001",
+    "L31880-001",
+    "L31875-001",
+    "L31876-001",
+    "L31873-001"
+   ],
+   "WWAN card": [
+    "L29292-800"
+   ],
+   "Heatsink": [
+    "L31859-001"
+   ],
+   "Speakers": [
+    "L31854-001"
+   ],
+   "Touchpad": [
+    "L31855-001"
+   ],
+   "Palmrest/top cover": [
+    "L31882-001",
+    "L31883-001"
+   ],
+   "Display assembly": [
+    "L31868-001",
+    "L31869-001",
+    "L31870-001",
+    "L31871-001",
+    "L31872-001"
+   ],
+   "Audio/headphone board": [
+    "L31858-001"
+   ],
+   "Fingerprint reader": [
+    "L31852-001"
+   ],
+   "Power button": [
+    "L31857-001"
+   ],
+   "System board": [
+    "L31865-001",
+    "L31861-001",
+    "L31863-001",
+    "L31867-001"
+   ],
+   "NFC module": [
+    "L31856-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://content.etilize.com/User-Manual/1059496127.pdf",
+  "pn_notes": "Display assembly (touch, whole unit): FHD AG 400 nit, FHD AG 700 nit privacy, FHD BV 400 nit, FHD AG 700 nit privacy (second), FHD BV 500 nit. Palmrest/top cover includes US keyboard: standard, privacy models. Power button is spared with the volume board. Heatsink is the fan/heat sink. The guide table has errors: it gives L31852-001 for the fingerprint reader, its bracket and the battery; the battery number here is copied from the battery data. System board includes fan/heat sink (16 GB, -001): i7-8550U, i5-8250U, i5-8350U, i7-8650U."
  },
  {
   "brand": "HP",
@@ -5550,7 +9757,68 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12667748_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Displays are sold only as full hinge-ups. The fan comes with the heat sink. RAM and Wi-Fi are soldered. The USB-C charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L70754-001"
+   ],
+   "Battery": [
+    "L02478-855"
+   ],
+   "SSD": [
+    "L31877-001",
+    "L31874-001",
+    "L31879-001",
+    "L76713-001",
+    "L31875-001",
+    "L31876-001"
+   ],
+   "WWAN card": [
+    "L15398-001",
+    "L27188-001"
+   ],
+   "Heatsink": [
+    "L70756-001"
+   ],
+   "Speakers": [
+    "L83078-001"
+   ],
+   "Touchpad": [
+    "L70774-001",
+    "L70775-001"
+   ],
+   "Palmrest/top cover": [
+    "L70776-001",
+    "L70777-001"
+   ],
+   "Display assembly": [
+    "L70759-001",
+    "L70760-001",
+    "L70761-001",
+    "L70762-001",
+    "L70763-001"
+   ],
+   "Audio/headphone board": [
+    "L31858-001"
+   ],
+   "Fingerprint reader": [
+    "L70757-001"
+   ],
+   "Power button": [
+    "L31857-001"
+   ],
+   "System board": [
+    "L70767-001",
+    "L70764-001",
+    "L70771-001",
+    "L70766-001"
+   ],
+   "NFC module": [
+    "L02249-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12667748_en-US-1.pdf",
+  "pn_notes": "Display assembly (touch, whole unit): FHD antiglare, FHD antiglare privacy, FHD BrightView, FHD BrightView privacy, UHD BrightView. Palmrest/top cover includes keyboard (US = -001): non-privacy, privacy models. Touchpad: without NFC, with NFC. Heatsink is the heat sink/fan assembly. Power button is the power button board. System board (16 GB, -001 non-Windows): i7-8565U, i5-8265U, i7-8665U, i5-8365U; more variants exist."
  },
  {
   "brand": "HP",
@@ -5610,7 +9878,87 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12642789_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Touch displays are sold only as a full assembly. The power connector cable is in the cable kit. RAM is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M46054-001",
+    "M46055-001"
+   ],
+   "Battery": [
+    "L78551-005"
+   ],
+   "SSD": [
+    "L85358-002",
+    "L85348-002",
+    "L85360-002",
+    "L85364-002",
+    "L85350-002",
+    "L85354-002"
+   ],
+   "Wi-Fi card": [
+    "L92722-005",
+    "L92724-005"
+   ],
+   "WWAN card": [
+    "L83053-005",
+    "L70670-005"
+   ],
+   "Coin-cell battery": [
+    "M21797-001"
+   ],
+   "Fan": [
+    "M03868-001"
+   ],
+   "Heatsink": [
+    "M46056-001"
+   ],
+   "Speakers": [
+    "M50317-001",
+    "M50318-001"
+   ],
+   "Touchpad": [
+    "M46069-001",
+    "M46070-001"
+   ],
+   "Palmrest/top cover": [
+    "M46071-001",
+    "M46073-001",
+    "M46072-001"
+   ],
+   "Display assembly": [
+    "M46058-001",
+    "M46067-001",
+    "M46063-001",
+    "M46061-001",
+    "M46065-001",
+    "M46059-001"
+   ],
+   "DC-in / charge port": [
+    "M03867-001"
+   ],
+   "Fingerprint reader": [
+    "M36397-001"
+   ],
+   "System board": [
+    "M46085-001",
+    "M46078-001",
+    "M46081-001",
+    "M46075-001"
+   ],
+   "NFC module": [
+    "M08706-001"
+   ],
+   "Card reader board": [
+    "M03883-001"
+   ],
+   "Antennas": [
+    "M46052-001",
+    "M46053-001",
+    "M03892-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12642789_en-US-1.pdf",
+  "pn_notes": "Display assembly (whole hinge-up unit only): 250 nit BrightView, 400 nit BrightView, 400 nit antiglare, 1000 nit BrightView privacy, 1000 nit antiglare privacy (all no WWAN), then 250 nit BrightView WWAN; other WWAN versions exist. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Bottom cover: with, without WWAN. Speakers: without, with WWAN. DC-in: the power connector cable is only in the Cable Kit M03867-001. Antennas: WWAN Aux2, WWAN Aux3, NFC antenna. System board: -001 non-Windows for i7-1165G7 16 GB, i5-1135G7 16 GB, i7-1185G7 16 GB, i5-1145G7 16 GB; more variants exist."
  },
  {
   "brand": "HP",
@@ -5671,7 +10019,71 @@ window.BATTERIES = [
   "service_manual_url": "https://h10032.www1.hp.com/ctg/Manual/c07006607.pdf",
   "repair_confidence": "high",
   "repair_notes": "Source is the HP Interactive Part Locator. The fan is sold with the heat sink. The parts list has no WLAN module or memory. Charge port location is not stated; it is probably on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M42266-001"
+   ],
+   "Battery": [
+    "L52581-005",
+    "L71760-005"
+   ],
+   "SSD": [
+    "L85358-002",
+    "L85348-002",
+    "L85360-002",
+    "L85364-002",
+    "L85354-002",
+    "M06792-002"
+   ],
+   "WWAN card": [
+    "L70670-005",
+    "M49195-005"
+   ],
+   "Heatsink": [
+    "M42267-001",
+    "M42268-001"
+   ],
+   "Speakers": [
+    "L74101-001"
+   ],
+   "Touchpad": [
+    "M42279-001"
+   ],
+   "Palmrest/top cover": [
+    "M42280-001",
+    "M42281-001"
+   ],
+   "Display assembly": [
+    "M42271-001",
+    "M42272-001",
+    "M42273-001",
+    "M44359-001",
+    "M44360-001",
+    "M44361-001"
+   ],
+   "Audio/headphone board": [
+    "M42275-001"
+   ],
+   "Fingerprint reader": [
+    "M42269-001"
+   ],
+   "Power button": [
+    "M42274-001"
+   ],
+   "System board": [
+    "M42289-001",
+    "M42287-001",
+    "M42284-001",
+    "M42282-001"
+   ],
+   "USB board": [
+    "M42276-001",
+    "M42277-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualslib.com/manual/2410121/Hp-Elite-Dragonfly-G2.html?page=26",
+  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide. Display assembly: FHD 400 nit, FHD privacy 1000 nit, UHD HDR-400 (WLAN/4G), then the same three for 5G. Battery: 4 cell 56 Wh, 2 cell 38 Wh. Heatsink is the heat sink and fan assembly: standard, titanium. Palmrest/top cover includes keyboard (US = -001): backlit, backlit privacy. WWAN: XMM 7360 LTE, Snapdragon X55 5G. USB board: without WWAN, with WWAN. Power button is the power button board. System board: -001 non-Windows for i7-1165G7 16 GB, i5-1145G7 16 GB, i5-1135G7 16 GB, i3-1115G4 8 GB; more variants exist."
  },
  {
   "brand": "HP",
@@ -5731,7 +10143,80 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3143324/Hp-Elitebook-x360-1040.html",
   "repair_confidence": "high",
   "repair_notes": "Displays are sold only as a full assembly. The USB-C charge ports are on the system board. RAM is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N09282-001"
+   ],
+   "Battery": [
+    "M73466-005",
+    "M73468-005",
+    "N22347-005"
+   ],
+   "SSD": [
+    "M52027-001",
+    "M16560-001",
+    "N23415-001",
+    "N04490-001",
+    "M17436-001",
+    "M52031-001"
+   ],
+   "Wi-Fi card": [
+    "M53366-001",
+    "M53363-001"
+   ],
+   "WWAN card": [
+    "N00181-001",
+    "N00182-001"
+   ],
+   "Coin-cell battery": [
+    "N15765-001"
+   ],
+   "Fan": [
+    "N02330-001"
+   ],
+   "Heatsink": [
+    "N07350-001"
+   ],
+   "Speakers": [
+    "N13695-001"
+   ],
+   "Touchpad": [
+    "N13694-001"
+   ],
+   "Palmrest/top cover": [
+    "N44537-001",
+    "N44538-001"
+   ],
+   "Display assembly": [
+    "N45008-001",
+    "N45011-001",
+    "N45007-001",
+    "N45010-001",
+    "N45014-001",
+    "N45012-001"
+   ],
+   "Audio/headphone board": [
+    "N11993-001"
+   ],
+   "Fingerprint reader": [
+    "N08532-001"
+   ],
+   "System board": [
+    "N44522-001",
+    "N44519-001",
+    "N44516-001",
+    "N44512-001"
+   ],
+   "NFC module": [
+    "M08706-001"
+   ],
+   "Card reader": [
+    "N02323-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualslib.com/manual/3143324/Hp-Elitebook-x360-1040.html?page=24",
+  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide. Display assembly (touch, with webcam): WQXGA 500 nit, WUXGA antiglare 400 nit, WUXGA 250 nit, WUXGA antiglare privacy 1000 nit, WUXGA 400 nit for WWAN, WUXGA 250 nit for WWAN. Palmrest/top cover includes US keyboard: backlit, backlit for privacy display. Battery: 51 Wh, 38 Wh, 38 Wh. Audio board is the audio jack with cable. System board: 16 GB, non-Windows (-001) for i7-1365U, i7-1355U, i5-1345U, i5-1335U; more variants exist."
  },
  {
   "brand": "HP",
@@ -5792,7 +10277,85 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_7713142_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Displays are sold only as a full assembly. The USB-C charge ports are on the system board; the USB board has a USB port and the SIM slot. RAM is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N02326-001",
+    "N02327-001"
+   ],
+   "Battery": [
+    "M73466-005",
+    "M73468-005",
+    "N22347-005"
+   ],
+   "SSD": [
+    "M52027-001",
+    "M16560-001",
+    "M17436-001",
+    "N04490-001",
+    "N45477-001",
+    "N35225-001"
+   ],
+   "Wi-Fi card": [
+    "M53366-001",
+    "M53363-001"
+   ],
+   "WWAN card": [
+    "N00181-001",
+    "N00182-001"
+   ],
+   "Coin-cell battery": [
+    "N15765-001"
+   ],
+   "Fan": [
+    "N02330-001"
+   ],
+   "Heatsink": [
+    "N02331-001"
+   ],
+   "Speakers": [
+    "N02329-001"
+   ],
+   "Touchpad": [
+    "N02328-001"
+   ],
+   "Palmrest/top cover": [
+    "N45510-001",
+    "N45511-001",
+    "N45512-001"
+   ],
+   "Display assembly": [
+    "N50964-001",
+    "N50968-001",
+    "N50966-001",
+    "N50972-001",
+    "N50970-001",
+    "N50963-001"
+   ],
+   "Fingerprint reader": [
+    "N02325-001"
+   ],
+   "System board": [
+    "N45418-001",
+    "N45416-001",
+    "N45412-001",
+    "N45408-001"
+   ],
+   "USB board": [
+    "N02322-001"
+   ],
+   "NFC module": [
+    "M08706-001"
+   ],
+   "Card reader": [
+    "N02323-001"
+   ],
+   "Pen": [
+    "L57041-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_7713142_en-US-1.pdf",
+  "pn_notes": "Display assembly (touch, whole unit only), no WWAN: BrightView RGB 250 nit, antiglare IR 400 nit, antiglare IR privacy 1000 nit, BrightView IR 400 nit, BrightView IR privacy 1000 nit; last is the WWAN version of the first. Palmrest/top cover includes US keyboard: backlit, not backlit, backlit privacy. Bottom cover: without WWAN, with WWAN. The guide says the audio jack is not a spare part. System board: 16 GB, non-Windows (-001) for i7-1365U, i7-1355U, i5-1345U, i5-1335U; more variants exist. Pen is the HP AES 2.0 Pen."
  },
  {
   "brand": "HP",
@@ -5852,7 +10415,18 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_7713142_en-US-1.pdf",
   "repair_confidence": "medium",
   "repair_notes": "No G9 service guide found; data is from the G10 guide for the same chassis. Displays are sold only as a full assembly. RAM is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "M73466-005",
+    "M73468-005"
+   ],
+   "Heatsink": [
+    "N02331-001"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.ebay.com/itm/135190907586",
+  "pn_notes": "No G9 service guide parts table found; the linked guide (pdf_7713142) is for the G10. Heatsink N02331-001 is sold as the G9 part and matches the G10 guide. Battery copied from battery data. Many other G10 parts (N023xx series) may also fit the G9, but this is not confirmed."
  },
  {
   "brand": "HP",
@@ -5913,7 +10487,98 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/2581969/Hp-Elitebook-630.html",
   "repair_confidence": "high",
   "repair_notes": "Full display assemblies are not sold; only the panel, bezel, hinges and camera. The keyboard comes with the top cover and smart card board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N09820-001",
+    "N09821-001"
+   ],
+   "Battery": [
+    "M75599-005"
+   ],
+   "RAM": [
+    "M09713-001",
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "M16560-001",
+    "M17436-001",
+    "M52031-001",
+    "L85364-001",
+    "M52025-001",
+    "L85354-001"
+   ],
+   "Wi-Fi card": [
+    "M53363-001",
+    "M53366-001"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "N09818-001"
+   ],
+   "Heatsink": [
+    "N09819-001"
+   ],
+   "Speakers": [
+    "M21146-001"
+   ],
+   "Touchpad": [
+    "M21148-001",
+    "M21149-001"
+   ],
+   "Palmrest/top cover": [
+    "N10777-001",
+    "N10775-001",
+    "N10776-001"
+   ],
+   "Display panel": [
+    "M99957-005",
+    "M99955-005",
+    "M99956-005",
+    "M99958-005",
+    "M99717-005"
+   ],
+   "Display bezel": [
+    "N09832-001",
+    "N09831-001",
+    "N09827-001",
+    "N09828-001",
+    "N09829-001",
+    "N09833-001"
+   ],
+   "Camera": [
+    "N09835-001",
+    "N09836-001"
+   ],
+   "Hinges": [
+    "N15762-001",
+    "N15940-001"
+   ],
+   "DC-in / charge port": [
+    "M21154-001"
+   ],
+   "Fingerprint reader": [
+    "N00879-001"
+   ],
+   "Smart card reader": [
+    "M21398-001"
+   ],
+   "System board": [
+    "N10131-001",
+    "N10130-001",
+    "N10128-001",
+    "N10127-001"
+   ],
+   "NFC module": [
+    "M27890-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualslib.com/manual/2581969/Hp-Elitebook-630.html?page=28",
+  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide, cross-checked with manua.ls. No display assembly spare; order subcomponents. Bottom cover: 250 nit or privacy display, 400 nit display. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: without NFC, with NFC. Display panel: FHD 400 nit, FHD 250 nit, FHD touch, HD, FHD privacy. Hinges: 250 nit/privacy, 400 nit panels. Camera: HD, IR. System board (-001 non-Windows, -601 Windows): i7-1265U, i7-1255U, i5-1235U, i3-1215U; i5-1245U is N10129. DC-in is the power connector cable."
  },
  {
   "brand": "HP",
@@ -5972,7 +10637,98 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_10389502_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "The keyboard comes with the top cover. The USB-C charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N96240-001",
+    "N96239-001"
+   ],
+   "Battery": [
+    "N70706-005",
+    "N70705-005"
+   ],
+   "RAM": [
+    "N50075-001",
+    "N93773-001",
+    "N38627-001",
+    "N37792-001"
+   ],
+   "SSD": [
+    "M52027-001",
+    "M16560-001",
+    "N22908-001",
+    "M17436-001",
+    "N45476-001",
+    "N45477-001"
+   ],
+   "Wi-Fi card": [
+    "M53363-001",
+    "M53366-001"
+   ],
+   "WWAN card": [
+    "N65633-001",
+    "N90688-001"
+   ],
+   "Fan": [
+    "N96235-001"
+   ],
+   "Heatsink": [
+    "N96236-001"
+   ],
+   "Speakers": [
+    "N96243-001"
+   ],
+   "Touchpad": [
+    "N96238-001",
+    "N96237-001"
+   ],
+   "Palmrest/top cover": [
+    "N97241-001",
+    "N97243-001",
+    "N97242-001"
+   ],
+   "Display panel": [
+    "N99338-001",
+    "N99339-001",
+    "N99340-001",
+    "N99337-001"
+   ],
+   "Display bezel": [
+    "N96500-001",
+    "N96498-001",
+    "N96499-001"
+   ],
+   "Camera": [
+    "N96501-001",
+    "N96502-001"
+   ],
+   "Hinges": [
+    "N96249-001"
+   ],
+   "Audio/headphone board": [
+    "N96231-001"
+   ],
+   "Fingerprint reader": [
+    "N96242-001"
+   ],
+   "System board": [
+    "N96510-001",
+    "N96508-001",
+    "N96506-001",
+    "N96504-001"
+   ],
+   "NFC module": [
+    "M27890-001"
+   ],
+   "Card reader": [
+    "N96232-001"
+   ],
+   "SSD board": [
+    "N96468-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_10389502_en-US-1.pdf",
+  "pn_notes": "The guide lists no display assembly spare; order subcomponents. Bottom cover: metal, plastic. Battery: 56 Wh, 48 Wh. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: with NFC, without NFC. Display panel: WUXGA 300 nit, 1000 nit privacy, 400 nit low power, 300 nit UWVA. Camera: IR, FHD. System board: non-WWAN, non-Windows (-001) for Core Ultra 7 165U, 155U, Ultra 5 135U, 125U; -601 is Windows."
  },
  {
   "brand": "HP",
@@ -6033,7 +10789,108 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5816250_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Full display assemblies are not sold; only the panel, bezel, hinges and camera. The keyboard comes with the top cover and smart card board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N00121-001",
+    "M21370-001"
+   ],
+   "Battery": [
+    "M73472-005",
+    "M75599-005"
+   ],
+   "RAM": [
+    "M09713-001",
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "M11042-001",
+    "M11040-001",
+    "M16560-001",
+    "M17436-001",
+    "L85364-001",
+    "L85354-001"
+   ],
+   "Wi-Fi card": [
+    "M53363-001",
+    "M53366-001"
+   ],
+   "WWAN card": [
+    "M52040-001"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21718-001",
+    "M21719-001",
+    "N00095-001"
+   ],
+   "Heatsink": [
+    "N03345-001",
+    "N03344-001",
+    "N15764-001"
+   ],
+   "Speakers": [
+    "M21400-001"
+   ],
+   "Touchpad": [
+    "N00096-001",
+    "M47178-001"
+   ],
+   "Palmrest/top cover": [
+    "N17709-001",
+    "N17711-001",
+    "N17710-001"
+   ],
+   "Display panel": [
+    "N00079-001",
+    "N00081-001",
+    "N00082-001",
+    "N00080-001"
+   ],
+   "Display bezel": [
+    "N00101-001",
+    "N00099-001",
+    "N00100-001",
+    "N00102-001",
+    "N07340-001",
+    "N07339-001"
+   ],
+   "Camera": [
+    "N00111-001",
+    "N00112-001"
+   ],
+   "Hinges": [
+    "M21374-001"
+   ],
+   "DC-in / charge port": [
+    "M21725-001"
+   ],
+   "I/O board": [
+    "M48790-001",
+    "M21399-001"
+   ],
+   "Fingerprint reader": [
+    "N00879-001"
+   ],
+   "Smart card reader": [
+    "M21398-001"
+   ],
+   "System board": [
+    "N07912-001",
+    "N07907-001",
+    "N07914-001",
+    "N07909-001"
+   ],
+   "NFC module": [
+    "M27890-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5816250_en-US-1.pdf",
+  "pn_notes": "Battery: 51 Wh, 42 Wh. Bottom cover: for 51 Wh, for 42 Wh battery. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Display panel: FHD privacy, FHD 400 nit, FHD 250 nit, FHD touch. Camera: HD, IR. I/O board: vPro, non-vPro. Wi-Fi: AX211 vPro, AX211. System board: 4 of many CPU variants (i7-1255U, i5-1235U, i7-1265U, i5-1245U; -001 non-Windows, -601 Windows). DC-in is the power connector cable."
  },
  {
   "brand": "HP",
@@ -6094,7 +10951,105 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5817979_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Full display assemblies are not sold; only the panel, bezel, hinges and camera. The keyboard comes with the top cover and smart card board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N00121-001",
+    "M21720-001"
+   ],
+   "Battery": [
+    "M73472-005",
+    "M75599-005"
+   ],
+   "RAM": [
+    "M09713-001",
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "M11042-001",
+    "M11040-001",
+    "M16560-001",
+    "M17436-001",
+    "L85364-001",
+    "L85354-001"
+   ],
+   "Wi-Fi card": [
+    "M53363-001",
+    "M53366-001"
+   ],
+   "WWAN card": [
+    "M52040-001"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21718-001",
+    "M21719-001",
+    "N00095-001"
+   ],
+   "Heatsink": [
+    "M47406-001",
+    "N15764-001"
+   ],
+   "Speakers": [
+    "M21723-001"
+   ],
+   "Touchpad": [
+    "M22000-001",
+    "N14647-001"
+   ],
+   "Palmrest/top cover": [
+    "N17712-001",
+    "N17713-001"
+   ],
+   "Display panel": [
+    "N00086-001",
+    "N00084-001",
+    "N00085-001",
+    "N00087-001"
+   ],
+   "Display bezel": [
+    "N03215-001",
+    "N03213-001",
+    "N03214-001",
+    "N07342-001",
+    "N07341-001"
+   ],
+   "Camera": [
+    "N05869-001",
+    "N05870-001"
+   ],
+   "Hinges": [
+    "M21732-001"
+   ],
+   "DC-in / charge port": [
+    "M21725-001"
+   ],
+   "I/O board": [
+    "M48790-001",
+    "N01502-001"
+   ],
+   "Fingerprint reader": [
+    "N00879-001"
+   ],
+   "Smart card reader": [
+    "M21398-001"
+   ],
+   "System board": [
+    "N21916-001",
+    "N21911-001",
+    "N21918-001",
+    "N21913-001"
+   ],
+   "NFC module": [
+    "M27890-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5817979_en-US-1.pdf",
+  "pn_notes": "Battery: 51 Wh, 42 Wh. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit. Touchpad: with NFC, without NFC. Display panel: FHD 400 nit, FHD 250 nit, FHD touch, HD. Camera: HD, IR. I/O board: vPro, non-vPro. Heatsink: 15 W, 28 W CPU. System board: 4 of many CPU variants (i7-1255U, i5-1235U, i7-1265U, i5-1245U; -001 non-Windows, -601 Windows). DC-in is the power connector cable."
  },
  {
   "brand": "HP",
@@ -6154,7 +11109,90 @@ window.BATTERIES = [
   "service_manual_url": "https://hp.it-shop.bg/uploaded/4/6/EliteBook-830-G9-MSG.pdf",
   "repair_confidence": "high",
   "repair_notes": "The keyboard comes with the top cover. The USB-C charge ports are on the system board. RAM is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N08528-001"
+   ],
+   "Battery": [
+    "M73466-005",
+    "M73468-005"
+   ],
+   "SSD": [
+    "L85364-001",
+    "L85354-001",
+    "M52029-001"
+   ],
+   "Wi-Fi card": [
+    "M53366-001",
+    "M53363-001"
+   ],
+   "WWAN card": [
+    "M46335-001",
+    "M52040-001"
+   ],
+   "Coin-cell battery": [
+    "N15765-001"
+   ],
+   "Fan": [
+    "N08535-001"
+   ],
+   "Heatsink": [
+    "N07343-001"
+   ],
+   "Speakers": [
+    "N08534-001"
+   ],
+   "Touchpad": [
+    "N15468-001",
+    "N08533-001"
+   ],
+   "Palmrest/top cover": [
+    "N08383-001",
+    "N08385-001",
+    "N08384-001"
+   ],
+   "Display panel": [
+    "N14758-001",
+    "N14756-001",
+    "N14759-001",
+    "N14757-001"
+   ],
+   "Display bezel": [
+    "N08526-001",
+    "N08523-001",
+    "N08525-001",
+    "N08527-001",
+    "N08524-001"
+   ],
+   "Camera": [
+    "N09061-001",
+    "N09060-001"
+   ],
+   "Hinges": [
+    "N08529-001"
+   ],
+   "Audio/headphone board": [
+    "N11993-001"
+   ],
+   "Fingerprint reader": [
+    "N02325-001"
+   ],
+   "System board": [
+    "N08395-001",
+    "N08393-001",
+    "N08389-001",
+    "N08386-001"
+   ],
+   "NFC module": [
+    "M08706-001"
+   ],
+   "Card reader": [
+    "N02323-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://hp.it-shop.bg/uploaded/4/6/EliteBook-830-G9-MSG.pdf",
+  "pn_notes": "The guide lists no display assembly spare; order subcomponents. Battery: 51 Wh, 38 Wh. Palmrest/top cover includes US keyboard: backlit, not backlit, backlit privacy. Touchpad: with NFC antenna, without. Display panel: WUXGA 250 nit, 400 nit, 1000 nit privacy, 250 nit low power. Camera: IR, non-IR. Audio board is the audio jack with cable. System board: 16 GB, non-Windows (-001) for i7-1265U, i5-1255U, i5-1245U, i5-1235U; many more variants."
  },
  {
   "brand": "HP",
@@ -6212,7 +11250,116 @@ window.BATTERIES = [
   "service_manual_url": "https://h10032.www1.hp.com/ctg/Manual/c06692773.pdf",
   "repair_confidence": "high",
   "repair_notes": "Source is the HP Interactive Part Locator. The keyboard is sold with the top cover.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M05253-001",
+    "M14249-001"
+   ],
+   "Battery": [
+    "L77991-005"
+   ],
+   "RAM": [
+    "L50384-002",
+    "937438-852",
+    "937236-852",
+    "L10598-852"
+   ],
+   "SSD": [
+    "L85348-002",
+    "L85360-002",
+    "L85368-002",
+    "L85364-002",
+    "L85354-002",
+    "L85346-002"
+   ],
+   "Wi-Fi card": [
+    "L57248-002",
+    "L57250-002"
+   ],
+   "WWAN card": [
+    "L40752-002",
+    "L70670-002"
+   ],
+   "Coin-cell battery": [
+    "L17255-001"
+   ],
+   "Fan": [
+    "M05261-001"
+   ],
+   "Heatsink": [
+    "M05262-001",
+    "M05263-001"
+   ],
+   "Speakers": [
+    "M05268-001"
+   ],
+   "Touchpad": [
+    "M05269-001",
+    "M05270-001"
+   ],
+   "Palmrest/top cover": [
+    "M07491-001",
+    "M07493-001",
+    "M07492-001"
+   ],
+   "Display panel": [
+    "M14367-001",
+    "M05236-001",
+    "M05237-001",
+    "M05238-001",
+    "M05239-001"
+   ],
+   "Display bezel": [
+    "M05256-001",
+    "M05257-001",
+    "M05258-001",
+    "M05259-001",
+    "M05260-001"
+   ],
+   "Camera": [
+    "M07216-001",
+    "M08549-001"
+   ],
+   "Hinges": [
+    "M05265-001"
+   ],
+   "DC-in / charge port": [
+    "M15626-001"
+   ],
+   "Fingerprint reader": [
+    "M07206-001"
+   ],
+   "Smart card reader": [
+    "M07105-001"
+   ],
+   "System board": [
+    "M05240-001",
+    "M05241-001",
+    "M05246-001",
+    "M05250-001"
+   ],
+   "USB board": [
+    "M05266-001"
+   ],
+   "NFC module": [
+    "M07214-001"
+   ],
+   "Hub board": [
+    "M07210-001",
+    "M07211-001"
+   ],
+   "Microphone board": [
+    "M07208-001",
+    "M07209-001"
+   ],
+   "ALS board": [
+    "M07212-001",
+    "M07213-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualshelf.com/manual/hp/26r61us/1-maintenance-and-service-guide-english.html",
+  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide. No display assembly spare; order subcomponents. Bottom cover: discrete, UMA graphics. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: without, with NFC antenna. Display panel: privacy, 250 nit, 250 nit touch, 400 nit FHD, 400 nit UHD. Camera: RGB, IR. Heatsink: UMA, discrete. Hub board: RGB/mic, IR. Microphone: main, third mic. ALS: first, second sensor. Smart card reader is the card reader board. System board: 4 of many (i5-10210U, i7-10510U discrete; i5-10210U, i7-10610U UMA; -001 non-Windows). DC-in is the power connector cable."
  },
  {
   "brand": "HP",
@@ -6272,7 +11419,118 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/2272122/Hp-Elitebook-840-G8.html",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover. DC-in jack is on a separate power connector cable; USB-C charging ports are on the system board. Parts checked against the HP 840 Aero G8 service guide (same chassis): https://h10032.www1.hp.com/ctg/Manual/c07059759.pdf",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M36309-001"
+   ],
+   "Battery": [
+    "L78555-005"
+   ],
+   "RAM": [
+    "M09713-001",
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "L85368-001",
+    "L85366-001",
+    "M07245-001",
+    "L85354-001",
+    "M06792-001"
+   ],
+   "Wi-Fi card": [
+    "L92724-001"
+   ],
+   "WWAN card": [
+    "L70670-001",
+    "L83053-001"
+   ],
+   "Coin-cell battery": [
+    "L13694-001"
+   ],
+   "Fan": [
+    "M07102-001"
+   ],
+   "Heatsink": [
+    "M07204-001"
+   ],
+   "Speakers": [
+    "M07107-001"
+   ],
+   "Touchpad": [
+    "M42237-001",
+    "M42238-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M36312-001",
+    "M36310-001",
+    "M36311-001"
+   ],
+   "Display panel": [
+    "M36316-001",
+    "M36315-001",
+    "M36314-001",
+    "M36313-001"
+   ],
+   "Display bezel": [
+    "M07163-001",
+    "M07164-001",
+    "M07165-001",
+    "M07166-001",
+    "M07100-001"
+   ],
+   "Camera": [
+    "M07216-001",
+    "M08549-001"
+   ],
+   "Hinges": [
+    "M07104-001"
+   ],
+   "DC-in / charge port": [
+    "M15626-001"
+   ],
+   "USB board": [
+    "M36398-001"
+   ],
+   "Fingerprint reader": [
+    "M36397-001"
+   ],
+   "Smart card reader": [
+    "M07105-001"
+   ],
+   "System board": [
+    "M36402-001",
+    "M36401-001"
+   ],
+   "NFC module": [
+    "M07214-001"
+   ],
+   "Touchpad button board": [
+    "M07106-001"
+   ],
+   "Hub board": [
+    "M07210-001",
+    "M07211-001"
+   ],
+   "Microphone module": [
+    "M07208-001",
+    "M07209-001"
+   ],
+   "Ambient light sensor": [
+    "M07212-001",
+    "M07213-001"
+   ],
+   "Display back cover": [
+    "M36308-001",
+    "M36306-001",
+    "M36305-001",
+    "M36307-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://manualsnet.com/hp/elitebook-840-g8",
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (manualsnet copy). Top cover: backlit, not backlit, backlit privacy. System board: i7-1165G7, i5-1135G7. Palmrest/top cover with keyboard and System board are listed as xx1 in the guide: -001 is US English keyboard / non-Windows board (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -6332,7 +11590,124 @@ window.BATTERIES = [
   "service_manual_url": "https://h10032.www1.hp.com/ctg/Manual/c07496908.pdf",
   "repair_confidence": "high",
   "repair_notes": "Source is the HP part locator for the 850 G8; full parts list checked against the HP EliteBook 855 G8 service guide (same chassis). Keyboard is sold only with the top cover. USB-C charging ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M35823-001",
+    "M35824-001"
+   ],
+   "Battery": [
+    "L77991-005"
+   ],
+   "RAM": [
+    "M09713-001",
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "L85368-001",
+    "L85366-001",
+    "M07245-001",
+    "L85354-001",
+    "M06792-001"
+   ],
+   "Wi-Fi card": [
+    "L92722-001",
+    "L92724-001"
+   ],
+   "WWAN card": [
+    "L70670-001",
+    "L83053-001"
+   ],
+   "Coin-cell battery": [
+    "L17255-001"
+   ],
+   "Fan": [
+    "M05261-001"
+   ],
+   "Heatsink": [
+    "M05262-001",
+    "M35826-001"
+   ],
+   "Speakers": [
+    "M05268-001"
+   ],
+   "Touchpad": [
+    "M42585-001",
+    "M42586-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M35816-001",
+    "M35818-001",
+    "M35817-001"
+   ],
+   "Display panel": [
+    "M35812-001",
+    "M35811-001",
+    "M35813-001",
+    "M35814-001",
+    "M35815-001"
+   ],
+   "Display bezel": [
+    "M05256-001",
+    "M05257-001",
+    "M05258-001",
+    "M05259-001",
+    "M05260-001"
+   ],
+   "Camera": [
+    "M07216-001",
+    "M08549-001"
+   ],
+   "Hinges": [
+    "M05265-001"
+   ],
+   "DC-in / charge port": [
+    "M15626-001"
+   ],
+   "USB board": [
+    "M35827-001"
+   ],
+   "Fingerprint reader": [
+    "M07206-001"
+   ],
+   "Smart card reader": [
+    "M07105-001"
+   ],
+   "System board": [
+    "M35802-001",
+    "M35800-001",
+    "M35808-001",
+    "M35805-001"
+   ],
+   "NFC module": [
+    "M07214-001"
+   ],
+   "Touchpad button board": [
+    "M05267-001"
+   ],
+   "Hub board": [
+    "M07210-001",
+    "M07211-001"
+   ],
+   "Microphone module": [
+    "M07208-001",
+    "M07209-001"
+   ],
+   "Ambient light sensor": [
+    "M07212-001",
+    "M07213-001"
+   ],
+   "Display back cover": [
+    "M35819-001",
+    "M35820-001",
+    "M35821-001",
+    "M35822-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://hp.it-shop.bg/uploaded/3/6/EliteBook-850-G8-MSG.pdf",
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (PDF copy). Heatsink/bottom cover: UMA first, then discrete graphics. Display panel: FHD privacy 1000 nit, FHD 250, TOP touch 250, FHD 400, UHD 400. System board: first two discrete graphics, last two UMA. Palmrest/top cover with keyboard and System board are listed as xx1 in the guide: -001 is US English keyboard / non-Windows board (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -6383,7 +11758,7 @@ window.BATTERIES = [
   "parts_confidence": "high",
   "parts_source_url": "https://gc3.de/files/quickspecs/qs_x3601030G7.pdf",
   "parts_notes": "Service guide has no WLAN module removal procedure; Wi-Fi is on the system board.",
-  "replaceable_parts": "Bottom cover; Battery; SSD; WWAN card; Heatsink (fan/heatsink assembly); Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; I/O board (connector board: USB-A, audio, SIM); System board; NFC module; Sensor board; Antennas",
+  "replaceable_parts": "Bottom cover; Battery; SSD; WWAN card; Heatsink (fan/heatsink assembly); Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; I/O board (connector board - USB-A, audio, SIM); System board; NFC module; Sensor board; Antennas",
   "keyboard": "palmrest",
   "screen": "assembly",
   "charge_port": "board",
@@ -6391,7 +11766,71 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/1870837/Hp-Elitebook-X360-1030-G7.html",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Display is sold only as a full assembly. USB-C charging ports are on the system board. HP part locator: https://h10032.www1.hp.com/ctg/Manual/c06716766.pdf",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M16044-001",
+    "M16043-001"
+   ],
+   "Battery": [
+    "L82391-006"
+   ],
+   "SSD": [
+    "L85358-005",
+    "L85348-005",
+    "L85360-005",
+    "L85368-005",
+    "L85364-005",
+    "L85350-005"
+   ],
+   "WWAN card": [
+    "L70670-005",
+    "L83053-005"
+   ],
+   "Heatsink (fan/heatsink assembly)": [
+    "M16051-001"
+   ],
+   "Speakers": [
+    "M16052-001"
+   ],
+   "Touchpad": [
+    "M16048-001",
+    "M16056-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M16979-001",
+    "M16981-001",
+    "M16980-001",
+    "M16982-001"
+   ],
+   "Display assembly": [
+    "M16087-001",
+    "M16089-001",
+    "M16086-001",
+    "M16088-001",
+    "M16085-001"
+   ],
+   "I/O board (connector board - USB-A, audio, SIM)": [
+    "M16050-001"
+   ],
+   "System board": [
+    "M16070-001",
+    "M16064-001",
+    "M16060-001"
+   ],
+   "NFC module": [
+    "M16045-001"
+   ],
+   "Sensor board": [
+    "M16047-001",
+    "M16046-001"
+   ],
+   "Antennas": [
+    "M20834-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualslib.com/manual/1870837/Hp-Elitebook-X360-1030-G7.html",
+  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; labels and numbers are in separate columns, so variant order is inferred). Display assembly (whole unit only): UHD OLED 400, FHD BrightView 1000, FHD BrightView 400, FHD antiglare 1000, FHD antiglare 400. Top cover (US): backlit non-WWAN, backlit WWAN, privacy non-WWAN, privacy WWAN. Touchpad: with NFC, without NFC. System board: 3 of 23, i7-10810U (OSR), i7-10610U, i5-10310U with 16 GB, non-Windows (-601 for Windows). Bottom cover: WWAN, non-WWAN. Sensor board: with, without microphone."
  },
  {
   "brand": "HP",
@@ -6442,7 +11881,7 @@ window.BATTERIES = [
   "parts_confidence": "high",
   "parts_source_url": "https://gc3.de/files/quickspecs/qs_x3601030G8.pdf",
   "parts_notes": "Service guide has no WLAN module removal procedure; Wi-Fi is on the system board.",
-  "replaceable_parts": "Bottom cover; Battery; SSD; WWAN card; Heatsink (fan/heatsink assembly); Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; I/O board (connector board: USB-A, audio, SIM); System board; NFC module; Sensor board; Antennas",
+  "replaceable_parts": "Bottom cover; Battery; SSD; WWAN card; Heatsink (fan/heatsink assembly); Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; I/O board (connector board - USB-A, audio, SIM); System board; NFC module; Sensor board; Antennas",
   "keyboard": "palmrest",
   "screen": "assembly",
   "charge_port": "board",
@@ -6450,7 +11889,73 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/2077001/Hp-Hp-Elitebook-X360-1030-G8.html",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Display is sold only as a full assembly. USB-C charging ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M50566-001",
+    "M50565-001"
+   ],
+   "Battery": [
+    "L82391-006"
+   ],
+   "SSD": [
+    "L85366-001",
+    "L85368-001",
+    "L85364-001",
+    "L85354-001",
+    "M07245-001",
+    "M06792-001"
+   ],
+   "WWAN card": [
+    "L70670-001",
+    "L83053-001"
+   ],
+   "Heatsink (fan/heatsink assembly)": [
+    "M45823-001"
+   ],
+   "Speakers": [
+    "M16052-001"
+   ],
+   "Touchpad": [
+    "M45818-001",
+    "M45817-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M45819-001",
+    "M45820-001",
+    "M45821-001",
+    "M45822-001"
+   ],
+   "Display assembly": [
+    "M45812-001",
+    "M45810-001",
+    "M45811-001",
+    "M45813-001",
+    "M45814-001"
+   ],
+   "I/O board (connector board - USB-A, audio, SIM)": [
+    "M16050-001",
+    "M23394-001"
+   ],
+   "System board": [
+    "M45835-001",
+    "M45833-001",
+    "M45829-001",
+    "M45826-001"
+   ],
+   "NFC module": [
+    "M16045-001"
+   ],
+   "Sensor board": [
+    "M45824-001"
+   ],
+   "Antennas": [
+    "M20834-001",
+    "M27525-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualslib.com/manual/2077001/Hp-Hp-Elitebook-X360-1030-G8.html",
+  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). Display assembly (whole unit only): UHD AMOLED 400, FHD antiglare 400, FHD BrightView 400, FHD antiglare 1000, FHD BrightView 1000. Top cover (-001 US): backlit, backlit privacy (non-WWAN), backlit, backlit privacy (WWAN). Touchpad: with NFC, without NFC. System board: 4 of 14 with 16 GB (i7-1185G7, i7-1165G7, i5-1145G7, i5-1135G7), non-Windows (-601 for Windows). I/O board: WWAN, non-WWAN. Antennas: WWAN without 5G, with 5G. Bottom cover: WWAN, non-WWAN."
  },
  {
   "brand": "HP",
@@ -6510,7 +12015,70 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12667699_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Display is sold only as a full assembly. USB-C charging ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L62977-001",
+    "L62978-001"
+   ],
+   "Battery": [
+    "L07041-855"
+   ],
+   "SSD": [
+    "L63021-001",
+    "L63020-001",
+    "L63017-001",
+    "L63018-001",
+    "L63013-001",
+    "L63015-001"
+   ],
+   "WWAN card": [
+    "L15398-006",
+    "L27188-005"
+   ],
+   "Heatsink (fan/heatsink assembly)": [
+    "L62995-001"
+   ],
+   "Speakers": [
+    "L62976-001"
+   ],
+   "Touchpad": [
+    "L62975-001",
+    "L62974-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "L66881-001",
+    "L66882-001"
+   ],
+   "Display assembly": [
+    "L62993-001",
+    "L62981-001",
+    "L62982-001",
+    "L62983-001",
+    "L62985-001",
+    "L62990-001"
+   ],
+   "Audio/headphone board": [
+    "L63023-001"
+   ],
+   "Fingerprint reader": [
+    "L62996-001"
+   ],
+   "Power button": [
+    "L62997-001"
+   ],
+   "System board": [
+    "L63009-001",
+    "L63007-001",
+    "L63000-001",
+    "L62998-001"
+   ],
+   "NFC module": [
+    "L41023-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12667699_en-US-1.pdf",
+  "pn_notes": "Display assembly (the guide sells the whole assembly only): UHD WWAN, FHD brightview WLAN, FHD brightview WWAN, FHD antiglare WLAN, FHD 400 nit WLAN, FHD 950 nit privacy WLAN. Keyboard/top cover: backlit, backlit privacy (US). System board: 4 of many; i7-8665U, i7-8565U, i5-8365U, i5-8265U with 16 GB, non-Windows (-601 for Windows). SSD: 2 TB, 1 TB, 512 GB TLC, 512 GB value, 256 GB TLC, 256 GB value."
  },
  {
   "brand": "HP",
@@ -6561,7 +12129,7 @@ window.BATTERIES = [
   "parts_confidence": "medium",
   "parts_source_url": "https://www.gc3.de/files/quickspecs/qs_x3601040G8.pdf",
   "parts_notes": "Service guide lists no WLAN module removal procedure, so Wi-Fi is taken as on the system board.",
-  "replaceable_parts": "Bottom cover; Battery; SSD; WWAN card; Heatsink (fan/heatsink assembly); Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; I/O board (connector board: USB-A, audio, SIM); System board; NFC module; Sensor board; Antennas",
+  "replaceable_parts": "Bottom cover; Battery; SSD; WWAN card; Heatsink (fan/heatsink assembly); Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; I/O board (connector board - USB-A, audio, SIM); System board; NFC module; Sensor board; Antennas",
   "keyboard": "palmrest",
   "screen": "assembly",
   "charge_port": "board",
@@ -6569,7 +12137,73 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/2411666/Hp-Elitebook-X360-1040-G8.html",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Display is sold only as a full assembly. USB-C charging ports are on the system board. HP part locator: https://h10032.www1.hp.com/ctg/Manual/c07006606.pdf",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M50568-001",
+    "M50567-001"
+   ],
+   "Battery": [
+    "L84352-005"
+   ],
+   "SSD": [
+    "L85366-001",
+    "L85368-001",
+    "L85364-001",
+    "L85354-001",
+    "M07245-001",
+    "M06792-001"
+   ],
+   "WWAN card": [
+    "L70670-002",
+    "L83053-002"
+   ],
+   "Heatsink (fan/heatsink assembly)": [
+    "M46735-001"
+   ],
+   "Speakers": [
+    "M16007-001"
+   ],
+   "Touchpad": [
+    "M46730-001",
+    "M46729-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M46731-001",
+    "M46732-001",
+    "M46733-001",
+    "M46734-001"
+   ],
+   "Display assembly": [
+    "M46728-001",
+    "M46725-001",
+    "M46727-001",
+    "M46724-001",
+    "M46726-001"
+   ],
+   "I/O board (connector board - USB-A, audio, SIM)": [
+    "M16050-001",
+    "M23394-001"
+   ],
+   "System board": [
+    "M46745-001",
+    "M46743-001",
+    "M46739-001",
+    "M46737-001"
+   ],
+   "NFC module": [
+    "M16045-001"
+   ],
+   "Sensor board": [
+    "M45824-001"
+   ],
+   "Antennas": [
+    "M20836-001",
+    "M25072-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualslib.com/manual/2411666/Hp-Elitebook-X360-1040-G8.html",
+  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). Display assembly (touch, whole unit only): UHD 550, FHD antiglare 400, FHD BrightView 400, FHD antiglare 1000, FHD BrightView 1000. Top cover (-001 US): backlit, backlit privacy (non-WWAN), backlit, backlit privacy (WWAN). Touchpad: with NFC, without NFC. System board: 4 of 13 with 16 GB (i7-1185G7, i7-1165G7, i5-1145G7, i5-1135G7), non-Windows (-601 for Windows). I/O board: WWAN, non-WWAN. Antennas: WWAN without 5G, with 5G. Bottom cover: WWAN, non-WWAN."
  },
  {
   "brand": "HP",
@@ -6631,7 +12265,72 @@ window.BATTERIES = [
   "service_manual_url": "https://images-eu.ssl-images-amazon.com/images/I/D1b6K8YGxJS.pdf",
   "repair_confidence": "high",
   "repair_notes": "HP service guide for 13-ah0xxx. RAM is soldered. Fan is sold alone and also as a fan/heatsink assembly. Display is sold only as a full assembly. DC-in is on a separate power connector cable.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L19522-001",
+    "L19523-001"
+   ],
+   "Battery": [
+    "L08496-855"
+   ],
+   "SSD": [
+    "L19503-001",
+    "L19507-001",
+    "L19508-001",
+    "L19506-001",
+    "L19505-001",
+    "L19504-001"
+   ],
+   "Wi-Fi card": [
+    "L16647-005",
+    "901229-855",
+    "924813-855"
+   ],
+   "Fan": [
+    "L23527-001"
+   ],
+   "Heatsink": [
+    "L19526-001",
+    "L19527-001"
+   ],
+   "Speakers": [
+    "L19530-001",
+    "L19531-001"
+   ],
+   "Touchpad": [
+    "L19518-001",
+    "L19519-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "L19540-001",
+    "L19542-001",
+    "L19541-001"
+   ],
+   "Display assembly": [
+    "L19539-001",
+    "L19537-001",
+    "L19538-001",
+    "L19536-001",
+    "L19535-001",
+    "L19753-001"
+   ],
+   "DC-in / charge port": [
+    "L19509-001"
+   ],
+   "Fingerprint reader": [
+    "L20689-001",
+    "L19521-001"
+   ],
+   "System board": [
+    "L19494-001",
+    "L19499-001",
+    "L19498-001",
+    "L19500-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://images-eu.ssl-images-amazon.com/images/I/D1b6K8YGxJS.pdf",
+  "pn_notes": "Silver and pale gold finishes have different numbers (silver first). Display assembly: UHD touch, FHD touch, UHD non-touch, FHD non-touch, FHD privacy (all silver), FHD non-touch gold. Keyboard/top cover (US, backlit): silver, silver privacy, gold. Heatsink: fan/heatsink assembly for discrete then UMA graphics. System board: 4 of 10; i7-8550U MX150 16 GB, i7-8550U UMA, i5-8250U UMA, i3-8130U, non-Windows (-601 for Windows). Speakers: front, rear."
  },
  {
   "brand": "HP",
@@ -6692,7 +12391,14 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12648808_en-US-1.pdf",
   "repair_confidence": "medium",
   "repair_notes": "No HP service guide found for 15-dr1xxx. Values come from the HP guide for the 15-ds0xxx (AMD twin on the same chassis; display assemblies are shared between 15-dr and 15-ds). Two fans (CPU and GPU) are sold separately.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "L43267-005"
+   ]
+  },
+  "pn_confidence": "low",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12648808_en-US-1.pdf",
+  "pn_notes": "The cited guide (pdf_12648808) covers the AMD 15-ds0000 model, not the Intel 15-dr1000. No official dr1000 parts list found; only the battery number is given (copied from the input)."
  },
  {
   "brand": "HP",
@@ -6753,7 +12459,81 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3140375/Hp-Pro-X360-435-G10.html",
   "repair_confidence": "high",
   "repair_notes": "Display is sold only as a full assembly (touch glass, camera and antennas included). DC-in is on a separate power connector cable.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N39189-001"
+   ],
+   "Battery": [
+    "M75597-006"
+   ],
+   "RAM": [
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "M52027-001",
+    "M16560-001",
+    "M17436-001",
+    "N04489-001",
+    "M11040-001"
+   ],
+   "Wi-Fi card": [
+    "N19618-007",
+    "N22541-006"
+   ],
+   "Coin-cell battery": [
+    "L13694-001"
+   ],
+   "Fan": [
+    "M03432-001"
+   ],
+   "Heatsink": [
+    "M46284-001"
+   ],
+   "Speakers": [
+    "M03439-001"
+   ],
+   "Touchpad": [
+    "M46283-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N39207-001",
+    "N39208-001",
+    "N39209-001",
+    "N39210-001",
+    "N39211-001",
+    "N39212-001"
+   ],
+   "Display assembly": [
+    "N39190-001",
+    "N39191-001",
+    "N39192-001",
+    "N39193-001",
+    "N39194-001"
+   ],
+   "DC-in / charge port": [
+    "M03424-001"
+   ],
+   "Fingerprint reader": [
+    "N10075-001"
+   ],
+   "System board": [
+    "N39201-001",
+    "N39199-001",
+    "N39200-001",
+    "N39198-001"
+   ],
+   "Top-cover camera": [
+    "N39206-001"
+   ],
+   "Camera board": [
+    "N39206-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualslib.com/manual/3140375/Hp-Pro-X360-435-G10.html",
+  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). The guide lists top cover and system board with a -xxx suffix; -001 (US English / non-Windows) is given here. Display assembly: 250 nit HD camera, 250 nit HD+IR, 400 nit HD camera, 400 nit HD+IR, 1000 nit privacy. Top cover: not backlit HD cam, backlit HD cam, not backlit IR, backlit IR, backlit privacy HD cam, backlit privacy IR. System board: 4 of 9 (Ryzen 7 PRO 7730U, Ryzen 5 PRO 7530U, Ryzen 7 7730U, Ryzen 5 7530U; HD camera models). Battery: the guide lists M75597-006 (42 Wh), not the input numbers. Top-cover camera and its board are sold together in the Camera Module Kit."
  },
  {
   "brand": "HP",
@@ -6813,7 +12593,88 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3081880/Hp-Probook-450-G10.html",
   "repair_confidence": "medium",
   "repair_notes": "No 440 G10 guide could be read. Values come from the HP ProBook 450 G10 guide and the 440 14 inch G9 guide (https://kaas.hpcloud.hp.com/pdf-public/pdf_5802591_en-US-1.pdf), which share the same design and parts layout.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N00121-001"
+   ],
+   "Battery": [
+    "M73472-005",
+    "M75599-005"
+   ],
+   "RAM": [
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "M16560-001",
+    "L89745-001",
+    "M11042-001",
+    "M11040-001"
+   ],
+   "Wi-Fi card": [
+    "M53366-001",
+    "N19618-001"
+   ],
+   "WWAN card": [
+    "N00182-001"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21718-001",
+    "M21719-001",
+    "N00095-001"
+   ],
+   "Heatsink": [
+    "N03345-001",
+    "N03344-001"
+   ],
+   "Speakers": [
+    "M21400-001"
+   ],
+   "Touchpad": [
+    "N54001-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N42405-001",
+    "N42406-001"
+   ],
+   "Display panel": [
+    "N43567-001",
+    "N43565-001",
+    "N43568-001"
+   ],
+   "Camera": [
+    "N39013-001",
+    "N39014-001"
+   ],
+   "Hinges": [
+    "N39016-001"
+   ],
+   "DC-in / charge port": [
+    "M21725-001"
+   ],
+   "I/O board": [
+    "N01502-001"
+   ],
+   "Fingerprint reader": [
+    "N00879-001"
+   ],
+   "System board": [
+    "N42404-001",
+    "N42403-001",
+    "N42398-001",
+    "N42397-001"
+   ],
+   "Display back cover": [
+    "N39000-001"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.cdrtd.com/blog/for-hp-probook-440-14-inch-g10-notebook-pc-parts-list/",
+  "pn_notes": "From a parts seller's copy of the HP spare parts list (official guide not found). Top cover: backlit, not backlit. System board: i7-1355U+RTX 2050, i5-1335U+RTX 2050, i7-1355U, i5-1335U UMA. Heatsink: UMA, discrete. Fan: 42 Wh, discrete, 51 Wh. Display panel: FHD 400, FHD 250, HD 250. Battery: 51 Wh, 42 Wh. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -6873,7 +12734,109 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5802591_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N00121-001",
+    "M21370-001"
+   ],
+   "Battery": [
+    "M73472-005",
+    "M75599-005"
+   ],
+   "RAM": [
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "M16560-001",
+    "L85364-001",
+    "L85354-001",
+    "M11042-001",
+    "M11040-001"
+   ],
+   "Wi-Fi card": [
+    "M53366-001",
+    "M91238-001"
+   ],
+   "WWAN card": [
+    "M52040-001"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21718-001",
+    "N00095-001",
+    "M21719-001"
+   ],
+   "Heatsink": [
+    "N15764-001",
+    "N03345-001",
+    "N03344-001"
+   ],
+   "Speakers": [
+    "M21400-001"
+   ],
+   "Touchpad": [
+    "N00096-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N01287-001",
+    "N01286-001",
+    "N01288-001"
+   ],
+   "Display panel": [
+    "N00079-001",
+    "N00081-001",
+    "N00082-001",
+    "N00080-001",
+    "N00083-001"
+   ],
+   "Display bezel": [
+    "M21386-001",
+    "M21387-001",
+    "M21388-001",
+    "N01281-001",
+    "N07448-001",
+    "N07449-001"
+   ],
+   "Camera": [
+    "N00111-001",
+    "N00112-001"
+   ],
+   "Hinges": [
+    "N12500-001"
+   ],
+   "DC-in / charge port": [
+    "M21725-001"
+   ],
+   "I/O board": [
+    "N01502-001"
+   ],
+   "Fingerprint reader": [
+    "N00879-001"
+   ],
+   "System board": [
+    "N01275-001",
+    "N01272-001",
+    "N01270-001",
+    "N01266-001"
+   ],
+   "Antennas": [
+    "N00108-001",
+    "N00110-001"
+   ],
+   "Display back cover": [
+    "N01277-001",
+    "N01278-001",
+    "N01279-001",
+    "N01280-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5802591_en-US-1.pdf",
+  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: 4 of 12 (UMA i7-1255U, i5-1235U, i3-1215U; discrete i5-1235U). Heatsink: 28 W, 15 W UMA, discrete. Fan: UMA 42 Wh, UMA 51 Wh, discrete. Bottom cover: 51 Wh, 42 Wh battery. Display panel: FHD privacy, FHD 400, FHD 250, FHD touch, HD. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -6934,7 +12897,103 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_2598703_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M21371-001",
+    "M21370-001"
+   ],
+   "Battery": [
+    "M02027-002",
+    "M02027-005"
+   ],
+   "RAM": [
+    "L67710-002",
+    "L46598-002",
+    "L83673-002"
+   ],
+   "SSD": [
+    "L85348-002",
+    "L85364-002",
+    "L85366-002",
+    "L85354-002",
+    "M06792-002"
+   ],
+   "Wi-Fi card": [
+    "L92724-002",
+    "L22634-002",
+    "L44796-002"
+   ],
+   "WWAN card": [
+    "L15398-002"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21719-001",
+    "M21718-001"
+   ],
+   "Heatsink": [
+    "M21717-001",
+    "M21716-001"
+   ],
+   "Speakers": [
+    "M21400-001"
+   ],
+   "Touchpad": [
+    "M21148-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M23769-001",
+    "M23770-001",
+    "M23771-001"
+   ],
+   "Display panel": [
+    "M23952-001",
+    "M21390-001",
+    "M21389-001",
+    "M21391-001",
+    "M21392-001"
+   ],
+   "Display bezel": [
+    "M21386-001",
+    "M21387-001",
+    "M21388-001"
+   ],
+   "Camera": [
+    "M29582-001",
+    "M27887-001"
+   ],
+   "Hinges": [
+    "M21374-001"
+   ],
+   "DC-in / charge port": [
+    "M21725-001"
+   ],
+   "I/O board": [
+    "M21712-001"
+   ],
+   "Fingerprint reader": [
+    "M21724-001"
+   ],
+   "System board": [
+    "M21708-001",
+    "M21702-001",
+    "M21696-001",
+    "M42015-001"
+   ],
+   "Antennas": [
+    "M23850-001",
+    "M23851-001"
+   ],
+   "Display back cover": [
+    "M21383-001",
+    "M21384-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_2598703_en-US-1.pdf",
+  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. Heatsink, fan, bottom cover: discrete then UMA. System board: 4 of 11 (UMA i7-1165G7, i5-1135G7, i3-1115G4; discrete i5-1135G7). Display panel: FHD privacy 1000, FHD 400, FHD 250, FHD touch-on-panel, HD. Battery: the guide lists M02027-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -6996,7 +13055,111 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3081880/Hp-Probook-450-G10.html",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N01917-001",
+    "N39181-001"
+   ],
+   "Battery": [
+    "M73472-005",
+    "M75599-005"
+   ],
+   "RAM": [
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "M16560-001",
+    "L85360-001",
+    "N50233-001",
+    "L85354-001",
+    "M11042-001",
+    "M11040-001"
+   ],
+   "Wi-Fi card": [
+    "N19618-001",
+    "M53366-001"
+   ],
+   "WWAN card": [
+    "N00182-001"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21718-001",
+    "M21719-001",
+    "N00095-001"
+   ],
+   "Heatsink": [
+    "N03345-001",
+    "N03344-001",
+    "N15764-001"
+   ],
+   "Speakers": [
+    "M21723-001"
+   ],
+   "Touchpad": [
+    "N54002-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N43874-001",
+    "N43875-001"
+   ],
+   "Display panel": [
+    "N44345-001",
+    "N43572-001",
+    "N50234-001",
+    "N43570-001",
+    "N43571-001",
+    "N43569-001"
+   ],
+   "Display bezel": [
+    "M21991-001",
+    "M21992-001",
+    "N39024-001",
+    "N14641-001",
+    "N07351-001"
+   ],
+   "Camera": [
+    "N05869-001",
+    "N50613-001"
+   ],
+   "Hinges": [
+    "M21732-001"
+   ],
+   "DC-in / charge port": [
+    "M21725-001"
+   ],
+   "I/O board": [
+    "N01502-001"
+   ],
+   "Fingerprint reader": [
+    "N00879-001"
+   ],
+   "System board": [
+    "N42404-001",
+    "N42403-001",
+    "N42398-001",
+    "N42397-001"
+   ],
+   "Antennas": [
+    "N03219-001",
+    "N03221-001"
+   ],
+   "Display back cover": [
+    "N39020-001",
+    "N39019-001",
+    "N39022-001",
+    "N39021-001",
+    "N01920-001",
+    "N44351-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualslib.com/manual/3081880/Hp-Probook-450-G10.html",
+  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). Top cover (-001 US): backlit, not backlit. System board: 4 of 10 (i7-1355U RTX 2050, i5-1335U RTX 2050, i7-1355U UMA, i5-1335U UMA), non-Windows (-601 for Windows). Heatsink: UMA, discrete, 28 W. Fan: 42 Wh, discrete, 51 Wh. Bottom cover: 51 Wh, 42 Wh. Display panel: QHD 300, FHD 400, FHD 400 lock, FHD 250, FHD 250 touch, HD. Camera: HD, 5 MP+IR. Display back cover: 400 nit HD cam, 400 nit IR, 250 nit, 250 nit IR, WWAN, QHD."
  },
  {
   "brand": "HP",
@@ -7057,7 +13220,104 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5807830_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N01917-001",
+    "M21720-001"
+   ],
+   "Battery": [
+    "M73472-005",
+    "M75599-005"
+   ],
+   "RAM": [
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "M16560-001",
+    "L89745-001",
+    "L85354-001",
+    "M11042-001",
+    "M11040-001"
+   ],
+   "Wi-Fi card": [
+    "M53366-001",
+    "M91238-001"
+   ],
+   "WWAN card": [
+    "M52040-001"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21718-001",
+    "N00095-001"
+   ],
+   "Heatsink": [
+    "N03344-001",
+    "N03345-001"
+   ],
+   "Speakers": [
+    "M21723-001"
+   ],
+   "Touchpad": [
+    "N14647-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N01933-001",
+    "N01934-001"
+   ],
+   "Display panel": [
+    "N00086-001",
+    "N00084-001",
+    "N00085-001",
+    "N00087-001"
+   ],
+   "Display bezel": [
+    "M21991-001",
+    "N14641-001",
+    "M21992-001",
+    "N07351-001",
+    "M21993-001",
+    "N14640-001"
+   ],
+   "Camera": [
+    "N05869-001",
+    "N05870-001"
+   ],
+   "Hinges": [
+    "N12501-001"
+   ],
+   "DC-in / charge port": [
+    "M21725-001"
+   ],
+   "I/O board": [
+    "N01502-001"
+   ],
+   "Fingerprint reader": [
+    "N00879-001"
+   ],
+   "System board": [
+    "N01275-001",
+    "N01272-001",
+    "N01270-001",
+    "N01266-001"
+   ],
+   "Antennas": [
+    "N03219-001",
+    "N03221-001"
+   ],
+   "Display back cover": [
+    "N01918-001",
+    "N01920-001",
+    "N01919-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5807830_en-US-1.pdf",
+  "pn_notes": "Top cover: backlit, not backlit. System board: 4 of 11 (UMA i7-1255U, i5-1235U, i3-1215U; discrete i5-1235U). Heatsink: discrete, UMA. Fan: 42 Wh, 51 Wh. Display panel: FHD 400, FHD 250, FHD touch, HD. Display bezel: pairs of two numbers for no camera, HD camera, HD+IR camera. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -7116,7 +13376,101 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12638334_en-US-1.pdf",
   "repair_confidence": "medium",
   "repair_notes": "No 630 G8 guide could be read. Values come from the HP ProBook 640 G8 guide (same generation and design). QuickSpecs confirm a 4.5 mm barrel DC-in on the 630 G8.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M21131-001",
+    "M21152-001"
+   ],
+   "Battery": [
+    "M02027-001",
+    "M02027-005"
+   ],
+   "RAM": [
+    "M09713-002",
+    "L67710-002",
+    "L46598-002",
+    "L83673-002"
+   ],
+   "SSD": [
+    "L85348-002",
+    "L85360-002",
+    "L85364-002",
+    "L85366-002",
+    "L85350-002"
+   ],
+   "Wi-Fi card": [
+    "L22634-002",
+    "L92724-002"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21147-001"
+   ],
+   "Heatsink": [
+    "M21139-001"
+   ],
+   "Speakers": [
+    "M21146-001"
+   ],
+   "Touchpad": [
+    "M21148-001",
+    "M21149-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M21190-001",
+    "M21188-001",
+    "M21189-001"
+   ],
+   "Display panel": [
+    "M21163-001",
+    "M21164-001",
+    "M21165-001",
+    "M21166-001",
+    "M21167-001"
+   ],
+   "Display bezel": [
+    "M21158-001",
+    "M21159-001",
+    "M21160-001",
+    "M21161-001",
+    "M21162-001"
+   ],
+   "Camera": [
+    "M21151-001",
+    "M21150-001"
+   ],
+   "DC-in / charge port": [
+    "M21154-001"
+   ],
+   "Fingerprint reader": [
+    "M21402-001"
+   ],
+   "Smart card reader": [
+    "M21398-001"
+   ],
+   "System board": [
+    "M21377-001",
+    "M21379-001",
+    "M21381-001"
+   ],
+   "NFC module": [
+    "M21149-001"
+   ],
+   "Antennas": [
+    "M23850-001",
+    "M23851-001"
+   ],
+   "Display back cover": [
+    "M21155-001",
+    "M21156-001",
+    "M21157-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://manualsnet.com/hp/probook-630-g8",
+  "pn_notes": "Numbers from the HP ProBook 630 G8 Maintenance and Service Guide (manualsnet copy); the cited pdf_12638334 is the 640 G8 guide. Top cover: not backlit, backlit, backlit privacy. Touchpad: without and with NFC. Bottom cover: standard, 400 nit models. Display panel: FHD 250, FHD 400 (two), FHD SVA 250, FHD privacy. Camera: IR, HD. Battery: the guide lists M02027-001. System board: i3, i5, i7 UMA (non-Windows; -601 for Windows)."
  },
  {
   "brand": "HP",
@@ -7175,7 +13529,100 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12642281_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M30652-001"
+   ],
+   "Battery": [
+    "L78555-005",
+    "M12451-005"
+   ],
+   "RAM": [
+    "L67710-001",
+    "L46598-001",
+    "L83673-001"
+   ],
+   "SSD": [
+    "L85348-001",
+    "L85360-001",
+    "L85364-001",
+    "L85350-001",
+    "L85354-001",
+    "L85346-001"
+   ],
+   "Wi-Fi card": [
+    "L35282-005",
+    "L44796-005"
+   ],
+   "WWAN card": [
+    "L15398-005"
+   ],
+   "Coin-cell battery": [
+    "L13694-001"
+   ],
+   "Fan": [
+    "M30650-001"
+   ],
+   "Heatsink": [
+    "M30651-001"
+   ],
+   "Speakers": [
+    "M30648-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M30681-001",
+    "M30682-001",
+    "M30683-001"
+   ],
+   "Display panel": [
+    "M30680-001",
+    "M30679-001",
+    "M30678-001"
+   ],
+   "Display bezel": [
+    "M30658-001",
+    "M30657-001",
+    "M30656-001",
+    "M30659-001"
+   ],
+   "Camera": [
+    "M30660-001",
+    "M30661-001"
+   ],
+   "Hinges": [
+    "M30666-001"
+   ],
+   "DC-in / charge port": [
+    "M15626-001"
+   ],
+   "USB board": [
+    "M30670-001"
+   ],
+   "Fingerprint reader": [
+    "M03434-001"
+   ],
+   "System board": [
+    "M30644-001",
+    "M30640-001",
+    "M30638-001",
+    "M30636-001"
+   ],
+   "Hub board": [
+    "M30672-001",
+    "M30673-001"
+   ],
+   "Ambient light sensor": [
+    "M30669-001"
+   ],
+   "Display back cover": [
+    "M30653-001",
+    "M30654-001",
+    "M30655-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12642281_en-US-1.pdf",
+  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: 4 of 10 (Ryzen 7 PRO 4750U, Ryzen 7 4700U, Ryzen 5 4500U, Ryzen 3 4300U; non-WWAN). Battery: 53 Wh, 42 Wh. Display panel: 1000, 400, 250 nits. Camera: HD, IR. The guide gives no touchpad number. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -7234,7 +13681,110 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5972179_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "DC-in power connector is a listed spare part (M21725-001). Keyboard is sold only with the top cover.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M21720-001",
+    "M21721-001"
+   ],
+   "Battery": [
+    "M02027-001",
+    "M02027-005"
+   ],
+   "RAM": [
+    "M09713-002",
+    "L67710-002",
+    "L46598-002",
+    "L83673-002"
+   ],
+   "SSD": [
+    "L85348-002",
+    "L85360-002",
+    "L85364-002",
+    "L85368-002",
+    "L85350-002",
+    "L85354-002"
+   ],
+   "Wi-Fi card": [
+    "L22634-002",
+    "L92724-002"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21718-001",
+    "M21719-001"
+   ],
+   "Heatsink": [
+    "M21717-001",
+    "M21716-001"
+   ],
+   "Speakers": [
+    "M21723-001"
+   ],
+   "Touchpad": [
+    "M21999-001",
+    "M22000-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M22003-001",
+    "M22004-001",
+    "M22005-001"
+   ],
+   "Display panel": [
+    "M22912-001",
+    "M22913-001",
+    "M22914-001",
+    "M22915-001",
+    "M22916-001"
+   ],
+   "Display bezel": [
+    "M21991-001",
+    "M21992-001",
+    "M21993-001"
+   ],
+   "Camera": [
+    "M27889-001",
+    "M29583-001"
+   ],
+   "Hinges": [
+    "M21732-001"
+   ],
+   "DC-in / charge port": [
+    "M21725-001"
+   ],
+   "USB board": [
+    "M21399-001"
+   ],
+   "Fingerprint reader": [
+    "M21402-001"
+   ],
+   "Smart card reader": [
+    "M21398-001"
+   ],
+   "System board": [
+    "M21377-001",
+    "M21379-001",
+    "M21381-001",
+    "M21375-001"
+   ],
+   "NFC module": [
+    "M22000-001"
+   ],
+   "Antennas": [
+    "M21727-001",
+    "M21728-001"
+   ],
+   "Display back cover": [
+    "M21987-001",
+    "M21988-001",
+    "M21989-001",
+    "M21990-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5972179_en-US-1.pdf",
+  "pn_notes": "Top cover: not backlit, backlit, backlit privacy (-001 US). Touchpad: without and with NFC. Bottom cover, fan, heatsink: UMA then discrete (heatsink discrete first). System board: 4 of 7 (i3, i5, i7 UMA; i5 discrete; non-Windows). Display panel: FHD 250, FHD 400, FHD touch-on-panel, HD, FHD privacy. Battery: the guide lists M02027-001. RTC battery number is from the removal chapter."
  },
  {
   "brand": "HP",
@@ -7294,7 +13844,90 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12437044_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Keyboard is its own part but is the last part out: nearly every other part must come off first. Display is sold only as a full assembly. USB-C charging ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L71954-001",
+    "L71955-001",
+    "L71956-001",
+    "L71953-001"
+   ],
+   "Battery": [
+    "L60373-005"
+   ],
+   "SSD": [
+    "L71983-001",
+    "L71979-001",
+    "L71984-001",
+    "L71982-001",
+    "L71980-001",
+    "L71981-001"
+   ],
+   "WWAN card": [
+    "L40752-005"
+   ],
+   "Heatsink (fan/heatsink assembly)": [
+    "L71961-001"
+   ],
+   "Speakers": [
+    "L71977-001",
+    "L71978-001"
+   ],
+   "Touchpad": [
+    "L71966-001",
+    "L71965-001",
+    "L71967-001"
+   ],
+   "Keyboard": [
+    "L72387-001",
+    "L73750-001",
+    "L72385-001",
+    "L73748-001",
+    "L72386-001",
+    "L73749-001"
+   ],
+   "Palmrest/top cover": [
+    "L72408-001",
+    "L72407-001",
+    "L72409-001",
+    "L72410-001"
+   ],
+   "Display assembly": [
+    "L75192-001",
+    "L72404-001",
+    "L75196-001",
+    "L75191-001",
+    "L72403-001",
+    "L75195-001"
+   ],
+   "Audio/headphone board": [
+    "L71969-001"
+   ],
+   "Fingerprint reader": [
+    "L71963-001",
+    "L71964-001",
+    "L71962-001"
+   ],
+   "Power button": [
+    "L74814-001",
+    "L74815-001",
+    "L72402-001"
+   ],
+   "System board": [
+    "L71986-601",
+    "L71988-601",
+    "L71989-601",
+    "L71985-601"
+   ],
+   "IR sensor board": [
+    "L71968-001"
+   ],
+   "Antennas": [
+    "L72398-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12437044_en-US-1.pdf",
+  "pn_notes": "Most parts differ by finish: natural silver, nightfall black, Poseidon blue (in that order). Display assembly: UHD OLED touch (silver, black, blue), FHD 1000 nit privacy touch (silver, black, blue). Keyboard (US, backlit): silver privacy, silver, black privacy, black, blue privacy, blue. Top cover: silver, black, blue, black WWAN (non-Japan). System board: the guide lists Windows (-601) boards; 4 of 5 (i7-1065G7 16 GB, i7-1065G7 8 GB variants, i5-1035G4). Speakers: WWAN, non-WWAN. Antennas: WWAN antenna kit."
  },
  {
   "brand": "HP",
@@ -7354,7 +13987,129 @@ window.BATTERIES = [
   "service_manual_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Firefly%2014/HP%20Zbook%20Firefly%2014%20G7%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
   "repair_confidence": "high",
   "repair_notes": "HP service guide (archived copy). Keyboard is sold only with the top cover. USB-C charging ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M07138-001",
+    "M07137-001"
+   ],
+   "Battery": [
+    "L78555-002",
+    "L78555-005"
+   ],
+   "RAM": [
+    "L50384-002",
+    "937438-852",
+    "937236-852"
+   ],
+   "SSD": [
+    "L85358-002",
+    "L85348-002",
+    "L85368-002",
+    "L85366-002",
+    "L85350-002",
+    "L85354-002"
+   ],
+   "Wi-Fi card": [
+    "L57248-002",
+    "L57250-002"
+   ],
+   "WWAN card": [
+    "L40752-002",
+    "L70670-002"
+   ],
+   "Coin-cell battery": [
+    "L13694-001"
+   ],
+   "Fan": [
+    "M07144-001",
+    "M07102-001"
+   ],
+   "Heatsink": [
+    "M07143-001",
+    "M07204-001"
+   ],
+   "Speakers": [
+    "M07107-001"
+   ],
+   "Touchpad": [
+    "M07149-001",
+    "M07150-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M14635-001",
+    "M14636-001",
+    "M07131-001",
+    "M07132-001"
+   ],
+   "Display panel": [
+    "M07281-001",
+    "M07133-001",
+    "M07136-001",
+    "M07135-001",
+    "M07134-001"
+   ],
+   "Display bezel": [
+    "M07163-001",
+    "M07164-001",
+    "M07165-001",
+    "M07166-001",
+    "M07100-001"
+   ],
+   "Camera": [
+    "M07216-001",
+    "M08549-001"
+   ],
+   "Hinges": [
+    "M07146-001"
+   ],
+   "DC-in / charge port": [
+    "M15626-001"
+   ],
+   "USB board": [
+    "M07207-001"
+   ],
+   "Fingerprint reader": [
+    "M07151-001"
+   ],
+   "Smart card reader": [
+    "M07105-001"
+   ],
+   "System board": [
+    "M07117-001",
+    "M07114-001",
+    "M08561-001",
+    "M08559-001"
+   ],
+   "NFC module": [
+    "M07214-001"
+   ],
+   "Touchpad button board": [
+    "M07148-001",
+    "M07147-001"
+   ],
+   "Hub board": [
+    "M07210-001",
+    "M07211-001"
+   ],
+   "Microphone module": [
+    "M07208-001",
+    "M07209-001"
+   ],
+   "Ambient light sensor": [
+    "M07212-001",
+    "M07213-001"
+   ],
+   "Display back cover": [
+    "M14632-001",
+    "M07142-001",
+    "M07140-001",
+    "M07139-001",
+    "M07141-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Firefly%2014/HP%20Zbook%20Firefly%2014%20G7%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
+  "pn_notes": "Discrete graphics parts first, then UMA (top cover, touchpad button board, fan, heatsink, bottom cover). Top cover: backlit, backlit privacy for each. System board: 4 of 21 (discrete i7-10610U 16 GB, i5-10310U 16 GB; UMA i7-10610U, i5-10310U). Display panel: 1000 nit, 250, 250 touch-on-panel, UHD 400, FHD 400. Battery: the guide lists L78555-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -7412,7 +14167,124 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12642772_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover. USB-C charging ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M36441-001",
+    "M36442-001"
+   ],
+   "Battery": [
+    "L78555-005"
+   ],
+   "RAM": [
+    "M09713-002",
+    "L67710-002",
+    "L46598-002"
+   ],
+   "SSD": [
+    "L85368-002",
+    "L85366-002",
+    "M07245-002",
+    "L85354-002",
+    "M06792-002"
+   ],
+   "Wi-Fi card": [
+    "L92724-002"
+   ],
+   "WWAN card": [
+    "L70670-002",
+    "L83053-002"
+   ],
+   "Coin-cell battery": [
+    "L13694-001"
+   ],
+   "Fan": [
+    "M07102-001",
+    "M36936-001"
+   ],
+   "Heatsink": [
+    "M07204-001",
+    "M36443-001"
+   ],
+   "Speakers": [
+    "M07107-001"
+   ],
+   "Touchpad": [
+    "M42239-001",
+    "M42240-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M36447-001",
+    "M36446-001",
+    "M44366-001",
+    "M44365-001"
+   ],
+   "Display panel": [
+    "M36316-001",
+    "M36315-001",
+    "M36314-001",
+    "M36313-001"
+   ],
+   "Display bezel": [
+    "M07163-001",
+    "M07164-001",
+    "M07165-001",
+    "M07166-001",
+    "M07100-001"
+   ],
+   "Camera": [
+    "M07216-001",
+    "M08549-001"
+   ],
+   "Hinges": [
+    "M07146-001"
+   ],
+   "DC-in / charge port": [
+    "M15626-001"
+   ],
+   "USB board": [
+    "M36398-001"
+   ],
+   "Fingerprint reader": [
+    "M36444-001"
+   ],
+   "Smart card reader": [
+    "M07105-001"
+   ],
+   "System board": [
+    "M36402-001",
+    "M36401-001",
+    "M36453-001",
+    "M36448-001"
+   ],
+   "NFC module": [
+    "M07214-001"
+   ],
+   "Touchpad button board": [
+    "M07147-001",
+    "M07148-001"
+   ],
+   "Hub board": [
+    "M07210-001",
+    "M07211-001"
+   ],
+   "Microphone module": [
+    "M07208-001",
+    "M07209-001"
+   ],
+   "Ambient light sensor": [
+    "M07212-001",
+    "M07213-001"
+   ],
+   "Display back cover": [
+    "M36440-001",
+    "M36438-001",
+    "M36437-001",
+    "M36439-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12642772_en-US-1.pdf",
+  "pn_notes": "UMA parts first, then discrete graphics (top cover, touchpad button board, fan, heatsink, bottom cover). Top cover: backlit, backlit privacy for each. System board: UMA i7-1165G7, i5-1135G7; discrete i7-1165G7 16 GB, i5-1135G7 16 GB. Display panel: 1000, 250, 250 touch-on-panel, 400 nits. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -7470,7 +14342,125 @@ window.BATTERIES = [
   "service_manual_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Firefly%2015/HP%20Zbook%20Firefly%2015%20G7%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
   "repair_confidence": "high",
   "repair_notes": "HP service guide (archived copy). Keyboard is sold only with the top cover. USB-C charging ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M05511-001",
+    "M14240-001"
+   ],
+   "Battery": [
+    "L77991-002",
+    "L77991-005"
+   ],
+   "RAM": [
+    "L50384-002",
+    "937438-852",
+    "937236-852"
+   ],
+   "SSD": [
+    "L85358-002",
+    "L85348-002",
+    "L85360-002",
+    "L85368-002",
+    "L85350-002",
+    "L85354-002"
+   ],
+   "Wi-Fi card": [
+    "L57248-002",
+    "L57250-002"
+   ],
+   "WWAN card": [
+    "L40752-002",
+    "L70670-002"
+   ],
+   "Coin-cell battery": [
+    "L17255-001"
+   ],
+   "Fan": [
+    "M05261-001"
+   ],
+   "Heatsink": [
+    "M05262-001",
+    "M05263-001"
+   ],
+   "Speakers": [
+    "M05268-001"
+   ],
+   "Touchpad": [
+    "M05520-001",
+    "M05521-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M07494-001",
+    "M07496-001",
+    "M07495-001"
+   ],
+   "Display panel": [
+    "M14368-001",
+    "M05491-001",
+    "M05492-001",
+    "M05493-001",
+    "M05494-001"
+   ],
+   "Display bezel": [
+    "M05256-001",
+    "M05257-001",
+    "M05258-001",
+    "M05259-001",
+    "M05260-001"
+   ],
+   "Camera": [
+    "M07216-001",
+    "M08549-001"
+   ],
+   "Hinges": [
+    "M05518-001"
+   ],
+   "DC-in / charge port": [
+    "M15626-001"
+   ],
+   "USB board": [
+    "M05266-001"
+   ],
+   "Fingerprint reader": [
+    "M07151-001"
+   ],
+   "Smart card reader": [
+    "M07105-001"
+   ],
+   "System board": [
+    "M05499-001",
+    "M05497-001",
+    "M05250-001",
+    "M05248-001"
+   ],
+   "NFC module": [
+    "M07214-001"
+   ],
+   "Touchpad button board": [
+    "M05519-001"
+   ],
+   "Hub board": [
+    "M07210-001",
+    "M07211-001"
+   ],
+   "Microphone module": [
+    "M07208-001",
+    "M07209-001"
+   ],
+   "Ambient light sensor": [
+    "M07212-001",
+    "M07213-001"
+   ],
+   "Display back cover": [
+    "M05512-001",
+    "M14241-001",
+    "M14242-001",
+    "M14243-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Firefly%2015/HP%20Zbook%20Firefly%2015%20G7%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
+  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: 4 of 17 (discrete i7-10610U, i5-10310U; UMA i7-10610U, i5-10310U). Heatsink: UMA, discrete. Bottom cover: discrete, UMA. Display panel: privacy, 250, 250 touch-on-panel, FHD 400, UHD 400. Battery: the guide lists L77991-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -7528,7 +14518,125 @@ window.BATTERIES = [
   "service_manual_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Firefly%2015/HP%20Zbook%20Firefly%2015%20G8%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
   "repair_confidence": "high",
   "repair_notes": "HP service guide (archived copy). Keyboard is sold only with the top cover. USB-C charging ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M35839-001",
+    "M35840-001"
+   ],
+   "Battery": [
+    "L77991-002",
+    "L77991-005"
+   ],
+   "RAM": [
+    "M09713-002",
+    "L67710-002",
+    "L46598-002"
+   ],
+   "SSD": [
+    "L85368-002",
+    "L85366-002",
+    "M07245-002",
+    "L85354-002",
+    "M06792-002"
+   ],
+   "Wi-Fi card": [
+    "L92722-002",
+    "L92724-002"
+   ],
+   "WWAN card": [
+    "L70670-002",
+    "L83053-002"
+   ],
+   "Coin-cell battery": [
+    "L17255-001"
+   ],
+   "Fan": [
+    "M38312-001"
+   ],
+   "Heatsink": [
+    "M38314-001",
+    "M35826-001"
+   ],
+   "Speakers": [
+    "M38313-001"
+   ],
+   "Touchpad": [
+    "M42583-001",
+    "M42584-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M35847-001",
+    "M35849-001",
+    "M35848-001"
+   ],
+   "Display panel": [
+    "M35846-001",
+    "M35843-001",
+    "M35845-001",
+    "M35844-001",
+    "M35842-001"
+   ],
+   "Display bezel": [
+    "M05256-001",
+    "M05257-001",
+    "M05258-001",
+    "M05259-001",
+    "M05260-001"
+   ],
+   "Camera": [
+    "M07216-001",
+    "M08549-001"
+   ],
+   "Hinges": [
+    "M05518-001"
+   ],
+   "DC-in / charge port": [
+    "M15626-001"
+   ],
+   "USB board": [
+    "M35827-001"
+   ],
+   "Fingerprint reader": [
+    "M07206-001"
+   ],
+   "Smart card reader": [
+    "M07105-001"
+   ],
+   "System board": [
+    "M35832-001",
+    "M35829-001",
+    "M35808-001",
+    "M35805-001"
+   ],
+   "NFC module": [
+    "M07214-001"
+   ],
+   "Touchpad button board": [
+    "M05519-001"
+   ],
+   "Hub board": [
+    "M07210-001",
+    "M07211-001"
+   ],
+   "Microphone module": [
+    "M07208-001",
+    "M07209-001"
+   ],
+   "Ambient light sensor": [
+    "M07212-001",
+    "M07213-001",
+    "M08553-001"
+   ],
+   "Display back cover": [
+    "M35835-001",
+    "M35836-001",
+    "M35837-001",
+    "M35838-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Firefly%2015/HP%20Zbook%20Firefly%2015%20G8%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
+  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: discrete i7-1165G7, i5-1135G7; UMA i7-1165G7, i5-1135G7. Heatsink and bottom cover: UMA, discrete. Display panel: FHD privacy, FHD 250, 250 touch-on-panel, FHD 400, UHD 400. Battery: the guide lists L77991-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -7586,7 +14694,97 @@ window.BATTERIES = [
   "service_manual_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G7%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
   "repair_confidence": "high",
   "repair_notes": "HP service guide (archived copy). Two fans are sold separately. No power connector cable is listed, so the DC-in jack is taken as on the system board. The M.2 Wi-Fi card has no own spare part number; HP ships it with the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M21851-001",
+    "M21852-601"
+   ],
+   "Battery": [
+    "M02029-005"
+   ],
+   "RAM": [
+    "M09713-002",
+    "L67710-002",
+    "L24981-002",
+    "L46598-002",
+    "L24983-002"
+   ],
+   "SSD": [
+    "L85358-002",
+    "L85348-002",
+    "L85368-002",
+    "L85360-002",
+    "M07245-002",
+    "L85350-002"
+   ],
+   "Fan": [
+    "M21848-601",
+    "M21849-001"
+   ],
+   "Heatsink": [
+    "M21845-001",
+    "M21846-601"
+   ],
+   "Speakers": [
+    "M21850-001"
+   ],
+   "Touchpad": [
+    "M21853-001",
+    "M21854-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M26112-001",
+    "M26113-001",
+    "M26110-001",
+    "M26111-001"
+   ],
+   "Display panel": [
+    "M21871-001",
+    "M21869-001",
+    "M21870-001",
+    "M21868-001"
+   ],
+   "Display bezel": [
+    "M21864-001",
+    "M21863-001",
+    "M21865-001"
+   ],
+   "Camera": [
+    "M21872-001",
+    "M21873-001"
+   ],
+   "Hinges": [
+    "M21867-001"
+   ],
+   "Fingerprint reader": [
+    "M21402-001"
+   ],
+   "Smart card reader": [
+    "M21398-001"
+   ],
+   "System board": [
+    "M21833-001",
+    "M21813-001",
+    "M21815-001",
+    "M21803-001"
+   ],
+   "NFC module": [
+    "M21859-001"
+   ],
+   "Sensor board": [
+    "M21844-001"
+   ],
+   "Antennas": [
+    "M21862-001"
+   ],
+   "Display back cover": [
+    "M21861-001",
+    "M21860-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G7%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
+  "pn_notes": "Palmrest/top cover with keyboard (US): discrete backlit, discrete non-backlit, UMA backlit, UMA non-backlit. Fan: left, right. Heatsink and bottom cover: UMA, discrete; the guide prints the discrete heatsink, discrete bottom cover and left fan with a -601 suffix. System board: 4 of 21 (i9-10885H T2000, i7-10850H UMA, i5-10300H P620, i5-10300H UMA; non-Windows). Display panel: UHD 400, FHD 400, FHD 250 touch, FHD 250. Camera: HD+IR, HD."
  },
  {
   "brand": "HP",
@@ -7645,7 +14843,99 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5826571_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "CPU and GPU fans are sold separately. Charging is by USB-C on the system board; no power connector cable is listed. The Wi-Fi card has no own removal procedure or spare part number.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N12836-001",
+    "N10922-001"
+   ],
+   "Battery": [
+    "M82230-005"
+   ],
+   "RAM": [
+    "N19982-001",
+    "M97596-002",
+    "M97595-002"
+   ],
+   "SSD": [
+    "N06219-002",
+    "M52027-002",
+    "M16560-002",
+    "M52031-002",
+    "M17436-002",
+    "M52025-002"
+   ],
+   "Coin-cell battery": [
+    "N10921-001"
+   ],
+   "Fan": [
+    "N10924-001"
+   ],
+   "Heatsink": [
+    "N10925-001",
+    "N10926-001",
+    "N10927-001"
+   ],
+   "Speakers": [
+    "N10928-001"
+   ],
+   "Touchpad": [
+    "N10923-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N10947-001",
+    "N10948-001",
+    "N10945-001",
+    "N10946-001"
+   ],
+   "Display assembly": [
+    "N10913-001",
+    "N10911-001"
+   ],
+   "Display panel": [
+    "N10910-001",
+    "N10912-001"
+   ],
+   "Display bezel": [
+    "N10930-001"
+   ],
+   "Camera": [
+    "N10914-001"
+   ],
+   "Hinges": [
+    "N10932-001"
+   ],
+   "Audio/headphone board": [
+    "N10939-001"
+   ],
+   "Fingerprint reader": [
+    "N10920-001"
+   ],
+   "System board": [
+    "N10904-001",
+    "N10888-001",
+    "N10894-001",
+    "N10896-001"
+   ],
+   "Hub board": [
+    "N10919-001"
+   ],
+   "Antennas": [
+    "N10931-001"
+   ],
+   "Microphone module": [
+    "N10936-001"
+   ],
+   "Ambient light sensor": [
+    "N10915-001",
+    "N10916-001"
+   ],
+   "Display back cover": [
+    "N10929-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5826571_en-US-1.pdf",
+  "pn_notes": "The guide lists the top cover and system board with a -xxx country/OS suffix; -001 (US English / non-Windows) is given here. Top cover: backlit, backlit privacy, RGB, RGB Z Command. System board: 4 of 23 (i7-12800H UMA, i7-12800H A1000, i9-12900H A2000, i7-12800H RTX 3060). Heatsink: UMA, A1000/A2000, high-end graphics. Fan: kit with both fans. Display assembly (touch or 120 Hz, whole assembly only): WQUXGA touch, WQUXGA 120 Hz. Display panel: WUXGA 400, WUXGA 1000 privacy. Speakers: one kit for woofers and tweeters."
  },
  {
   "brand": "HP",
@@ -7706,7 +14996,79 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12632106_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Fans are sold only with the heatsink. No power connector cable is listed, so the DC-in is taken as on the system board. The Wi-Fi card has no own spare part number.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M12859-001"
+   ],
+   "Battery": [
+    "L78553-002",
+    "L78553-005"
+   ],
+   "SSD": [
+    "L85358-001",
+    "L85348-001",
+    "L85368-001",
+    "L85350-001"
+   ],
+   "Heatsink (with fans)": [
+    "M12858-001",
+    "M14876-001",
+    "M14877-001"
+   ],
+   "Speakers": [
+    "M12862-001"
+   ],
+   "Touchpad": [
+    "M12865-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M14605-001",
+    "M14606-001",
+    "M14607-001",
+    "M14608-001",
+    "M14609-001"
+   ],
+   "Display assembly": [
+    "M15644-001",
+    "M24419-001",
+    "M15646-001"
+   ],
+   "Display panel": [
+    "M15645-001",
+    "M25870-001"
+   ],
+   "Display bezel": [
+    "M15648-001",
+    "M15649-001"
+   ],
+   "Camera": [
+    "M15653-001"
+   ],
+   "Hinges": [
+    "M15650-001"
+   ],
+   "USB board": [
+    "M15051-001"
+   ],
+   "Fingerprint reader": [
+    "M12864-001"
+   ],
+   "System board": [
+    "M12883-001",
+    "M12876-001",
+    "M12880-001",
+    "M14883-001"
+   ],
+   "Keyboard controller board": [
+    "M12866-001"
+   ],
+   "Antennas": [
+    "M15652-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12632106_en-US-1.pdf",
+  "pn_notes": "Heatsink (with fans): discrete, UMA, vapour chamber for RTX 3000 and up. Top cover: UMA, discrete, discrete privacy, RTX, RTX privacy (first series). System board: 4 of 29 (i5-10400H UMA, i7-10850H T1000 16 GB, i7-10850H T2000 16 GB, i7-10750H RTX 2070 16 GB). Display assembly: touch, FHD non-touch, UHD non-touch. Display panel: non-privacy, privacy. USB board: sold in the Cable Kit. Battery: the guide lists L78553-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
  },
  {
   "brand": "HP",
@@ -7765,7 +15127,104 @@ window.BATTERIES = [
   "service_manual_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Studio%20x360/HP%20Zbook%20Studio%20x360%20G5%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
   "repair_confidence": "high",
   "repair_notes": "HP service guide (archived copy). The fan comes only as part of the thermal module. No power connector cable is listed, so the DC-in is taken as on the system board. The coin-cell battery is not spared alone.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L28667-001"
+   ],
+   "Battery": [
+    "L07046-855",
+    "L07045-855"
+   ],
+   "RAM": [
+    "937438-850",
+    "937236-850",
+    "L10598-850",
+    "L24981-001",
+    "L24983-001"
+   ],
+   "SSD": [
+    "L28681-001",
+    "L28677-001",
+    "L28683-001",
+    "L28682-001",
+    "L28679-001",
+    "L28678-001"
+   ],
+   "Wi-Fi card": [
+    "L32650-005",
+    "L32652-005"
+   ],
+   "WWAN card": [
+    "845710-003",
+    "L15398-001"
+   ],
+   "Heatsink (thermal module with fan)": [
+    "L28670-001",
+    "L30973-001"
+   ],
+   "Speakers": [
+    "L28672-001"
+   ],
+   "Touchpad": [
+    "L32746-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "L34210-001",
+    "L34211-001"
+   ],
+   "Display assembly": [
+    "L28663-001",
+    "L28664-001"
+   ],
+   "Display panel": [
+    "L32562-001",
+    "L32561-001",
+    "L32563-001"
+   ],
+   "Display bezel": [
+    "L31689-001",
+    "L31690-001",
+    "L31691-001",
+    "L31692-001",
+    "L31693-001",
+    "L31694-001"
+   ],
+   "Camera": [
+    "L30660-001",
+    "L28470-001"
+   ],
+   "Hinges": [
+    "L28659-001"
+   ],
+   "Audio/headphone board": [
+    "L28660-001"
+   ],
+   "Fingerprint reader": [
+    "L28662-001"
+   ],
+   "Power button": [
+    "L30975-001"
+   ],
+   "System board": [
+    "L33161-001",
+    "L33160-001",
+    "L28656-001",
+    "L31684-001"
+   ],
+   "NFC module": [
+    "L33682-001"
+   ],
+   "2.5 in SSD bay and cable": [
+    "L28668-001",
+    "L33681-001"
+   ],
+   "Antennas": [
+    "L31688-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Studio%20x360/HP%20Zbook%20Studio%20x360%20G5%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
+  "pn_notes": "Battery: 4-cell, 6-cell. Top cover (US -001): backlit, backlit privacy. Heatsink: thermal module for discrete, UMA. System board: 4 of 10 (discrete i7-8850H, i7-8750H; UMA i7-8750H, i5-8300H; non-Windows, -601 for Windows). Display assembly: UHD touch without and with camera (whole unit only). Display panel: FHD, FHD privacy, UHD. Camera: IR, HD. Audio/headphone board: combined card reader/audio board. 2.5 in SSD bay: drive cable, then hard drive hardware kit. RAM: Core (16, 8, 4 GB), then Xeon ECC (16, 8 GB)."
  },
  {
   "brand": "HP",
@@ -7826,7 +15285,89 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12664336_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover (includes touchpad). Fan is part of the heat sink/fan assembly. The guide lists no Wi-Fi card or RTC battery as spare parts. Full display assembly is sold only as subcomponents.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L57010-001"
+   ],
+   "Battery": [
+    "L32749-005"
+   ],
+   "RAM": [
+    "937438-850",
+    "937236-850",
+    "L62310-001"
+   ],
+   "SSD": [
+    "L57033-001",
+    "L57031-001",
+    "L57034-001",
+    "L57032-001",
+    "L57035-001"
+   ],
+   "Heatsink": [
+    "L57018-001"
+   ],
+   "Speakers": [
+    "L57030-001"
+   ],
+   "Touchpad cable": [
+    "L57014-001"
+   ],
+   "Palmrest/top cover": [
+    "L57185-001"
+   ],
+   "Display panel": [
+    "L57025-001",
+    "L57026-001",
+    "L62861-001",
+    "L57024-001"
+   ],
+   "Display bezel": [
+    "L57011-001"
+   ],
+   "Camera": [
+    "L57040-001"
+   ],
+   "Hinges": [
+    "L57019-001"
+   ],
+   "DC-in / charge port": [
+    "L57017-001"
+   ],
+   "Power button": [
+    "L57020-001"
+   ],
+   "System board": [
+    "L57039-601",
+    "L57037-601",
+    "L57038-601",
+    "L57036-601"
+   ],
+   "Second display": [
+    "L57028-001"
+   ],
+   "Second display transfer board": [
+    "L57230-001"
+   ],
+   "IR sensor board": [
+    "L57021-001"
+   ],
+   "Display LED board": [
+    "L57022-001"
+   ],
+   "Display backlight module": [
+    "L57184-001"
+   ],
+   "Antennas": [
+    "L57008-001"
+   ],
+   "Network connector door": [
+    "L57023-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12664336_en-US-1.pdf",
+  "pn_notes": "Heatsink is the heat sink/fan assembly. Top cover includes keyboard and touchpad (US -001). RAM: 16 GB and 8 GB DDR4-2666, 16 GB DDR4-3200. SSD: 2 TB, 1 TB, 512 GB, 256 GB, 512 GB + Optane. Display panel: UHD 550 nit, UHD 340 nit, FHD 240 Hz, FHD 144 Hz. Camera is the webcam/microphone module. DC-in is the power connector cable; power button is the power button board. System board: i9-9880H RTX 2080, i9-9880H RTX 2070, i7-9750H RTX 2080, i7-9750H RTX 2070."
  },
  {
   "brand": "HP",
@@ -7885,7 +15426,102 @@ window.BATTERIES = [
   "service_manual_url": "https://www.cdrtd.com/blog/for-hp-probook-430-g6-notebook-pc-parts-list/",
   "repair_confidence": "high",
   "repair_notes": "Parts list is a copy of the HP Maintenance and Service Guide catalog. Keyboard is sold only with the top cover. USB-C port is on the power/USB board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L44515-001"
+   ],
+   "Battery": [
+    "L32656-002"
+   ],
+   "RAM": [
+    "865396-850",
+    "862398-850",
+    "862397-850"
+   ],
+   "SSD": [
+    "L44529-001",
+    "L44528-001",
+    "L44527-001",
+    "L46736-001"
+   ],
+   "Wi-Fi card": [
+    "L22634-001",
+    "915623-001"
+   ],
+   "WWAN card": [
+    "L15398-001",
+    "L35286-001"
+   ],
+   "Coin-cell battery": [
+    "L02772-001"
+   ],
+   "Fan": [
+    "L44514-001"
+   ],
+   "Heatsink": [
+    "L44512-001"
+   ],
+   "Speakers": [
+    "L44513-001"
+   ],
+   "Touchpad": [
+    "L44538-001"
+   ],
+   "Palmrest/top cover": [
+    "L44548-001",
+    "L44547-001"
+   ],
+   "Display panel": [
+    "L44530-001",
+    "L44534-001",
+    "L44546-001",
+    "L48455-001"
+   ],
+   "Display bezel": [
+    "L44520-001",
+    "L44518-001",
+    "L44519-001"
+   ],
+   "Camera": [
+    "L44539-001",
+    "L44540-001"
+   ],
+   "Hinges": [
+    "L44524-001",
+    "L45785-001"
+   ],
+   "DC-in / charge port": [
+    "L01048-001"
+   ],
+   "USB-C port board": [
+    "L44536-001"
+   ],
+   "Fingerprint reader": [
+    "L44516-001"
+   ],
+   "System board": [
+    "L44507-001",
+    "L44506-001",
+    "L44504-001",
+    "L44502-001"
+   ],
+   "Card reader board": [
+    "L44537-001"
+   ],
+   "Hard drive": [
+    "762990-001",
+    "703267-001"
+   ],
+   "Antennas": [
+    "L44543-001",
+    "L44544-001",
+    "L45787-001",
+    "L45788-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.cdrtd.com/blog/for-hp-probook-430-g6-notebook-pc-parts-list/",
+  "pn_notes": "Numbers are the HP MSG spare part table as copied on cdrtd.com. Top cover with keyboard: no backlight, backlit (US -001). RAM: 16/8/4 GB. SSD: 512 GB PCIe, 256 GB PCIe, 256 GB SATA, 128 GB SATA. Display panel: FHD, HD (non-touch), then FHD, HD (touch). Bezel: no camera, HD, HD+IR. Camera: HD, HD+IR. Hinges: non-touch, touch. DC-in is the power connector cable; USB-C port board is the power/USB board. System board: 4 of 8 CPU variants (i7-8565U, i5-8365U, i5-8265U, i3-8145U); -601 suffix for Windows. Antennas: WLAN, WWAN (non-touch), then WLAN, WWAN (touch)."
  },
  {
   "brand": "HP",
@@ -7944,7 +15580,104 @@ window.BATTERIES = [
   "service_manual_url": "https://www.cdrtd.com/blog/for-hp-probook-430-g7-notebook-pc-parts-list/",
   "repair_confidence": "high",
   "repair_notes": "Parts list is a copy of the HP Maintenance and Service Guide catalog. Keyboard is sold only with the top cover. USB-C port is on the power/USB board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L44515-001"
+   ],
+   "Battery": [
+    "L32656-002"
+   ],
+   "RAM": [
+    "L67710-002",
+    "L46598-002",
+    "L10598-852"
+   ],
+   "SSD": [
+    "L78043-001",
+    "L78044-001",
+    "L78042-001",
+    "L78041-001"
+   ],
+   "Wi-Fi card": [
+    "L22634-002",
+    "L44796-002",
+    "L57250-002"
+   ],
+   "WWAN card": [
+    "L15398-002"
+   ],
+   "Coin-cell battery": [
+    "L02772-001"
+   ],
+   "Fan": [
+    "L44514-001"
+   ],
+   "Heatsink": [
+    "L44512-001"
+   ],
+   "Speakers": [
+    "L44513-001"
+   ],
+   "Touchpad": [
+    "L77228-001"
+   ],
+   "Palmrest/top cover": [
+    "L44548-001",
+    "L44547-001",
+    "L79183-001"
+   ],
+   "Display panel": [
+    "L78045-001",
+    "L78047-001",
+    "L78046-001",
+    "L78048-001",
+    "L86962-001"
+   ],
+   "Display bezel": [
+    "L77232-001",
+    "L77230-001",
+    "L77231-001"
+   ],
+   "Camera": [
+    "L78049-001",
+    "L78050-001"
+   ],
+   "Hinges": [
+    "L77233-001",
+    "L77234-001"
+   ],
+   "DC-in / charge port": [
+    "L01048-001"
+   ],
+   "USB-C port board": [
+    "L77227-001"
+   ],
+   "Fingerprint reader": [
+    "L77229-001"
+   ],
+   "System board": [
+    "L77225-001",
+    "L77221-001",
+    "L77217-001",
+    "L77223-001"
+   ],
+   "Card reader board": [
+    "L44537-001"
+   ],
+   "Hard drive": [
+    "832077-002",
+    "703267-002"
+   ],
+   "Antennas": [
+    "L78051-001",
+    "L78052-001",
+    "L78053-001",
+    "L78054-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.cdrtd.com/blog/for-hp-probook-430-g7-notebook-pc-parts-list/",
+  "pn_notes": "Numbers are the HP MSG spare part table as copied on cdrtd.com. Top cover with keyboard: no backlight, backlit, backlit privacy (US -001). RAM: 16/8/4 GB. SSD: 512 GB TLC, 512 GB, 256 GB, 128 GB SATA. Display panel: FHD, FHD privacy, HD (non-touch), then FHD, HD (touch). Bezel: no camera, HD, HD+IR. Camera: HD, HD+IR. Hinges: non-touch, touch. DC-in is the power connector cable; USB-C port board is the power/USB board. System board: i7-10510U, i5-10210U, i3-10110U, i5-10210U WWAN (5 variants total); -601 suffix for Windows. Antennas: WLAN, WWAN (non-touch), then WLAN, WWAN (touch)."
  },
  {
   "brand": "HP",
@@ -8005,7 +15738,98 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12638578_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover. Barrel power connector is a separate cable; the USB-C port is on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M21131-001",
+    "M21152-001"
+   ],
+   "Battery": [
+    "M02027-002"
+   ],
+   "RAM": [
+    "L67710-002",
+    "L46598-002",
+    "L83673-002"
+   ],
+   "SSD": [
+    "L85348-002",
+    "L85364-002",
+    "L85354-002",
+    "M06792-002"
+   ],
+   "Wi-Fi card": [
+    "L92724-002",
+    "L22634-002",
+    "L44796-002"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M25871-001"
+   ],
+   "Heatsink": [
+    "M21139-001"
+   ],
+   "Speakers": [
+    "M21400-001"
+   ],
+   "Touchpad": [
+    "M21148-001"
+   ],
+   "Palmrest/top cover": [
+    "M24295-001",
+    "M24297-001",
+    "M24296-001"
+   ],
+   "Display panel": [
+    "M24293-001",
+    "M24291-001",
+    "M24290-001",
+    "M24292-001",
+    "M24294-001"
+   ],
+   "Display bezel": [
+    "M21158-001",
+    "M21161-001",
+    "M21162-001",
+    "M21160-001"
+   ],
+   "Camera": [
+    "M21150-001",
+    "M21151-001"
+   ],
+   "Hinges": [
+    "M21140-001",
+    "M24289-001"
+   ],
+   "DC-in / charge port": [
+    "M21154-001"
+   ],
+   "Fingerprint reader": [
+    "M21724-001"
+   ],
+   "System board": [
+    "M24279-001",
+    "M24277-001",
+    "M24275-001",
+    "M24274-001"
+   ],
+   "Microphone module": [
+    "M21153-001"
+   ],
+   "Antennas": [
+    "M23953-001"
+   ],
+   "Display back cover": [
+    "M21155-001",
+    "M21156-001",
+    "M21157-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12638578_en-US-1.pdf",
+  "pn_notes": "Top cover with keyboard: backlit, not backlit, backlit privacy (US -001). Bottom cover: non-400 nit, 400 nit models. RAM: 16/8/4 GB. SSD: 1 TB, 512 GB, 256 GB, 128 GB. Display panel: FHD 250 nit, FHD touch, FHD 400 nit, FHD 1000 nit privacy, HD. Camera: HD, IR. Hinges: non-400 nit, 400 nit. DC-in is the power connector cable. System board: i7-1165G7, i5-1135G7, i3-1115G4, Pentium 7505 (Celeron M24273 also); -601 suffix for Windows. Display back cover: standard, 400 nit, privacy."
  },
  {
   "brand": "HP",
@@ -8064,7 +15888,113 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12667846_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover. USB-C port is on the USB board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L44558-001",
+    "L64085-001"
+   ],
+   "Battery": [
+    "L32656-005"
+   ],
+   "RAM": [
+    "L67710-002",
+    "L46598-002",
+    "L10598-852"
+   ],
+   "SSD": [
+    "L78063-001",
+    "L78064-001",
+    "L78062-001",
+    "L78061-001"
+   ],
+   "Wi-Fi card": [
+    "L22634-001",
+    "L57250-002",
+    "L44796-002"
+   ],
+   "WWAN card": [
+    "L15398-002"
+   ],
+   "Coin-cell battery": [
+    "L02772-001"
+   ],
+   "Fan": [
+    "L44556-001",
+    "L44555-001"
+   ],
+   "Heatsink": [
+    "L44552-001",
+    "L44553-001",
+    "L62044-001"
+   ],
+   "Speakers": [
+    "L44554-001"
+   ],
+   "Touchpad": [
+    "L77252-001"
+   ],
+   "Palmrest/top cover": [
+    "L65224-001",
+    "L65225-001",
+    "L79440-001"
+   ],
+   "Display panel": [
+    "L78065-001",
+    "L78066-001",
+    "L78067-001",
+    "L78068-001"
+   ],
+   "Display bezel": [
+    "L78090-001",
+    "L78091-001",
+    "L78092-001"
+   ],
+   "Camera": [
+    "L81889-001",
+    "L81890-001"
+   ],
+   "Hinges": [
+    "L78093-001"
+   ],
+   "DC-in / charge port": [
+    "L01048-001"
+   ],
+   "USB-C port board": [
+    "L44578-001"
+   ],
+   "Fingerprint reader": [
+    "L77229-001"
+   ],
+   "System board": [
+    "L78087-001",
+    "L78085-001",
+    "L78083-001",
+    "L78082-001"
+   ],
+   "Card reader board": [
+    "L44579-001"
+   ],
+   "Hard drive": [
+    "766644-002",
+    "832077-002",
+    "703267-002"
+   ],
+   "Antennas": [
+    "L78070-001",
+    "L78071-001"
+   ],
+   "Display back cover": [
+    "L78072-001",
+    "L78073-001",
+    "L78074-001",
+    "L78075-001",
+    "L78076-001",
+    "L78077-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12667846_en-US-1.pdf",
+  "pn_notes": "Bottom cover, fan: UMA, discrete graphics. Heatsink: UMA, MX130, MX250. Top cover with keyboard: backlit, no backlight, backlit privacy. Display panel: FHD, HD, FHD privacy, FHD touch. Bezel: no camera, HD, HD+IR. Camera: HD, HD+IR. DC-in is the power connector cable; USB-C port board is the USB board. System board: 4 of 10 variants (i7-10510U, i5-10210U, i3-10110U UMA; i7-10510U MX250); -601 suffix for Windows. Antennas: WLAN, WWAN."
  },
  {
   "brand": "HP",
@@ -8123,7 +16053,105 @@ window.BATTERIES = [
   "service_manual_url": "https://hp.it-shop.bg/uploaded/5/3/ProBook-450-G8-MSG.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover. Barrel power connector is a separate cable.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M21720-001",
+    "M21721-001"
+   ],
+   "Battery": [
+    "M02027-002"
+   ],
+   "RAM": [
+    "L67710-002",
+    "L46598-002",
+    "L83673-002"
+   ],
+   "SSD": [
+    "L85348-002",
+    "L85364-002",
+    "L85354-002",
+    "M06792-002"
+   ],
+   "Wi-Fi card": [
+    "L92724-002",
+    "L22634-002",
+    "L44796-002"
+   ],
+   "WWAN card": [
+    "L70670-002"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21718-001",
+    "M21719-001"
+   ],
+   "Heatsink": [
+    "M21716-001",
+    "M21717-001"
+   ],
+   "Speakers": [
+    "M21723-001"
+   ],
+   "Touchpad": [
+    "M21999-001"
+   ],
+   "Palmrest/top cover": [
+    "M21740-001",
+    "M21742-001",
+    "M21741-001"
+   ],
+   "Display panel": [
+    "M21737-001",
+    "M21738-001",
+    "M22541-001",
+    "M21739-001",
+    "M21736-001"
+   ],
+   "Display bezel": [
+    "M21991-001",
+    "M21992-001",
+    "M21993-001"
+   ],
+   "Camera": [
+    "M29583-001",
+    "M27889-001"
+   ],
+   "Hinges": [
+    "M21732-001"
+   ],
+   "DC-in / charge port": [
+    "M21725-001"
+   ],
+   "I/O board": [
+    "M21712-001"
+   ],
+   "Fingerprint reader": [
+    "M21724-001"
+   ],
+   "System board": [
+    "M21708-001",
+    "M21702-001",
+    "M21696-001",
+    "M21692-001"
+   ],
+   "Microphone module": [
+    "M27888-001"
+   ],
+   "Antennas": [
+    "M21727-001",
+    "M21728-001"
+   ],
+   "Display back cover": [
+    "M21987-001",
+    "M21988-001",
+    "M21989-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://hp.it-shop.bg/uploaded/5/3/ProBook-450-G8-MSG.pdf",
+  "pn_notes": "Bottom cover, fan, heatsink: UMA, discrete graphics. Top cover with keyboard: not backlit, backlit, backlit privacy (US -001). Display panel: FHD 250 nit, FHD touch, FHD 400 nit, FHD 1000 nit privacy, HD. Camera: HD, IR. DC-in is the power connector cable. System board: 4 of 11 variants (UMA i7-1165G7, i5-1135G7, i3-1115G4; discrete i7-1165G7); -601 suffix for Windows. Antennas: WLAN, WWAN. Back cover: 250 nit WLAN, 250 nit WWAN, 400 nit."
  },
  {
   "brand": "HP",
@@ -8182,7 +16210,119 @@ window.BATTERIES = [
   "service_manual_url": "https://h10032.www1.hp.com/ctg/Manual/c06422403.pdf",
   "repair_confidence": "high",
   "repair_notes": "Wi-Fi is soldered to the system board. The guide lists no power connector cable, so the barrel jack and USB-C ports are on the system board. Touch and DreamColor displays are sold only as full assemblies.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L68838-001"
+   ],
+   "Service door": [
+    "L28746-001"
+   ],
+   "Battery": [
+    "L05766-850"
+   ],
+   "RAM": [
+    "L50384-001",
+    "937438-850",
+    "937236-850",
+    "L10598-850",
+    "L24981-001",
+    "L24983-001"
+   ],
+   "SSD": [
+    "L68864-001",
+    "L68863-001",
+    "L68862-001",
+    "L68861-001",
+    "L68868-001",
+    "L68867-001"
+   ],
+   "WWAN card": [
+    "L15398-001"
+   ],
+   "Fan": [
+    "L68840-001",
+    "L68841-001"
+   ],
+   "Heatsink": [
+    "L68855-001",
+    "L68856-001",
+    "L68857-001"
+   ],
+   "Speakers": [
+    "L28719-001"
+   ],
+   "Touchpad": [
+    "L30663-001",
+    "L28745-001"
+   ],
+   "Keyboard": [
+    "L28407-001",
+    "L29635-001"
+   ],
+   "Palmrest/top cover": [
+    "L68835-001"
+   ],
+   "Display assembly": [
+    "L68847-001",
+    "L76718-001"
+   ],
+   "Display panel": [
+    "L68848-001",
+    "L68849-001",
+    "L68850-001",
+    "L68851-001",
+    "L68846-001",
+    "L68845-001"
+   ],
+   "Display bezel": [
+    "L68869-001",
+    "L68870-001",
+    "L68871-001",
+    "L68872-001",
+    "L70633-001",
+    "L70634-001"
+   ],
+   "Camera": [
+    "L68852-001",
+    "L68853-001"
+   ],
+   "Hinges": [
+    "L28703-001",
+    "L77464-001"
+   ],
+   "Fingerprint reader": [
+    "L67969-001"
+   ],
+   "Power button": [
+    "L68834-001"
+   ],
+   "System board": [
+    "L68831-001",
+    "L68833-001",
+    "L68832-001",
+    "L68823-001"
+   ],
+   "NFC module": [
+    "L02249-001"
+   ],
+   "Hard drive": [
+    "912487-850",
+    "766644-001",
+    "820572-001"
+   ],
+   "Antennas": [
+    "L28740-001"
+   ],
+   "DreamColor board": [
+    "L70636-001"
+   ],
+   "Ambient light sensor board": [
+    "L70635-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://h10032.www1.hp.com/ctg/Manual/c06422403.pdf",
+  "pn_notes": "Battery: the MSG lists L05766-850 (the input had L05766-855). RAM: 32/16/8/4 GB for Core and Xeon, then 16/8 GB ECC for Xeon. SSD: 2 TB, 1 TB, 512 GB, 256 GB PCIe, then 1 TB, 256 GB SATA. Fan: T1000/T2000, RTX 3000. Heatsink: UMA, T1000/T2000, RTX 3000. Touchpad: standard, DreamColor. Keyboard: backlit, backlit for privacy screens (US -001). Display assembly: DreamColor UHD, DreamColor UHD with IR camera. Display panel: FHD 250, FHD 400, FHD 1000 nit, UHD 400 nit, touch, touch privacy. Camera: FHD/IR, HD. Hinges: non-touch, touch. System board: 4 of 13 variants (Xeon E-2286M RTX 3000, i9-9880H RTX 3000, i7-9850H RTX 3000, i7-9750H UMA); -601 suffix for Windows. The ambient light sensor board and the color board share one number. Smart card reader is not available as a spare part."
  },
  {
   "brand": "HP",
@@ -8242,7 +16382,85 @@ window.BATTERIES = [
   "service_manual_url": "https://www.dectrader.com/pdf/Products/V8F55US_HP_ZBook_Studio_G3-Spare_Part_Numbers.html",
   "repair_confidence": "medium",
   "repair_notes": "From an HP spare parts list and the ZBook Studio G4 guide, which uses the same chassis. Fan is part of the thermal module. No separate power connector part is listed. DreamColor and touch displays are probably sold only as assemblies.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "840954-001"
+   ],
+   "Battery": [
+    "808450-002"
+   ],
+   "RAM": [
+    "820571-002",
+    "820570-002",
+    "820569-002",
+    "835886-002",
+    "835887-002"
+   ],
+   "SSD": [
+    "840951-001",
+    "840950-001",
+    "840949-001",
+    "922236-001",
+    "922235-001",
+    "846386-001"
+   ],
+   "Wi-Fi card": [
+    "806721-005",
+    "806722-005"
+   ],
+   "Coin-cell battery": [
+    "840953-001"
+   ],
+   "Heatsink": [
+    "840960-001",
+    "900285-001",
+    "840961-001"
+   ],
+   "Speakers": [
+    "840958-001"
+   ],
+   "Touchpad": [
+    "840962-001"
+   ],
+   "Keyboard": [
+    "841681-001"
+   ],
+   "Palmrest/top cover": [
+    "840636-001"
+   ],
+   "Display panel": [
+    "840941-001",
+    "840943-001"
+   ],
+   "Display bezel": [
+    "840935-001",
+    "840936-001"
+   ],
+   "Camera": [
+    "840965-001"
+   ],
+   "Hinges": [
+    "840937-001"
+   ],
+   "Fingerprint reader": [
+    "840952-001"
+   ],
+   "System board": [
+    "840934-001",
+    "840932-001",
+    "840930-001",
+    "840929-001"
+   ],
+   "LED board": [
+    "840957-001"
+   ],
+   "Antennas": [
+    "840940-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://archive.org/details/hp-zbook-maintenance-manual-archive",
+  "pn_notes": "From the HP ZBook Studio G3 MSG (archive.org copy). Battery: the MSG lists 808450-002. RAM: 16/8/4 GB for Core, then 16/8 GB ECC for Xeon. SSD: 1 TB, 512 GB, 256 GB PCIe, then 512 GB, 256 GB, 128 GB SATA. Heatsink (fan/heat sink assembly): discrete, discrete 4+4E, UMA. Keyboard: backlit, US. Display panel: FHD, UHD. Bezel: with, without webcam. System board: 4 of 10 variants (Xeon E3-1545M, i7-6820HQ discrete, i7-6820HQ UMA, i7-6700HQ UMA); -601 suffix for Windows 10. DreamColor and touch displays are spared only as whole assemblies (840945-001, 840946-001, 840947-001)."
  },
  {
   "brand": "HP",
@@ -8302,7 +16520,95 @@ window.BATTERIES = [
   "service_manual_url": "https://h10032.www1.hp.com/ctg/Manual/c05481588.pdf",
   "repair_confidence": "high",
   "repair_notes": "Fan is part of the thermal module. No power connector cable is listed, so the charge ports are on the system board. DreamColor and touch displays are sold only as full assemblies.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "922942-001"
+   ],
+   "Battery": [
+    "808450-002",
+    "907584-852"
+   ],
+   "RAM": [
+    "865396-852",
+    "865398-852",
+    "865397-852",
+    "835886-001",
+    "835887-001"
+   ],
+   "SSD": [
+    "921029-001",
+    "921032-001",
+    "921031-001",
+    "921026-001",
+    "921028-001",
+    "921027-001"
+   ],
+   "Wi-Fi card": [
+    "910264-852",
+    "918855-852"
+   ],
+   "Coin-cell battery": [
+    "922948-001"
+   ],
+   "Heatsink": [
+    "922945-001",
+    "922946-001"
+   ],
+   "Speakers": [
+    "840958-001"
+   ],
+   "Touchpad": [
+    "840962-001"
+   ],
+   "Keyboard": [
+    "841681-001"
+   ],
+   "Palmrest/top cover": [
+    "840636-001"
+   ],
+   "Display assembly": [
+    "921034-001",
+    "921035-001",
+    "921036-001"
+   ],
+   "Display panel": [
+    "936514-001",
+    "936515-001",
+    "819355-006",
+    "819356-006"
+   ],
+   "Display bezel": [
+    "922943-001",
+    "922944-001"
+   ],
+   "Camera": [
+    "840965-001"
+   ],
+   "Hinges": [
+    "840937-001"
+   ],
+   "Fingerprint reader": [
+    "840952-001"
+   ],
+   "System board": [
+    "921020-001",
+    "921018-001",
+    "921024-001",
+    "921023-001"
+   ],
+   "LED board": [
+    "922947-001"
+   ],
+   "Antennas": [
+    "840940-001"
+   ],
+   "Thermal board": [
+    "840956-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://h10032.www1.hp.com/ctg/Manual/c05481588.pdf",
+  "pn_notes": "Battery: 4-cell 64 Wh, 8-cell 92 Wh. RAM: 16/8/4 GB for Core, then 16/8 GB ECC for Xeon. SSD: 1 TB, 512 GB, 256 GB TLC, 256 GB MLC PCIe, then 512 GB FIPS, 128 GB SATA. Heatsink (thermal module): discrete, UMA. Keyboard: US. Display assembly: DreamColor UHD without camera, DreamColor UHD with camera, FHD touch. Display panel: FHD, UHD with cable, then FHD, UHD without cable. Bezel: with, without camera. System board: 4 of 10 variants (Xeon E3-1535M, i7-7820HQ discrete, i7-7820HQ UMA, i7-7700HQ UMA); -601 suffix for Windows 10."
  },
  {
   "brand": "HP",
@@ -8361,7 +16667,106 @@ window.BATTERIES = [
   "service_manual_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_13037735_en-US-1.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only with the top cover. Fan is part of the thermal module. RTC battery is not spared. Touch displays are sold only as full assemblies. Card reader and audio share one board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L28666-001"
+   ],
+   "Battery": [
+    "L07046-855",
+    "L07045-855"
+   ],
+   "RAM": [
+    "937438-850",
+    "937236-850",
+    "L10598-850",
+    "L24981-001",
+    "L24983-001"
+   ],
+   "SSD": [
+    "L28681-001",
+    "L28677-001",
+    "L28683-001",
+    "L28679-001",
+    "L28684-001",
+    "L28685-001"
+   ],
+   "Wi-Fi card": [
+    "L32650-005",
+    "L32652-005"
+   ],
+   "WWAN card": [
+    "845710-003",
+    "L15398-001"
+   ],
+   "Heatsink": [
+    "L28670-001",
+    "L30973-001"
+   ],
+   "Speakers": [
+    "L28672-001"
+   ],
+   "Touchpad": [
+    "L32746-001"
+   ],
+   "Palmrest/top cover": [
+    "L30668-001",
+    "L30669-001"
+   ],
+   "Display assembly": [
+    "L28663-001",
+    "L28664-001"
+   ],
+   "Display panel": [
+    "L32562-001",
+    "L32561-001",
+    "L32563-001"
+   ],
+   "Display bezel": [
+    "L31689-001",
+    "L31690-001",
+    "L31691-001",
+    "L31692-001",
+    "L31693-001",
+    "L31694-001"
+   ],
+   "Camera": [
+    "L28470-001",
+    "L30660-001"
+   ],
+   "Hinges": [
+    "L28659-001"
+   ],
+   "Audio/headphone board": [
+    "L28660-001"
+   ],
+   "Fingerprint reader": [
+    "L28662-001"
+   ],
+   "Power button": [
+    "L28661-001"
+   ],
+   "System board": [
+    "L30971-001",
+    "L33161-001",
+    "L28657-001",
+    "L28656-001"
+   ],
+   "NFC module": [
+    "L33682-001"
+   ],
+   "Hard drive": [
+    "912487-850",
+    "L06427-850",
+    "703267-001",
+    "820572-001"
+   ],
+   "Antennas": [
+    "L31688-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_13037735_en-US-1.pdf",
+  "pn_notes": "Battery: 4-cell, 6-cell. RAM: 16/8/4 GB for Core, then 16/8 GB ECC for Xeon. SSD: 2 TB, 1 TB, 512 GB, 256 GB PCIe, 512 GB SATA FIPS, 360 GB PCIe. Heatsink (thermal module): discrete, UMA. Speakers are a speaker kit. Top cover with keyboard: backlit, backlit privacy (US -001). Display assembly: touch UHD without camera, with camera (touch screens are spared only as a whole). Display panel: FHD, FHD privacy, UHD. Bezel: with ambient light sensor (HD, IR, no camera), then without (HD, IR, no camera). Camera: HD, IR. Audio board is the card reader/audio board. System board: 4 of 10 variants (Xeon E-2186M discrete, i7-8850H discrete, i7-8850H UMA, i7-8750H UMA); -601 suffix for Windows 10. Hard drive: 2 TB, 1 TB, 500 GB, 500 GB FIPS."
  },
  {
   "brand": "Lenovo",
@@ -8426,7 +16831,127 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/tp_t490s_x390_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM and Wi-Fi are soldered. Both USB-C charge ports are on the system board; the power card is a separate FRU. Fan is part of the thermal fan assembly. Keyboard is a separate optional-service CRU.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "02HL019"
+   ],
+   "Battery": [
+    "02DL017",
+    "02DL018",
+    "02DL019",
+    "02DL020",
+    "5B10W13923",
+    "5B10W13924"
+   ],
+   "SSD": [
+    "01LX200",
+    "01LX201",
+    "01LX202",
+    "01LX207",
+    "01LX212"
+   ],
+   "WWAN card": [
+    "01AX792",
+    "01AX761"
+   ],
+   "Coin-cell battery": [
+    "01AY996",
+    "01AY997"
+   ],
+   "Heatsink": [
+    "01AW748",
+    "01AW746",
+    "01AW747"
+   ],
+   "Speakers": [
+    "02HL002",
+    "02HL003",
+    "02HL004"
+   ],
+   "Touchpad": [
+    "01YU060",
+    "01YU061",
+    "01YU062",
+    "01YU074",
+    "01YU075"
+   ],
+   "Keyboard": [
+    "01YP000",
+    "01YP080",
+    "01YP040",
+    "01YP200"
+   ],
+   "Palmrest/top cover": [
+    "02HL016",
+    "02HL017",
+    "5M10V75639",
+    "5M10V75640"
+   ],
+   "Display panel": [
+    "02HL703",
+    "02HL705",
+    "02HL711",
+    "02HL700",
+    "02DA370",
+    "5D10W87108"
+   ],
+   "Display bezel": [
+    "02HL009",
+    "02HL010",
+    "5M10V75638"
+   ],
+   "Camera": [
+    "01HW028",
+    "01HW029",
+    "01HW061",
+    "01HW062"
+   ],
+   "Hinges": [
+    "02HL020",
+    "02HL021",
+    "02HL023",
+    "02HL025",
+    "5H50W46359"
+   ],
+   "USB board": [
+    "01YN265"
+   ],
+   "Fingerprint reader": [
+    "5F30V25898",
+    "5F30V25901"
+   ],
+   "Smart card reader": [
+    "5C61A25388"
+   ],
+   "Power button": [
+    "01YN264"
+   ],
+   "System board": [
+    "5B21C98762",
+    "5B21C98786",
+    "5B21C98798",
+    "5B21C98836"
+   ],
+   "NFC card": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "02HL026",
+    "02HL027",
+    "02HL028",
+    "02HL029"
+   ],
+   "Docking-connector bracket": [
+    "01YN269"
+   ],
+   "SIM/microSD tray": [
+    "01YU004",
+    "01YU005"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x390/20q0/20q0s04k00/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20Q0; many numbers are the same part from different suppliers. SSD: 256 GB, 512 GB, 1 TB PCIe, 128 GB 2242, 256 GB SATA. Heatsink is the thermal module with fan. Touchpad: clickpad, then clickpad with NFC. Keyboard: US English, first two non-backlit, last two backlit. Top cover (C-cover): standard, with fingerprint reader, ePrivacy variants. Display panel: FHD 300 nit, FHD 400 nit, HD, FHD touch. Bezel is the B-cover: with shutter, without shutter, ePrivacy. Camera: HD, then HD+IR. Hinges: touch, non-touch, ePrivacy variants. Power button is the power card. System board: 4 of 140 variants (i5-8265U, i7-8565U, i5-8365U, i7-8665U). Antennas: WWAN and WLAN sets."
  },
  {
   "brand": "Lenovo",
@@ -8489,7 +17014,107 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/1665757/Lenovo-Thinkpad-X1-Series.html",
   "repair_confidence": "high",
   "repair_notes": "HMM for X1 Carbon 7th Gen and X1 Yoga 4th Gen. RAM and Wi-Fi are soldered. USB-C charge ports are on the USB and power board. Keyboard is sold only with the keyboard bezel. Fan is part of the thermal fan assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5M10V25025",
+    "5M10V25026"
+   ],
+   "Battery": [
+    "5B10W13930",
+    "5B10W13931",
+    "5B10W13932",
+    "5B10W51833",
+    "5B10W51834",
+    "5B10W51835"
+   ],
+   "SSD": [
+    "01LX200",
+    "01LX201",
+    "01LX202",
+    "01LX203",
+    "01LX212"
+   ],
+   "WWAN card": [
+    "01AX796",
+    "5W10V25790",
+    "02HK709"
+   ],
+   "Coin-cell battery": [
+    "5B10W13978"
+   ],
+   "Heatsink": [
+    "5H40W65012",
+    "5H40W65013",
+    "01YU036"
+   ],
+   "Speakers": [
+    "5SB0V25485",
+    "5SB0V25486"
+   ],
+   "Touchpad": [
+    "01YU087",
+    "01YU088",
+    "01YU089",
+    "01YU092",
+    "01YU093"
+   ],
+   "Palmrest/top cover": [
+    "5M10W85882",
+    "5M10W85954",
+    "5M10W85918",
+    "5M10W85990"
+   ],
+   "Display panel": [
+    "01YN149",
+    "01YN154",
+    "01YN157",
+    "01ER483",
+    "01YN128",
+    "01YN122"
+   ],
+   "Display bezel": [
+    "5M20V28082"
+   ],
+   "Camera": [
+    "01HW057",
+    "01HW059",
+    "01HW060",
+    "01HW063",
+    "01HW064"
+   ],
+   "Hinges": [
+    "5H50V28087",
+    "5H50V28088",
+    "5H50X55066",
+    "5H50X55067"
+   ],
+   "USB-C port board": [
+    "00HW569",
+    "00HW570"
+   ],
+   "Fingerprint reader": [
+    "5F30V25898",
+    "5F30V25901"
+   ],
+   "System board": [
+    "5B21C21400",
+    "5B21C21421",
+    "5B21C21464",
+    "5B21C21511"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30V25487",
+    "5A30V25488",
+    "5A30V25489",
+    "5A30V25490"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-7th-gen-type-20qd-20qe/20qd/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20QD; many numbers are the same part from different suppliers. Bottom cover: WLAN, WWAN. Battery: the parts lookup lists these 51 Wh FRUs (the input had 02DL004-02DL006). SSD: 256 GB, 512 GB, 1 TB, 2 TB PCIe, 256 GB SATA. Heatsink is the thermal module with fan. Touchpad: glass clickpad, last two with NFC. Top cover is the C-cover with US English backlit keyboard (WLAN and WWAN versions). Display panel: FHD (3), FHD touch, WQHD, UHD. Camera: HD (3), then HD+IR. Hinges: standard, then ePrivacy. USB-C port board: USB power switch subcard, USB subcard. System board: 4 of 98 variants (i5-8265U, i7-8565U, i5-8365U, i7-8665U). Antennas: WLAN, WWAN sets."
  },
  {
   "brand": "Lenovo",
@@ -8550,7 +17175,99 @@ window.BATTERIES = [
   "service_manual_url": "https://documents.cdn.ifixit.com/quRoaC2jUo11DCIq.pdf",
   "repair_confidence": "high",
   "repair_notes": "HMM for ThinkBook 13s-IML and 14s-IML (iFixit copy of the Lenovo manual). Keyboard is sold only with the upper case. DC-in jack is on a separate cable; the USB-C port is on the system board. Fingerprint reader is in the power button on some models.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0W44335"
+   ],
+   "Battery": [
+    "5B10S73499",
+    "5B10S73500",
+    "5B10S73501",
+    "5B10W67315",
+    "5B10W67334",
+    "5B10W67399"
+   ],
+   "RAM": [
+    "01AG844",
+    "01AG843",
+    "01AG836",
+    "01AG877",
+    "01AG876"
+   ],
+   "SSD": [
+    "01FR594",
+    "01FR595",
+    "01FR596",
+    "01FR577",
+    "5SS0X54155",
+    "5SS0X54153"
+   ],
+   "Wi-Fi card": [
+    "01AX768",
+    "5W10V25772",
+    "01AX798"
+   ],
+   "Fan": [
+    "5F10S13904"
+   ],
+   "Heatsink": [
+    "5H40S19987",
+    "5H40S19988"
+   ],
+   "Speakers": [
+    "5SB0S31910"
+   ],
+   "Touchpad": [
+    "5T60S94196"
+   ],
+   "Palmrest/top cover": [
+    "5CB0W44327",
+    "5CB0W44302",
+    "5CB0W44295"
+   ],
+   "Display panel": [
+    "5D10R40599",
+    "5D10R40600",
+    "5D10R40601",
+    "5D10R41709"
+   ],
+   "Display bezel": [
+    "5B30S18932"
+   ],
+   "Camera": [
+    "01HW044",
+    "01HW045",
+    "01HW046",
+    "01HW047"
+   ],
+   "Hinges": [
+    "5H50S28909"
+   ],
+   "DC-in / charge port": [
+    "5C10S29887"
+   ],
+   "USB board": [
+    "5C50S25018"
+   ],
+   "Fingerprint reader": [
+    "5F30S94886"
+   ],
+   "Power button": [
+    "5CB0W44337"
+   ],
+   "System board": [
+    "5B21B38627",
+    "5B21B38623",
+    "5B21B38625",
+    "5B21B38643"
+   ],
+   "Microphone boards": [
+    "5C50S25022"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-13s-iml/20rr/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20RR; many numbers are the same part from different suppliers. RAM: 16/8/4 GB DDR4-2666, then 16/8 GB DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2280, then 128 GB, 256 GB, 512 GB 2242. Heatsink: UMA, discrete. Top cover with US English keyboard: first non-backlit, others backlit. Display panel: all 13.3-inch FHD IPS. Fingerprint reader is the fingerprint board with power button; the power button without fingerprint reader is 5CB0W44337. System board: 4 of 24 variants (i5-10210U UMA, i7-10510U UMA, i7-10710U UMA, i7-10510U discrete)."
  },
  {
   "brand": "Lenovo",
@@ -8611,7 +17328,109 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/1830595/Lenovo-Thinkbook-Series.html",
   "repair_confidence": "high",
   "repair_notes": "HMM for ThinkBook 14/15-IML and 14/15-IIL. Keyboard is part of the upper case. DC-in jack is on a separate cable. One RAM bank is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0W44338"
+   ],
+   "Battery": [
+    "5B10W67364",
+    "5B10X55569",
+    "5B10X55570",
+    "5B10V25245",
+    "5B10W67327",
+    "5B10V25240"
+   ],
+   "RAM": [
+    "01AG844",
+    "01AG843",
+    "01AG836",
+    "01AG877",
+    "01AG876",
+    "01AG875"
+   ],
+   "SSD": [
+    "01FR594",
+    "01FR595",
+    "01FR596",
+    "01FR577",
+    "5SS0X54155",
+    "5SS0X54153"
+   ],
+   "Wi-Fi card": [
+    "01AX768",
+    "5W10V25772",
+    "01AX798",
+    "01AX795",
+    "02HK701"
+   ],
+   "Coin-cell battery": [
+    "5B10S34072"
+   ],
+   "Fan": [
+    "5F10S13905"
+   ],
+   "Heatsink": [
+    "5H40S19991",
+    "5H40S19990"
+   ],
+   "Speakers": [
+    "5SB0S31906"
+   ],
+   "Touchpad": [
+    "5T60S94252",
+    "5T60S94211"
+   ],
+   "Palmrest/top cover": [
+    "5CB0W44373",
+    "5CB0W44405",
+    "5CB0W44411",
+    "5CB0W44442"
+   ],
+   "Display panel": [
+    "5D10R29528",
+    "5D10R65302",
+    "5D10S68975",
+    "5D10Z46334",
+    "5D10R41283",
+    "5D10R41286"
+   ],
+   "Display bezel": [
+    "5B30S18933"
+   ],
+   "Camera": [
+    "01HW027",
+    "01HW028",
+    "01HW029",
+    "01HW037",
+    "5C20X55538",
+    "5C20X55540"
+   ],
+   "DC-in / charge port": [
+    "5C10S29998"
+   ],
+   "I/O board": [
+    "5C50S25019"
+   ],
+   "Power button": [
+    "5C50S25030",
+    "5C50S25031"
+   ],
+   "System board": [
+    "5B20S43389",
+    "5B20S43374",
+    "5B20S43378",
+    "5B20S43369"
+   ],
+   "Hard drive": [
+    "00PC557",
+    "00PC562",
+    "00FC425",
+    "00PC559"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14-iml/20rv/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20RV; many numbers are the same part from different suppliers. Battery: first three 45 Wh, last three 57 Wh. RAM: 16/8/4 GB DDR4-2666, then 16/8/4 GB DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2280, then 128 GB, 256 GB, 512 GB 2242. Heatsink: UMA, discrete. Top cover with US English keyboard: backlit with fingerprint, backlit without fingerprint, non-backlit with fingerprint, non-backlit without fingerprint. Display panel: 14-inch FHD, first four IPS 250 nit, last two TN 220 nit. Power button board: with fingerprint reader, without. System board: 4 of 56 variants (i5-10210U UMA, i5-10210U MX250, i7-10510U MX250, i3-10110U MX250). Hard drive: 1 TB 5400, 1 TB 7200, 500 GB, 2 TB. No hinge FRU is listed."
  },
  {
   "brand": "Lenovo",
@@ -8672,7 +17491,101 @@ window.BATTERIES = [
   "service_manual_url": "https://documents.cdn.ifixit.com/quRoaC2jUo11DCIq.pdf",
   "repair_confidence": "high",
   "repair_notes": "HMM for ThinkBook 13s-IML and 14s-IML (iFixit copy of the Lenovo manual). Keyboard is sold only with the upper case. DC-in jack is on a separate cable; the USB-C port is on the system board. Fingerprint reader is in the power button on some models.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0W44269"
+   ],
+   "Battery": [
+    "5B10S73499",
+    "5B10S73500",
+    "5B10S73501",
+    "5B10W67315",
+    "5B10W67334",
+    "5B10W67399"
+   ],
+   "RAM": [
+    "01AG844",
+    "01AG843",
+    "01AG836",
+    "01AG877",
+    "01AG876"
+   ],
+   "SSD": [
+    "01FR594",
+    "01FR595",
+    "01FR596",
+    "01FR577",
+    "5SS0X54155",
+    "5SS0X54153"
+   ],
+   "Wi-Fi card": [
+    "01AX768",
+    "5W10V25772",
+    "01AX798"
+   ],
+   "Fan": [
+    "5F10S13903"
+   ],
+   "Heatsink": [
+    "5H40S19985",
+    "5H40S19986"
+   ],
+   "Speakers": [
+    "5SB0S31911"
+   ],
+   "Touchpad": [
+    "5T60S94195"
+   ],
+   "Palmrest/top cover": [
+    "5CB0W44261",
+    "5CB0W44229",
+    "5CB0W44236"
+   ],
+   "Display panel": [
+    "5D10R29528",
+    "5D10R65302",
+    "5D10M42862",
+    "5D10Z46334",
+    "5D10R41283",
+    "5D10R41286"
+   ],
+   "Display bezel": [
+    "5B30S18931"
+   ],
+   "Camera": [
+    "01HW044",
+    "01HW045",
+    "01HW046",
+    "01HW047"
+   ],
+   "Hinges": [
+    "5H50S28876"
+   ],
+   "DC-in / charge port": [
+    "5C10S29887"
+   ],
+   "USB board": [
+    "5C50S25017"
+   ],
+   "Fingerprint reader": [
+    "5F30S94885"
+   ],
+   "Power button": [
+    "5CB0W44271"
+   ],
+   "System board": [
+    "5B21B39518",
+    "5B21B39519",
+    "5B21B40814",
+    "5B21B40816"
+   ],
+   "Microphone boards": [
+    "5C50S25022"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14s-iml/20rs/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20RS; many numbers are the same part from different suppliers. RAM: 16/8/4 GB DDR4-2666, then 16/8 GB DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2280, then 128 GB, 256 GB, 512 GB 2242. Heatsink: UMA, discrete. Top cover with US keyboard: first non-backlit, others backlit. Display panel: 14-inch FHD, first four IPS 250 nit, last two TN 220 nit. Fingerprint reader is the fingerprint board with power button; the power button without fingerprint reader is 5CB0W44271. System board: 4 of 24 variants (i7-10710U UMA, i7-10510U UMA, i7-10510U discrete, i5-10210U discrete)."
  },
  {
   "brand": "Lenovo",
@@ -8731,7 +17644,93 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3185946/Lenovo-Thinkbook-15p-Gen-2-I.html",
   "repair_confidence": "medium",
   "repair_notes": "From the HMM for the ThinkBook 15p Gen 2, which uses the same chassis; no Gen 1 HMM was found. Keyboard and touchpad are part of the upper case. The DC-in jack has only a bracket, so it is probably on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1B06141"
+   ],
+   "Battery": [
+    "5B10Z19319",
+    "5B10Z19320"
+   ],
+   "RAM": [
+    "5M30V06796",
+    "5M30V06803",
+    "5M30V06806",
+    "5M30V06795",
+    "5M30V06802",
+    "5M30Z71690"
+   ],
+   "SSD": [
+    "5SS0X54155",
+    "5SS0X54153",
+    "01FR902",
+    "01FR596",
+    "5SS0V14993"
+   ],
+   "Wi-Fi card": [
+    "5W10V25772",
+    "01AX798"
+   ],
+   "Coin-cell battery": [
+    "5B10S34077",
+    "5B10S34078"
+   ],
+   "Fan": [
+    "5F10S13931",
+    "5F10S13932"
+   ],
+   "Heatsink": [
+    "5H40S20173",
+    "5H40S20174"
+   ],
+   "Speakers": [
+    "5SB0Z25742",
+    "5SB0Z25744"
+   ],
+   "Palmrest/top cover": [
+    "5CB1B07610",
+    "5CB1B07603"
+   ],
+   "Display assembly": [
+    "5D11A20525"
+   ],
+   "Display panel": [
+    "5D10X81518",
+    "5D10X81513",
+    "5D11B60448",
+    "5D10W46489"
+   ],
+   "Display bezel": [
+    "5B30S18982"
+   ],
+   "Camera": [
+    "5C20X02429",
+    "5C20X02430",
+    "5C20X02431",
+    "5C20X02432"
+   ],
+   "Hinges": [
+    "5H50S28992"
+   ],
+   "USB board": [
+    "5C50S25138"
+   ],
+   "Fingerprint reader": [
+    "5F30S94918"
+   ],
+   "Power button": [
+    "5C50S25137"
+   ],
+   "System board": [
+    "5B20Z74898",
+    "5B20Z74897",
+    "5B20Z74899",
+    "5B21B48790"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/lenovo-thinkbook-15p-imh/20v3/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20V3; many numbers are the same part from different suppliers. RAM: first three 16 GB, last three 8 GB DDR4-3200. SSD: 256 GB, 512 GB 2242, then 1 TB 2280. Top cover with backlit keyboard: USA English, English. Display assembly: UHD 500 nit colour-calibrated module. Display panel: FHD 300 nit (3), UHD 600 nit. Power button is the power board. System board: 4 of 24 variants (i5-10300H GTX 1650 x2, i7-10750H GTX 1650, i7-10870H GTX 1650)."
  },
  {
   "brand": "Lenovo",
@@ -8793,7 +17792,82 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3162900/Lenovo-Thinkbook-14s-Gen-2.html",
   "repair_confidence": "high",
   "repair_notes": "HMM for ThinkBook 13s G2 and 14s G2. RAM and Wi-Fi are soldered. Keyboard is part of the upper case. No DC-in or USB-C board is listed, so the USB-C charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1B01336"
+   ],
+   "Battery": [
+    "5B10Z37617",
+    "5B10Z37618",
+    "5B10Z37621"
+   ],
+   "SSD": [
+    "5SS0Z46561",
+    "5SS0Z46565",
+    "5SS0W86212",
+    "5SS0X54155",
+    "5SS0X54153",
+    "5SS0Z46573"
+   ],
+   "Fan": [
+    "5F10S13926",
+    "5F10S13927"
+   ],
+   "Heatsink": [
+    "5H40S20154",
+    "5H40S20155"
+   ],
+   "Speakers": [
+    "5SB0Z49594",
+    "5SB0Z49601"
+   ],
+   "Touchpad": [
+    "5T60S94246"
+   ],
+   "Palmrest/top cover": [
+    "5CB1B02454",
+    "5CB1B02455"
+   ],
+   "Display assembly": [
+    "5D10S39677"
+   ],
+   "Display panel": [
+    "5D10W46487",
+    "5D10W46488",
+    "5D11B38526",
+    "5D10V42638",
+    "5D10X01020"
+   ],
+   "Display bezel": [
+    "5B30S18970"
+   ],
+   "Camera": [
+    "5C20X02446",
+    "5C20X02447"
+   ],
+   "Hinges": [
+    "5H50S28989"
+   ],
+   "I/O board": [
+    "5C50S25120",
+    "5C50S25122"
+   ],
+   "Fingerprint reader": [
+    "5F30S94915"
+   ],
+   "System board": [
+    "5B20Z52996",
+    "5B20Z52999",
+    "5B20Z52993",
+    "5B21B84343"
+   ],
+   "Microphone board": [
+    "5C50S25121"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-13s-g2-itl/20v9/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20V9; many numbers are the same part from different suppliers. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 256 GB, 512 GB, 256 GB (2242). Top cover with backlit keyboard: USA English, English. Display assembly: WQXGA touch module. Display panel: WUXGA 300 nit (3), then QHD (2). I/O board: USB board, connector board. System board: 4 of 88 variants (i5-1135G7 8 GB, i5-1135G7 16 GB, i7-1165G7 8 GB, i7-1165G7 16 GB; RAM is on the board). No antenna FRU is listed."
  },
  {
   "brand": "Lenovo",
@@ -8856,7 +17930,118 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3096567/Lenovo-Thinkbook-15-Gen-2.html",
   "repair_confidence": "high",
   "repair_notes": "HMM for ThinkBook 14/15 G2 ITL and ARE. Keyboard and touchpad are part of the upper case. The HMM lists a power board but no DC-in or USB-C board, so the USB-C charge ports are probably on the system board. One RAM bank is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1B02545",
+    "5CB1B02546",
+    "5CB1H82638",
+    "5CB1H82639"
+   ],
+   "Battery": [
+    "5B10Z21197",
+    "5B10Z21198",
+    "5B10Z21202",
+    "5B10Z21210",
+    "5B10Z21201",
+    "5B10Z21209"
+   ],
+   "RAM": [
+    "5M30V06796",
+    "5M30Z71707",
+    "5M30V06795",
+    "5M30Z71690",
+    "5M30Z71689",
+    "5M30Z71697"
+   ],
+   "SSD": [
+    "5SS0Z46561",
+    "5SS0Z46565",
+    "5SS0V14993",
+    "5SS0V42254",
+    "5SS0X54155",
+    "5SS0X54153"
+   ],
+   "Wi-Fi card": [
+    "5W10V25775",
+    "5W10V25772",
+    "02HK701",
+    "5W10V25844"
+   ],
+   "Coin-cell battery": [
+    "5B10S34080"
+   ],
+   "Fan": [
+    "5F10S13929",
+    "5F10S13930",
+    "5F10S14083"
+   ],
+   "Heatsink": [
+    "5H40S20180",
+    "5H40S20181",
+    "5H40S20182",
+    "5H40S20183"
+   ],
+   "Speakers": [
+    "5SB0S31938"
+   ],
+   "Palmrest/top cover": [
+    "5CB1B33807",
+    "5CB1B33741",
+    "5CB1H83109",
+    "5CB1B33808"
+   ],
+   "Display panel": [
+    "5D10W87245",
+    "5D10Z46334",
+    "5D10W69523",
+    "5D10W46480",
+    "5D11B48759",
+    "5D10R41286"
+   ],
+   "Display bezel": [
+    "5B30S18980",
+    "5B30S18981"
+   ],
+   "Camera": [
+    "5C20X02430",
+    "5C20X02431",
+    "5C20X02432",
+    "5C20Z72187",
+    "5C20Z72188"
+   ],
+   "Hinges": [
+    "5H50S28991"
+   ],
+   "I/O board": [
+    "5C50S25156",
+    "5C50S25157",
+    "5C50S25353",
+    "5C50S25354",
+    "5C50S25441"
+   ],
+   "Fingerprint reader": [
+    "5F30S94916"
+   ],
+   "Power button": [
+    "5C50S25158",
+    "5C50S25159"
+   ],
+   "System board": [
+    "5B21A22418",
+    "5B21A22414",
+    "5B21A22410",
+    "5B21B84290"
+   ],
+   "Hard drive": [
+    "00PC557",
+    "00PC562",
+    "00FC425",
+    "00PC559"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14-g2-itl/20vd/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20VD; many numbers are the same part from different suppliers. Bottom cover: standard, with HDD bay, then two later versions. Battery: first four 45 Wh 3-cell, last two 60 Wh 4-cell. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 128/256/512 GB (2242). Heatsink: UMA (2), discrete (2). Top cover with keyboard: USA English backlit (3), English non-backlit. Display panel: FHD non-touch IPS (3), FHD touch (2), FHD TN. Bezel: standard, for 2.4 mm panel. I/O board is the function board (with or without fingerprint reader and Ethernet). Power button is the power board (for FP and non-FP models). System board: 4 of 73 variants (i3 UMA, i5 UMA, i7 UMA, i5 MX450)."
  },
  {
   "brand": "Lenovo",
@@ -8916,7 +18101,98 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3099450/Lenovo-Thinkbook-14-G4-Iap.html",
   "repair_confidence": "medium",
   "repair_notes": "From the HMM for the ThinkBook 14/15 G4, which uses the same chassis; no G5 HMM was found. Keyboard and touchpad are part of the upper case. One RAM bank is soldered. The charge port location is not confirmed.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1L79920"
+   ],
+   "Battery": [
+    "5B11N52052",
+    "5B11N52054",
+    "5B10Z21197",
+    "5B11N52056",
+    "5B11N52063",
+    "5B10Z21209"
+   ],
+   "RAM": [
+    "5M30Z71713",
+    "5M30Z71712",
+    "5M30Z71720",
+    "5M30Z71753",
+    "5M30V06979"
+   ],
+   "SSD": [
+    "5SS1D08021",
+    "5SS1D08025",
+    "5SS0Z46565",
+    "5SS1G97512",
+    "5SS1G97513",
+    "5SS1G97510"
+   ],
+   "Wi-Fi card": [
+    "5W10V25812",
+    "5W10V25811",
+    "5W10V25819",
+    "5W10V25824",
+    "5W10V25844"
+   ],
+   "Coin-cell battery": [
+    "5B10S34080"
+   ],
+   "Fan": [
+    "5F10S13929",
+    "5F10S13930"
+   ],
+   "Heatsink": [
+    "5H40S20672",
+    "5H40S20673"
+   ],
+   "Speakers": [
+    "5SB0S31980"
+   ],
+   "Palmrest/top cover": [
+    "5CB1L41531",
+    "5CB1L40882",
+    "5CB1L41532"
+   ],
+   "Display panel": [
+    "5D10W87242",
+    "5D11F39180",
+    "5D10W69523",
+    "5D11B64084",
+    "5D11B48759",
+    "5D11J61826"
+   ],
+   "Display bezel": [
+    "5B30S19061",
+    "5B30S19060"
+   ],
+   "Camera": [
+    "5C21K12280",
+    "5C21K12292",
+    "5C21K12321",
+    "5C21K12298",
+    "5C21K12316",
+    "5C21K12336"
+   ],
+   "Hinges": [
+    "5H50S28991"
+   ],
+   "Fingerprint reader": [
+    "5F30S94995"
+   ],
+   "Power button": [
+    "5C50S25158"
+   ],
+   "System board": [
+    "5B21K98234",
+    "5B21K98238",
+    "5B21K97718",
+    "5B21K97722"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14-g5-irl/21jc/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 21JC; many numbers are the same part from different suppliers. Battery: first three 45 Wh 3-cell, last three 60 Wh 4-cell. RAM: 16 GB, then 8 GB DDR4-3200 (one bank is soldered). SSD: 512 GB, 1 TB (x2) 2280, then 256 GB, 512 GB, 1 TB 2242, all PCIe 4. Top cover with keyboard: USA English backlit, English backlit, English non-backlit. Display panel: FHD 45% NTSC (2), FHD 100% sRGB (2), FHD touch, FHD TN. Bezel: 2.4 mm, 3.0 mm panel. Camera: HD (3), FHD (3). Power button is the power board with LED. System board: 4 of 26 variants (i3-1315U, i5-1335U, i5-1340P, i7-1360P). The function (I/O) boards are 5C50S25539 and 5C50S25540."
  },
  {
   "brand": "Lenovo",
@@ -8976,7 +18252,77 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3162900/Lenovo-Thinkbook-14s-Gen-2.html",
   "repair_confidence": "high",
   "repair_notes": "HMM for ThinkBook 13s G2 and 14s G2. RAM and Wi-Fi are soldered. Keyboard is part of the upper case. No DC-in or USB-C board is listed, so the USB-C charge ports are on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1B32838"
+   ],
+   "Battery": [
+    "5B10Z37617",
+    "5B10Z37618",
+    "5B10Z37621"
+   ],
+   "SSD": [
+    "5SS0Z46561",
+    "5SS0Z46565",
+    "5SS0W86212",
+    "5SS0X54155",
+    "5SS0X54153",
+    "5SS0Z46573"
+   ],
+   "Fan": [
+    "5F10S13934",
+    "5F10S13935"
+   ],
+   "Heatsink": [
+    "5H40S20176",
+    "5H40S20177"
+   ],
+   "Speakers": [
+    "5SB0Z49599",
+    "5SB0Z49607"
+   ],
+   "Touchpad": [
+    "5T60S94250"
+   ],
+   "Palmrest/top cover": [
+    "5CB1B32909",
+    "5CB1B32902"
+   ],
+   "Display panel": [
+    "5D10W69523",
+    "5D10W69926",
+    "5D10W69935"
+   ],
+   "Display bezel": [
+    "5B30S18984"
+   ],
+   "Camera": [
+    "5C20X02446",
+    "5C20X02447"
+   ],
+   "Hinges": [
+    "5H50S28994"
+   ],
+   "I/O board": [
+    "5C50S25140",
+    "5C50S25141"
+   ],
+   "Fingerprint reader": [
+    "5F30S94922"
+   ],
+   "System board": [
+    "5B21C22085",
+    "5B21B07965",
+    "5B21C22083",
+    "5B21B07629"
+   ],
+   "Microphone board": [
+    "5C50S25121"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14s-g2-itl/20va/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20VA; many numbers are the same part from different suppliers. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 256 GB, 512 GB, 256 GB (2242). Top cover with keyboard: USA English, English. Display panel: all 14-inch FHD IPS 300 nit. I/O board: USB board, connector board. System board: 4 of 64 variants (i5-1135G7 8 GB, i5-1135G7 16 GB, i7-1165G7 8 GB, i7-1165G7 16 GB; RAM is on the board). No antenna FRU is listed."
  },
  {
   "brand": "Lenovo",
@@ -9035,7 +18381,103 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/2472490/Lenovo-Thinkbook-14s-Yoga.html",
   "repair_confidence": "high",
   "repair_notes": "Keyboard and touchpad are part of the upper case. The display 'LCD module' is the touch panel alone. No DC-in or USB-C board is listed, so the USB-C charge ports are probably on the system board. One RAM bank is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1B37198",
+    "5CB1B39080"
+   ],
+   "Battery": [
+    "5B10Z21201",
+    "5B10Z21209",
+    "5B11C22842"
+   ],
+   "RAM": [
+    "5M30V06796",
+    "5M30Z71707",
+    "5M30V06795",
+    "5M30Z71708",
+    "5M30V06794",
+    "5M30V06808"
+   ],
+   "SSD": [
+    "5SS0X54155",
+    "5SS0X54153",
+    "5SS0V42253",
+    "5SS0V42255",
+    "5SS0V14993",
+    "5SS0W86212"
+   ],
+   "Wi-Fi card": [
+    "5W10V25775",
+    "5W10V25772",
+    "02HK701"
+   ],
+   "Coin-cell battery": [
+    "5B10S34083"
+   ],
+   "Fan": [
+    "5F10S13938",
+    "5F10S13939"
+   ],
+   "Heatsink": [
+    "5H40S20206",
+    "5H40S20207"
+   ],
+   "Speakers": [
+    "5SB0Z49592",
+    "5SB0Z49608"
+   ],
+   "Palmrest/top cover": [
+    "5CB1C92782",
+    "5CB1C90960",
+    "5CB1C92814",
+    "5CB1C92783"
+   ],
+   "Display assembly": [
+    "5D10S39683",
+    "5D10S39684",
+    "5D10S39686"
+   ],
+   "Display panel": [
+    "5D10S39683",
+    "5D10S39684",
+    "5D10S39686"
+   ],
+   "Camera": [
+    "5C20X02430",
+    "5C20X02431",
+    "5C20X02432"
+   ],
+   "Hinges": [
+    "5H50S28999",
+    "5H50S29000"
+   ],
+   "I/O board": [
+    "5C50S25160"
+   ],
+   "Fingerprint reader": [
+    "5F30S94927",
+    "5F30S94931"
+   ],
+   "System board": [
+    "5B21B36502",
+    "5B21B36503",
+    "5B21B36506",
+    "5B21B36507"
+   ],
+   "Pen garage": [
+    "5M20S27921"
+   ],
+   "Pen charger cable": [
+    "5C10S30193"
+   ],
+   "Sensor board": [
+    "5C50S25161"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14s-yoga-itl/20we/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20WE; many numbers are the same part from different suppliers. Second number of bottom cover, hinges and fingerprint reader is for the Abyss Blue (AB) version. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 256/512 GB 2242 (4), then 1 TB 2280 (2). Top cover with backlit keyboard: USA English and English, first two grey, last two Abyss Blue. The FHD touch LCD modules are the display panel FRUs; no separate bezel FRU is listed. System board: i5-1135G7 (2), i7-1165G7 (2), all 8 GB on board (8 variants in total)."
  },
  {
   "brand": "Lenovo",
@@ -9098,7 +18540,116 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3096567/Lenovo-Thinkbook-15-Gen-2.html",
   "repair_confidence": "high",
   "repair_notes": "HMM for ThinkBook 14/15 G2 ITL and ARE. Keyboard and touchpad are part of the upper case. The HMM lists a power board but no DC-in or USB-C board, so the USB-C charge ports are probably on the system board. One RAM bank is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1B34805",
+    "5CB1B34806",
+    "5CB1B34949"
+   ],
+   "Battery": [
+    "5B10Z21197",
+    "5B10Z21198",
+    "5B10Z21202",
+    "5B10Z21210",
+    "5B10Z21201",
+    "5B10Z21209"
+   ],
+   "RAM": [
+    "5M30V06796",
+    "5M30Z71707",
+    "5M30V06795",
+    "5M30Z71690",
+    "5M30Z71689",
+    "5M30Z71697"
+   ],
+   "SSD": [
+    "5SS0Z46561",
+    "5SS0Z46565",
+    "5SS0V14993",
+    "5SS0V42254",
+    "5SS0X54155",
+    "5SS0X54153"
+   ],
+   "Wi-Fi card": [
+    "5W10V25775",
+    "5W10V25772",
+    "02HK701",
+    "5W10V25844"
+   ],
+   "Coin-cell battery": [
+    "5B10S34082"
+   ],
+   "Fan": [
+    "5F10S13936",
+    "5F10S13937",
+    "5F10S14085"
+   ],
+   "Heatsink": [
+    "5H40S20200",
+    "5H40S20201",
+    "5H40S20198",
+    "5H40S20199"
+   ],
+   "Speakers": [
+    "5SB0S31939"
+   ],
+   "Palmrest/top cover": [
+    "5CB1B34982",
+    "5CB1B35052",
+    "5CB1B35020",
+    "5CB1B35084"
+   ],
+   "Display panel": [
+    "5D10R29527",
+    "5D10X08065",
+    "5D10X81518",
+    "5D10W46422",
+    "5D11B44693",
+    "5D10R41285"
+   ],
+   "Display bezel": [
+    "5B30S18986",
+    "5B30S18985"
+   ],
+   "Camera": [
+    "5C20X02430",
+    "5C20X02431",
+    "5C20X02432",
+    "5C20Z72187",
+    "5C20Z72188"
+   ],
+   "Hinges": [
+    "5H50S28995"
+   ],
+   "I/O board": [
+    "5C50S25149",
+    "5C50S25150",
+    "5C50S25151",
+    "5C50S25152"
+   ],
+   "Fingerprint reader": [
+    "5F30S94924"
+   ],
+   "Power button": [
+    "5C50S25153",
+    "5C50S25154"
+   ],
+   "System board": [
+    "5B21B65868",
+    "5B21B68287",
+    "5B21B68291",
+    "5B21B33093"
+   ],
+   "Hard drive": [
+    "00PC557",
+    "00PC562",
+    "00FC425",
+    "00PC559"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-15-g2-itl/20ve/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20VE; many numbers are the same part from different suppliers. Bottom cover: standard, with HDD bay, with earbuds. Battery: first four 45 Wh 3-cell, last two 60 Wh 4-cell. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 128/256/512 GB (2242). Heatsink: UMA (2), discrete (2). Top cover with keyboard: USA English backlit (3), English non-backlit. Display panel: FHD 250 nit, FHD 300 nit, FHD 100% sRGB, FHD touch (2), FHD TN. Bezel: 2.6 mm, 3.2 mm panel. I/O board is the function board (with or without fingerprint reader). Power button is the power board (FP, non-FP). System board: 4 of 75 variants (i3 UMA, i5 UMA, i7 UMA, i5 MX450). The earbud board is 5C50S25155."
  },
  {
   "brand": "Lenovo",
@@ -9162,7 +18713,121 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/e14_gen3_e15_gen3_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard assembly includes the keyboard bezel (top cover). USB-C charge port is on the system board. Fan is part of the thermal fan assembly. One RAM bank is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Z69334",
+    "5CB0Z69335",
+    "5CB0Z69336",
+    "5CB0Z69468",
+    "5CB0Z69469"
+   ],
+   "Battery": [
+    "5B10X02594",
+    "5B10X02600",
+    "5B10X02603",
+    "5B10X02606",
+    "5B11C73244",
+    "5B11C73245"
+   ],
+   "RAM": [
+    "5M30Z71651",
+    "5M30Z71713",
+    "5M30Z71690",
+    "5M30Z71712",
+    "5M30Z71689",
+    "5M30V06801"
+   ],
+   "SSD": [
+    "00UP747",
+    "00UP748",
+    "5SD1F28697",
+    "5SD1F28696",
+    "00UP736"
+   ],
+   "Wi-Fi card": [
+    "5W10V25795",
+    "5W10V25797",
+    "5W10V25823",
+    "02HK701",
+    "02HK704"
+   ],
+   "Coin-cell battery": [
+    "04W4118",
+    "01HY790"
+   ],
+   "Heatsink": [
+    "5H41B77192",
+    "5H41B77193"
+   ],
+   "Speakers": [
+    "5SB1C99927",
+    "5SB1C99931",
+    "5SB1C99934"
+   ],
+   "Touchpad": [
+    "5M11B95861",
+    "5M11B95862",
+    "5M11B95863",
+    "5M11B95867",
+    "5M11B95868",
+    "5M11B95871"
+   ],
+   "Palmrest/top cover": [
+    "5M11C44211",
+    "5M11C44212",
+    "5M11C47392",
+    "5M11C47394",
+    "5M11C47286",
+    "5M11C47603"
+   ],
+   "Display panel": [
+    "02DA381",
+    "5D10W87242",
+    "5D10W87245",
+    "5D10W69523",
+    "5D11C12732",
+    "5D11B81385"
+   ],
+   "Display bezel": [
+    "5B30S73484",
+    "5B30S73485"
+   ],
+   "Camera": [
+    "5C20W42989",
+    "5C20W86486",
+    "5C21B90146",
+    "5C20W42992",
+    "5C20W42994"
+   ],
+   "Hinges": [
+    "5H50S73141"
+   ],
+   "I/O board": [
+    "5C51L83913",
+    "5C51L83914",
+    "5C51L83915",
+    "5C51L83916"
+   ],
+   "Fingerprint reader": [
+    "5M11A37981"
+   ],
+   "Power button": [
+    "5M11A37981"
+   ],
+   "System board": [
+    "5B21C16049",
+    "5B21C16048",
+    "5B21C16057",
+    "5B21C16053"
+   ],
+   "Antennas": [
+    "5A30S73635",
+    "5A30S73636"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-edge-laptops/thinkpad-e14-gen-3-type-20y7-20yd-20ye-20yf/20yd/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20YD (AMD); many numbers are the same part from different suppliers. Bottom cover: black, silver, textured, then two without RJ45. Battery: first four 45 Wh, last two 57 Wh. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 256/512 GB 2242 PCIe 3, 256/512 GB 2242 PCIe 4, 1 TB 2280. Heatsink is the thermal module with fan. Touchpad: CS20 clickpad, grey (3) and silver (3). Top cover with US English keyboard: non-backlit (2), backlit (2), with fingerprint, backlit with fingerprint. Display panel: FHD IPS 250/300 nit and 100% sRGB, then TN (2). Bezel: RGB camera, IR camera. Camera: HD (3), HD+IR (2). I/O board is the LAN board (non-FPR, FPR, then newer versions). The power button with fingerprint reader is one FRU. System board: 4 of 24 variants (R5 5500U, R3 5300U, R7 5700U, R7 5800U). No earbud board is listed for this MT."
  },
  {
   "brand": "Lenovo",
@@ -9224,7 +18889,121 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/e14_gen2_e15_gen2_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard assembly includes the keyboard bezel (top cover). USB-C charge port is on the system board. Fan is part of the thermal fan assembly.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Z69219",
+    "5CB0Z69220",
+    "5CB0Z69201",
+    "5CB0Z69202",
+    "5CB0Z69200"
+   ],
+   "Battery": [
+    "5B10X02594",
+    "5B10X02600",
+    "5B10X02603",
+    "5B10X02606"
+   ],
+   "RAM": [
+    "5M30V06797",
+    "5M30V06804",
+    "5M30V06796",
+    "5M30V06795",
+    "5M30Z71690",
+    "5M30Z71689"
+   ],
+   "SSD": [
+    "5SS0W79528",
+    "5SS0W79529",
+    "5SS0V26411",
+    "5SS0V26412",
+    "5SS1D71685"
+   ],
+   "Wi-Fi card": [
+    "5W10V25775",
+    "5W10V25772"
+   ],
+   "Coin-cell battery": [
+    "04W4118",
+    "01HY789",
+    "01HY790"
+   ],
+   "Heatsink": [
+    "5H40X89411",
+    "5H40X89413",
+    "5H40X89410",
+    "5H40X89412"
+   ],
+   "Speakers": [
+    "5SB0W90946",
+    "5SB0W90947",
+    "5SB0W90952"
+   ],
+   "Touchpad": [
+    "5M11B95864",
+    "5M11B95865",
+    "5M11B95866",
+    "5M11B95869",
+    "5M11B95870"
+   ],
+   "Palmrest/top cover": [
+    "5M11A35651",
+    "5M11A36071",
+    "5M11A36492",
+    "5M11A36702",
+    "5M11A35862",
+    "5M11A36283"
+   ],
+   "Display panel": [
+    "5D11C89613",
+    "5D10X08065",
+    "5D11C89629",
+    "5D10X81512",
+    "5D11B60448",
+    "02DC349"
+   ],
+   "Display bezel": [
+    "5B30S73483",
+    "5B30S73482"
+   ],
+   "Camera": [
+    "5C20W42989",
+    "5C20W42990",
+    "5C20W42991",
+    "5C20W42992",
+    "5C20W42993",
+    "5C20W42994"
+   ],
+   "Hinges": [
+    "5H50S73140"
+   ],
+   "I/O board": [
+    "5C50Z44717",
+    "5C50Z44718"
+   ],
+   "Fingerprint reader": [
+    "5M11A36915",
+    "5M11A36916"
+   ],
+   "Power button": [
+    "5M11A36915",
+    "5M11A36916"
+   ],
+   "System board": [
+    "5B21K59844",
+    "5B21K59876",
+    "5B20Z48259"
+   ],
+   "Antennas": [
+    "5A30S73634"
+   ],
+   "Integrated earbuds and earbud USB-C board": [
+    "5H31C98190",
+    "5C50Z44716"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-edge-laptops/thinkpad-e15-gen-2-type-20td-20te/20td/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20TD; many numbers are the same part from different suppliers. Bottom cover: black UMA, silver UMA, black discrete, silver discrete, black with earbuds. Battery: all 45 Wh. RAM: 32 GB (2), 16 GB (2), 8 GB, 4 GB DDR4-3200. SSD: 256/512 GB 2242, 256/512 GB 2280, 1 TB PCIe 4. Heatsink: UMA (2), MX450 (2). Top cover with US English keyboard: black, black backlit, silver, silver backlit, black with FPR, black backlit with FPR. Display panel: FHD IPS 250/300 nit, 100% sRGB (2), FHD TN. Bezel: normal, IR. Camera: HD (3), HD+IR (3). I/O board is the USB board (without, with FPR). The fingerprint reader is part of the power button (black, silver). System board: 3 samples of 36 (i3-1115G4, i5-1135G7 MX350, i7-1165G7 MX350). Earbuds: earbud set, then the earbud USB-C board."
  },
  {
   "brand": "Lenovo",
@@ -9284,7 +19063,118 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/e14_e15_gen4_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard assembly includes the keyboard bezel (top cover). USB-C charge port is on the system board. Fan is part of the thermal fan assembly. One RAM bank is soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1H81806",
+    "5CB1H81807"
+   ],
+   "Battery": [
+    "5B11E24665",
+    "5B11C73242",
+    "5B11C73244",
+    "5B11C73245",
+    "5B11N56340",
+    "5B10X02606"
+   ],
+   "RAM": [
+    "5M30Z71692",
+    "5M30Z71714",
+    "5M30Z71713",
+    "5M30Z71691",
+    "5M30Z71712",
+    "5M30Z71708"
+   ],
+   "SSD": [
+    "5SS0V26480",
+    "5SS0V26481",
+    "5SS0V26482",
+    "5SS0W79502",
+    "5SS0W79503",
+    "5SS0W79504"
+   ],
+   "Wi-Fi card": [
+    "5W10V25775"
+   ],
+   "Coin-cell battery": [
+    "04W4118"
+   ],
+   "Heatsink": [
+    "5H41B77263",
+    "5H41B77264",
+    "5H41B77265",
+    "5H41B77266"
+   ],
+   "Speakers": [
+    "5SB1C99935",
+    "5SB1C99937",
+    "5SB1C99938"
+   ],
+   "Touchpad": [
+    "5M11B95864",
+    "5M11B95865",
+    "5M11B95866",
+    "5M11B95869",
+    "5M11B95870"
+   ],
+   "Palmrest/top cover": [
+    "5M11A37983",
+    "5M11C43542",
+    "5M11A38409",
+    "5M11C43752",
+    "5M11G26127",
+    "5M11G26496"
+   ],
+   "Display panel": [
+    "5D10X08065",
+    "5D11F23093",
+    "5D11B07672",
+    "5D11B60448",
+    "5D10V82421",
+    "5D11H87186"
+   ],
+   "Display bezel": [
+    "5CB0Z69496",
+    "5CB0Z69498"
+   ],
+   "Camera": [
+    "5C20X02431",
+    "5C20Z72187",
+    "5C20Z72182",
+    "5C21D70396",
+    "5C21D10434",
+    "5C21D10435"
+   ],
+   "Hinges": [
+    "5H50S73140"
+   ],
+   "I/O board": [
+    "5C51R61939",
+    "5C51R61940",
+    "5C51C94292"
+   ],
+   "Fingerprint reader": [
+    "5M11H26725"
+   ],
+   "Power button": [
+    "5M11H26725"
+   ],
+   "System board": [
+    "5B21R60564",
+    "5B21R60571",
+    "5B21R60568",
+    "5B21R60560"
+   ],
+   "Antennas": [
+    "5A30Z88182"
+   ],
+   "Integrated earbuds and earbud USB-C board": [
+    "5H31C98190",
+    "5C51C94264"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-edge-laptops/thinkpad-e15-gen-4-type-21e6-21e7/21e6/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 21E6; many numbers are the same part from different suppliers. Bottom cover: black, silver (discrete models; no UMA cover is named). Battery: first four 57 Wh, last two 45 Wh. RAM: 32 GB (2), 16 GB (2), 8 GB (2) DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2242 PCIe 4 (two suppliers). Heatsink is the thermal module with fan. Top cover with US English keyboard: black, black backlit, black FPR, black backlit FPR, silver, silver backlit. Display panel: FHD 45% NTSC (2), FHD 100% sRGB (2), FHD touch, FHD TN. Bezel is the B-cover: RGB, IR. Camera: HD (2), FHD (2), FHD hybrid IR (2). I/O board: without FP, with FP (2). The fingerprint reader is in the power button. System board: 4 of 41 variants (i5-1235U, i5-1235U with Xe graphics, i7-1255U, i7-1260P). The lookup names the antenna 'Mars3.0 AMD'; it is listed for this MT. Earbuds: earbud set, then the earphone board."
  },
  {
   "brand": "Lenovo",
@@ -9347,7 +19237,113 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/l13_l13yoga_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. USB-C charge ports are on the system board. Fan is part of the thermal fan assembly. Keyboard is a separate optional-service CRU.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0S95356",
+    "5CB0S95357"
+   ],
+   "Battery": [
+    "02DL030",
+    "02DL031",
+    "02DL032",
+    "5B10W13933",
+    "5B10W13934",
+    "5B10W13935"
+   ],
+   "SSD": [
+    "01LX200",
+    "01LX201",
+    "01LX202",
+    "00UP680",
+    "5SS0V26407",
+    "5SS0V26408"
+   ],
+   "Wi-Fi card": [
+    "01AX770",
+    "01AX793",
+    "01AX797",
+    "5W10V25764"
+   ],
+   "Coin-cell battery": [
+    "5B10S73571"
+   ],
+   "Heatsink": [
+    "5H40S72912",
+    "5H40S72914"
+   ],
+   "Speakers": [
+    "5SB0S73509"
+   ],
+   "Touchpad": [
+    "01YU066",
+    "01YU067",
+    "01YU068",
+    "01YU069",
+    "01YU070"
+   ],
+   "Keyboard": [
+    "01YP000",
+    "01YP080",
+    "01YP040",
+    "01YP200",
+    "01YP880"
+   ],
+   "Palmrest/top cover": [
+    "5CB1C73306",
+    "5CB1C73304",
+    "5CB1C73307",
+    "5CB1C73305"
+   ],
+   "Display panel": [
+    "02DA368",
+    "02DA373",
+    "02HL707",
+    "5D11C89618",
+    "02DA370",
+    "02HL701"
+   ],
+   "Display bezel": [
+    "5B30S73459",
+    "5B30S73461"
+   ],
+   "Camera": [
+    "01HW027",
+    "01HW028",
+    "01HW037",
+    "5C20X55540",
+    "01HW061",
+    "01HW062"
+   ],
+   "Hinges": [
+    "5H50S73134"
+   ],
+   "Fingerprint reader": [
+    "5F30V25913",
+    "5F30V25915",
+    "5F30V25921",
+    "5F30V25924",
+    "5M10W64474"
+   ],
+   "Smart card reader": [
+    "04X5393"
+   ],
+   "System board": [
+    "5B20S72265",
+    "5B20S72266",
+    "5B20S72268",
+    "5B20W77261"
+   ],
+   "Antennas": [
+    "5A30S73626"
+   ],
+   "I/O brackets": [
+    "5B40S72979",
+    "5B40Z34884"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-l-series-laptops/thinkpad-l13-type-20r3-20r4/20r3/parts",
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20R3; many numbers are the same part from different suppliers. Bottom cover: black, silver. Battery: all 46 Wh 4-cell. SSD: 256 GB, 512 GB, 1 TB 2280, then 128/256/512 GB 2242. Heatsink is the thermal module with fan. Touchpad: black (3), silver (2). Keyboard: US English, non-backlit (2), backlit (2), silver non-backlit. Top cover (upper case): black no FPR, black FPR, silver no FPR, silver FPR. Display panel: FHD IPS 250 nit (2), FHD 300 nit, FHD 45% NTSC, FHD touch, HD TN. Bezel: RGB, IR camera. Camera: HD (4), HD+IR (2). Fingerprint reader: four black modules, then the silver kit. System board: 4 of many variants (i3-10110U 4 GB, i5-10210U 4+4 GB, i7-10510U 4+4 GB, i5-10310U vPro 4+4 GB; RAM is on the board). I/O brackets: right, left."
  },
  {
   "brand": "Lenovo",
@@ -9408,7 +19404,74 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/p1_gen5_x1_extreme_gen5_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is only sold with the keyboard bezel assembly. Only the full LCD assembly is listed. DC-in jack is on its own cable and bracket; USB-C ports are on the system board. Thermal fan assembly is its own part only on non-RTX models; on RTX models the cooling comes with the combined system board assembly. Wi-Fi is on the system board.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5M11K66105",
+    "5M11K66107",
+    "5M11K66111",
+    "5M11K66113"
+   ],
+   "RAM": [
+    "5M30Z71771",
+    "5M30Z71777",
+    "5M30Z71679",
+    "5M30Z71680",
+    "5M30Z71681",
+    "5M30Z71769"
+   ],
+   "SSD": [
+    "5SS0V26419",
+    "5SS0V26418",
+    "5SS0V26420"
+   ],
+   "WWAN card": [
+    "5W10V25832",
+    "5W10V25827"
+   ],
+   "Coin-cell battery": [
+    "5B11J37984"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41H42462",
+    "5H41H42460"
+   ],
+   "Speakers": [
+    "5SB1D64950"
+   ],
+   "Palmrest/top cover": [
+    "5M11D11999",
+    "5M11D12147"
+   ],
+   "Display assembly": [
+    "5M11D12313",
+    "5M11D12316",
+    "5M11D12318",
+    "5M11D12310",
+    "5M11D12320",
+    "5M11D12321"
+   ],
+   "DC-in / charge port": [
+    "01YU754"
+   ],
+   "Fingerprint reader": [
+    "5F30V25929"
+   ],
+   "System board": [
+    "5B21J30501",
+    "5B21J30503",
+    "5B21J30502",
+    "5B21J30505"
+   ],
+   "NFC card": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A31B84020"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21DC, 21DD)",
+  "pn_notes": "System board: 51 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, NFC card. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -9471,7 +19534,116 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14_gen2_p14s_gen2_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot; the other RAM is soldered. USB-C charge ports are on the system board. Intel models have Wi-Fi on the system board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Z69567",
+    "5CB0Z69566",
+    "5CB0Z69565",
+    "5CB0Z69564",
+    "5CB0Z69284",
+    "5CB0Z69283"
+   ],
+   "Battery": [
+    "5B10W51826"
+   ],
+   "RAM": [
+    "5M30V06970",
+    "5M30V06969"
+   ],
+   "SSD": [
+    "00UP735",
+    "00UP736"
+   ],
+   "WWAN card": [
+    "5W10V25816",
+    "5W10V25815",
+    "5W10V25859"
+   ],
+   "Coin-cell battery": [
+    "02HK903"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77164",
+    "5H40X89428"
+   ],
+   "Speakers": [
+    "5SB0S73516"
+   ],
+   "Keyboard": [
+    "5N21B08340",
+    "5N20V43760"
+   ],
+   "Palmrest/top cover": [
+    "5CB0Z69534",
+    "5CB0Z69533",
+    "5CB0Z69536",
+    "5CB0Z69532",
+    "5CB0Z69258",
+    "5CB0Z69257"
+   ],
+   "Display assembly": [
+    "5M11C43969"
+   ],
+   "Display panel": [
+    "5D11C99675",
+    "01YN154",
+    "5D11C95994",
+    "5D10W87245",
+    "5D11A24588"
+   ],
+   "Display bezel": [
+    "5M11C43967",
+    "5M11C43968",
+    "5M11C43965",
+    "5M11C43966",
+    "5M11C43963",
+    "5M11C43964"
+   ],
+   "Camera": [
+    "5C20W42983",
+    "5C20X55544"
+   ],
+   "Hinges": [
+    "02HK970",
+    "5H50W13761"
+   ],
+   "USB-A port board": [
+    "02HK995"
+   ],
+   "Ethernet board": [
+    "02HK993",
+    "5C51C94294"
+   ],
+   "Fingerprint reader": [
+    "5F30V25951",
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "5C61A25388"
+   ],
+   "Power button": [
+    "02HK998",
+    "02HK991",
+    "5M20Z56247"
+   ],
+   "System board": [
+    "5B21M83121",
+    "5B21M83120",
+    "5B21M83129",
+    "5B21M83111"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30Z88154",
+    "5A30Z88151",
+    "5A30Z88148"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20VX, 20VY)",
+  "pn_notes": "System board: 100 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -9534,7 +19706,101 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t15_gen1_p15s_gen1_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot; the other RAM is soldered. USB-C charge ports are on the system board. Wi-Fi is on the system board (no Wi-Fi card FRU). Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0S95436",
+    "5CB0S95433",
+    "5CB0S95434"
+   ],
+   "Battery": [
+    "02DL011"
+   ],
+   "RAM": [
+    "5M30V06810",
+    "5M30V06807",
+    "5M30V06797",
+    "5M30V06796",
+    "5M30V06795",
+    "5M30Z71690"
+   ],
+   "SSD": [
+    "5SS0W79481",
+    "01LX200",
+    "01LX201",
+    "01LX202",
+    "01LX203",
+    "5SS0W79480"
+   ],
+   "WWAN card": [
+    "5W10V25790",
+    "01AX792"
+   ],
+   "Coin-cell battery": [
+    "02HK903"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40W36710"
+   ],
+   "Speakers": [
+    "5SB0S73516"
+   ],
+   "Keyboard": [
+    "5N20V77999"
+   ],
+   "Palmrest/top cover": [
+    "5CB0S95437"
+   ],
+   "Display assembly": [
+    "5M10Z54310"
+   ],
+   "Display panel": [
+    "5D10W46482"
+   ],
+   "Display bezel": [
+    "5M11B94247",
+    "5M11B94248",
+    "5M11B94246"
+   ],
+   "Camera": [
+    "5C20W42983"
+   ],
+   "Hinges": [
+    "01YT330"
+   ],
+   "USB-A port board": [
+    "02HK995"
+   ],
+   "Ethernet board": [
+    "01YT388"
+   ],
+   "Fingerprint reader": [
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "04X5393"
+   ],
+   "Power button": [
+    "01YT386"
+   ],
+   "System board": [
+    "5B20Z47909",
+    "5B20Z47855",
+    "5B20Z47914",
+    "5B20Z47918"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Hall sensor board": [
+    "01YT387"
+   ],
+   "Antennas": [
+    "02HK914"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20T4, 20T5)",
+  "pn_notes": "System board: 11 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, WWAN card, NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -9595,7 +19861,106 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t15_gen2_p15s_gen2_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot; the other RAM is soldered. USB-C charge ports are on the system board. Wi-Fi is on the system board (no Wi-Fi card FRU). Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Z69574",
+    "5CB0Z69573",
+    "5CB0Z69575",
+    "5CB0Z69269",
+    "5CB0Z69268",
+    "5CB0Z69267"
+   ],
+   "Battery": [
+    "5B10W51831"
+   ],
+   "RAM": [
+    "5M30V06969"
+   ],
+   "SSD": [
+    "00UP735"
+   ],
+   "WWAN card": [
+    "5W10V25815",
+    "5W10V25859"
+   ],
+   "Coin-cell battery": [
+    "02HK903"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77169",
+    "5H41B77167"
+   ],
+   "Speakers": [
+    "5SB0S73516"
+   ],
+   "Keyboard": [
+    "5N21B08414",
+    "5N20V77999"
+   ],
+   "Palmrest/top cover": [
+    "5CB0Z69581",
+    "5CB0Z69580",
+    "5CB0Z69578",
+    "5CB0Z69577",
+    "5CB0Z69579",
+    "5CB0Z69576"
+   ],
+   "Display assembly": [
+    "5M11C43971"
+   ],
+   "Display panel": [
+    "5D11C12738",
+    "5D10X08068"
+   ],
+   "Display bezel": [
+    "5B30Z38893",
+    "5B30Z38894",
+    "5B30Z38891",
+    "5B30Z38890"
+   ],
+   "Camera": [
+    "5C20W42983"
+   ],
+   "Hinges": [
+    "01YT331",
+    "01YT333",
+    "5H50W13763"
+   ],
+   "USB-A port board": [
+    "02HK995"
+   ],
+   "Ethernet board": [
+    "5C51C94293",
+    "01YT388"
+   ],
+   "Fingerprint reader": [
+    "5F30V25951",
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "5C61A25388"
+   ],
+   "Power button": [
+    "01YT386"
+   ],
+   "System board": [
+    "5B21M83139",
+    "5B21M83121",
+    "5B21M83120",
+    "5B21M83129"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30Z88160",
+    "5A30Z88158",
+    "5A30Z88156"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20W6, 20W7)",
+  "pn_notes": "System board: 79 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -9657,7 +20022,95 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/p50_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "Removable battery. Four RAM slots; two are under the keyboard. The dc-in jack is on a cable, not on the system board, but the HMM gives it no own FRU number. Touch models use an LCD panel assembly (panel with touch layer). Touchpad comes with the keyboard bezel assembly. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "00NY490",
+    "00NY491",
+    "00NY492"
+   ],
+   "Bottom cover": [
+    "00UR801"
+   ],
+   "RAM": [
+    "01FR302",
+    "01FR301",
+    "01FR318",
+    "01AG844",
+    "01AG843",
+    "01AG715"
+   ],
+   "SSD": [
+    "00JT037",
+    "00UP415",
+    "00JT010"
+   ],
+   "Wi-Fi card": [
+    "00JT530"
+   ],
+   "WWAN card": [
+    "01AX748"
+   ],
+   "Coin-cell battery": [
+    "02K7078"
+   ],
+   "Fan/heatsink assembly": [
+    "00NY520"
+   ],
+   "Speakers": [
+    "00UR807"
+   ],
+   "Keyboard": [
+    "00PA247"
+   ],
+   "Palmrest/top cover": [
+    "00UR829",
+    "00UR828"
+   ],
+   "Display assembly": [
+    "00NY503",
+    "00UR879"
+   ],
+   "Display panel": [
+    "00NY643",
+    "00HT921",
+    "01EP138"
+   ],
+   "Display bezel": [
+    "00UR815",
+    "00UR814",
+    "00UR813"
+   ],
+   "Hinges": [
+    "00UR819",
+    "00UR821"
+   ],
+   "Smart card reader": [
+    "04X5393"
+   ],
+   "System board": [
+    "01AY361",
+    "01AY481",
+    "01AY360",
+    "01AY484"
+   ],
+   "Base cover": [
+    "00UR801"
+   ],
+   "Chassis assembly": [
+    "00UR802",
+    "00UR801"
+   ],
+   "Antennas": [
+    "00UR818"
+   ],
+   "Hinge caps": [
+    "00UR823",
+    "00UR822"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20EN, 20EQ)",
+  "pn_notes": "System board: 51 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, WWAN card. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -9720,7 +20173,111 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14_gen1_p14s_gen1_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot; the other RAM is soldered. USB-C charge ports are on the system board. Intel models have Wi-Fi on the system board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1P35214",
+    "5CB1P35209",
+    "5CB1P35208",
+    "5CB1P35207",
+    "5CB1P35211",
+    "5CB1P35210"
+   ],
+   "Battery": [
+    "02DL007",
+    "5B10W13905",
+    "5B10W13906"
+   ],
+   "RAM": [
+    "5M30V06804"
+   ],
+   "SSD": [
+    "00UP737",
+    "00UP735",
+    "00UP736",
+    "00UP734"
+   ],
+   "WWAN card": [
+    "01AX792"
+   ],
+   "Coin-cell battery": [
+    "02HK903"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40W36701",
+    "5H40W36698"
+   ],
+   "Speakers": [
+    "5SB0S73516"
+   ],
+   "Keyboard": [
+    "5N20V43724",
+    "5N20V43760"
+   ],
+   "Palmrest/top cover": [
+    "5CB0S95414",
+    "5CB0S95413",
+    "5CB0Z69155",
+    "5CB0Z69154"
+   ],
+   "Display panel": [
+    "5D10Z72100",
+    "01YN170",
+    "01YN142",
+    "01YN154",
+    "5D10V82348",
+    "5D10V82345"
+   ],
+   "Display bezel": [
+    "5M11B94236",
+    "5M11B94237",
+    "5M11B94238",
+    "5M11B94235"
+   ],
+   "Camera": [
+    "5C20W42983",
+    "01HW028"
+   ],
+   "Hinges": [
+    "02HK970"
+   ],
+   "USB-A port board": [
+    "02HK995"
+   ],
+   "Ethernet board": [
+    "02HK993"
+   ],
+   "Fingerprint reader": [
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "04X5393"
+   ],
+   "Power button": [
+    "02HK998",
+    "02HK991"
+   ],
+   "System board": [
+    "5B20Z46068",
+    "5B20Z46067",
+    "5B20Z46073",
+    "5B20Z46023"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Hall sensor board": [
+    "02HK992"
+   ],
+   "Antennas": [
+    "01ER019",
+    "02HK909",
+    "02HK906",
+    "02HK919"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20S0, 20S1)",
+  "pn_notes": "System board: 77 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -9783,7 +20340,110 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14_gen2_p14s_gen2_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot; the other RAM is soldered. USB-C charge ports are on the system board. Wi-Fi card is only on AMD models; Intel models have Wi-Fi on the system board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1L84665",
+    "5CB1L84669",
+    "5CB1L84667"
+   ],
+   "Battery": [
+    "5B10W51830",
+    "5B10W51826"
+   ],
+   "RAM": [
+    "5M30Z71650",
+    "5M30Z71652",
+    "5M30Z71754",
+    "5M30V06973",
+    "5M30Z71651",
+    "5M30V06804"
+   ],
+   "SSD": [
+    "5SS0W79498",
+    "5SS0W79492",
+    "5SS0W79493",
+    "5SS0W79495",
+    "5SS0W79496",
+    "5SS0W79497"
+   ],
+   "Wi-Fi card": [
+    "5W10V25842"
+   ],
+   "WWAN card": [
+    "5W10V25859"
+   ],
+   "Coin-cell battery": [
+    "02HK903"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77187"
+   ],
+   "Speakers": [
+    "5SB0S73516"
+   ],
+   "Keyboard": [
+    "5N21B08340",
+    "5N20V43760"
+   ],
+   "Palmrest/top cover": [
+    "5CB0Z69361",
+    "5CB0Z69360",
+    "5CB0Z69362"
+   ],
+   "Display panel": [
+    "5D11C99675",
+    "5D10V82392",
+    "5D11A24588"
+   ],
+   "Display bezel": [
+    "5M11A37962",
+    "5M11A37968",
+    "5M11A37960",
+    "5M11A37974",
+    "5M11A37976",
+    "5M11A37970"
+   ],
+   "Camera": [
+    "5C20W42983"
+   ],
+   "Hinges": [
+    "02HK970",
+    "5H50W13761"
+   ],
+   "Ethernet board": [
+    "5C50S73045"
+   ],
+   "Fingerprint reader": [
+    "5F30V25949",
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "5C61A25388",
+    "04X5393"
+   ],
+   "Power button": [
+    "02HK998",
+    "5C50S73047",
+    "5M20Z56247"
+   ],
+   "System board": [
+    "5B21C82216",
+    "5B21C82217",
+    "5B21C82215",
+    "5B21C82213"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30Z88154",
+    "5A30Z88151",
+    "5A30Z88148"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20XK, 20XL)",
+  "pn_notes": "System board: 27 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, Smart card reader, NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -9846,7 +20506,123 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14_gen2_p14s_gen2_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot; the other RAM is soldered. USB-C charge ports are on the system board. Intel models have Wi-Fi on the system board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Z69530",
+    "5CB0Z69531",
+    "5CB0Z69527",
+    "5CB0Z69526",
+    "5CB0Z69529",
+    "5CB0Z69528"
+   ],
+   "Battery": [
+    "5B10W51826"
+   ],
+   "RAM": [
+    "5M30V06970"
+   ],
+   "SSD": [
+    "5SS0V26437",
+    "00UP735",
+    "00UP736",
+    "00UP734"
+   ],
+   "WWAN card": [
+    "5W10V25816",
+    "5W10V25815",
+    "5W10V25859"
+   ],
+   "Coin-cell battery": [
+    "02HK903"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77164",
+    "5H40X89428"
+   ],
+   "Speakers": [
+    "5SB0S73516"
+   ],
+   "Keyboard": [
+    "5N20V43724",
+    "5N20V43760",
+    "5N20X68845",
+    "5N21B08340"
+   ],
+   "Palmrest/top cover": [
+    "5CB1J18153",
+    "5CB1J18152",
+    "5CB1J18151",
+    "5CB1J18150",
+    "5CB0Z69534",
+    "5CB0Z69533"
+   ],
+   "Display panel": [
+    "5D11C99675",
+    "01YN154",
+    "01YN155",
+    "5D10W87245",
+    "5D11A24588",
+    "5D11C95994"
+   ],
+   "Display bezel": [
+    "5M11A37962",
+    "5M11A37968",
+    "5M11A37960",
+    "5M11A37974",
+    "5M11A37976",
+    "5M11A37970"
+   ],
+   "Camera": [
+    "5C20W42983",
+    "5C20X55544"
+   ],
+   "Hinges": [
+    "5H50W13761",
+    "02HK970"
+   ],
+   "USB-A port board": [
+    "02HK995"
+   ],
+   "Ethernet board": [
+    "5C51C94294",
+    "02HK993"
+   ],
+   "Fingerprint reader": [
+    "5F30V25912",
+    "5F30V25951",
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "5C61A25388"
+   ],
+   "Power button": [
+    "02HK998",
+    "02HK991",
+    "5M20Z56247"
+   ],
+   "System board": [
+    "5B21M82244",
+    "5B21M82249",
+    "5B21M82248",
+    "5B21M82246"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30Z88154",
+    "5A30Z88151",
+    "5A30Z88148",
+    "02HK919"
+   ],
+   "RFID reader": [
+    "02HK711",
+    "5C11C12520"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20W0, 20W1)",
+  "pn_notes": "System board: 235 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -9913,7 +20689,109 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14_gen3_p14s_gen3_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot on Intel models; the other RAM is soldered. USB-C charge ports are on the system board. Wi-Fi is on the system board. USB board carries the USB-A ports. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Z69548",
+    "5CB0Z69545",
+    "5CB0Z69544",
+    "5CB0Z69547",
+    "5CB0Z69546",
+    "5CB0Z69541"
+   ],
+   "Battery": [
+    "5B10W51867",
+    "5B10W51862",
+    "5B10W51861",
+    "5B10W51864"
+   ],
+   "RAM": [
+    "5M30Z71712"
+   ],
+   "SSD": [
+    "5SS0V26484",
+    "5SS0W79492"
+   ],
+   "WWAN card": [
+    "5W10V25860",
+    "5W10V25833"
+   ],
+   "Coin-cell battery": [
+    "01AY996",
+    "01AY997"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77269",
+    "5H41B77271"
+   ],
+   "Speakers": [
+    "5SB0Z88673"
+   ],
+   "Touchpad": [
+    "5M20Z56337"
+   ],
+   "Keyboard": [
+    "5N21D68308",
+    "5N21D67970",
+    "5N21D68008"
+   ],
+   "Palmrest/top cover": [
+    "5CB0Z69563",
+    "5CB0Z69562",
+    "5CB0Z69561",
+    "5CB0Z69560",
+    "5CB0Z69559",
+    "5CB0Z69558"
+   ],
+   "Display panel": [
+    "5T51L52619",
+    "5D11G99892",
+    "5D10V82364",
+    "5D10V82399",
+    "5D10V82394",
+    "5D11H45003"
+   ],
+   "Display bezel": [
+    "5B30Z38941",
+    "5B30Z38940",
+    "5B30Z38943",
+    "5B30Z38942"
+   ],
+   "Camera": [
+    "5C21D67532"
+   ],
+   "Hinges": [
+    "5H50W13790",
+    "5H50W13787"
+   ],
+   "Fingerprint reader": [
+    "5F30V25929",
+    "5F30V25934"
+   ],
+   "Smart card reader": [
+    "5C61B41059"
+   ],
+   "System board": [
+    "5B21J39316",
+    "5B21J39315",
+    "5B21J39314",
+    "5B21H88480"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30Z88187",
+    "5A30Z88184",
+    "5A30Z88191"
+   ],
+   "RFID reader": [
+    "5C11C12655",
+    "02HK711"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21AH, 21AJ)",
+  "pn_notes": "System board: 92 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -9978,7 +20856,126 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14_gen4_p14s_gen4_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot on Intel models; the other RAM is soldered. OLED models: LCD unit is a single FRU. USB-C charge ports are on the system board. Wi-Fi is on the system board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1L47313",
+    "5CB1L47312",
+    "5CB1L47315",
+    "5CB1L47314",
+    "5M11Q01660",
+    "5CB1L57500"
+   ],
+   "Battery": [
+    "5B10W51863",
+    "5B10W51860"
+   ],
+   "RAM": [
+    "5M31K03046",
+    "5M31K03047",
+    "5M30Z71714",
+    "5M30Z71713",
+    "5M30Z71712",
+    "5M31K03060"
+   ],
+   "SSD": [
+    "5SS0V26486",
+    "5SS0V26485",
+    "5SS0V26484",
+    "5SS0W79570",
+    "5SS0W79562",
+    "5SS0V26471"
+   ],
+   "WWAN card": [
+    "5W11H85413",
+    "5W10V25833",
+    "5W10V25852",
+    "5W11H85383"
+   ],
+   "Coin-cell battery": [
+    "01AY997"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77366",
+    "5H41B77386"
+   ],
+   "Speakers": [
+    "5SB0Z88673"
+   ],
+   "Touchpad": [
+    "5M20Z56337"
+   ],
+   "Keyboard": [
+    "5N21D68308",
+    "5N21D67970",
+    "5N21D68008"
+   ],
+   "Palmrest/top cover": [
+    "5CB1L57599",
+    "5CB1L57601",
+    "5CB1L57603",
+    "5CB1L57605",
+    "5CB1L57607",
+    "5CB1L57609"
+   ],
+   "Display assembly": [
+    "5M11J05807",
+    "5M11J05805"
+   ],
+   "Display panel": [
+    "5D10V82446",
+    "5D11G99892",
+    "5D10V82364",
+    "5D10V82394",
+    "5D10V82397",
+    "5D10V82400"
+   ],
+   "Display bezel": [
+    "5B30Z38941",
+    "5B30Z38940",
+    "5B30Z38942"
+   ],
+   "Camera": [
+    "5C21D67532",
+    "5C21D67578",
+    "5C21D67553"
+   ],
+   "Hinges": [
+    "5H50W13790",
+    "5H50W13787"
+   ],
+   "Fingerprint reader": [
+    "5F30V25929",
+    "5F30V25934"
+   ],
+   "Smart card reader": [
+    "5C61B41059"
+   ],
+   "System board": [
+    "5B21Q01986",
+    "5B21Q01980",
+    "5B21Q01984",
+    "5B21Q01963"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30Z88187",
+    "5A30Z88184",
+    "5A30Z88191"
+   ],
+   "RFID reader": [
+    "5CB1L47314",
+    "5CB1L57603",
+    "5CB1L57609",
+    "5C11C12655",
+    "5CB1L57504",
+    "02HK711"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21HD, 21HE)",
+  "pn_notes": "System board: 81 variants by CPU/RAM; 4 shown. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -10042,7 +21039,91 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14s_gen1_x13_gen1_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Keyboard is only sold with the keyboard bezel (top cover) and is the last part left after all other parts come out. USB-C charge ports are on the system board. Wi-Fi is on the system board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0S95447",
+    "5CB0S95448"
+   ],
+   "Battery": [
+    "02DL013",
+    "5B10W51836"
+   ],
+   "SSD": [
+    "00UP735",
+    "00UP734",
+    "01LX203",
+    "00UP698",
+    "00UP696",
+    "00UP697"
+   ],
+   "WWAN card": [
+    "01AX792"
+   ],
+   "Coin-cell battery": [
+    "01AY996"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40Y23330"
+   ],
+   "Speakers": [
+    "5SB0S73518"
+   ],
+   "Palmrest/top cover": [
+    "5M10Z41371",
+    "5M10Z41159",
+    "5M10Z41478",
+    "5M10Z41267",
+    "5M10Z41573"
+   ],
+   "Display panel": [
+    "02DA381",
+    "5D10Z72100",
+    "01YN170",
+    "01YN152",
+    "01YN156",
+    "5D10V82348"
+   ],
+   "Display bezel": [
+    "02HM501",
+    "02HM500",
+    "02HM499"
+   ],
+   "Camera": [
+    "5C20W42985",
+    "5C20W42983",
+    "01HW028"
+   ],
+   "Hinges": [
+    "02HM505",
+    "02HM502"
+   ],
+   "USB-A port board": [
+    "01YN265"
+   ],
+   "Fingerprint reader": [
+    "5F30V25904",
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "04X5393"
+   ],
+   "System board": [
+    "5B20Z48005",
+    "5B20Z48003",
+    "5B20Z48004",
+    "5B20Z48007"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "02HM509",
+    "02HM510"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20T0, 20T1)",
+  "pn_notes": "System board: 61 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -10103,7 +21184,97 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14s_gen2_x13_gen2_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Keyboard is only sold as the C cover with keyboard assembly. USB-C charge ports are on the system board. Wi-Fi is on the system board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Z69321",
+    "5CB0Z69320",
+    "5CB0Z69318",
+    "5CB0Z69319"
+   ],
+   "Battery": [
+    "5B10W13976"
+   ],
+   "SSD": [
+    "00UP735",
+    "00UP736",
+    "00UP734"
+   ],
+   "WWAN card": [
+    "5W10V25820",
+    "5W10V25816",
+    "5W10V25859"
+   ],
+   "Coin-cell battery": [
+    "01AY996"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77174"
+   ],
+   "Speakers": [
+    "5SB0Z88658"
+   ],
+   "Palmrest/top cover": [
+    "5M11A37252",
+    "5M11A37828",
+    "5M11A37557",
+    "5M11F24705"
+   ],
+   "Display panel": [
+    "5D10X68366",
+    "5D11C95994",
+    "5D11B61734",
+    "5D10W87245",
+    "5D10W87246",
+    "5D10V82379"
+   ],
+   "Display bezel": [
+    "5M11C89126",
+    "5M11C89125",
+    "5M11C89120",
+    "5M11C89122",
+    "5M11C89121",
+    "5M11C89124"
+   ],
+   "Camera": [
+    "5C20W86483",
+    "5C20W86474"
+   ],
+   "Hinges": [
+    "5H50W13769",
+    "5H50W13770",
+    "5H50W13772",
+    "5H50W13771"
+   ],
+   "Smart card reader": [
+    "5C61B41058"
+   ],
+   "Power button": [
+    "5M11C86042",
+    "5M11C86040",
+    "5C50Z44736"
+   ],
+   "System board": [
+    "5B21H20003",
+    "5B21H20002",
+    "5B21H20004",
+    "5B21H20014"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30Z88170",
+    "5A30Z88168",
+    "5A30Z88167",
+    "5A30Z88166"
+   ],
+   "Power board": [
+    "5C50Z44736"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20WM, 20WN)",
+  "pn_notes": "System board: 95 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -10168,7 +21339,97 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14s_gen3_x13_gen3_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Keyboard is only sold with the keyboard bezel (top cover) and is the last part left after all other parts come out. OLED models: LCD unit is a single FRU. USB-C charge ports are on the system board. Wi-Fi is on the system board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1H81794",
+    "5CB1H81788",
+    "5CB1H81805",
+    "5CB1H81804"
+   ],
+   "Battery": [
+    "5B10W51875"
+   ],
+   "SSD": [
+    "5SS0V26459"
+   ],
+   "WWAN card": [
+    "5W10V25832",
+    "5W10V25827",
+    "5W10V25860",
+    "5W10V25833"
+   ],
+   "Coin-cell battery": [
+    "01AY996"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77305"
+   ],
+   "Speakers": [
+    "5SB0Z88678"
+   ],
+   "Palmrest/top cover": [
+    "5M11H26129",
+    "5M11H25864",
+    "5M11G26897",
+    "5M11G27188"
+   ],
+   "Display assembly": [
+    "5M11K18284",
+    "5M11K18283"
+   ],
+   "Display panel": [
+    "5D11G99892",
+    "5D10V82364",
+    "5D10V82394",
+    "5D10V82400",
+    "5D11H45003"
+   ],
+   "Display bezel": [
+    "5B30Z38963",
+    "5B30Z38964",
+    "5M11H61301",
+    "5M11H61303",
+    "5M11H61295",
+    "5M11H61297"
+   ],
+   "Camera": [
+    "5C21D67532"
+   ],
+   "Hinges": [
+    "5H50W13809",
+    "5H50W13811",
+    "5H50W13810"
+   ],
+   "Smart card reader": [
+    "5C61B41058",
+    "5C61B41059"
+   ],
+   "Power button": [
+    "5M11H61313",
+    "5C51C94275"
+   ],
+   "System board": [
+    "5B21H65394",
+    "5B21H65392",
+    "5B21H65391",
+    "5B21H65398"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30Z88203",
+    "5A30Z88202",
+    "5A30Z88201",
+    "5A30Z88200"
+   ],
+   "Power board": [
+    "5C51C94275"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21BR, 21BS)",
+  "pn_notes": "System board: 74 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): Smart card reader, NFC module. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -10229,7 +21490,110 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t15_gen1_p15s_gen1_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot; the other RAM is soldered. USB-C charge ports are on the system board. Wi-Fi is on the system board (no Wi-Fi card FRU). Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Z69156",
+    "5CB0Z69158",
+    "5CB0Z69157",
+    "5CB0S95432",
+    "5CB0S95435",
+    "5CB0S95431"
+   ],
+   "Battery": [
+    "5B10W13914",
+    "02DL011"
+   ],
+   "RAM": [
+    "5M30V06810",
+    "5M30V06807",
+    "5M30V06797",
+    "5M30V06796",
+    "5M30V06795",
+    "5M30Z71690"
+   ],
+   "SSD": [
+    "00UP735"
+   ],
+   "WWAN card": [
+    "5W10V25790",
+    "01AX792"
+   ],
+   "Coin-cell battery": [
+    "02HK903"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40W36706",
+    "5H40W36708"
+   ],
+   "Speakers": [
+    "5SB0S73516"
+   ],
+   "Keyboard": [
+    "5N20V77999",
+    "5N20V77963"
+   ],
+   "Palmrest/top cover": [
+    "5CB0Z69162",
+    "5CB0Z69161",
+    "5CB0S95440",
+    "5CB0S95437",
+    "5CB0S95438",
+    "5CB0S95439"
+   ],
+   "Display panel": [
+    "5D10V82359",
+    "01YN138",
+    "5D10W46482"
+   ],
+   "Display bezel": [
+    "5M11B94243",
+    "5M11B94244",
+    "5M11B94245"
+   ],
+   "Camera": [
+    "5C20W42983",
+    "01HW027"
+   ],
+   "Hinges": [
+    "01YT330",
+    "01YT332"
+   ],
+   "USB-A port board": [
+    "02HK995"
+   ],
+   "Ethernet board": [
+    "01YT388"
+   ],
+   "Fingerprint reader": [
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "04X5393"
+   ],
+   "Power button": [
+    "01YT386"
+   ],
+   "System board": [
+    "5B20Z46073",
+    "5B20Z46078",
+    "5B20Z46023",
+    "5B20Z46028"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Hall sensor board": [
+    "01YT387"
+   ],
+   "Antennas": [
+    "01ER019",
+    "02HK914",
+    "02HK912"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20S6, 20S7)",
+  "pn_notes": "System board: 72 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, WWAN card, NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -10291,7 +21655,113 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/p15_t15g_gen1_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "Four RAM slots; two are under the keyboard. GPU is on a separate GPU board. DC-in jack is on its own cable. Touch/OLED models use an LCD panel assembly. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Z69116",
+    "5CB0Z69115",
+    "5CB0Z69112",
+    "5CB0Z69111",
+    "5CB0Z69114",
+    "5CB0Z69113"
+   ],
+   "Battery": [
+    "5B10W13958"
+   ],
+   "RAM": [
+    "5M30V06803"
+   ],
+   "SSD": [
+    "01LX201",
+    "01LX203",
+    "5SS0V26405",
+    "5SS0V26404"
+   ],
+   "Wi-Fi card": [
+    "01AX797"
+   ],
+   "WWAN card": [
+    "02HK713"
+   ],
+   "Coin-cell battery": [
+    "01HY790"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40X89381",
+    "5H40X89382"
+   ],
+   "Speakers": [
+    "5SB0Z88652"
+   ],
+   "Keyboard": [
+    "5N20Z74785"
+   ],
+   "Palmrest/top cover": [
+    "5CB0Z69125"
+   ],
+   "Display assembly": [
+    "5M11A37024",
+    "5M10Z54425",
+    "5M10Z54426"
+   ],
+   "Display panel": [
+    "5D10V82351",
+    "5D10V82385",
+    "01YN145"
+   ],
+   "Display bezel": [
+    "5B30Z38867",
+    "5B30Z38866",
+    "5B30Z38865"
+   ],
+   "Camera": [
+    "5C20W42988",
+    "5C20W42992"
+   ],
+   "Hinges": [
+    "5H50W13754",
+    "5H50W13753"
+   ],
+   "Fingerprint reader": [
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "04X5393"
+   ],
+   "System board": [
+    "5B20Z25487",
+    "5B20Z25489",
+    "5B20Z25493",
+    "5B20Z25495"
+   ],
+   "GPU board": [
+    "5C50Z44697",
+    "5C50Z44698",
+    "5C50Z44699",
+    "5C50Z44700",
+    "5C50Z44701",
+    "5C50Z44702"
+   ],
+   "Base cover": [
+    "5CB0Z69116",
+    "5CB0Z69115",
+    "5CB0Z69112",
+    "5CB0Z69111",
+    "5CB0Z69114",
+    "5CB0Z69113"
+   ],
+   "Antennas": [
+    "5A30Z88138",
+    "5A30Z88137",
+    "5A30Z88136"
+   ],
+   "Hinge caps": [
+    "5CB0Z69123",
+    "5CB0Z69124"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20UR, 20US)",
+  "pn_notes": "System board: 46 variants by CPU/RAM; 4 shown. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -10351,7 +21821,80 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/p15v_t15p_gen3_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "DC-in jack is on its own cable and bracket. Wi-Fi is on the system board. Touchpad has no own FRU (only its cable). Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1H66058",
+    "5CB1H66057"
+   ],
+   "Battery": [
+    "5B10W13960"
+   ],
+   "RAM": [
+    "5M30Z71771",
+    "5M30Z71777",
+    "5M30Z71679",
+    "5M30Z71680",
+    "5M30Z71681",
+    "5M30Z71769"
+   ],
+   "SSD": [
+    "5SS0V26420"
+   ],
+   "WWAN card": [
+    "5W10V25861",
+    "5W10V25833"
+   ],
+   "Coin-cell battery": [
+    "01HY790"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77308"
+   ],
+   "Speakers": [
+    "5SB0Z88669"
+   ],
+   "Keyboard": [
+    "5N20X22772",
+    "5N20X22880"
+   ],
+   "Display panel": [
+    "5D10V82421",
+    "5D10V82429",
+    "5D11F28685"
+   ],
+   "Display bezel": [
+    "5B30Z38949",
+    "5B30Z38945",
+    "5B30Z38944"
+   ],
+   "Camera": [
+    "5C20W86486",
+    "5C20W42992"
+   ],
+   "Hinges": [
+    "5H50W13820",
+    "5H50W13757"
+   ],
+   "Fingerprint reader": [
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "5C61A25388"
+   ],
+   "System board": [
+    "5B21J06382",
+    "5B21J06383",
+    "5B21J06380",
+    "5B21J06370"
+   ],
+   "Antennas": [
+    "5A30Z88205",
+    "5A30Z88204"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21DA, 21DB)",
+  "pn_notes": "System board: 8 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, WWAN card. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -10412,7 +21955,97 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t480s-hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot; the other RAM is soldered. USB-C charge ports are on the system board (a small dc-in cable links the power button card). SD card reader and audio jack share one subcard. IR camera is its own card; the normal camera comes with the LED/camera cable. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "01AV478"
+   ],
+   "RAM": [
+    "01FR302",
+    "01FR301",
+    "01FR300",
+    "01AG844",
+    "01AG843",
+    "01AG829"
+   ],
+   "SSD": [
+    "00UP706",
+    "00UP660",
+    "00UP702",
+    "00UP703",
+    "00UP739",
+    "00UP737"
+   ],
+   "Wi-Fi card": [
+    "01AX702",
+    "01AX704"
+   ],
+   "WWAN card": [
+    "01AX791",
+    "01AX792",
+    "01AX761"
+   ],
+   "Coin-cell battery": [
+    "01LW332",
+    "04W1642",
+    "02K7078"
+   ],
+   "Fan/heatsink assembly": [
+    "01HW697",
+    "01HW694"
+   ],
+   "Speakers": [
+    "01LV660"
+   ],
+   "Keyboard": [
+    "01YP480",
+    "01YN420"
+   ],
+   "Display panel": [
+    "00NY664",
+    "00NY673",
+    "01YN116",
+    "01YN110",
+    "00NY686",
+    "00NY691"
+   ],
+   "Display bezel": [
+    "01YN980",
+    "01YN984",
+    "01YN983",
+    "01YN982",
+    "01YN981",
+    "01YU113"
+   ],
+   "Camera": [
+    "01HW048",
+    "01HW038"
+   ],
+   "Hinges": [
+    "01EN970",
+    "01YU110"
+   ],
+   "Audio/headphone board": [
+    "01ER995"
+   ],
+   "Smart card reader": [
+    "04X5393"
+   ],
+   "System board": [
+    "02HL858",
+    "02HL854",
+    "02HL866",
+    "02HL862"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Hall sensor": [
+    "01ER997"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20L7, 20L8)",
+  "pn_notes": "System board: 40 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, Wi-Fi card, WWAN card, Coin-cell battery, Keyboard, Smart card reader, NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -10473,7 +22106,103 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/tp_t590_p53s_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "One RAM slot; the other RAM is soldered. USB-C charge ports are on the system board. Wi-Fi is on the system board (no Wi-Fi card FRU). Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "01YN937"
+   ],
+   "Battery": [
+    "5B10W13913",
+    "02DL011"
+   ],
+   "RAM": [
+    "5M30V06811",
+    "5M30V06807",
+    "5M30V06796",
+    "5M30V06795",
+    "01AG844",
+    "01AG843"
+   ],
+   "SSD": [
+    "5SS0V26402",
+    "5SS0V26400",
+    "01LX212",
+    "01LX201",
+    "01LX203",
+    "01LX204"
+   ],
+   "WWAN card": [
+    "01AX792",
+    "01AX761",
+    "02HK712"
+   ],
+   "Coin-cell battery": [
+    "02HK903"
+   ],
+   "Fan/heatsink assembly": [
+    "01YU194",
+    "01YU192"
+   ],
+   "Speakers": [
+    "02HK900"
+   ],
+   "Keyboard": [
+    "01YP680",
+    "01YP640"
+   ],
+   "Display panel": [
+    "5D10V82342",
+    "01YN135"
+   ],
+   "Display bezel": [
+    "5M11B95344",
+    "5M11B95345",
+    "5M11B95346"
+   ],
+   "Camera": [
+    "5C20X55542",
+    "01HW062",
+    "01HW061",
+    "5C20X55540",
+    "5C20X55544",
+    "5C20X55538"
+   ],
+   "Hinges": [
+    "01YT330"
+   ],
+   "USB-A port board": [
+    "02HK995"
+   ],
+   "Ethernet board": [
+    "01YT388"
+   ],
+   "Fingerprint reader": [
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "04X5393"
+   ],
+   "Power button": [
+    "01YT386"
+   ],
+   "System board": [
+    "01YT429",
+    "01YT428",
+    "01YT430",
+    "01YT434"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Hall sensor board": [
+    "01YT387"
+   ],
+   "Antennas": [
+    "02HK914"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20N4, 20N5)",
+  "pn_notes": "System board: 55 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, WWAN card, Keyboard, Camera, NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -10533,7 +22262,101 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/tp_x1_carbon-yoga_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Wi-Fi is on the system board. USB-C charge ports are on the system board. Keyboard only comes with the keyboard bezel (top cover). LCD panel, bezel, hinges and camera are listed as own FRUs. USB-A port and power button are on a separate USB and power board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5M10V25025",
+    "5M10V25026"
+   ],
+   "Battery": [
+    "5B10W13932",
+    "5B10W51835",
+    "5B10W13930",
+    "5B10W13931",
+    "5B10W51833",
+    "5B10W51834"
+   ],
+   "SSD": [
+    "01LX212",
+    "01LX200",
+    "01LX201",
+    "01LX202",
+    "01LX203",
+    "00UP498"
+   ],
+   "WWAN card": [
+    "5W10V25790",
+    "01AX796",
+    "02HK709",
+    "02HK712"
+   ],
+   "Coin-cell battery": [
+    "5B10W13978"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40W65013",
+    "01YU036"
+   ],
+   "Speakers": [
+    "5SB0V25486",
+    "5SB0V25485"
+   ],
+   "Palmrest/top cover": [
+    "5M10W85954",
+    "5M10W85882",
+    "5M10W85918"
+   ],
+   "Display panel": [
+    "5D10V82355",
+    "01YN157",
+    "01YN154",
+    "01YN155",
+    "01YN149",
+    "01YN122"
+   ],
+   "Display bezel": [
+    "5M10Y34503",
+    "5M10Y34507"
+   ],
+   "Camera": [
+    "01HW060",
+    "01HW059",
+    "01HW057",
+    "01HW064",
+    "01HW063"
+   ],
+   "Hinges": [
+    "5H50V28088",
+    "5H50X55067",
+    "5H50X55066",
+    "5H50V28087"
+   ],
+   "I/O board": [
+    "00HW570",
+    "00HW569"
+   ],
+   "Fingerprint reader": [
+    "5F30V25901",
+    "5F30V25898"
+   ],
+   "System board": [
+    "5B21C21511",
+    "5B21C21501",
+    "5B21C21520",
+    "5B21C21400"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30V25490",
+    "5A30V25488",
+    "5A30V25489",
+    "5A30V25487"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20QD, 20QE)",
+  "pn_notes": "System board: 51 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): Bottom cover, Battery, SSD, WWAN card, Coin-cell battery, Speakers, Palmrest/top cover, Display panel, Display bezel, Camera, Hinges, I/O board, Fingerprint reader, NFC module, Antennas. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -10595,7 +22418,66 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/x1_carbon_gen10_x1_yoga_gen7_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Wi-Fi is on the system board. USB-C charge ports are on the system board. Keyboard only comes with the keyboard bezel (top cover). LCD unit is a single FRU; only the full display assembly is sold. Audio board and USB board are separate FRUs. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5M11J01012",
+    "5M11J01013"
+   ],
+   "Battery": [
+    "5B11M90058",
+    "5B10W13973"
+   ],
+   "SSD": [
+    "5SS0W79492",
+    "5SS0W79493",
+    "5SS0V26424"
+   ],
+   "WWAN card": [
+    "5W10V25832",
+    "5W10V25827",
+    "5W10V25833"
+   ],
+   "Coin-cell battery": [
+    "5B11J02394"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40W36680"
+   ],
+   "Speakers": [
+    "5SB1D97329",
+    "5SB1H02539"
+   ],
+   "Palmrest/top cover": [
+    "5M11K07681",
+    "5M11H44213"
+   ],
+   "Display assembly": [
+    "5M11K61257",
+    "5M11K61259",
+    "5M11K95386",
+    "5M11H44092",
+    "5M11H44068",
+    "5M11H44076"
+   ],
+   "Fingerprint reader": [
+    "5F30V25942"
+   ],
+   "System board": [
+    "5B21K90412",
+    "5B21K90404",
+    "5B21K90402",
+    "5B21K90403"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A31C90391"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21CB, 21CC)",
+  "pn_notes": "System board: 96 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -10659,7 +22541,63 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/tp_x1_carbon_gen9_x1_yoga_gen6_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Wi-Fi is on the system board. USB-C charge ports are on the system board. Keyboard only comes with the keyboard bezel (top cover). LCD unit is a single FRU; only the full display assembly is sold. Audio board and USB board are separate FRUs. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5M11C90397",
+    "5M11C90396"
+   ],
+   "Battery": [
+    "5B10W13973"
+   ],
+   "SSD": [
+    "01LX200",
+    "01LX201",
+    "01LX202"
+   ],
+   "WWAN card": [
+    "5W10V25816",
+    "5W11H85378"
+   ],
+   "Coin-cell battery": [
+    "5B11C73716"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40W36671"
+   ],
+   "Speakers": [
+    "5SB1C90384"
+   ],
+   "Palmrest/top cover": [
+    "5M11C53235",
+    "5M11C53271"
+   ],
+   "Display assembly": [
+    "5M11C53199",
+    "5M11C53225",
+    "5M11C53221",
+    "5M11C53223",
+    "5M11F28128",
+    "5M11F28191"
+   ],
+   "Fingerprint reader": [
+    "5F30V25942"
+   ],
+   "System board": [
+    "5B21K93300",
+    "5B21K93305",
+    "5B21K93303",
+    "5B21K93302"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A31C90391"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20XW, 20XX)",
+  "pn_notes": "System board: 55 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -10719,7 +22657,66 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/x1_yoga_gen5_x1_carbon_gen8_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Wi-Fi is on the system board. USB-C charge ports are on the system board. Keyboard only comes with the keyboard bezel (top cover). LCD unit is a single FRU; only the full display assembly is sold. USB-A port and power button are on a separate USB and power board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5M10Z54304",
+    "5M10Z54305"
+   ],
+   "Battery": [
+    "5B10W51833",
+    "5B10W51834"
+   ],
+   "SSD": [
+    "01LX201"
+   ],
+   "WWAN card": [
+    "5W10V25790",
+    "01AX792",
+    "02HK712"
+   ],
+   "Coin-cell battery": [
+    "5B10W13978"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40W65011"
+   ],
+   "Speakers": [
+    "5SB0V25134"
+   ],
+   "Palmrest/top cover": [
+    "5M10Z37082",
+    "5M10Z37154"
+   ],
+   "Display assembly": [
+    "5M10Z37064",
+    "5M10Z37061",
+    "5M10Z37048",
+    "5M10Z37057",
+    "5M10Z37058",
+    "5M10Z37051"
+   ],
+   "I/O board": [
+    "00HW567"
+   ],
+   "Fingerprint reader": [
+    "5F30V25907"
+   ],
+   "System board": [
+    "5B21C69322",
+    "5B21C69304",
+    "5B21C69306",
+    "5B21C69302"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30V25094"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20UB, 20UC)",
+  "pn_notes": "System board: 39 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): WWAN card, NFC module. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -10781,7 +22778,69 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/tp_x1_carbon_gen9_x1_yoga_gen6_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Wi-Fi is on the system board. USB-C charge ports are on the system board. Keyboard only comes with the keyboard bezel (top cover). LCD unit is a single FRU; only the full display assembly is sold. Audio board and USB board are separate FRUs. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5M10V75646",
+    "5M10V75645"
+   ],
+   "Battery": [
+    "5B10W13973"
+   ],
+   "SSD": [
+    "01LX202"
+   ],
+   "WWAN card": [
+    "5W10V25768",
+    "5W10V25820",
+    "5W10V25816",
+    "5W10V25859"
+   ],
+   "Coin-cell battery": [
+    "5B11C73716"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40W36671"
+   ],
+   "Speakers": [
+    "5SB1C73722"
+   ],
+   "Palmrest/top cover": [
+    "5M11C40952",
+    "5M11C40988"
+   ],
+   "Display assembly": [
+    "5M11H78613",
+    "5M11H78617",
+    "5M11H78641",
+    "5M11H78633",
+    "5M11H78638",
+    "5M11H78639"
+   ],
+   "Fingerprint reader": [
+    "5F30V25945"
+   ],
+   "System board": [
+    "5B21C41548",
+    "5B21C41543",
+    "5B21C41546",
+    "5B21C41536"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A31C41978"
+   ],
+   "Pen garage": [
+    "5M21C42013"
+   ],
+   "Pen charger": [
+    "5C10V83219"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20XY, 20Y0)",
+  "pn_notes": "System board: 84 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -10843,7 +22902,70 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/x1_carbon_gen10_x1_yoga_gen7_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Wi-Fi is on the system board. USB-C charge ports are on the system board. Keyboard only comes with the keyboard bezel (top cover). LCD unit is a single FRU; only the full display assembly is sold. Audio board and USB board are separate FRUs. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5M10V75649",
+    "5M10V75648"
+   ],
+   "Battery": [
+    "5B11M90058",
+    "5B10W13973"
+   ],
+   "SSD": [
+    "5SS0W79492"
+   ],
+   "WWAN card": [
+    "5W10V25832",
+    "5W10V25827",
+    "5W10V25833"
+   ],
+   "Coin-cell battery": [
+    "5B11J02394"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40W36680"
+   ],
+   "Speakers": [
+    "5SB1D97331",
+    "5SB1H02541"
+   ],
+   "Palmrest/top cover": [
+    "5M11H45873",
+    "5M11H45872"
+   ],
+   "Display assembly": [
+    "5M11C41119",
+    "5M11C41118",
+    "5M11C41114",
+    "5M11C41117",
+    "5M11C41111",
+    "5M11C41109"
+   ],
+   "Fingerprint reader": [
+    "5F30V25945"
+   ],
+   "System board": [
+    "5B21K90412",
+    "5B21K90404",
+    "5B21K90405",
+    "5B21K90406"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A31C41977"
+   ],
+   "Pen garage": [
+    "5M21C42013"
+   ],
+   "Pen charger": [
+    "5C10V83242"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21CD, 21CE)",
+  "pn_notes": "System board: 56 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -10902,7 +23024,105 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14s_gen3_x13_gen3_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. X13 Gen 3 keyboard is its own FRU (unlike the T14s Gen 3 in the same HMM). OLED models: LCD unit is a single FRU. USB-C charge ports are on the system board. Wi-Fi is on the system board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1H81771",
+    "5CB1H81773",
+    "5CB1H81772",
+    "5CB1H81774",
+    "5CB1H81762"
+   ],
+   "Battery": [
+    "5B10W51858",
+    "5B10W51852"
+   ],
+   "SSD": [
+    "5SS0Y86998",
+    "5SS0Y86996",
+    "5SS0Y86997",
+    "5SS0V26490",
+    "5SS0V26486",
+    "5SS0V26485"
+   ],
+   "WWAN card": [
+    "5W10V25827",
+    "5W10V25860",
+    "5W10V25833"
+   ],
+   "Coin-cell battery": [
+    "01AY996"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77289"
+   ],
+   "Speakers": [
+    "5SB0Z88678"
+   ],
+   "Keyboard": [
+    "5N21H76738",
+    "5N21H76804",
+    "5N21H76871"
+   ],
+   "Palmrest/top cover": [
+    "5CB1H81768",
+    "5CB1H81767",
+    "5CB1H81766",
+    "5CB1H81765"
+   ],
+   "Display panel": [
+    "5D11H76426",
+    "5D11H84782",
+    "5D11A22492",
+    "5D11H80308"
+   ],
+   "Display bezel": [
+    "5M11C47710",
+    "5M11C47711",
+    "5M11C47714",
+    "5M11C47715",
+    "5M11C47716",
+    "5B30Z38895"
+   ],
+   "Camera": [
+    "5C21D67532"
+   ],
+   "Hinges": [
+    "5H50W13767",
+    "5H50W13766",
+    "5H50W13768",
+    "5H50W13765"
+   ],
+   "Smart card reader": [
+    "5C61B41058",
+    "5C61B41059"
+   ],
+   "Power button": [
+    "5M11H61313",
+    "5C51C94275"
+   ],
+   "System board": [
+    "5B21H65392",
+    "5B21H65398",
+    "5B21H65395",
+    "5B21H55352"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30Z88219",
+    "5A30Z88165",
+    "5A30Z88164",
+    "5A30Z88163",
+    "5A30Z88162"
+   ],
+   "Power board": [
+    "5C51C94275"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21BN, 21BQ)",
+  "pn_notes": "System board: 87 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): SSD, Smart card reader, NFC module. Keyboard: US English FRUs."
  },
  {
   "brand": "Lenovo",
@@ -10967,7 +23187,101 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/x13_gen4_x13yoga_gen4_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "RAM is soldered. Keyboard is only sold with the keyboard bezel (top cover) and is the last part left after all other parts come out. OLED models: LCD unit is a single FRU. USB-C charge ports are on the system board. Wi-Fi is on the system board. Fan comes only as the thermal fan assembly with the heatsink.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1L57791",
+    "5CB1L57779",
+    "5CB1L57830",
+    "5CB1L57833",
+    "5CB1L57821",
+    "5CB1L57827"
+   ],
+   "Battery": [
+    "5B11H56370",
+    "5B11H56369"
+   ],
+   "SSD": [
+    "5SS0V26485",
+    "5SS0W79570",
+    "5SS0W79571",
+    "5SS0W79572",
+    "5SS0W79576",
+    "5SS0V26471"
+   ],
+   "WWAN card": [
+    "5W10V25832",
+    "5W10V25827",
+    "5W10V25829",
+    "5W10V25828",
+    "5W10V25833",
+    "5W11H85383"
+   ],
+   "Coin-cell battery": [
+    "5B11K27261"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77356",
+    "5H41B77355"
+   ],
+   "Speakers": [
+    "5SB1L55297"
+   ],
+   "Palmrest/top cover": [
+    "5M11H94598",
+    "5M11H94378",
+    "5M11H88982",
+    "5M11H94492"
+   ],
+   "Display assembly": [
+    "5M11L64870"
+   ],
+   "Display panel": [
+    "5D10V82452",
+    "5D11A22492",
+    "5D11L87687"
+   ],
+   "Display bezel": [
+    "5M11L77166",
+    "5M11L77165",
+    "5M11L77162",
+    "5M11L77164",
+    "5M11L77163"
+   ],
+   "Camera": [
+    "5C21D67578",
+    "5C21D67582",
+    "5C21D67554"
+   ],
+   "Hinges": [
+    "5H51L77321",
+    "5H51L77318",
+    "5H50W13832"
+   ],
+   "Smart card reader": [
+    "5C61B41058"
+   ],
+   "Power button": [
+    "5M11L64817"
+   ],
+   "System board": [
+    "5B21L33866",
+    "5B21L33867",
+    "5B21L33863",
+    "5B21L33860"
+   ],
+   "NFC card": [
+    "01AX745"
+   ],
+   "Antennas": [
+    "5A30Z88238",
+    "5A30Z88237",
+    "5A30Z88236",
+    "5A30Z88235"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21EX, 21EY)",
+  "pn_notes": "System board: 97 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard."
  },
  {
   "brand": "Lenovo",
@@ -11031,7 +23345,112 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/x13yoga_gen1_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only as the keyboard bezel assembly (top cover) and comes out last, after the system board. Fan is part of the thermal fan assembly. USB-C charge ports are on the system board. RAM and Wi-Fi are soldered. WWAN card and smart card reader are on selected models only.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Y87521"
+   ],
+   "Battery": [
+    "5B10W13927",
+    "5B10W13928",
+    "5B10W13929",
+    "02DL021",
+    "02DL022"
+   ],
+   "SSD": [
+    "01LX200",
+    "01LX201",
+    "01LX202",
+    "5SS0W79496",
+    "5SS0W79497",
+    "5SS0V26411"
+   ],
+   "WWAN card": [
+    "5W10V25790",
+    "01AX792"
+   ],
+   "Coin-cell battery": [
+    "04X0443"
+   ],
+   "Fan": [
+    "01YU961",
+    "01YU962"
+   ],
+   "Speakers": [
+    "5SB0Y85917",
+    "5SB0Z50925"
+   ],
+   "Touchpad": [
+    "01YU083",
+    "01YU084",
+    "01YU081",
+    "01YU082"
+   ],
+   "Palmrest/top cover": [
+    "5M10Y85838",
+    "5M10Y85766"
+   ],
+   "Display assembly": [
+    "5M10Y75554",
+    "5M10Y75553",
+    "5M10Y75555",
+    "5M10Y75558",
+    "5M10Y75560",
+    "5M10Z39985"
+   ],
+   "Camera": [
+    "01HW059",
+    "01HW058",
+    "01HW057",
+    "5C20W42985",
+    "5C20W42984"
+   ],
+   "Hinges": [
+    "02HM875",
+    "02HM874",
+    "02HM873"
+   ],
+   "Fingerprint reader": [
+    "5F30V25901",
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "01YU975"
+   ],
+   "System board": [
+    "5B21C40338",
+    "5B21C40337",
+    "5B21C40339",
+    "5B21C40341"
+   ],
+   "I/O bracket": [
+    "01YU965"
+   ],
+   "NFC card": [
+    "01AX745"
+   ],
+   "Pen charger cable": [
+    "01YU966"
+   ],
+   "Sensor board": [
+    "02HM872",
+    "02HM871",
+    "02HM870"
+   ],
+   "Antennas": [
+    "5A30Y85240",
+    "5A30Y85239",
+    "5A30Y85238"
+   ],
+   "ThinkPad Pen Pro": [
+    "01FR723"
+   ],
+   "Nano-SIM tray": [
+    "01YU969"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x13-yoga-gen-1/20sx/parts",
+  "pn_notes": "From the Lenovo parts lookup for type 20SX. Palmrest/top cover is the C-cover with US keyboard (first without WWAN, second backlit with WWAN). Display assembly: FHD touch modules (300/400 nit, IR camera), then UHD OLED, then ePrivacy. Display panel and bezel are not sold separately. System board: 100 CPU/RAM variants, 4 shown (i5-10210U 8GB). Sensor board: WLAN, WWAN, Hall."
  },
  {
   "brand": "Lenovo",
@@ -11091,7 +23510,115 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/x13_yoga_gen2_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only as the keyboard bezel assembly (top cover) and comes out last. Fan is part of the thermal fan assembly. USB-C/Thunderbolt 4 charge ports are on the system board. Fingerprint reader is on the power button card. RAM and Wi-Fi are soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1C39439"
+   ],
+   "Battery": [
+    "5B11A13107",
+    "5B11A13108",
+    "5B11A14635"
+   ],
+   "SSD": [
+    "01LX200",
+    "01LX201",
+    "01LX202",
+    "5SS0W79492",
+    "5SS0W79493",
+    "5SS0V26419"
+   ],
+   "WWAN card": [
+    "5W10V25794",
+    "5W10V25820",
+    "5W10V25859"
+   ],
+   "Coin-cell battery": [
+    "5B11M81200",
+    "5B10S73571"
+   ],
+   "Fan": [
+    "5H41C81979",
+    "5H41C81978"
+   ],
+   "Speakers": [
+    "5SB1C81982",
+    "5SB1C81983"
+   ],
+   "Touchpad": [
+    "5M11G56166",
+    "5M11G56167",
+    "5M11G56168",
+    "5M11G56172",
+    "5M11G56173"
+   ],
+   "Palmrest/top cover": [
+    "5M11C18706",
+    "5M11C18632"
+   ],
+   "Display assembly": [
+    "5M11C82040",
+    "5M11C82036",
+    "5M11C82038",
+    "5M11C82045",
+    "5M11C82043",
+    "5M11G55264"
+   ],
+   "Camera": [
+    "5C20W86473",
+    "5C20W86472",
+    "5C20W86471",
+    "5C20W86470",
+    "5C20W86469",
+    "5C21C16302"
+   ],
+   "Hinges": [
+    "5H51C82031",
+    "5H51C82032"
+   ],
+   "Fingerprint reader": [
+    "5M11C75965"
+   ],
+   "Power button": [
+    "5M11C75965"
+   ],
+   "Smart card reader": [
+    "5C51C81268"
+   ],
+   "System board": [
+    "5B21C72927",
+    "5B21C72928",
+    "5B21C72929",
+    "5B21C72934"
+   ],
+   "I/O bracket": [
+    "5B41C81985"
+   ],
+   "NFC card": [
+    "01AX745"
+   ],
+   "Pen charger cable": [
+    "5C11C81986"
+   ],
+   "Sensor board": [
+    "5C51C81267",
+    "5C51C81266",
+    "5C51J32319"
+   ],
+   "Antennas": [
+    "5A31C18964",
+    "5A31C18963",
+    "5A31C42198"
+   ],
+   "ThinkPad Pen Pro": [
+    "5D61A41287"
+   ],
+   "Nano-SIM tray": [
+    "5M21C75967"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x13-yoga-gen-2-type-20w8-20w9/20w8/parts",
+  "pn_notes": "From the Lenovo parts lookup for type 20W8. Palmrest/top cover is the C-cover with US English backlit keyboard (first without WWAN, second with WWAN). Display assembly: WUXGA touch modules, then WQXGA; panel and bezel are not sold separately. Power button and fingerprint reader are one assembly. Touchpad: last two have NFC. System board: 80 variants, 4 shown (i5-1135G7). Antennas: last one is WWAN."
  },
  {
   "brand": "Lenovo",
@@ -11153,7 +23680,142 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/tp_t490s_x390_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard comes out from the top (Lenovo keyboard removal tool 01LX856 is recommended). Fan is part of the thermal fan assembly. USB-C charge ports are on the system board; the USB card carries other ports. RAM and Wi-Fi are soldered. HMM is shared with the T490s.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "02HL019"
+   ],
+   "Battery": [
+    "02DL017",
+    "02DL018",
+    "02DL019",
+    "02DL020",
+    "5B10W13923",
+    "5B10W13924"
+   ],
+   "SSD": [
+    "01LX200",
+    "01LX201",
+    "01LX202",
+    "5SS0V26411",
+    "5SS0V26412",
+    "5SS0V26413"
+   ],
+   "WWAN card": [
+    "01AX792",
+    "01AX761"
+   ],
+   "Coin-cell battery": [
+    "01AY996",
+    "01AY997"
+   ],
+   "Fan": [
+    "01AW746",
+    "01AW747",
+    "01AW748"
+   ],
+   "Speakers": [
+    "02HL002",
+    "02HL003",
+    "02HL004"
+   ],
+   "Touchpad": [
+    "01YU060",
+    "01YU061",
+    "01YU062",
+    "01YU074",
+    "01YU075"
+   ],
+   "Keyboard": [
+    "01YP040",
+    "01YP200",
+    "01YP069",
+    "01YP000",
+    "01YP080",
+    "01YP029"
+   ],
+   "Palmrest/top cover": [
+    "02HL016",
+    "02HL017",
+    "5M10V75639",
+    "5M10V75640"
+   ],
+   "Display panel": [
+    "02HL703",
+    "02HL704",
+    "02HL705",
+    "02HL700",
+    "02DA370",
+    "5D10W87108"
+   ],
+   "Display bezel": [
+    "02HL012",
+    "02HL011",
+    "02HL013",
+    "02HL015",
+    "02HL014"
+   ],
+   "Camera": [
+    "01HW028",
+    "01HW029",
+    "01HW037",
+    "01HW061",
+    "01HW062"
+   ],
+   "Hinges": [
+    "02HL020",
+    "02HL021",
+    "02HL022",
+    "02HL023",
+    "02HL024",
+    "02HL025"
+   ],
+   "I/O board": [
+    "01YN265"
+   ],
+   "Fingerprint reader": [
+    "5F30V25901",
+    "5F30V25898"
+   ],
+   "Smart card reader": [
+    "5C61A25388",
+    "04X5393"
+   ],
+   "Power button": [
+    "01YN264"
+   ],
+   "System board": [
+    "5B21C98799",
+    "5B21C98793",
+    "5B21C98781",
+    "5B21C98769"
+   ],
+   "NFC card": [
+    "01AX745"
+   ],
+   "Docking-station-connector bracket": [
+    "01YN269"
+   ],
+   "Antennas": [
+    "02HL028",
+    "02HL029",
+    "02HL026",
+    "02HL027"
+   ],
+   "Display rear cover": [
+    "02HL006",
+    "02HL005",
+    "02HL008",
+    "5M10V75637",
+    "5M10V75636"
+   ],
+   "Nano-SIM/microSD tray": [
+    "01YU004",
+    "01YU005"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x390/20q0/parts",
+  "pn_notes": "From the Lenovo parts lookup for type 20Q0. Keyboard: US English, first three backlit, last three non-backlit. Display panel: FHD non-touch, HD, then FHD touch. Display bezel is a bezel sheet (RGB, IR, MIC, then touch versions). Power button is the power PCB card; I/O board is the USB sub card. Palmrest: last three have fingerprint reader or ePrivacy. Display rear cover: PPS FHD, PPS HD, CFRP FHD, touch, ePrivacy. Antennas: first two WLAN, last two WWAN. System board: 140 variants, 4 shown. No complete display assembly FRU is listed."
  },
  {
   "brand": "Lenovo",
@@ -11215,7 +23877,123 @@ window.BATTERIES = [
   "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/x390yoga_hmm_en.pdf",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold only as the keyboard bezel assembly (top cover) and comes out last, after the system board and display. Fan is part of the thermal fan assembly. USB-C charge ports are on the system board. RAM and Wi-Fi are soldered.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "01YU967",
+    "01YU968"
+   ],
+   "Battery": [
+    "02DL021",
+    "02DL022",
+    "5B10W13927",
+    "5B10W13928",
+    "5B10W13929",
+    "02HM886"
+   ],
+   "SSD": [
+    "01LX200",
+    "01LX201",
+    "01LX202",
+    "01LX204",
+    "01LX205",
+    "01LX212"
+   ],
+   "WWAN card": [
+    "01AX792",
+    "01AX761"
+   ],
+   "Coin-cell battery": [
+    "04X0443"
+   ],
+   "Fan": [
+    "01YU961",
+    "01YU962"
+   ],
+   "Speakers": [
+    "01YU964",
+    "01YU963"
+   ],
+   "Touchpad": [
+    "01YU083",
+    "01YU084",
+    "01YU081",
+    "01YU082",
+    "01YU085",
+    "01YU086"
+   ],
+   "Palmrest/top cover": [
+    "02HL645",
+    "02HL644",
+    "02HL500",
+    "02HM716"
+   ],
+   "Display assembly": [
+    "5M10V24625",
+    "02HM859",
+    "02HM861",
+    "02HM857",
+    "02HM858",
+    "02HM862"
+   ],
+   "Camera": [
+    "01HW059",
+    "01HW058",
+    "01HW057",
+    "01HW060",
+    "01HW064",
+    "01HW063"
+   ],
+   "Hinges": [
+    "02HM875",
+    "02HM874",
+    "02HM873"
+   ],
+   "Fingerprint reader": [
+    "5F30V25901",
+    "5F30V25898",
+    "5F30V25904",
+    "5F30V25905"
+   ],
+   "Smart card reader": [
+    "01YU975"
+   ],
+   "System board": [
+    "5B21C15385",
+    "5B21C15264",
+    "5B21C15384",
+    "5B21C15263"
+   ],
+   "I/O bracket": [
+    "01YU965"
+   ],
+   "NFC card": [
+    "01AX745"
+   ],
+   "Pen charger cable": [
+    "01YU966"
+   ],
+   "Sensor board": [
+    "02HM872",
+    "02HM871",
+    "02HM870"
+   ],
+   "Antennas": [
+    "02HM869",
+    "02HM868",
+    "02HM867",
+    "02HM866"
+   ],
+   "ThinkPad Pen Pro": [
+    "01FR723"
+   ],
+   "Nano-SIM tray": [
+    "01YU969",
+    "01YU970"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x390-yoga/20nn/parts",
+  "pn_notes": "From the Lenovo parts lookup for type 20NN. Bottom cover and SIM tray: black, then silver. Palmrest/top cover is the C-cover with US English keyboard (first non-backlit, others backlit). Display assembly: FHD touch modules, last one with IR camera; panel and bezel are not sold separately. Fingerprint reader: last two are silver. Touchpad: last two silver. System board: 144 variants, 4 shown. Antennas: first two WLAN only, last two WLAN+WWAN."
  },
  {
   "brand": "Lenovo",
@@ -11276,7 +24054,72 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/3181183/Lenovo-13acn5.html",
   "repair_confidence": "medium",
   "repair_notes": "HMM covers the 13ITL5 and 13ACN5. Keyboard comes only with the upper case. Two fans are separate from the heat sink. The Thunderbolt 4 ports are on the system board; the USB board (FRU 5C50S25119) has a USB-C port and the power switch. RAM is soldered. HMM read through a third-party copy.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1B00951",
+    "5CB1B00950"
+   ],
+   "Battery": [
+    "5B10Z33897",
+    "5B10Z33899"
+   ],
+   "SSD": [
+    "5SS0V14992",
+    "5SS0V14994",
+    "5SS0V14993",
+    "01FR594",
+    "5SS0Z46561",
+    "5SS0Z46565"
+   ],
+   "Wi-Fi card": [
+    "5W10V25775",
+    "01AX768",
+    "02HK701"
+   ],
+   "Fan": [
+    "5F10S13925"
+   ],
+   "Heatsink": [
+    "5H40S20153"
+   ],
+   "Speakers": [
+    "5SB0Z49600",
+    "5SB0Z49602"
+   ],
+   "Touchpad": [
+    "5T60S94243",
+    "5T60S94242"
+   ],
+   "Palmrest/top cover": [
+    "5CB1B01047",
+    "5CB1B01276",
+    "5CB1B00957",
+    "5CB1B01041"
+   ],
+   "Display assembly": [
+    "5D10S39675",
+    "5D10S39676"
+   ],
+   "Camera": [
+    "5C20X02458",
+    "5C20X02457"
+   ],
+   "Hinges": [
+    "5H50S28988"
+   ],
+   "I/O board": [
+    "5C50S25119"
+   ],
+   "System board": [
+    "5B20Z33197",
+    "5B20Z33202",
+    "5B20Z33196",
+    "5B20Z33201"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/yoga-series/yoga-slim-7-13itl05/82cu/parts",
+  "pn_notes": "From the Lenovo parts lookup for type 82CU. Bottom cover and touchpad: Iron Grey, then Light Silver. Palmrest/top cover is the C-cover with US English backlit keyboard (first two Iron Grey, last two Light Silver). Display assembly: second is QHD touch glossy. System board: all 8 are i5-1135G7 or i7-1165G7 with 8 or 16 GB; 4 shown. Display panel and bezel are not sold separately."
  },
  {
   "brand": "Metabox",
@@ -11338,7 +24181,21 @@ window.BATTERIES = [
   "service_manual_url": "https://www.manualslib.com/manual/2941977/Clevo-Np70pnp.html",
   "repair_confidence": "medium",
   "repair_notes": "Used the Clevo NP70PNP service manual (same NP5K0 mainboard family). Keyboard comes out from the top. DC-in jack is on the mainboard. Replacement fans are sold with the heat sink. Clevo parts come through the reseller.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "NP50BAT-4-73",
+    "6-87-NPSSS-73A00",
+    "NP50BAT-4-54",
+    "6-87-NP5KS-53G00",
+    "6-87-NP5KS-51B00"
+   ],
+   "Fan": [
+    "6-31-NP5P3-103"
+   ]
+  },
+  "pn_confidence": "low",
+  "pn_source_url": "https://www.cdrtd.com/products/laptop-fan-heatsink-for-clevo-np50pnp-np55pnp-np60pnp-new.html",
+  "pn_notes": "Fan: Clevo CPU+GPU fan and heatsink module, from a parts seller listing that names the NP60PNP. Battery copied from the existing data. The Clevo service manual part list was only available as a low-resolution image, so no other numbers were confirmed."
  },
  {
   "brand": "Metabox",
@@ -11398,7 +24255,15 @@ window.BATTERIES = [
   "service_manual_url": "https://www.clevo.com.tw/clevo_pro.asp?lang=en",
   "repair_confidence": "low",
   "repair_notes": "No service manual found for the Clevo V150PNP/V158PNP. Values follow the usual Clevo design (keyboard and eDP panel sold alone, DC-in on the mainboard); not confirmed.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "V150BAT-4-53",
+    "6-87-V150S-53A00"
+   ]
+  },
+  "pn_confidence": "low",
+  "pn_source_url": "https://www.cdrtd.com/products/laptop-battery-for-clevo-v150pnh-v150pnj-v150pnk-v150pnp-v155pnhq-v155pnjq-v155pnkq-v155pnpq-15-4v-3510mah-53-35wh-v157pnhq-v157pnjq-v157pnkq-v157pnpq-v158pnhq-v158pnjq-v158pnkq-v158pnpq.html",
+  "pn_notes": "Battery copied from the existing data. No Clevo part numbers for other V158PNP parts were found in a readable source."
  },
  {
   "brand": "Metabox",
@@ -11458,7 +24323,22 @@ window.BATTERIES = [
   "service_manual_url": "https://novacustom.com/product/nh77-series-spare-parts/",
   "repair_confidence": "medium",
   "repair_notes": "Based on NovaCustom spare parts for the Clevo NH77 series (CPU and GPU fans and the heat sink are sold separately; USB/audio daughterboard). DC-in jack is soldered to the mainboard; repair shops sell it as a board-level part. Keyboard replacement needs a large teardown.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "NH50BAT-4",
+    "6-87-NH50S-41C00"
+   ],
+   "Heatsink": [
+    "6-31-NH77N-101",
+    "6-31-NH77N-RA2"
+   ],
+   "Palmrest/top cover": [
+    "6-39-NH771-02C"
+   ]
+  },
+  "pn_confidence": "low",
+  "pn_source_url": "https://www.cdrtd.com/products/laptop-cpu-gpu-fan-heatsink-for-clevo-nh77erq-nh77epy-nh79erq-nh79epy-4pin-new.html",
+  "pn_notes": "From parts seller listings that name the NH77ERQ. Heatsink: first is the CPU+GPU thermal module with fans, second is listed as the GPU fan and heatsink. Palmrest/top cover: one listing gives 6-39-NH771-022 in its title, so check the number on the old part. Battery copied from the existing data."
  },
  {
   "brand": "Metabox",
@@ -11518,7 +24398,22 @@ window.BATTERIES = [
   "service_manual_url": "https://novacustom.com/product/pc50-series-spare-parts/",
   "repair_confidence": "low",
   "repair_notes": "Based on NovaCustom spare parts for the Clevo PC50 series: the cooling element comes with the fans, but third-party sellers also sell the fans alone. USB/audio daughterboard is separate. DC-in location not confirmed; Clevo usually solders it to the mainboard.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "PC50BAT-3",
+    "6-87-PC50S-72A02",
+    "6-87-PC50S-72A00"
+   ],
+   "Heatsink": [
+    "6-31-PC5H3-101"
+   ],
+   "Keyboard": [
+    "6-80-PC511-010-1"
+   ]
+  },
+  "pn_confidence": "low",
+  "pn_source_url": "https://www.cdrtd.com/products/laptop-cpu-gpu-fan-heatsink-for-clevo-pc50hp-6-31-pc5h3-101-dfs5k22305283r-fmkk-dfs5k223052834-fmkl-4pin-dc5v-0-5a-new.html",
+  "pn_notes": "Heatsink: CPU+GPU thermal module with fans, listed for the PC50HP (same PC50 chassis family; fit on the PC50HR is not confirmed). Keyboard: US English non-backlit, listed for the PC50 series only. Battery copied from the existing data."
  },
  {
   "brand": "Microsoft",
@@ -11579,7 +24474,18 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Teardown/Microsoft+Surface+Book+2+Teardown/100364",
   "repair_confidence": "low",
   "repair_notes": "No official parts or service guide; iFixit gives it 1/10. Display is fused glass and LCD, glued in. Batteries in both halves are glued. SSD is removable after a hard opening. Only the Core i7 13.5-inch model has a fan.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G3HTA044H",
+    "DAK822470K",
+    "G3HTA050H",
+    "G3HTA049H",
+    "G3HTA048H"
+   ]
+  },
+  "pn_confidence": "low",
+  "pn_source_url": "https://www.ifixit.com/Teardown/Microsoft+Surface+Book+2+Teardown/100364",
+  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found."
  },
  {
   "brand": "Microsoft",
@@ -11642,7 +24548,19 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/Surface_Book_3",
   "repair_confidence": "low",
   "repair_notes": "No official parts or service guide, and no iFixit guides found. Design is the same as the Surface Book 2: glued display, glued batteries, SSD removable after a hard opening. Only the Core i7 13.5-inch model has a fan.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G3HTA044H",
+    "DAK822470K",
+    "G3HTA050H",
+    "G3HTA049H",
+    "G3HTA048H",
+    "G3HTA064H"
+   ]
+  },
+  "pn_confidence": "low",
+  "pn_source_url": "https://www.ifixit.com/Device/Surface_Book_3",
+  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found. G3HTA065H is also listed in the existing data."
  },
  {
   "brand": "Microsoft",
@@ -11700,7 +24618,35 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-3-and-4/surface-laptop-3-and-4-device-information-and-service-parts",
   "repair_confidence": "medium",
   "repair_notes": "Microsoft sells only the feet, C-cover keyboard assembly, rSSD and display assembly. iFixit has guides for the battery, heatsink with fan, Surface Connect port, headphone jack, touchpad and an LCD panel swap, but the panel is not sold alone. Battery is glued.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "SSD": [
+    "8LT-00006",
+    "8LV-00009",
+    "8LX-00009",
+    "8LU-00005"
+   ],
+   "Palmrest/top cover": [
+    "RPQ-00001",
+    "RPQ-00035",
+    "RPQ-00018",
+    "RPQ-00052"
+   ],
+   "Display assembly": [
+    "RPN-00001",
+    "CIB-00002",
+    "CIB-00005",
+    "CIB-00004"
+   ],
+   "Feet": [
+    "CIG-00001",
+    "CIG-00002",
+    "CIG-00005",
+    "CIG-00004"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-3-and-4/surface-laptop-3-and-4-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list (models 1867 and 1868). SSD: 128 GB, 256 GB, 512 GB, 1 TB. Palmrest/top cover is the C-cover keyboard assembly with touchpad, US English (Americas/Asia): Black, Platinum, Cobalt Blue, Sandstone. Display assembly and feet: Black, Platinum, Cobalt Blue, Sandstone. The list gives no numbers for battery, fan, speakers, ports or system board."
  },
  {
   "brand": "Microsoft",
@@ -11757,7 +24703,37 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-3-and-4/surface-laptop-3-and-4-device-information-and-service-parts",
   "repair_confidence": "medium",
   "repair_notes": "Microsoft sells only the feet, C-cover keyboard assembly, rSSD and display assembly. iFixit has guides for the battery, heatsink with fan, Surface Connect port, headphone jack and touchpad. Battery is glued.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "SSD": [
+    "8LV-00002",
+    "8LX-00002",
+    "8LU-00002",
+    "8LT-00002",
+    "8LV-00003",
+    "8LX-00003"
+   ],
+   "Palmrest/top cover": [
+    "RPQ-00001",
+    "RPQ-00035",
+    "RPQ-00052",
+    "RPQ-00080"
+   ],
+   "Display assembly": [
+    "RPN-00001",
+    "CIB-00002",
+    "CIB-00004",
+    "CIB-00003"
+   ],
+   "Feet": [
+    "CIG-00001",
+    "CIG-00002",
+    "CIG-00004",
+    "CIG-00003"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-3-and-4/surface-laptop-3-and-4-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list (13.5-inch models 1950, 1951, 1958, 1959). SSD: first three for 1950/1951 (256 GB, 512 GB, 1 TB), last three for 1958/1959 (128 GB, 256 GB, 512 GB). Palmrest/top cover is the C-cover keyboard with touchpad, US English: Black, Platinum, Sandstone, Ice Blue. Display assembly and feet: Black, Platinum, Sandstone, Ice Blue. The list gives no numbers for battery, fan, speakers, ports or system board."
  },
  {
   "brand": "Microsoft",
@@ -11815,7 +24791,59 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-5/surface-laptop-5-device-information-and-service-parts",
   "repair_confidence": "high",
   "repair_notes": "Keyboard is sold as the C-cover assembly. Battery is sold only with the chassis. Fan comes with the thermal module. Surface Connect (Surflink) port is its own part.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "U1V-00001",
+    "U1V-00002",
+    "U1V-00003",
+    "U1V-00004"
+   ],
+   "Battery": [
+    "U1V-00001",
+    "U1V-00002",
+    "U1V-00003",
+    "U1V-00004"
+   ],
+   "SSD": [
+    "U1Y-00001",
+    "U1Z-00001"
+   ],
+   "Fan": [
+    "U1X-00001"
+   ],
+   "Palmrest/top cover": [
+    "U3B-00001",
+    "U3B-00019",
+    "U3B-00037",
+    "U3B-00045"
+   ],
+   "Display assembly": [
+    "U2I-00001",
+    "CIB-00001",
+    "U2I-00003",
+    "U2I-00004"
+   ],
+   "DC-in / charge port": [
+    "U1U-00001"
+   ],
+   "System board": [
+    "U1W-00002",
+    "U1W-00006",
+    "U1W-00010",
+    "U1M-00001",
+    "U1M-00009",
+    "U1M-00014"
+   ],
+   "Feet": [
+    "CIG-00002",
+    "CIG-00001",
+    "CIG-00006",
+    "CIG-00004"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-5/surface-laptop-5-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list; CRU numbers shown (the FRU numbers differ, e.g. chassis U1L-00001). Bottom cover and battery are one part (chassis + battery): Platinum, Black, Sage, Sandstone. SSD: 256 GB, 512 GB. Fan is the thermal module with fan. DC-in is the Surflink port. Palmrest/top cover is the keyboard C-cover, US English: Platinum, Black, Sage, Sandstone. Display: Platinum, Black, Sage, Sandstone. System board: i5/8GB, i5/16GB, i7/16GB commercial CRUs, then consumer FRUs. No speaker number is listed."
  },
  {
   "brand": "Microsoft",
@@ -11872,7 +24900,55 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-6/surface-laptop-6-business-device-information-and-service-parts",
   "repair_confidence": "high",
   "repair_notes": "Keyboard assembly includes the touchpad and top deck and comes off first. Camera is part of the display assembly. Fan comes with the thermal module. Surface Connect port, audio jack and battery are their own parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "C0V-00002",
+    "C0V-00001"
+   ],
+   "Battery": [
+    "B0Y-00001"
+   ],
+   "SSD": [
+    "E0P-00001",
+    "E0Q-00001",
+    "E0R-00001"
+   ],
+   "Fan": [
+    "D0X-00001"
+   ],
+   "Speakers": [
+    "D0Y-00001"
+   ],
+   "Palmrest/top cover": [
+    "D0M-00019",
+    "D0M-00001"
+   ],
+   "Display assembly": [
+    "D0I-00002",
+    "D0I-00001"
+   ],
+   "DC-in / charge port": [
+    "D0W-00001"
+   ],
+   "Audio/headphone board": [
+    "D0S-00001"
+   ],
+   "System board": [
+    "C0C-00001",
+    "C0D-00001",
+    "C0F-00001",
+    "C0G-00001",
+    "C0H-00001",
+    "C0I-00001"
+   ],
+   "Feet": [
+    "D0V-00002",
+    "D0V-00001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-6/surface-laptop-6-business-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list, 13.5-inch parts. Colour pairs are Platinum then Black. Bottom cover is the enclosure. Fan is the thermal module. Palmrest/top cover is the keyboard assembly with touchpad, US English (America/Asia). Display assembly includes the camera. DC-in is the Surface Connect port. System board: i5/8GB, i5/16GB, i5/32GB, i7/16GB, i7/32GB, i7/64GB. SSD: 256 GB, 512 GB, 1 TB."
  },
  {
   "brand": "Microsoft",
@@ -11929,7 +25005,61 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-7-business/surface-laptop-7-business-device-information-and-service-parts",
   "repair_confidence": "high",
   "repair_notes": "Keyboard assembly includes the touchpad and comes out last from the enclosure. Camera is part of the display assembly. Fan is its own part; the thermal module comes with the motherboard. microSD and smart card readers are on the 15-inch only.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "EP2-29765",
+    "EP2-29766"
+   ],
+   "Battery": [
+    "EP2-29762",
+    "C0A-00001"
+   ],
+   "SSD": [
+    "EP2-29866",
+    "EP2-29867",
+    "EP2-29868"
+   ],
+   "Fan": [
+    "EP2-29771"
+   ],
+   "Speakers": [
+    "EP2-29869",
+    "EP2-29870",
+    "E0D-00001",
+    "E0D-00002"
+   ],
+   "Keyboard": [
+    "EP2-29594",
+    "EP2-29576"
+   ],
+   "Display assembly": [
+    "EP2-29746",
+    "EP2-29747"
+   ],
+   "DC-in / charge port": [
+    "EP2-29769",
+    "E0B-00001"
+   ],
+   "Audio/headphone board": [
+    "EP2-29761",
+    "EP2-29760"
+   ],
+   "System board": [
+    "EP2-29720",
+    "EP2-29721",
+    "EP2-29722",
+    "EP2-29723"
+   ],
+   "Feet": [
+    "EP2-29864",
+    "EP2-29865",
+    "E0A-00001",
+    "E0A-00002"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-7-business/surface-laptop-7-business-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list, 13-inch (13.8-inch) parts. Colour pairs are Platinum then Black. Bottom cover is the enclosure. Battery, speakers, DC-in and feet: EP2 SKU first, then the substitute number. Speakers: left then right. Keyboard is the keyboard assembly with trackpad, English: Platinum, Black. Display assembly includes the camera. DC-in is the Surface Connect port. System board includes the thermal module: Ultra 5 16GB, Ultra 5 32GB, Ultra 7 16GB, Ultra 7 32GB."
  },
  {
   "brand": "Microsoft",
@@ -11987,7 +25117,54 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-studio/surface-laptop-studio-device-information-and-service-parts",
   "repair_confidence": "high",
   "repair_notes": "Battery is sold only with the D-bucket (bottom). Keyboard is sold as the C-cover assembly. Microsoft does not list the fans, heat sink or motherboard as service parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "CJ1-00001",
+    "CJ1-00002",
+    "I8K-00002"
+   ],
+   "Battery": [
+    "CJ1-00001",
+    "CJ1-00002",
+    "I8K-00002"
+   ],
+   "SSD": [
+    "8LV-00007",
+    "8LX-00007",
+    "8LU-00003",
+    "I89-00001"
+   ],
+   "Palmrest/top cover": [
+    "CIU-00006",
+    "I87-00005"
+   ],
+   "Display assembly": [
+    "CIT-00001",
+    "I85-00001"
+   ],
+   "DC-in / charge port": [
+    "CIY-00001",
+    "I8G-00001"
+   ],
+   "USB-C port board": [
+    "CIW-00001",
+    "I8B-00001"
+   ],
+   "Audio/headphone board": [
+    "CIX-00001",
+    "I8D-00001"
+   ],
+   "Feet": [
+    "CJI-00001",
+    "CK1-00001"
+   ],
+   "Cosmetic plate": [
+    "CIZ-00001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-studio/surface-laptop-studio-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list (model 1964). Pairs are FRU number then CRU number. Bottom cover and battery are one part (D-bucket + battery): FRU rest of world, FRU Americas, CRU Americas (the rest-of-world CRU number in the list duplicates the cosmetic plate CRU, so it is left out). SSD CRU numbers: 256 GB, 512 GB, 1 TB, 2 TB. Palmrest/top cover is the C-cover keyboard, English WW. DC-in is the Surflink port."
  },
  {
   "brand": "Microsoft",
@@ -12045,7 +25222,62 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro-11-and-pro-10-business/surface-pro-11-and-pro-10-business-device-information-and-service-parts",
   "repair_confidence": "high",
   "repair_notes": "Tablet; the keyboard is a detachable Type Cover. Display is sold only as the display module. Fan comes with the thermal module. Front and rear cameras are separate parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "50C-00001"
+   ],
+   "SSD": [
+    "30K-00001",
+    "30L-00001",
+    "30M-00001"
+   ],
+   "Fan": [
+    "50K-00001"
+   ],
+   "Speakers": [
+    "30S-00001"
+   ],
+   "Display assembly": [
+    "40U-00002"
+   ],
+   "Camera": [
+    "40X-00001",
+    "40Y-00001"
+   ],
+   "DC-in / charge port": [
+    "50B-00001"
+   ],
+   "Power button": [
+    "F2O-00001",
+    "F2O-00002"
+   ],
+   "System board": [
+    "50D-00001",
+    "50F-00001",
+    "50G-00001",
+    "50H-00001",
+    "50I-00001",
+    "50J-00001"
+   ],
+   "Kickstand": [
+    "40V-00001",
+    "40V-00002"
+   ],
+   "SSD door": [
+    "40G-00001",
+    "40G-00002"
+   ],
+   "Microphone module": [
+    "40Z-00001"
+   ],
+   "Enclosure": [
+    "50A-00001",
+    "50A-00002"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro-11-and-pro-10-business/surface-pro-11-and-pro-10-business-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list, Surface Pro 10 for Business table. Colour pairs are Platinum then Graphite. Fan is the thermal module with fan. Camera: front, then rear. Power button part includes the volume buttons. DC-in is the Surface Connect port. System board: i5/8GB, i5/16GB, i5/32GB, i7/16GB, i7/32GB, i7/64GB. SSD: 256 GB, 512 GB, 1 TB."
  },
  {
   "brand": "Microsoft",
@@ -12102,7 +25334,15 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/Microsoft_Surface_Pro_5",
   "repair_confidence": "medium",
   "repair_notes": "No Microsoft service guide. Tablet with a detachable Type Cover. Screen is glued. SSD is soldered. Only Core i7 models have a fan, and it is part of the heat sink; m3 and i5 are fanless.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G3HTA038H",
+    "DYNM02"
+   ]
+  },
+  "pn_confidence": "low",
+  "pn_source_url": "https://www.ifixit.com/Device/Microsoft_Surface_Pro_5",
+  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found."
  },
  {
   "brand": "Microsoft",
@@ -12159,7 +25399,15 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/Microsoft_Surface_Pro_6",
   "repair_confidence": "medium",
   "repair_notes": "No Microsoft service guide. Tablet with a detachable Type Cover. Screen is glued. SSD is soldered. Only Core i7 models have a fan, and it is part of the heat sink; i5 is fanless.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G3HTA038H",
+    "DYNM02"
+   ]
+  },
+  "pn_confidence": "low",
+  "pn_source_url": "https://www.ifixit.com/Device/Microsoft_Surface_Pro_6",
+  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found."
  },
  {
   "brand": "Microsoft",
@@ -12216,7 +25464,21 @@ window.BATTERIES = [
   "service_manual_url": "https://www.ifixit.com/Device/Microsoft_Surface_Pro_7",
   "repair_confidence": "medium",
   "repair_notes": "Microsoft sells only the kickstand. Tablet with a detachable Type Cover. Screen is glued. SSD is soldered. Surface Connect port connects to the motherboard by a cable; the USB-C port is on the motherboard. Only Core i7 models have a fan.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "G3HTA061H",
+    "DYNM03"
+   ],
+   "Kickstand": [
+    "I5B-00002",
+    "I5B-00001",
+    "RPT-00002",
+    "RPT-00001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro7-kickstand-replacement/surface-pro7-kickstand-replacement-device-information-and-service-parts",
+  "pn_notes": "Kickstand from the Microsoft service parts list: CRU Black, CRU Platinum, then FRU Black, FRU Platinum. Battery numbers copied from the existing data (cell maker model numbers). Microsoft lists no other Surface Pro 7 parts."
  },
  {
   "brand": "Microsoft",
@@ -12275,7 +25537,30 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro7-plus-business/surface-pro7-plus-business-device-information-and-service-parts",
   "repair_confidence": "high",
   "repair_notes": "Microsoft lists only the kickstand, SSD door, rSSD and touch display module. Tablet with a detachable Type Cover. Only Core i7 models have a fan (with the heat sink); i3 and i5 are fanless.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "SSD": [
+    "8LT-00001",
+    "8LV-00001",
+    "8LX-00001",
+    "8LU-00001"
+   ],
+   "Display assembly": [
+    "4K8-00001",
+    "4K8-00002"
+   ],
+   "Kickstand": [
+    "15A-00002",
+    "15A-00001",
+    "15A-00003"
+   ],
+   "SSD door": [
+    "8LS-00002",
+    "8LS-00001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro7-plus-business/surface-pro7-plus-business-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list; CRU numbers shown except the display. SSD: 128 GB, 256 GB, 512 GB, 1 TB (FRU numbers RPX-00004, RPZ-00005, RQG-00005, RPY-00003). Display assembly (TDM): Wi-Fi, then LTE. Kickstand: Black Wi-Fi, Platinum Wi-Fi, Platinum LTE. SSD door: Black, Platinum."
  },
  {
   "brand": "Microsoft",
@@ -12333,7 +25618,37 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro8/surface-pro8-device-information-and-service-parts",
   "repair_confidence": "high",
   "repair_notes": "Microsoft lists the kickstand, SSD door, rSSD, touch display module, thermal module (with fan) and Surflink port. Tablet with a detachable Type Cover. Battery and motherboard are not service parts.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "SSD": [
+    "DFB-00001",
+    "DFI-00001",
+    "DGB-00001",
+    "DGI-00001"
+   ],
+   "Fan": [
+    "DBZ-00001",
+    "DC8-00001"
+   ],
+   "Display assembly": [
+    "DHB-00001",
+    "I62-00001"
+   ],
+   "DC-in / charge port": [
+    "DBY-00001"
+   ],
+   "Kickstand": [
+    "I61-00002",
+    "I61-00001",
+    "I61-00003"
+   ],
+   "SSD door": [
+    "DCI-00002",
+    "DCI-00001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro8/surface-pro8-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list (models 1983 Wi-Fi and 1982 LTE). SSD CRU numbers: 128 GB, 256 GB, 512 GB, 1 TB. Fan is the thermal module: Wi-Fi, then LTE. Display assembly (TDM): FRU, then CRU. DC-in is the Surflink port. Kickstand CRU: Graphite Wi-Fi, Platinum Wi-Fi, Platinum LTE. SSD door CRU: Graphite, Platinum."
  },
  {
   "brand": "Microsoft",
@@ -12392,7 +25707,76 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro-9/surface-pro-9-device-information-and-service-parts",
   "repair_confidence": "high",
   "repair_notes": "Tablet with a detachable Type Cover. Display is sold only as the touch display module. Fan comes with the thermal module. Wi-Fi is on a Wi-Fi deck, not an M.2 card.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "WGN-00001",
+    "WFW-00001"
+   ],
+   "SSD": [
+    "TIC-00001",
+    "TID-00001",
+    "TIF-00001",
+    "TIG-00001"
+   ],
+   "Fan": [
+    "TIA-00001",
+    "TG1-00001"
+   ],
+   "Speakers": [
+    "WGT-00001",
+    "WG8-00001",
+    "TI3-00001"
+   ],
+   "Display assembly": [
+    "TI6-00001",
+    "TF1-00001"
+   ],
+   "Camera": [
+    "WGQ-00001",
+    "WGR-00001"
+   ],
+   "DC-in / charge port": [
+    "TI7-00001",
+    "TF8-00001"
+   ],
+   "Power button": [
+    "TIM-00001",
+    "TIM-00002",
+    "TIM-00003",
+    "TIM-00004"
+   ],
+   "System board": [
+    "WGP-00001",
+    "WGP-00004",
+    "WGP-00012",
+    "WGP-00009"
+   ],
+   "Kickstand": [
+    "TIB-00001",
+    "TIB-00002",
+    "TIB-00003",
+    "TIB-00004"
+   ],
+   "SSD door": [
+    "TIH-00001",
+    "TIH-00002",
+    "TIH-00003",
+    "TIH-00004"
+   ],
+   "Wi-Fi deck": [
+    "WGS-00001",
+    "WG1-00001"
+   ],
+   "Enclosure": [
+    "WGU-00001",
+    "WGU-00002",
+    "WGU-00003",
+    "WGU-00004"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro-9/surface-pro-9-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list. Pairs are CRU number then FRU number. Colour sets are Platinum, Graphite, Sapphire (Maya), Forest (Pine). SSD: 128 GB, 256 GB, 512 GB, 1 TB. Fan is the thermal module with fan. Speakers: right CRU, right FRU, left FRU. Camera: front, rear. Power button part includes the volume buttons. DC-in is the Surflink port. System board: 12 variants, 4 shown (i5 8GB, i5 16GB, i7 16GB, i7 32GB, all Nuvoton TPM). Enclosure is the back cover/chassis."
  },
  {
   "brand": "Microsoft",
@@ -12451,7 +25835,66 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro9-5g/surface-pro9-5g-device-information-and-service-parts",
   "repair_confidence": "high",
   "repair_notes": "Tablet with a detachable Type Cover. SQ3 model is fanless; the thermal module is only a heat spreader. Display is sold only as the touch display module.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "Battery": [
+    "WIA-00001",
+    "WFP-00001"
+   ],
+   "SSD": [
+    "TLI-00001",
+    "TM1-00001",
+    "TM6-00001"
+   ],
+   "Heatsink": [
+    "TL8-00001",
+    "TG1-00001"
+   ],
+   "Speakers": [
+    "TN1-00001",
+    "TJB-00001"
+   ],
+   "Display assembly": [
+    "TK8-00001",
+    "TIP-00001"
+   ],
+   "Camera": [
+    "TMB-00001",
+    "TMI-00001"
+   ],
+   "DC-in / charge port": [
+    "TKB-00001",
+    "TIQ-00001"
+   ],
+   "Power button": [
+    "TN8-00001",
+    "TJI-00001"
+   ],
+   "System board": [
+    "WIC-00001",
+    "WIC-00002",
+    "WIC-00003",
+    "WIC-00004"
+   ],
+   "Kickstand": [
+    "TLB-00001",
+    "TLB-00002"
+   ],
+   "SSD door": [
+    "TM8-00001",
+    "TIY-00001"
+   ],
+   "Camera deck": [
+    "TMM-00001",
+    "TJ8-00001"
+   ],
+   "Enclosure": [
+    "WID-00001",
+    "WFR-00001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro9-5g/surface-pro9-5g-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list. Pairs are CRU number then FRU number. SSD: 128 GB, 256 GB, 512 GB. Heatsink is the thermal module. Camera: front, rear. Power button part includes the volume buttons. DC-in is the Surflink port. System board CRUs: SQ3 16GB mmWave, 8GB mmWave, 16GB Sub6, 8GB Sub6. Kickstand: Sub6, mmWave. Enclosure is the back cover/chassis."
  },
  {
   "brand": "Microsoft",
@@ -12508,6 +25951,29 @@ window.BATTERIES = [
   "service_manual_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-prox/surface-prox-device-information-and-service-parts",
   "repair_confidence": "high",
   "repair_notes": "Microsoft lists only the kickstand, SSD door, rSSD and touch display module. Tablet with a detachable Type Cover. Fanless.",
-  "replaceable_part_numbers": {}
+  "replaceable_part_numbers": {
+   "SSD": [
+    "8LT-00004",
+    "8LV-00006",
+    "8LX-00006",
+    "8LV-00005",
+    "8LX-00005"
+   ],
+   "Display assembly": [
+    "RPM-00001"
+   ],
+   "Kickstand": [
+    "I5C-00004",
+    "I5C-00001",
+    "I5C-00002"
+   ],
+   "SSD door": [
+    "I5D-00001",
+    "I5D-00002"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-prox/surface-prox-device-information-and-service-parts",
+  "pn_notes": "From the Microsoft service parts list (model 1876). CRU numbers shown except the display. SSD: first three for SQ1 (128, 256, 512 GB), last two for SQ2 (256, 512 GB). Kickstand: Black SQ1, Black SQ2, Platinum SQ2. SSD door: Black, Platinum."
  }
 ];
