@@ -13,7 +13,12 @@ for r in rows:
     r["battery_type"] = [p.strip() for p in r["battery_type"].split(";") if p.strip()]
     r["alias"] = [p.strip() for p in r["alias"].split("|") if p.strip()]
     r["charger_part_numbers"] = [p.strip() for p in r.get("charger_part_numbers", "").split(";") if p.strip()]
-    for k in ("wh", "cells", "charger_watts"):
+    # "Keyboard: A, B | Fan: C" -> {"Keyboard": ["A", "B"], "Fan": ["C"]}
+    r["replaceable_part_numbers"] = {
+        k.strip(): [p.strip() for p in v.split(",") if p.strip()]
+        for k, _, v in (x.partition(":") for x in r.get("replaceable_part_numbers", "").split("|") if ":" in x)
+    }
+    for k in ("wh", "cells", "charger_watts", "ram_slots", "storage_slots"):
         v = r.get(k, "")
         try:
             r[k] = float(v) if "." in v else int(v)

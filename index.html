@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Laptop Battery Finder</title>
-  <meta name="description" content="Search laptop models to find the OEM battery part number, type code, capacity and cell count.">
+  <meta name="description" content="Search laptop models to find the OEM battery part number, type code, capacity, cell count, charger, and which RAM, storage, Wi-Fi, WWAN and GPU parts you can upgrade.">
   <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
   <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
@@ -12,13 +12,13 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
   <link rel="manifest" href="icons/site.webmanifest">
   <meta name="theme-color" content="#14532d">
-  <link rel="stylesheet" href="styles.css?v=92ba7d38">
+  <link rel="stylesheet" href="styles.css?v=0327cbff">
 </head>
 <body>
   <header class="top">
     <div class="wrap">
       <h1><span class="logo" aria-hidden="true"></span> Laptop Battery Finder</h1>
-      <p class="sub">Type a laptop model, a brand, a battery code, or a charger part number. Results update as you type.</p>
+      <p class="sub">Type a laptop model, a brand, a battery code, or a charger part number. Type <b>soldered ram</b>, <b>upgradable ram</b>, <b>wwan</b> or a GPU name to filter by hardware. Results update as you type.</p>
     </div>
   </header>
 
@@ -31,6 +31,25 @@
       </label>
       <div class="row">
         <div id="brands" class="chips" role="group" aria-label="Filter by brand"></div>
+        <label class="sort">Sort
+          <select id="sort">
+            <option value="">Best match</option>
+            <option value="name">Name</option>
+            <option value="parts">Most replaceable parts</option>
+            <option value="upgrade">Most upgradable</option>
+            <optgroup label="By part">
+              <option value="ram_upgradable">Upgradable RAM first</option>
+              <option value="storage_upgradable">Replaceable storage first</option>
+              <option value="wifi_upgradable">Replaceable Wi-Fi first</option>
+              <option value="wwan">WWAN first</option>
+              <option value="gpu_upgradable">Replaceable GPU first</option>
+              <option value="keyboard">Separate keyboard first</option>
+              <option value="screen">Separate screen panel first</option>
+              <option value="charge_port">Separate charge port first</option>
+              <option value="fan">Separate fan first</option>
+            </optgroup>
+          </select>
+        </label>
         <div class="view" role="group" aria-label="View">
           <button id="view-laptops" class="on" type="button">Laptops</button>
           <button id="view-batteries" type="button">Batteries</button>
@@ -48,7 +67,7 @@
     <p>Data: <code>data/batteries.csv</code>. Press <kbd>/</kbd> to jump to the search box.</p>
   </footer>
 
-  <script src="data/batteries.js?v=b85452a7"></script>
-  <script src="app.js?v=87c767ea"></script>
+  <script src="data/batteries.js?v=f7ae16f6"></script>
+  <script src="app.js?v=8ad56f58"></script>
 </body>
 </html>

@@ -4,15 +4,18 @@
   const DATA = (window.BATTERIES || []).map((r, i) => ({ ...r, id: i }));
   const $ = (s) => document.querySelector(s);
   const q = $("#q"), results = $("#results"), count = $("#count"), brandsEl = $("#brands");
-  const state = { query: "", brand: "", view: "laptops" };
+  const state = { query: "", brand: "", view: "laptops", sort: "" };
 
   // ---------- helpers ----------
   const norm = (s) => String(s || "").toLowerCase().replace(/[\s\-_.,()"']+/g, "");
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const RAM_LABEL = { yes: "Upgradable", partial: "Partly upgradable", no: "Soldered" }; // search words only
   function tokens(query) { return query.toLowerCase().split(/\s+/).filter(Boolean); }
   function hay(r) {
     return [r.brand, r.model, ...(r.alias || []), ...(r.part_numbers || []), ...(r.battery_type || []),
-      ...(r.charger_part_numbers || []), r.charger_connector || "", r.charger_watts ? r.charger_watts + "W" : ""].join(" ");
+      ...(r.charger_part_numbers || []), r.charger_connector || "", r.charger_watts ? r.charger_watts + "W" : "",
+      r.ram_type || "", RAM_LABEL[r.ram_upgradable] ? RAM_LABEL[r.ram_upgradable] + " RAM" : "",
+      r.storage_type || "", r.wifi_type || "", r.gpu || "", r.wwan === "yes" ? "WWAN 4G 5G LTE" : "", r.replaceable_parts || "", ...Object.values(r.replaceable_part_numbers || {}).flat()].join(" ");
   }
   // Every token must appear somewhere (with punctuation and spaces ignored, so "x1carbon" and "cc03 xl" both work).
   function matches(r, toks) {
@@ -60,6 +63,64 @@
       ${notes}
     </div>`;
   }
+  // Hardware grid: one short cell per part, with the long detail in one collapsible section.
+  // Each map is value -> [colour class, short label].
+  const HW = [
+    ["RAM", "ram_upgradable", { yes: ["yes", "Upgradable"], partial: ["partial", "Partly"], no: ["no", "Soldered"] }],
+    ["Storage", "storage_upgradable", { yes: ["yes", "Replaceable"], proprietary: ["partial", "Proprietary"], no: ["no", "Soldered"] }],
+    ["Wi-Fi", "wifi_upgradable", { yes: ["yes", "Replaceable"], no: ["no", "Soldered"] }],
+    ["WWAN", "wwan", { yes: ["yes", "Available"], no: ["none", "None"] }],
+    ["GPU", "gpu_upgradable", { yes: ["yes", "Replaceable"], no: ["none", "Fixed"] }],
+    ["Keyboard", "keyboard", { separate: ["yes", "Separate"], palmrest: ["partial", "With palmrest"] }],
+    ["Screen", "screen", { panel: ["yes", "Panel only"], assembly: ["partial", "Assembly"] }],
+    ["Charge port", "charge_port", { separate: ["yes", "Separate"], board: ["no", "On board"] }],
+    ["Fan", "fan", { separate: ["yes", "Separate"], heatsink: ["partial", "With heatsink"], none: ["none", "Fanless"] }],
+  ];
+  function hwExtra(r, key) {
+    if (key === "ram_upgradable") return r.ram_max ? `max ${r.ram_max}` : "";
+    if (key === "storage_upgradable") return r.storage_slots > 1 ? `${r.storage_slots} slots` : "";
+    return "";
+  }
+  // Sort keys. Green cells count 2, amber cells count 1.
+  const partList = (r) => (r.replaceable_parts || "").split(";").map((p) => p.trim()).filter(Boolean);
+  const partCount = (r) => partList(r).length;
+  function hwScore(r, key) {
+    const f = (HW.find((h) => h[1] === key) || [])[2]?.[r[key]];
+    return !f ? 0 : f[0] === "yes" ? 2 : f[0] === "partial" ? 1 : 0;
+  }
+  const upgradeScore = (r) => HW.reduce((s, h) => s + hwScore(r, h[1]), 0);
+  function hwBlock(r, toks) {
+    const cells = HW.map(([name, key, map]) => {
+      const f = map[r[key]];
+      if (!f) return "";
+      const extra = hwExtra(r, key);
+      return `<div class="hw ${f[0]}"><span class="tag">${name}</span><span class="val">${f[1]}${extra ? ` <small>${esc(extra)}</small>` : ""}</span></div>`;
+    }).join("");
+    if (!cells) return "";
+    const slots = r.ram_slots === 0 ? "no slots" : r.ram_slots ? `${r.ram_slots} slot${r.ram_slots === 1 ? "" : "s"}` : "";
+    const rows = [
+      ["RAM", [r.ram_type, slots].filter(Boolean).join(" · ")],
+      ["Storage", r.storage_type], ["Wi-Fi", r.wifi_type], ["WWAN", r.wwan_notes], ["GPU", r.gpu],
+    ].filter(([, v]) => v);
+    const pns = r.replaceable_part_numbers || {};
+    // Parts from the repair list, then any part that only has numbers.
+    const parts = [...new Set(partList(r).concat(Object.keys(pns)))];
+    const notes = [r.ram_notes, r.parts_notes, r.repair_notes, r.pn_notes].filter(Boolean);
+    const link = (url, text, conf) => url ? `<span><a href="${esc(url)}" target="_blank" rel="noopener">${text}</a> ${confBadge(conf).replace(" confidence", "")}</span>` : "";
+    const detailText = rows.map(([, v]) => v).concat(parts, notes, Object.values(pns).flat()).join(" ");
+    const withPn = parts.filter((p) => pns[p]?.length), noPn = parts.filter((p) => !pns[p]?.length);
+    const open = toks.length && toks.some((t) => norm(detailText).includes(norm(t))) ? " open" : "";
+    return `<div class="charger">
+      <div class="hwgrid">${cells}</div>
+      <details class="notes"${open}><summary>Hardware details${parts.length ? ` · ${parts.length} replaceable parts` : ""}</summary>
+        <dl class="partlist">${rows.map(([k, v]) => `<dt class="tag">${k}</dt><dd>${hilite(v, toks)}</dd>`).join("")}</dl>
+        ${withPn.length ? `<dl class="partlist pnlist">${withPn.map((p) => `<dt>${hilite(p, toks)}</dt><dd>${pns[p].map((n) => pn(n, toks, false)).join("")}</dd>`).join("")}</dl>` : ""}
+        ${noPn.length ? `<ul class="plist">${noPn.map((p) => `<li>${hilite(p, toks)}</li>`).join("")}</ul>` : ""}
+        ${notes.map((n) => `<p class="hwnote">${esc(n)}</p>`).join("")}
+        <div class="meta">${link(r.ram_source_url, "RAM source", r.ram_confidence)}${link(r.parts_source_url, "spec sheet", r.parts_confidence)}${link(r.service_manual_url, "service manual", r.repair_confidence)}${link(r.pn_source_url, "part numbers", r.pn_confidence)}</div>
+      </details>
+    </div>`;
+  }
   function laptopCard(r, toks) {
     const types = r.battery_type.map((c) => pn(c, toks, true)).join("");
     const parts = r.part_numbers.filter((p) => !r.battery_type.includes(p)).map((p) => pn(p, toks, false)).join("");
@@ -76,6 +137,7 @@
         <div class="meta">${cap ? `<span>${esc(cap)}</span>` : ""}${confBadge(r.confidence)}${src}${photoSrc(r)}</div>
         ${notes}
         ${chargerBlock(r, toks)}
+        ${hwBlock(r, toks)}
       </div>
     </article>`;
   }
@@ -136,8 +198,12 @@
   function render() {
     const toks = tokens(state.query);
     let rows = DATA.filter((r) => (!state.brand || r.brand === state.brand) && matches(r, toks));
+    const byName = (a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model);
     // Rank: brand or model hit first, then battery-code hits.
-    if (toks.length) {
+    if (state.sort && state.view === "laptops") {
+      const key = state.sort === "name" ? () => 0 : state.sort === "parts" ? partCount : state.sort === "upgrade" ? upgradeScore : (r) => hwScore(r, state.sort);
+      rows.sort((a, b) => key(b) - key(a) || byName(a, b));
+    } else if (toks.length) {
       const score = (r) => toks.reduce((s, t) => s + (norm(r.model).startsWith(norm(t)) ? 3 : norm(r.model).includes(norm(t)) ? 2 : 0), 0);
       rows.sort((a, b) => score(b) - score(a) || a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model));
     } else {
@@ -178,11 +244,14 @@
   $("#view-laptops").addEventListener("click", () => setView("laptops"));
   $("#view-batteries").addEventListener("click", () => setView("batteries"));
   $("#view-chargers").addEventListener("click", () => setView("chargers"));
+  const sortEl = $("#sort");
+  sortEl.addEventListener("change", () => { state.sort = sortEl.value; syncHash(); render(); });
   function setView(v) {
     state.view = v;
     $("#view-laptops").classList.toggle("on", v === "laptops");
     $("#view-batteries").classList.toggle("on", v === "batteries");
     $("#view-chargers").classList.toggle("on", v === "chargers");
+    sortEl.parentElement.hidden = v !== "laptops";
     syncHash(); render();
   }
 
@@ -223,6 +292,7 @@
     if (state.query) p.set("q", state.query);
     if (state.brand) p.set("brand", state.brand);
     if (state.view !== "laptops") p.set("view", state.view);
+    if (state.sort) p.set("sort", state.sort);
     const h = p.toString();
     history.replaceState(null, "", h ? "#" + h : location.pathname + location.search);
   }
@@ -232,6 +302,7 @@
     state.query = p.get("q") || ""; q.value = state.query;
     state.brand = brands.includes(p.get("brand")) ? p.get("brand") : "";
     brandsEl.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.brand === state.brand));
+    state.sort = [...sortEl.options].some((o) => o.value && o.value === p.get("sort")) ? p.get("sort") : ""; sortEl.value = state.sort;
     setView(["batteries", "chargers"].includes(p.get("view")) ? p.get("view") : "laptops");
   }
   window.addEventListener("hashchange", readHash);

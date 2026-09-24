@@ -71,6 +71,9 @@ h1 { margin: 0; font-size: 26px; display: flex; align-items: center; gap: 10px; 
 .view { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
 .view button { border: 0; border-radius: 0; }
 .view button.on { background: var(--accent); color: var(--accent-ink); }
+.sort { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); margin-left: auto; }
+.sort[hidden] { display: none; }
+.sort select { border: 1px solid var(--line); background: var(--chip); color: var(--ink); border-radius: 999px; padding: 5px 10px; font-size: 13px; }
 .count { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
 
 .card {
@@ -110,6 +113,22 @@ mark { background: var(--hi); color: inherit; padding: 0 1px; border-radius: 2px
 .charger { margin: 10px 0 0; padding-top: 8px; border-top: 1px dashed var(--line); }
 .charger .parts { margin: 0; }
 .tag { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+.hwgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 4px 12px; }
+.hw { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; }
+.hw .tag { font-size: 10px; }
+.hw .val { font-size: 13px; font-weight: 600; }
+.hw .val::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: currentColor; margin-right: 5px; vertical-align: 1px; }
+.hw .val small { font-weight: 400; color: var(--muted); white-space: nowrap; }
+.hw.yes .val { color: var(--ok); } .hw.partial .val { color: var(--warn); } .hw.no .val { color: var(--bad); } .hw.none .val { color: var(--muted); }
+.partlist { margin: 6px 0 0; display: grid; grid-template-columns: max-content 1fr; gap: 3px 10px; align-items: baseline; }
+.partlist dd { margin: 0; color: var(--ink); }
+.plist { margin: 6px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 4px; }
+.plist li { background: var(--chip); border: 1px solid var(--line); border-radius: 5px; padding: 0 6px; color: var(--ink); font-size: 12px; }
+.pnlist { border-top: 1px dashed var(--line); padding-top: 6px; }
+.pnlist dt { color: var(--ink); font-size: 13px; }
+.pnlist dd { display: flex; flex-wrap: wrap; gap: 4px; }
+.pnlist .pn { font-size: 12px; padding: 1px 6px; }
+.hwnote { margin: 6px 0 0; }
 .thumb.plug { font-size: 13px; font-weight: 600; letter-spacing: .04em; }
 .bcard .laptops { margin: 8px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
 .bcard .laptops li { background: var(--chip); border: 1px solid var(--line); border-radius: 6px; padding: 3px 8px; font-size: 13px; }
