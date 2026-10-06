@@ -13,6 +13,7 @@ for r in rows:
     r["battery_type"] = [p.strip() for p in r["battery_type"].split(";") if p.strip()]
     r["alias"] = [p.strip() for p in r["alias"].split("|") if p.strip()]
     r["charger_part_numbers"] = [p.strip() for p in r.get("charger_part_numbers", "").split(";") if p.strip()]
+    r["ram_configs"] = [p.strip() for p in r.get("ram_configs", "").split(";") if p.strip()]
     # "Keyboard: A, B | Fan: C" -> {"Keyboard": ["A", "B"], "Fan": ["C"]}
     r["replaceable_part_numbers"] = {
         k.strip(): [p.strip() for p in v.split(",") if p.strip()]

@@ -76,7 +76,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://geniusparts.co.uk/collections/acer/a315-59",
-  "pn_notes": "Parts seller listings. Palmrest/top cover: silver, US International keyboard. Hinges: first is the pair, second is the left hinge. Battery: two listed compatible Acer battery numbers."
+  "pn_notes": "Parts seller listings. Palmrest/top cover: silver, US International keyboard. Hinges: first is the pair, second is the left hinge. Battery: two listed compatible Acer battery numbers.",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -167,7 +168,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a1989-mid-2019",
-  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. System board: 4 of many CPU/RAM/SSD variants. Fans: left, right."
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. System board: 4 of many CPU/RAM/SSD variants. Fans: left, right.",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -267,7 +269,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a2251-2020",
-  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. System board: 3 of many variants. Fans: left, right."
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. System board: 3 of many variants. Fans: left, right.",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -373,7 +376,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-air-13-inch-a2179-2020",
-  "pn_notes": "Parts seller listing with Apple part numbers. Colour sets are space gray, silver, gold (audio board: space gray/gold, then silver). System board: 4 of many variants."
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour sets are space gray, silver, gold (audio board: space gray/gold, then silver). System board: 4 of many variants.",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -464,7 +468,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a2159-2019",
-  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. System board: 4 of many variants."
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. System board: 4 of many variants.",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -555,7 +560,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a2289-2020",
-  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. System board: 1 variant found."
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. System board: 1 variant found.",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -667,7 +673,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://support.apple.com/en-us/100587",
-  "pn_notes": "Apple exploded view. Colours: space gray, silver, gold (bottom case: 7-core/8-core GPU per colour; audio board: space gray/gold, then silver). Top case numbers are US English. USB-C port board is the input/output board. System board: 4 of 16 variants (each also has a 661-275xx alternate)."
+  "pn_notes": "Apple exploded view. Colours: space gray, silver, gold (bottom case: 7-core/8-core GPU per colour; audio board: space gray/gold, then silver). Top case numbers are US English. USB-C port board is the input/output board. System board: 4 of 16 variants (each also has a 661-275xx alternate).",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -755,7 +762,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-16-inch-a2141-2019",
-  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. Fans: left, right. System board: 2 of many variants."
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. Fans: left, right. System board: 2 of many variants.",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -847,7 +855,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-15-inch-a1990-mid-2018",
-  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. System board: 4 of many 2018 variants."
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery field is the Apple model number. System board: 4 of many 2018 variants.",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -965,7 +974,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://support.apple.com/en-us/102713",
-  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of many M2 Pro/Max variants (10c/16g, 12c/19g, 12c/30g, 12c/38g, lowest RAM/SSD)."
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of many M2 Pro/Max variants (10c/16g, 12c/19g, 12c/30g, 12c/38g, lowest RAM/SSD).",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -1082,7 +1092,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://support.apple.com/en-us/103935",
-  "pn_notes": "Apple exploded view. Colour pairs are space black then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of many M3 Pro variants (11c/14g and 12c/18g, 18 GB or 36 GB, 1 TB)."
+  "pn_notes": "Apple exploded view. Colour pairs are space black then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of many M3 Pro variants (11c/14g and 12c/18g, 18 GB or 36 GB, 1 TB).",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -1199,7 +1210,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://support.apple.com/en-us/100550",
-  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of 50 variants (M1 Pro 8c/14g, M1 Pro 10c/16g, M1 Max 24g, M1 Max 32g; lowest RAM, 512 GB)."
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of 50 variants (M1 Pro 8c/14g, M1 Pro 10c/16g, M1 Max 24g, M1 Max 32g; lowest RAM, 512 GB).",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -1315,7 +1327,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://support.apple.com/en-us/100569",
-  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of the M1 Max variants (24-core GPU 32/64 GB, 32-core GPU 32/64 GB; 512 GB)."
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of the M1 Max variants (24-core GPU 32/64 GB, 32-core GPU 32/64 GB; 512 GB).",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -1432,7 +1445,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://support.apple.com/en-us/100550",
-  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of the M1 Pro variants (8c/14g 16 GB, 10c/14g 16 GB, 10c/16g 16 GB, 10c/16g 32 GB; 512 GB)."
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of the M1 Pro variants (8c/14g 16 GB, 10c/14g 16 GB, 10c/16g 16 GB, 10c/16g 32 GB; 512 GB).",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -1549,7 +1563,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://support.apple.com/en-us/100569",
-  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of the M1 Pro variants (16 GB 512 GB/1 TB, 32 GB 512 GB/1 TB)."
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. Fans: right, left. Antennas is the vent/antenna module. System board: 4 of the M1 Pro variants (16 GB 512 GB/1 TB, 32 GB 512 GB/1 TB).",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -1662,7 +1677,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://support.apple.com/en-us/100531",
-  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. USB-C port board is the input/output board. Antennas is the vent/antenna module. System board: 4 of 8 variants (8/16 GB, 256/512 GB)."
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. USB-C port board is the input/output board. Antennas is the vent/antenna module. System board: 4 of 8 variants (8/16 GB, 256/512 GB).",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -1774,7 +1790,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://support.apple.com/en-us/100512",
-  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. USB-C port board is the input/output board. Antennas is the vent/antenna module. System board: 4 of 12 variants (8/16 GB, 256/512 GB)."
+  "pn_notes": "Apple exploded view. Colour pairs are space gray then silver. Top case includes battery and keyboard (US English numbers); the battery is not sold alone, so the battery field is the Apple model number. USB-C port board is the input/output board. Antennas is the vent/antenna module. System board: 4 of 12 variants (8/16 GB, 256/512 GB).",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -1869,7 +1886,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a1989",
-  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. Top case and display: first pair 2018, second pair 2019. System board: 4 of many CPU/RAM/SSD variants. Fans: left, right."
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. Top case and display: first pair 2018, second pair 2019. System board: 4 of many CPU/RAM/SSD variants. Fans: left, right.",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -1965,7 +1983,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-pro-13-inch-a2251-2020",
-  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. System board: 3 of many variants. Fans: left, right."
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour pairs are space gray then silver. Top case includes keyboard and battery; battery is only sold in the top case, so the battery field is the Apple model number. System board: 3 of many variants. Fans: left, right.",
+  "ram_configs": []
  },
  {
   "brand": "Apple",
@@ -2069,7 +2088,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://beetstech.com/store/apple-parts/macbook-air-13-inch-a1932-mid-2019",
-  "pn_notes": "Parts seller listing with Apple part numbers. Colour sets are space gray, silver, gold (audio board: space gray/gold, then silver). System board: 4 of many variants."
+  "pn_notes": "Parts seller listing with Apple part numbers. Colour sets are space gray, silver, gold (audio board: space gray/gold, then silver). System board: 4 of many variants.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -2143,7 +2163,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1752",
-  "pn_notes": "Parts seller listing of Dell part numbers. Wi-Fi card: listed compatible Intel AX201/AX211 cards. Palmrest listings found were Spanish only, so they are left out."
+  "pn_notes": "Parts seller listing of Dell part numbers. Wi-Fi card: listed compatible Intel AX201/AX211 cards. Palmrest listings found were Spanish only, so they are left out.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -2237,7 +2258,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1594",
-  "pn_notes": "Parts seller listing of Dell part numbers (DDR4 and DDR5 versions). Bottom cover and palmrest (backlit keyboard) are Pebble Green. Display: FHD+ green, FHD+ silver, FHD+ touch silver, QHD+ silver, QHD+ green. Speakers part includes WLAN antennas. System board: i7-1260P with Nvidia, i7-1255U UMA."
+  "pn_notes": "Parts seller listing of Dell part numbers (DDR4 and DDR5 versions). Bottom cover and palmrest (backlit keyboard) are Pebble Green. Display: FHD+ green, FHD+ silver, FHD+ touch silver, QHD+ silver, QHD+ green. Speakers part includes WLAN antennas. System board: i7-1260P with Nvidia, i7-1255U UMA.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -2309,7 +2331,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1741",
-  "pn_notes": "Parts seller listing of Dell part numbers. Battery: 54 Wh 4-cell, 41 Wh 3-cell. Camera: FHD, HD RGB."
+  "pn_notes": "Parts seller listing of Dell part numbers. Battery: 54 Wh 4-cell, 41 Wh 3-cell. Camera: FHD, HD RGB.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -2391,7 +2414,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1362",
-  "pn_notes": "Parts seller listing of Dell part numbers. Palmrest includes backlit keyboard. Display: FHD touch assembly (blue)."
+  "pn_notes": "Parts seller listing of Dell part numbers. Palmrest includes backlit keyboard. Display: FHD touch assembly (blue).",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -2483,7 +2507,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1421",
-  "pn_notes": "Parts seller listing of Dell part numbers. Battery: 53 Wh 4-cell, 40 Wh 3-cell. Palmrest includes non-backlit keyboard. Touchpad: third is light blue. System board: Ryzen 7 4700U only."
+  "pn_notes": "Parts seller listing of Dell part numbers. Battery: 53 Wh 4-cell, 40 Wh 3-cell. Palmrest includes non-backlit keyboard. Touchpad: third is light blue. System board: Ryzen 7 4700U only.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -2572,7 +2597,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1369",
-  "pn_notes": "Parts seller listing of Dell part numbers. Fan: UMA, then Nvidia discrete. Keyboard: US backlit variants. Power button includes the fingerprint reader."
+  "pn_notes": "Parts seller listing of Dell part numbers. Fan: UMA, then Nvidia discrete. Keyboard: US backlit variants. Power button includes the fingerprint reader.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -2676,7 +2702,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1450",
-  "pn_notes": "Silver and Black models use different parts. Speakers and I/O board: first is Silver, second is Black. Fingerprint reader F3XW3 is for the Black model. System board: 4 of many variants; G72HV is Black with discrete GPU."
+  "pn_notes": "Silver and Black models use different parts. Speakers and I/O board: first is Silver, second is Black. Fingerprint reader F3XW3 is for the Black model. System board: 4 of many variants; G72HV is Black with discrete GPU.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -2769,7 +2796,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1588",
-  "pn_notes": "Wi-Fi: AX201 (XVV0P, P1C6J), AX211 (G83J7), Realtek RTL8821CE (N33GX). System board: one i5 variant only."
+  "pn_notes": "Wi-Fi: AX201 (XVV0P, P1C6J), AX211 (G83J7), Realtek RTL8821CE (N33GX). System board: one i5 variant only.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -2884,7 +2912,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1537",
-  "pn_notes": "Heatsink: 281DX Tiger Lake UMA, VM785 Ice Lake UMA, 3N6FT discrete GPU. DC-in: HJW4D 11th Gen, WJ4CJ 10th Gen. Display panel: first two FHD non-touch, last two FHD touch (seller cross-listing). Power button entry is the cover without fingerprint reader. Palmrest includes keyboard."
+  "pn_notes": "Heatsink: 281DX Tiger Lake UMA, VM785 Ice Lake UMA, 3N6FT discrete GPU. DC-in: HJW4D 11th Gen, WJ4CJ 10th Gen. Display panel: first two FHD non-touch, last two FHD touch (seller cross-listing). Power button entry is the cover without fingerprint reader. Palmrest includes keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -3007,7 +3036,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1399",
-  "pn_notes": "Palmrest RM8M0 includes backlit US keyboard. Display panel: 1PVM5, PWX18 FHD; NM22V FHD touch. Bezel: GCK6R HD cam, T83XD IR cam. Display cable: JTY6T non-touch HD cam, 1PKVH touch/IR. Fan and heatsink are for integrated graphics."
+  "pn_notes": "Palmrest RM8M0 includes backlit US keyboard. Display panel: 1PVM5, PWX18 FHD; NM22V FHD touch. Bezel: GCK6R HD cam, T83XD IR cam. Display cable: JTY6T non-touch HD cam, 1PKVH touch/IR. Fan and heatsink are for integrated graphics.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -3101,7 +3131,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1517",
-  "pn_notes": "Display panel: both are HD (1366x768) panels. DC-in: HJW4D 11th Gen, WJ4CJ 10th Gen. Power button entry is the cover without fingerprint reader. Heatsink is for 11th Gen UMA."
+  "pn_notes": "Display panel: both are HD (1366x768) panels. DC-in: HJW4D 11th Gen, WJ4CJ 10th Gen. Power button entry is the cover without fingerprint reader. Heatsink is for 11th Gen UMA.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -3218,7 +3249,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1301",
-  "pn_notes": "Keyboard: first two backlit, 09N8M not backlit. Palmrest: all with smart card cut-out. Display assembly: all FHD touch; FD0N3, FKV32, 00NWN have HD camera. Bottom cover 68VFW is the WWAN version. System board: 2 i7 variants only."
+  "pn_notes": "Keyboard: first two backlit, 09N8M not backlit. Palmrest: all with smart card cut-out. Display assembly: all FHD touch; FD0N3, FKV32, 00NWN have HD camera. Bottom cover 68VFW is the WWAN version. System board: 2 i7 variants only.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -3327,7 +3359,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1395",
-  "pn_notes": "Keyboard: 5GJY7, 1V8KY backlit; 09N8M not backlit; 3R1CN listed as 5310 2-in-1 keyboard. Display assembly: all FHD touch; 876VP, 80YP3 IR camera; 3NP0P, RFX28 HD camera. System board: 2 i7 variants only."
+  "pn_notes": "Keyboard: 5GJY7, 1V8KY backlit; 09N8M not backlit; 3R1CN listed as 5310 2-in-1 keyboard. Display assembly: all FHD touch; 876VP, 80YP3 IR camera; 3NP0P, RFX28 HD camera. System board: 2 i7 variants only.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -3442,7 +3475,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1465",
-  "pn_notes": "Keyboard: both backlit. Bezel: G2DGW RGB cam, 8F8VW IR cam, GTCP9 IR with proximity sensor. XH90J is the FHD RGB+IR camera module. Fingerprint reader is the power button board with reader. System board: 4 of several variants."
+  "pn_notes": "Keyboard: both backlit. Bezel: G2DGW RGB cam, 8F8VW IR cam, GTCP9 IR with proximity sensor. XH90J is the FHD RGB+IR camera module. Fingerprint reader is the power button board with reader. System board: 4 of several variants.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -3539,7 +3573,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1586",
-  "pn_notes": "Keyboard is backlit (shared with 5320/7320). Palmrest 070YP has no smart card. Bezel 05RGK is for the HD camera. System board: 4 variants (i5/i7)."
+  "pn_notes": "Keyboard is backlit (shared with 5320/7320). Palmrest 070YP has no smart card. Bezel 05RGK is for the HD camera. System board: 4 variants (i5/i7).",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -3680,7 +3715,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1403",
-  "pn_notes": "Keyboard: H2DXX, 3J9FC backlit dual point; RN86F backlit; DMGJV single point not backlit. Display panel: first three FHD, last three FHD touch. Heatsink: XYG4C heatsink only, 29MKF heatsink with fan (UMA); fan alone MXH2W. Palmrest 42DWJ has smart card and dual point. System board: 4 of many variants."
+  "pn_notes": "Keyboard: H2DXX, 3J9FC backlit dual point; RN86F backlit; DMGJV single point not backlit. Display panel: first three FHD, last three FHD touch. Heatsink: XYG4C heatsink only, 29MKF heatsink with fan (UMA); fan alone MXH2W. Palmrest 42DWJ has smart card and dual point. System board: 4 of many variants.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -3812,7 +3848,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1468",
-  "pn_notes": "Keyboard: CW3R5, MV4X8 backlit; 8MJ5F, MFC90 per seller not marked backlit. Display panel: first five FHD non-touch, T066T FHD touch. Bezel: KMVJT mic only, GY37D IR cam. Display cable: WN8JV HD cam, VPHFP IR cam, K19NX IR with proximity. Power button entry is the cover without fingerprint reader. Heatsink HX40M includes the fan (UMA). System board: 4 of many variants."
+  "pn_notes": "Keyboard: CW3R5, MV4X8 backlit; 8MJ5F, MFC90 per seller not marked backlit. Display panel: first five FHD non-touch, T066T FHD touch. Bezel: KMVJT mic only, GY37D IR cam. Display cable: WN8JV HD cam, VPHFP IR cam, K19NX IR with proximity. Power button entry is the cover without fingerprint reader. Heatsink HX40M includes the fan (UMA). System board: 4 of many variants.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -3928,7 +3965,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1583",
-  "pn_notes": "Keyboard: CW3R5, MV4X8 backlit. Palmrest has no smart card. Display panel VXGJX is FHD touch privacy (EPY). Display cable: WN8JV HD cam, 57FP7 IR cam, CVVX3 EMZA cam, 9Y1XX touch IR/EMZA, K19NX IR/proximity. Power button entry is the cover without fingerprint reader."
+  "pn_notes": "Keyboard: CW3R5, MV4X8 backlit. Palmrest has no smart card. Display panel VXGJX is FHD touch privacy (EPY). Display cable: WN8JV HD cam, 57FP7 IR cam, CVVX3 EMZA cam, 9Y1XX touch IR/EMZA, K19NX IR/proximity. Power button entry is the cover without fingerprint reader.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -4022,7 +4060,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1658",
-  "pn_notes": "Keyboard: MV4X8 backlit. Palmrest has smart card and NFC. Camera: Y9V72 FHD RGB, 89MTT RGB+IR. Heatsink is for UMA graphics."
+  "pn_notes": "Keyboard: MV4X8 backlit. Palmrest has smart card and NFC. Camera: Y9V72 FHD RGB, 89MTT RGB+IR. Heatsink is for UMA graphics.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -4108,7 +4147,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1726",
-  "pn_notes": "Keyboard 10TD8 is backlit. Palmrest has smart card and NFC. Heatsink is for UMA graphics."
+  "pn_notes": "Keyboard 10TD8 is backlit. Palmrest has smart card and NFC. Heatsink is for UMA graphics.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -4237,7 +4277,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1466",
-  "pn_notes": "Keyboard: RHGTP, N7N16 backlit; KRJFY not backlit. Heatsink: 6274V UMA, W8T3N discrete. Display panel: both HD; FHD panels listed only by vendor code. Bezel: CR63R mic only, GYKGD HD cam. Display cable: 1DVTD non-touch HD cam, XJRYW touch FHD IR. Sensor board is the Hall sensor board. System board: 4 of many variants."
+  "pn_notes": "Keyboard: RHGTP, N7N16 backlit; KRJFY not backlit. Heatsink: 6274V UMA, W8T3N discrete. Display panel: both HD; FHD panels listed only by vendor code. Bezel: CR63R mic only, GYKGD HD cam. Display cable: 1DVTD non-touch HD cam, XJRYW touch FHD IR. Sensor board is the Hall sensor board. System board: 4 of many variants.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -4338,7 +4379,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1584",
-  "pn_notes": "Keyboard: RHGTP, N7N16 backlit; KRJFY not backlit. Display panel: 454PY FHD, 7XMDT HD. Palmrest has no smart card. Power button entry is the cover without fingerprint reader. System board: one i5 UMA variant only."
+  "pn_notes": "Keyboard: RHGTP, N7N16 backlit; KRJFY not backlit. Display panel: 454PY FHD, 7XMDT HD. Palmrest has no smart card. Power button entry is the cover without fingerprint reader. System board: one i5 UMA variant only.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -4417,7 +4459,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1397",
-  "pn_notes": "Few parts listed for this tablet. Display assembly is the 11.6in FHD touch assembly. Battery numbers copied from input."
+  "pn_notes": "Few parts listed for this tablet. Display assembly is the 11.6in FHD touch assembly. Battery numbers copied from input.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -4488,7 +4531,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1693",
-  "pn_notes": "Few parts listed for this tablet. WWAN cards are DW5821e variants. The power button board F64GJ is also listed but not in the part list."
+  "pn_notes": "Few parts listed for this tablet. WWAN cards are DW5821e variants. The power button board F64GJ is also listed but not in the part list.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -4598,7 +4642,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1406",
-  "pn_notes": "Keyboard: both backlit. Palmrest: FKF26 no smart card; X7X32, 932KF, 2YJVH with smart card; CDTH2 with NFC. Display assembly: all FHD; 71P68, H5C4J with IR camera. Heatsink and I/O board and speakers are the non-WWAN versions. WWAN: DW5821e (PH6K2, C0RVH, GTGNN), DW5829e (3X3VJ). System board: one i7 variant only."
+  "pn_notes": "Keyboard: both backlit. Palmrest: FKF26 no smart card; X7X32, 932KF, 2YJVH with smart card; CDTH2 with NFC. Display assembly: all FHD; 71P68, H5C4J with IR camera. Heatsink and I/O board and speakers are the non-WWAN versions. WWAN: DW5821e (PH6K2, C0RVH, GTGNN), DW5829e (3X3VJ). System board: one i7 variant only.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -4714,7 +4759,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1469",
-  "pn_notes": "Keyboard: both backlit. Display assembly: V9CJR FHD, W4M0N FHD touch. Palmrest Y82P1/CTRYN has no smart card. I/O board R5FK6 is the left USB-C board. Fingerprint reader is the power button board with reader. Antennas KGRCG is the WLAN antenna module. System board: 4 of several variants (shared with 7420/7520)."
+  "pn_notes": "Keyboard: both backlit. Display assembly: V9CJR FHD, W4M0N FHD touch. Palmrest Y82P1/CTRYN has no smart card. I/O board R5FK6 is the left USB-C board. Fingerprint reader is the power button board with reader. Antennas KGRCG is the WLAN antenna module. System board: 4 of several variants (shared with 7420/7520).",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -4806,7 +4852,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1577",
-  "pn_notes": "Keyboard: both backlit (shared with 5320/7320). Palmrest has smart card. I/O board D6XWN is the left USB-C board. Fingerprint reader is the power button board with reader. System board: i5 and i7 variants only."
+  "pn_notes": "Keyboard: both backlit (shared with 5320/7320). Palmrest has smart card. I/O board D6XWN is the left USB-C board. Fingerprint reader is the power button board with reader. System board: i5 and i7 variants only.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -4955,7 +5002,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1293",
-  "pn_notes": "Keyboard RN86F is backlit. Heatsink HCYN0 includes the fan. Display assembly: C2F46, T9MMY, 5NDRY touch; GDYF8 non-touch IR. Display panel: WV157 FHD, W9NTD and JTPF4 FHD touch, TWX6K FHD privacy. Camera: HK46K HD, 93THN IR. Power button entry is the cover. Palmrest 2R7XW has smart card; V9PFX aluminum. System board: 4 of several variants."
+  "pn_notes": "Keyboard RN86F is backlit. Heatsink HCYN0 includes the fan. Display assembly: C2F46, T9MMY, 5NDRY touch; GDYF8 non-touch IR. Display panel: WV157 FHD, W9NTD and JTPF4 FHD touch, TWX6K FHD privacy. Camera: HK46K HD, 93THN IR. Power button entry is the cover. Palmrest 2R7XW has smart card; V9PFX aluminum. System board: 4 of several variants.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -5078,7 +5126,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1404",
-  "pn_notes": "Keyboard: GMM47 backlit, CVGNH not backlit. Speakers: NFH3D/YRJ99 for 3/4-cell battery, 9GMP5 for 6-cell. Palmrest: first four for 4-cell battery (5TPMG, JHDW4 with smart card), W0WKK for 6-cell. Display assembly: 1J7GR, 164R1 FHD; J52W0, XWD0J FHD touch; MCJ79, GP62K UHD. Heatsink includes the fan. System board: one i7 variant only."
+  "pn_notes": "Keyboard: GMM47 backlit, CVGNH not backlit. Speakers: NFH3D/YRJ99 for 3/4-cell battery, 9GMP5 for 6-cell. Palmrest: first four for 4-cell battery (5TPMG, JHDW4 with smart card), W0WKK for 6-cell. Display assembly: 1J7GR, 164R1 FHD; J52W0, XWD0J FHD touch; MCJ79, GP62K UHD. Heatsink includes the fan. System board: one i7 variant only.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -5174,7 +5223,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=593",
-  "pn_notes": "Wi-Fi: Intel AC 8260 variants. WWAN is DW5808e. I/O board 7M8N1 has USB, RJ-45, serial and SD. Heatsink is for UMA graphics. System board: one i3 variant only. Battery numbers copied from input."
+  "pn_notes": "Wi-Fi: Intel AC 8260 variants. WWAN is DW5808e. I/O board 7M8N1 has USB, RJ-45, serial and SD. Heatsink is for UMA graphics. System board: one i3 variant only. Battery numbers copied from input.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -5298,7 +5348,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1472",
-  "pn_notes": "Keyboard: CW3R5, MV4X8 backlit. Display assembly: 19X7P FHD HD cam; T4H9P, KR9XD FHD IR cam; NR53F, 9CG83 FHD touch; P6GD8 UHD. Heatsink includes the fan. I/O board VY00G is the left USB-C board. Palmrest has no smart card. System board: 4 of several variants."
+  "pn_notes": "Keyboard: CW3R5, MV4X8 backlit. Display assembly: 19X7P FHD HD cam; T4H9P, KR9XD FHD IR cam; NR53F, 9CG83 FHD touch; P6GD8 UHD. Heatsink includes the fan. I/O board VY00G is the left USB-C board. Palmrest has no smart card. System board: 4 of several variants.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -5402,7 +5453,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1197",
-  "pn_notes": "I/O board: 2236M USB/audio, 5W9P3 RJ-45/serial. Display assembly VD3XR is FHD touch without camera. System board: 3 variants; W6G3H has discrete AMD GPU. Discrete GPU heatsink fan is the PCIe heatsink and system fan."
+  "pn_notes": "I/O board: 2236M USB/audio, 5W9P3 RJ-45/serial. Display assembly VD3XR is FHD touch without camera. System board: 3 variants; W6G3H has discrete AMD GPU. Discrete GPU heatsink fan is the PCIe heatsink and system fan.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -5529,7 +5581,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1580",
-  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -5638,7 +5691,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1650",
-  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -5734,7 +5788,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1717",
-  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -5893,7 +5948,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1103",
-  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -6011,7 +6067,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1467",
-  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -6095,7 +6152,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1649",
-  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -6193,7 +6251,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1494",
-  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -6346,7 +6405,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1316",
-  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -6488,7 +6548,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1441",
-  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -6571,7 +6632,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1694",
-  "pn_notes": "Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -6694,7 +6756,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1257",
-  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -6807,7 +6870,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1344",
-  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -6909,7 +6973,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1458",
-  "pn_notes": "System board: only some CPU variants are listed. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: only some CPU variants are listed. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -7008,7 +7073,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1526",
-  "pn_notes": "System board: only some CPU variants are listed. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: only some CPU variants are listed. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -7104,7 +7170,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1568",
-  "pn_notes": "System board: only some CPU variants are listed. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: only some CPU variants are listed. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -7240,7 +7307,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1329",
-  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -7407,7 +7475,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1460",
-  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -7548,7 +7617,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1524",
-  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -7667,7 +7737,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1619",
-  "pn_notes": "Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -7793,7 +7864,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1665",
-  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -7896,7 +7968,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=145&subid=1521",
-  "pn_notes": "System board: 4 of many CPU variants. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8002,7 +8075,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=145&subid=1599",
-  "pn_notes": "System board: 4 of many CPU variants. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8083,7 +8157,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=145&subid=1604",
-  "pn_notes": "Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8191,7 +8266,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1335",
-  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8294,7 +8370,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1436",
-  "pn_notes": "System board: 4 of many CPU variants. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: 4 of many CPU variants. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8385,7 +8462,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1488",
-  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+  "pn_notes": "System board: only some CPU variants are listed. Keyboard: US / US-International layouts, backlit and non-backlit. Dell part numbers from parts-people.com listings; some parts are shared with sister models.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8473,7 +8551,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1200",
-  "pn_notes": "Parts seller data. Battery copied from battery data. Fan is the dual fan assembly (two DP/Ns listed). Keyboard: backlit, white. Display: 4K UHD touch, rose gold."
+  "pn_notes": "Parts seller data. Battery copied from battery data. Fan is the dual fan assembly (two DP/Ns listed). Keyboard: backlit, white. Display: 4K UHD touch, rose gold.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8580,7 +8659,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1321",
-  "pn_notes": "Parts seller data. Battery copied from battery data. Wi-Fi: Killer 1650x, DW1820 (two DP/Ns), DW1820A. Fan: left CPU, right GPU. Heatsink: discrete Nvidia model. Palmrest (with keyboard and touchpad): two DP/Ns. Display: FHD IR silver, FHD gray, UHD touch, OLED UHD. Fingerprint reader is on the power button board. Hard drive: caddy only."
+  "pn_notes": "Parts seller data. Battery copied from battery data. Wi-Fi: Killer 1650x, DW1820 (two DP/Ns), DW1820A. Fan: left CPU, right GPU. Heatsink: discrete Nvidia model. Palmrest (with keyboard and touchpad): two DP/Ns. Display: FHD IR silver, FHD gray, UHD touch, OLED UHD. Fingerprint reader is on the power button board. Hard drive: caddy only.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8675,7 +8755,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1437",
-  "pn_notes": "Parts seller data. Fan: left CPU, right GPU. Heatsink: integrated, discrete graphics. Palmrest includes backlit keyboard and touchpad (seller lists several DP/Ns). Display: 4K UHD+ touch (silver, gray). I/O board is the SD card reader board."
+  "pn_notes": "Parts seller data. Fan: left CPU, right GPU. Heatsink: integrated, discrete graphics. Palmrest includes backlit keyboard and touchpad (seller lists several DP/Ns). Display: 4K UHD+ touch (silver, gray). I/O board is the SD card reader board.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8755,7 +8836,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1534",
-  "pn_notes": "Parts seller data. Heatsink: integrated graphics model. Speakers: seller lists 6NVTX for 9500 and 9510. Display: 4K UHD+ touch (silver, gray)."
+  "pn_notes": "Parts seller data. Heatsink: integrated graphics model. Speakers: seller lists 6NVTX for 9500 and 9510. Display: 4K UHD+ touch (silver, gray).",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8831,7 +8913,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1549",
-  "pn_notes": "Parts seller data. Palmrest includes keyboard and touchpad, US International. LED board is the status LED with cable. The display lid seller parts are back covers only."
+  "pn_notes": "Parts seller data. Palmrest includes keyboard and touchpad, US International. LED board is the status LED with cable. The display lid seller parts are back covers only.",
+  "ram_configs": []
  },
  {
   "brand": "Dell",
@@ -8904,7 +8987,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1647",
-  "pn_notes": "Parts seller data. Palmrest (shared with XPS 15 9520) includes keyboard and touchpad, US International. LED board is the status LED with cable."
+  "pn_notes": "Parts seller data. Palmrest (shared with XPS 15 9520) includes keyboard and touchpad, US International. LED board is the status LED with cable.",
+  "ram_configs": []
  },
  {
   "brand": "Dynabook",
@@ -8977,7 +9061,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://aps2.support.emea.dynabook.com/kb0/MAN23040T0000R01_MM_X30L-K.pdf",
-  "pn_notes": "The maintenance manual lists part codes only for the battery and the 13.3 in FHD LCD modules (five panel sources); its FRU list has no codes for other parts."
+  "pn_notes": "The maintenance manual lists part codes only for the battery and the 13.3 in FHD LCD modules (five panel sources); its FRU list has no codes for other parts.",
+  "ram_configs": []
  },
  {
   "brand": "Dynabook",
@@ -9055,7 +9140,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://aps2.support.emea.dynabook.com/kb0/MAN2504110000R01_MM_X30W-K.pdf",
-  "pn_notes": "The manual covers X30W-J and X30W-K together. Keyboard: US layout; first two have white backlight, last has red backlight. Display panel: 13.3 in FHD touch LCD modules. The manual lists no codes for other parts."
+  "pn_notes": "The manual covers X30W-J and X30W-K together. Keyboard: US layout; first two have white backlight, last has red backlight. Display panel: 13.3 in FHD touch LCD modules. The manual lists no codes for other parts.",
+  "ram_configs": []
  },
  {
   "brand": "Dynabook",
@@ -9126,7 +9212,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://aps2.support.emea.dynabook.com/kb0/MAN0B03ZJ0002R01_MM_X40-J.pdf",
-  "pn_notes": "The maintenance manual lists part codes only for the battery and the 14 in FHD LCD modules (three panel sources)."
+  "pn_notes": "The maintenance manual lists part codes only for the battery and the 14 in FHD LCD modules (three panel sources).",
+  "ram_configs": []
  },
  {
   "brand": "Dynabook",
@@ -9187,7 +9274,8 @@ window.BATTERIES = [
   "replaceable_part_numbers": {},
   "pn_confidence": "low",
   "pn_source_url": "https://support.dynabook.com/support/modelHome?freeText=X4050568H",
-  "pn_notes": "No maintenance manual or parts list with part codes found for the X40-M."
+  "pn_notes": "No maintenance manual or parts list with part codes found for the X40-M.",
+  "ram_configs": []
  },
  {
   "brand": "Dynabook",
@@ -9258,7 +9346,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://aps2.support.emea.dynabook.com/kb0/MAN2504120000R01_MM_X40L-K.pdf",
-  "pn_notes": "The maintenance manual lists part codes only for the battery (65 Wh) and the 14 in WUXGA LCD module."
+  "pn_notes": "The maintenance manual lists part codes only for the battery (65 Wh) and the 14 in WUXGA LCD module.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -9418,7 +9507,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://h10032.www1.hp.com/ctg/Manual/c06189588.pdf",
-  "pn_notes": "The guide gives no part number for the whole display assembly (touch and privacy units are whole-unit spares only). Keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: with NFC, without NFC. Display panel: FHD HD-camera, FHD IR, FHD touch IR, FHD privacy WWAN, FHD touch WWAN. Hinges: non-touch, touch. Camera: HD, IR. Wi-Fi: Realtek RTL8822BE, Intel 8265 vPro, Intel 8265. System board: i7-8550U, i5-8250U, i7-8650U, i5-8350U (-001 non-Windows, -601 Windows); more variants exist."
+  "pn_notes": "The guide gives no part number for the whole display assembly (touch and privacy units are whole-unit spares only). Keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: with NFC, without NFC. Display panel: FHD HD-camera, FHD IR, FHD touch IR, FHD privacy WWAN, FHD touch WWAN. Hinges: non-touch, touch. Camera: HD, IR. Wi-Fi: Realtek RTL8822BE, Intel 8265 vPro, Intel 8265. System board: i7-8550U, i5-8250U, i7-8650U, i5-8350U (-001 non-Windows, -601 Windows); more variants exist.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -9577,7 +9667,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.manua.ls/hp/elitebook-830-g8/manual",
-  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide (pages 29-32). No display assembly spare; order subcomponents. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: without, with NFC antenna. Display panel: 1000 nit privacy, 250 nit, 250 nit touch, 400 nit. Camera: RGB, IR. Smart card reader is the card reader board. Hub board: RGB/mic, IR. Microphone: main, third mic. System board: i7-1165G7, i5-1135G7 (-001 non-Windows, -601 Windows). DC-in is the power connector cable."
+  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide (pages 29-32). No display assembly spare; order subcomponents. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: without, with NFC antenna. Display panel: 1000 nit privacy, 250 nit, 250 nit touch, 400 nit. Camera: RGB, IR. Smart card reader is the card reader board. Hub board: RGB/mic, IR. Microphone: main, third mic. System board: i7-1165G7, i5-1135G7 (-001 non-Windows, -601 Windows). DC-in is the power connector cable.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -9696,7 +9787,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://content.etilize.com/User-Manual/1059496127.pdf",
-  "pn_notes": "Display assembly (touch, whole unit): FHD AG 400 nit, FHD AG 700 nit privacy, FHD BV 400 nit, FHD AG 700 nit privacy (second), FHD BV 500 nit. Palmrest/top cover includes US keyboard: standard, privacy models. Power button is spared with the volume board. Heatsink is the fan/heat sink. The guide table has errors: it gives L31852-001 for the fingerprint reader, its bracket and the battery; the battery number here is copied from the battery data. System board includes fan/heat sink (16 GB, -001): i7-8550U, i5-8250U, i5-8350U, i7-8650U."
+  "pn_notes": "Display assembly (touch, whole unit): FHD AG 400 nit, FHD AG 700 nit privacy, FHD BV 400 nit, FHD AG 700 nit privacy (second), FHD BV 500 nit. Palmrest/top cover includes US keyboard: standard, privacy models. Power button is spared with the volume board. Heatsink is the fan/heat sink. The guide table has errors: it gives L31852-001 for the fingerprint reader, its bracket and the battery; the battery number here is copied from the battery data. System board includes fan/heat sink (16 GB, -001): i7-8550U, i5-8250U, i5-8350U, i7-8650U.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -9818,7 +9910,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12667748_en-US-1.pdf",
-  "pn_notes": "Display assembly (touch, whole unit): FHD antiglare, FHD antiglare privacy, FHD BrightView, FHD BrightView privacy, UHD BrightView. Palmrest/top cover includes keyboard (US = -001): non-privacy, privacy models. Touchpad: without NFC, with NFC. Heatsink is the heat sink/fan assembly. Power button is the power button board. System board (16 GB, -001 non-Windows): i7-8565U, i5-8265U, i7-8665U, i5-8365U; more variants exist."
+  "pn_notes": "Display assembly (touch, whole unit): FHD antiglare, FHD antiglare privacy, FHD BrightView, FHD BrightView privacy, UHD BrightView. Palmrest/top cover includes keyboard (US = -001): non-privacy, privacy models. Touchpad: without NFC, with NFC. Heatsink is the heat sink/fan assembly. Power button is the power button board. System board (16 GB, -001 non-Windows): i7-8565U, i5-8265U, i7-8665U, i5-8365U; more variants exist.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -9958,7 +10051,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12642789_en-US-1.pdf",
-  "pn_notes": "Display assembly (whole hinge-up unit only): 250 nit BrightView, 400 nit BrightView, 400 nit antiglare, 1000 nit BrightView privacy, 1000 nit antiglare privacy (all no WWAN), then 250 nit BrightView WWAN; other WWAN versions exist. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Bottom cover: with, without WWAN. Speakers: without, with WWAN. DC-in: the power connector cable is only in the Cable Kit M03867-001. Antennas: WWAN Aux2, WWAN Aux3, NFC antenna. System board: -001 non-Windows for i7-1165G7 16 GB, i5-1135G7 16 GB, i7-1185G7 16 GB, i5-1145G7 16 GB; more variants exist."
+  "pn_notes": "Display assembly (whole hinge-up unit only): 250 nit BrightView, 400 nit BrightView, 400 nit antiglare, 1000 nit BrightView privacy, 1000 nit antiglare privacy (all no WWAN), then 250 nit BrightView WWAN; other WWAN versions exist. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Bottom cover: with, without WWAN. Speakers: without, with WWAN. DC-in: the power connector cable is only in the Cable Kit M03867-001. Antennas: WWAN Aux2, WWAN Aux3, NFC antenna. System board: -001 non-Windows for i7-1165G7 16 GB, i5-1135G7 16 GB, i7-1185G7 16 GB, i5-1145G7 16 GB; more variants exist.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -10083,7 +10177,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.manualslib.com/manual/2410121/Hp-Elite-Dragonfly-G2.html?page=26",
-  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide. Display assembly: FHD 400 nit, FHD privacy 1000 nit, UHD HDR-400 (WLAN/4G), then the same three for 5G. Battery: 4 cell 56 Wh, 2 cell 38 Wh. Heatsink is the heat sink and fan assembly: standard, titanium. Palmrest/top cover includes keyboard (US = -001): backlit, backlit privacy. WWAN: XMM 7360 LTE, Snapdragon X55 5G. USB board: without WWAN, with WWAN. Power button is the power button board. System board: -001 non-Windows for i7-1165G7 16 GB, i5-1145G7 16 GB, i5-1135G7 16 GB, i3-1115G4 8 GB; more variants exist."
+  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide. Display assembly: FHD 400 nit, FHD privacy 1000 nit, UHD HDR-400 (WLAN/4G), then the same three for 5G. Battery: 4 cell 56 Wh, 2 cell 38 Wh. Heatsink is the heat sink and fan assembly: standard, titanium. Palmrest/top cover includes keyboard (US = -001): backlit, backlit privacy. WWAN: XMM 7360 LTE, Snapdragon X55 5G. USB board: without WWAN, with WWAN. Power button is the power button board. System board: -001 non-Windows for i7-1165G7 16 GB, i5-1145G7 16 GB, i5-1135G7 16 GB, i3-1115G4 8 GB; more variants exist.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -10216,7 +10311,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.manualslib.com/manual/3143324/Hp-Elitebook-x360-1040.html?page=24",
-  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide. Display assembly (touch, with webcam): WQXGA 500 nit, WUXGA antiglare 400 nit, WUXGA 250 nit, WUXGA antiglare privacy 1000 nit, WUXGA 400 nit for WWAN, WUXGA 250 nit for WWAN. Palmrest/top cover includes US keyboard: backlit, backlit for privacy display. Battery: 51 Wh, 38 Wh, 38 Wh. Audio board is the audio jack with cable. System board: 16 GB, non-Windows (-001) for i7-1365U, i7-1355U, i5-1345U, i5-1335U; more variants exist."
+  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide. Display assembly (touch, with webcam): WQXGA 500 nit, WUXGA antiglare 400 nit, WUXGA 250 nit, WUXGA antiglare privacy 1000 nit, WUXGA 400 nit for WWAN, WUXGA 250 nit for WWAN. Palmrest/top cover includes US keyboard: backlit, backlit for privacy display. Battery: 51 Wh, 38 Wh, 38 Wh. Audio board is the audio jack with cable. System board: 16 GB, non-Windows (-001) for i7-1365U, i7-1355U, i5-1345U, i5-1335U; more variants exist.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -10355,7 +10451,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_7713142_en-US-1.pdf",
-  "pn_notes": "Display assembly (touch, whole unit only), no WWAN: BrightView RGB 250 nit, antiglare IR 400 nit, antiglare IR privacy 1000 nit, BrightView IR 400 nit, BrightView IR privacy 1000 nit; last is the WWAN version of the first. Palmrest/top cover includes US keyboard: backlit, not backlit, backlit privacy. Bottom cover: without WWAN, with WWAN. The guide says the audio jack is not a spare part. System board: 16 GB, non-Windows (-001) for i7-1365U, i7-1355U, i5-1345U, i5-1335U; more variants exist. Pen is the HP AES 2.0 Pen."
+  "pn_notes": "Display assembly (touch, whole unit only), no WWAN: BrightView RGB 250 nit, antiglare IR 400 nit, antiglare IR privacy 1000 nit, BrightView IR 400 nit, BrightView IR privacy 1000 nit; last is the WWAN version of the first. Palmrest/top cover includes US keyboard: backlit, not backlit, backlit privacy. Bottom cover: without WWAN, with WWAN. The guide says the audio jack is not a spare part. System board: 16 GB, non-Windows (-001) for i7-1365U, i7-1355U, i5-1345U, i5-1335U; more variants exist. Pen is the HP AES 2.0 Pen.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -10426,7 +10523,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.ebay.com/itm/135190907586",
-  "pn_notes": "No G9 service guide parts table found; the linked guide (pdf_7713142) is for the G10. Heatsink N02331-001 is sold as the G9 part and matches the G10 guide. Battery copied from battery data. Many other G10 parts (N023xx series) may also fit the G9, but this is not confirmed."
+  "pn_notes": "No G9 service guide parts table found; the linked guide (pdf_7713142) is for the G10. Heatsink N02331-001 is sold as the G9 part and matches the G10 guide. Battery copied from battery data. Many other G10 parts (N023xx series) may also fit the G9, but this is not confirmed.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -10578,7 +10676,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.manualslib.com/manual/2581969/Hp-Elitebook-630.html?page=28",
-  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide, cross-checked with manua.ls. No display assembly spare; order subcomponents. Bottom cover: 250 nit or privacy display, 400 nit display. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: without NFC, with NFC. Display panel: FHD 400 nit, FHD 250 nit, FHD touch, HD, FHD privacy. Hinges: 250 nit/privacy, 400 nit panels. Camera: HD, IR. System board (-001 non-Windows, -601 Windows): i7-1265U, i7-1255U, i5-1235U, i3-1215U; i5-1245U is N10129. DC-in is the power connector cable."
+  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide, cross-checked with manua.ls. No display assembly spare; order subcomponents. Bottom cover: 250 nit or privacy display, 400 nit display. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: without NFC, with NFC. Display panel: FHD 400 nit, FHD 250 nit, FHD touch, HD, FHD privacy. Hinges: 250 nit/privacy, 400 nit panels. Camera: HD, IR. System board (-001 non-Windows, -601 Windows): i7-1265U, i7-1255U, i5-1235U, i3-1215U; i5-1245U is N10129. DC-in is the power connector cable.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -10728,7 +10827,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_10389502_en-US-1.pdf",
-  "pn_notes": "The guide lists no display assembly spare; order subcomponents. Bottom cover: metal, plastic. Battery: 56 Wh, 48 Wh. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: with NFC, without NFC. Display panel: WUXGA 300 nit, 1000 nit privacy, 400 nit low power, 300 nit UWVA. Camera: IR, FHD. System board: non-WWAN, non-Windows (-001) for Core Ultra 7 165U, 155U, Ultra 5 135U, 125U; -601 is Windows."
+  "pn_notes": "The guide lists no display assembly spare; order subcomponents. Bottom cover: metal, plastic. Battery: 56 Wh, 48 Wh. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: with NFC, without NFC. Display panel: WUXGA 300 nit, 1000 nit privacy, 400 nit low power, 300 nit UWVA. Camera: IR, FHD. System board: non-WWAN, non-Windows (-001) for Core Ultra 7 165U, 155U, Ultra 5 135U, 125U; -601 is Windows.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -10890,7 +10990,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5816250_en-US-1.pdf",
-  "pn_notes": "Battery: 51 Wh, 42 Wh. Bottom cover: for 51 Wh, for 42 Wh battery. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Display panel: FHD privacy, FHD 400 nit, FHD 250 nit, FHD touch. Camera: HD, IR. I/O board: vPro, non-vPro. Wi-Fi: AX211 vPro, AX211. System board: 4 of many CPU variants (i7-1255U, i5-1235U, i7-1265U, i5-1245U; -001 non-Windows, -601 Windows). DC-in is the power connector cable."
+  "pn_notes": "Battery: 51 Wh, 42 Wh. Bottom cover: for 51 Wh, for 42 Wh battery. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Display panel: FHD privacy, FHD 400 nit, FHD 250 nit, FHD touch. Camera: HD, IR. I/O board: vPro, non-vPro. Wi-Fi: AX211 vPro, AX211. System board: 4 of many CPU variants (i7-1255U, i5-1235U, i7-1265U, i5-1245U; -001 non-Windows, -601 Windows). DC-in is the power connector cable.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -11049,7 +11150,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5817979_en-US-1.pdf",
-  "pn_notes": "Battery: 51 Wh, 42 Wh. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit. Touchpad: with NFC, without NFC. Display panel: FHD 400 nit, FHD 250 nit, FHD touch, HD. Camera: HD, IR. I/O board: vPro, non-vPro. Heatsink: 15 W, 28 W CPU. System board: 4 of many CPU variants (i7-1255U, i5-1235U, i7-1265U, i5-1245U; -001 non-Windows, -601 Windows). DC-in is the power connector cable."
+  "pn_notes": "Battery: 51 Wh, 42 Wh. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit. Touchpad: with NFC, without NFC. Display panel: FHD 400 nit, FHD 250 nit, FHD touch, HD. Camera: HD, IR. I/O board: vPro, non-vPro. Heatsink: 15 W, 28 W CPU. System board: 4 of many CPU variants (i7-1255U, i5-1235U, i7-1265U, i5-1245U; -001 non-Windows, -601 Windows). DC-in is the power connector cable.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -11192,7 +11294,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://hp.it-shop.bg/uploaded/4/6/EliteBook-830-G9-MSG.pdf",
-  "pn_notes": "The guide lists no display assembly spare; order subcomponents. Battery: 51 Wh, 38 Wh. Palmrest/top cover includes US keyboard: backlit, not backlit, backlit privacy. Touchpad: with NFC antenna, without. Display panel: WUXGA 250 nit, 400 nit, 1000 nit privacy, 250 nit low power. Camera: IR, non-IR. Audio board is the audio jack with cable. System board: 16 GB, non-Windows (-001) for i7-1265U, i5-1255U, i5-1245U, i5-1235U; many more variants."
+  "pn_notes": "The guide lists no display assembly spare; order subcomponents. Battery: 51 Wh, 38 Wh. Palmrest/top cover includes US keyboard: backlit, not backlit, backlit privacy. Touchpad: with NFC antenna, without. Display panel: WUXGA 250 nit, 400 nit, 1000 nit privacy, 250 nit low power. Camera: IR, non-IR. Audio board is the audio jack with cable. System board: 16 GB, non-Windows (-001) for i7-1265U, i5-1255U, i5-1245U, i5-1235U; many more variants.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -11359,7 +11462,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.manualshelf.com/manual/hp/26r61us/1-maintenance-and-service-guide-english.html",
-  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide. No display assembly spare; order subcomponents. Bottom cover: discrete, UMA graphics. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: without, with NFC antenna. Display panel: privacy, 250 nit, 250 nit touch, 400 nit FHD, 400 nit UHD. Camera: RGB, IR. Heatsink: UMA, discrete. Hub board: RGB/mic, IR. Microphone: main, third mic. ALS: first, second sensor. Smart card reader is the card reader board. System board: 4 of many (i5-10210U, i7-10510U discrete; i5-10210U, i7-10610U UMA; -001 non-Windows). DC-in is the power connector cable."
+  "pn_notes": "Source is a copy of the HP Maintenance and Service Guide. No display assembly spare; order subcomponents. Bottom cover: discrete, UMA graphics. Palmrest/top cover includes keyboard (US = -001): backlit, not backlit, backlit privacy. Touchpad: without, with NFC antenna. Display panel: privacy, 250 nit, 250 nit touch, 400 nit FHD, 400 nit UHD. Camera: RGB, IR. Heatsink: UMA, discrete. Hub board: RGB/mic, IR. Microphone: main, third mic. ALS: first, second sensor. Smart card reader is the card reader board. System board: 4 of many (i5-10210U, i7-10510U discrete; i5-10210U, i7-10610U UMA; -001 non-Windows). DC-in is the power connector cable.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -11530,7 +11634,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://manualsnet.com/hp/elitebook-840-g8",
-  "pn_notes": "Numbers from the HP Maintenance and Service Guide (manualsnet copy). Top cover: backlit, not backlit, backlit privacy. System board: i7-1165G7, i5-1135G7. Palmrest/top cover with keyboard and System board are listed as xx1 in the guide: -001 is US English keyboard / non-Windows board (-601 for Windows boards)."
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (manualsnet copy). Top cover: backlit, not backlit, backlit privacy. System board: i7-1165G7, i5-1135G7. Palmrest/top cover with keyboard and System board are listed as xx1 in the guide: -001 is US English keyboard / non-Windows board (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -11707,7 +11812,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://hp.it-shop.bg/uploaded/3/6/EliteBook-850-G8-MSG.pdf",
-  "pn_notes": "Numbers from the HP Maintenance and Service Guide (PDF copy). Heatsink/bottom cover: UMA first, then discrete graphics. Display panel: FHD privacy 1000 nit, FHD 250, TOP touch 250, FHD 400, UHD 400. System board: first two discrete graphics, last two UMA. Palmrest/top cover with keyboard and System board are listed as xx1 in the guide: -001 is US English keyboard / non-Windows board (-601 for Windows boards)."
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (PDF copy). Heatsink/bottom cover: UMA first, then discrete graphics. Display panel: FHD privacy 1000 nit, FHD 250, TOP touch 250, FHD 400, UHD 400. System board: first two discrete graphics, last two UMA. Palmrest/top cover with keyboard and System board are listed as xx1 in the guide: -001 is US English keyboard / non-Windows board (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -11830,7 +11936,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.manualslib.com/manual/1870837/Hp-Elitebook-X360-1030-G7.html",
-  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; labels and numbers are in separate columns, so variant order is inferred). Display assembly (whole unit only): UHD OLED 400, FHD BrightView 1000, FHD BrightView 400, FHD antiglare 1000, FHD antiglare 400. Top cover (US): backlit non-WWAN, backlit WWAN, privacy non-WWAN, privacy WWAN. Touchpad: with NFC, without NFC. System board: 3 of 23, i7-10810U (OSR), i7-10610U, i5-10310U with 16 GB, non-Windows (-601 for Windows). Bottom cover: WWAN, non-WWAN. Sensor board: with, without microphone."
+  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; labels and numbers are in separate columns, so variant order is inferred). Display assembly (whole unit only): UHD OLED 400, FHD BrightView 1000, FHD BrightView 400, FHD antiglare 1000, FHD antiglare 400. Top cover (US): backlit non-WWAN, backlit WWAN, privacy non-WWAN, privacy WWAN. Touchpad: with NFC, without NFC. System board: 3 of 23, i7-10810U (OSR), i7-10610U, i5-10310U with 16 GB, non-Windows (-601 for Windows). Bottom cover: WWAN, non-WWAN. Sensor board: with, without microphone.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -11955,7 +12062,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.manualslib.com/manual/2077001/Hp-Hp-Elitebook-X360-1030-G8.html",
-  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). Display assembly (whole unit only): UHD AMOLED 400, FHD antiglare 400, FHD BrightView 400, FHD antiglare 1000, FHD BrightView 1000. Top cover (-001 US): backlit, backlit privacy (non-WWAN), backlit, backlit privacy (WWAN). Touchpad: with NFC, without NFC. System board: 4 of 14 with 16 GB (i7-1185G7, i7-1165G7, i5-1145G7, i5-1135G7), non-Windows (-601 for Windows). I/O board: WWAN, non-WWAN. Antennas: WWAN without 5G, with 5G. Bottom cover: WWAN, non-WWAN."
+  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). Display assembly (whole unit only): UHD AMOLED 400, FHD antiglare 400, FHD BrightView 400, FHD antiglare 1000, FHD BrightView 1000. Top cover (-001 US): backlit, backlit privacy (non-WWAN), backlit, backlit privacy (WWAN). Touchpad: with NFC, without NFC. System board: 4 of 14 with 16 GB (i7-1185G7, i7-1165G7, i5-1145G7, i5-1135G7), non-Windows (-601 for Windows). I/O board: WWAN, non-WWAN. Antennas: WWAN without 5G, with 5G. Bottom cover: WWAN, non-WWAN.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -12078,7 +12186,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12667699_en-US-1.pdf",
-  "pn_notes": "Display assembly (the guide sells the whole assembly only): UHD WWAN, FHD brightview WLAN, FHD brightview WWAN, FHD antiglare WLAN, FHD 400 nit WLAN, FHD 950 nit privacy WLAN. Keyboard/top cover: backlit, backlit privacy (US). System board: 4 of many; i7-8665U, i7-8565U, i5-8365U, i5-8265U with 16 GB, non-Windows (-601 for Windows). SSD: 2 TB, 1 TB, 512 GB TLC, 512 GB value, 256 GB TLC, 256 GB value."
+  "pn_notes": "Display assembly (the guide sells the whole assembly only): UHD WWAN, FHD brightview WLAN, FHD brightview WWAN, FHD antiglare WLAN, FHD 400 nit WLAN, FHD 950 nit privacy WLAN. Keyboard/top cover: backlit, backlit privacy (US). System board: 4 of many; i7-8665U, i7-8565U, i5-8365U, i5-8265U with 16 GB, non-Windows (-601 for Windows). SSD: 2 TB, 1 TB, 512 GB TLC, 512 GB value, 256 GB TLC, 256 GB value.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -12203,7 +12312,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.manualslib.com/manual/2411666/Hp-Elitebook-X360-1040-G8.html",
-  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). Display assembly (touch, whole unit only): UHD 550, FHD antiglare 400, FHD BrightView 400, FHD antiglare 1000, FHD BrightView 1000. Top cover (-001 US): backlit, backlit privacy (non-WWAN), backlit, backlit privacy (WWAN). Touchpad: with NFC, without NFC. System board: 4 of 13 with 16 GB (i7-1185G7, i7-1165G7, i5-1145G7, i5-1135G7), non-Windows (-601 for Windows). I/O board: WWAN, non-WWAN. Antennas: WWAN without 5G, with 5G. Bottom cover: WWAN, non-WWAN."
+  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). Display assembly (touch, whole unit only): UHD 550, FHD antiglare 400, FHD BrightView 400, FHD antiglare 1000, FHD BrightView 1000. Top cover (-001 US): backlit, backlit privacy (non-WWAN), backlit, backlit privacy (WWAN). Touchpad: with NFC, without NFC. System board: 4 of 13 with 16 GB (i7-1185G7, i7-1165G7, i5-1145G7, i5-1135G7), non-Windows (-601 for Windows). I/O board: WWAN, non-WWAN. Antennas: WWAN without 5G, with 5G. Bottom cover: WWAN, non-WWAN.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -12330,7 +12440,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://images-eu.ssl-images-amazon.com/images/I/D1b6K8YGxJS.pdf",
-  "pn_notes": "Silver and pale gold finishes have different numbers (silver first). Display assembly: UHD touch, FHD touch, UHD non-touch, FHD non-touch, FHD privacy (all silver), FHD non-touch gold. Keyboard/top cover (US, backlit): silver, silver privacy, gold. Heatsink: fan/heatsink assembly for discrete then UMA graphics. System board: 4 of 10; i7-8550U MX150 16 GB, i7-8550U UMA, i5-8250U UMA, i3-8130U, non-Windows (-601 for Windows). Speakers: front, rear."
+  "pn_notes": "Silver and pale gold finishes have different numbers (silver first). Display assembly: UHD touch, FHD touch, UHD non-touch, FHD non-touch, FHD privacy (all silver), FHD non-touch gold. Keyboard/top cover (US, backlit): silver, silver privacy, gold. Heatsink: fan/heatsink assembly for discrete then UMA graphics. System board: 4 of 10; i7-8550U MX150 16 GB, i7-8550U UMA, i5-8250U UMA, i3-8130U, non-Windows (-601 for Windows). Speakers: front, rear.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -12398,7 +12509,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "low",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12648808_en-US-1.pdf",
-  "pn_notes": "The cited guide (pdf_12648808) covers the AMD 15-ds0000 model, not the Intel 15-dr1000. No official dr1000 parts list found; only the battery number is given (copied from the input)."
+  "pn_notes": "The cited guide (pdf_12648808) covers the AMD 15-ds0000 model, not the Intel 15-dr1000. No official dr1000 parts list found; only the battery number is given (copied from the input).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -12533,7 +12645,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.manualslib.com/manual/3140375/Hp-Pro-X360-435-G10.html",
-  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). The guide lists top cover and system board with a -xxx suffix; -001 (US English / non-Windows) is given here. Display assembly: 250 nit HD camera, 250 nit HD+IR, 400 nit HD camera, 400 nit HD+IR, 1000 nit privacy. Top cover: not backlit HD cam, backlit HD cam, not backlit IR, backlit IR, backlit privacy HD cam, backlit privacy IR. System board: 4 of 9 (Ryzen 7 PRO 7730U, Ryzen 5 PRO 7530U, Ryzen 7 7730U, Ryzen 5 7530U; HD camera models). Battery: the guide lists M75597-006 (42 Wh), not the input numbers. Top-cover camera and its board are sold together in the Camera Module Kit."
+  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). The guide lists top cover and system board with a -xxx suffix; -001 (US English / non-Windows) is given here. Display assembly: 250 nit HD camera, 250 nit HD+IR, 400 nit HD camera, 400 nit HD+IR, 1000 nit privacy. Top cover: not backlit HD cam, backlit HD cam, not backlit IR, backlit IR, backlit privacy HD cam, backlit privacy IR. System board: 4 of 9 (Ryzen 7 PRO 7730U, Ryzen 5 PRO 7530U, Ryzen 7 7730U, Ryzen 5 7530U; HD camera models). Battery: the guide lists M75597-006 (42 Wh), not the input numbers. Top-cover camera and its board are sold together in the Camera Module Kit.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -12674,7 +12787,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "medium",
   "pn_source_url": "https://www.cdrtd.com/blog/for-hp-probook-440-14-inch-g10-notebook-pc-parts-list/",
-  "pn_notes": "From a parts seller's copy of the HP spare parts list (official guide not found). Top cover: backlit, not backlit. System board: i7-1355U+RTX 2050, i5-1335U+RTX 2050, i7-1355U, i5-1335U UMA. Heatsink: UMA, discrete. Fan: 42 Wh, discrete, 51 Wh. Display panel: FHD 400, FHD 250, HD 250. Battery: 51 Wh, 42 Wh. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
+  "pn_notes": "From a parts seller's copy of the HP spare parts list (official guide not found). Top cover: backlit, not backlit. System board: i7-1355U+RTX 2050, i5-1335U+RTX 2050, i7-1355U, i5-1335U UMA. Heatsink: UMA, discrete. Fan: 42 Wh, discrete, 51 Wh. Display panel: FHD 400, FHD 250, HD 250. Battery: 51 Wh, 42 Wh. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -12836,7 +12950,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5802591_en-US-1.pdf",
-  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: 4 of 12 (UMA i7-1255U, i5-1235U, i3-1215U; discrete i5-1235U). Heatsink: 28 W, 15 W UMA, discrete. Fan: UMA 42 Wh, UMA 51 Wh, discrete. Bottom cover: 51 Wh, 42 Wh battery. Display panel: FHD privacy, FHD 400, FHD 250, FHD touch, HD. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
+  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: 4 of 12 (UMA i7-1255U, i5-1235U, i3-1215U; discrete i5-1235U). Heatsink: 28 W, 15 W UMA, discrete. Fan: UMA 42 Wh, UMA 51 Wh, discrete. Bottom cover: 51 Wh, 42 Wh battery. Display panel: FHD privacy, FHD 400, FHD 250, FHD touch, HD. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -12993,7 +13108,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_2598703_en-US-1.pdf",
-  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. Heatsink, fan, bottom cover: discrete then UMA. System board: 4 of 11 (UMA i7-1165G7, i5-1135G7, i3-1115G4; discrete i5-1135G7). Display panel: FHD privacy 1000, FHD 400, FHD 250, FHD touch-on-panel, HD. Battery: the guide lists M02027-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
+  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. Heatsink, fan, bottom cover: discrete then UMA. System board: 4 of 11 (UMA i7-1165G7, i5-1135G7, i3-1115G4; discrete i5-1135G7). Display panel: FHD privacy 1000, FHD 400, FHD 250, FHD touch-on-panel, HD. Battery: the guide lists M02027-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -13159,7 +13275,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.manualslib.com/manual/3081880/Hp-Probook-450-G10.html",
-  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). Top cover (-001 US): backlit, not backlit. System board: 4 of 10 (i7-1355U RTX 2050, i5-1335U RTX 2050, i7-1355U UMA, i5-1335U UMA), non-Windows (-601 for Windows). Heatsink: UMA, discrete, 28 W. Fan: 42 Wh, discrete, 51 Wh. Bottom cover: 51 Wh, 42 Wh. Display panel: QHD 300, FHD 400, FHD 400 lock, FHD 250, FHD 250 touch, HD. Camera: HD, 5 MP+IR. Display back cover: 400 nit HD cam, 400 nit IR, 250 nit, 250 nit IR, WWAN, QHD."
+  "pn_notes": "From the HP Maintenance and Service Guide (manualslib copy; variant order inferred from column order). Top cover (-001 US): backlit, not backlit. System board: 4 of 10 (i7-1355U RTX 2050, i5-1335U RTX 2050, i7-1355U UMA, i5-1335U UMA), non-Windows (-601 for Windows). Heatsink: UMA, discrete, 28 W. Fan: 42 Wh, discrete, 51 Wh. Bottom cover: 51 Wh, 42 Wh. Display panel: QHD 300, FHD 400, FHD 400 lock, FHD 250, FHD 250 touch, HD. Camera: HD, 5 MP+IR. Display back cover: 400 nit HD cam, 400 nit IR, 250 nit, 250 nit IR, WWAN, QHD.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -13317,7 +13434,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5807830_en-US-1.pdf",
-  "pn_notes": "Top cover: backlit, not backlit. System board: 4 of 11 (UMA i7-1255U, i5-1235U, i3-1215U; discrete i5-1235U). Heatsink: discrete, UMA. Fan: 42 Wh, 51 Wh. Display panel: FHD 400, FHD 250, FHD touch, HD. Display bezel: pairs of two numbers for no camera, HD camera, HD+IR camera. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
+  "pn_notes": "Top cover: backlit, not backlit. System board: 4 of 11 (UMA i7-1255U, i5-1235U, i3-1215U; discrete i5-1235U). Heatsink: discrete, UMA. Fan: 42 Wh, 51 Wh. Display panel: FHD 400, FHD 250, FHD touch, HD. Display bezel: pairs of two numbers for no camera, HD camera, HD+IR camera. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -13470,7 +13588,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://manualsnet.com/hp/probook-630-g8",
-  "pn_notes": "Numbers from the HP ProBook 630 G8 Maintenance and Service Guide (manualsnet copy); the cited pdf_12638334 is the 640 G8 guide. Top cover: not backlit, backlit, backlit privacy. Touchpad: without and with NFC. Bottom cover: standard, 400 nit models. Display panel: FHD 250, FHD 400 (two), FHD SVA 250, FHD privacy. Camera: IR, HD. Battery: the guide lists M02027-001. System board: i3, i5, i7 UMA (non-Windows; -601 for Windows)."
+  "pn_notes": "Numbers from the HP ProBook 630 G8 Maintenance and Service Guide (manualsnet copy); the cited pdf_12638334 is the 640 G8 guide. Top cover: not backlit, backlit, backlit privacy. Touchpad: without and with NFC. Bottom cover: standard, 400 nit models. Display panel: FHD 250, FHD 400 (two), FHD SVA 250, FHD privacy. Camera: IR, HD. Battery: the guide lists M02027-001. System board: i3, i5, i7 UMA (non-Windows; -601 for Windows).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -13622,7 +13741,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12642281_en-US-1.pdf",
-  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: 4 of 10 (Ryzen 7 PRO 4750U, Ryzen 7 4700U, Ryzen 5 4500U, Ryzen 3 4300U; non-WWAN). Battery: 53 Wh, 42 Wh. Display panel: 1000, 400, 250 nits. Camera: HD, IR. The guide gives no touchpad number. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
+  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: 4 of 10 (Ryzen 7 PRO 4750U, Ryzen 7 4700U, Ryzen 5 4500U, Ryzen 3 4300U; non-WWAN). Battery: 53 Wh, 42 Wh. Display panel: 1000, 400, 250 nits. Camera: HD, IR. The guide gives no touchpad number. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -13784,7 +13904,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5972179_en-US-1.pdf",
-  "pn_notes": "Top cover: not backlit, backlit, backlit privacy (-001 US). Touchpad: without and with NFC. Bottom cover, fan, heatsink: UMA then discrete (heatsink discrete first). System board: 4 of 7 (i3, i5, i7 UMA; i5 discrete; non-Windows). Display panel: FHD 250, FHD 400, FHD touch-on-panel, HD, FHD privacy. Battery: the guide lists M02027-001. RTC battery number is from the removal chapter."
+  "pn_notes": "Top cover: not backlit, backlit, backlit privacy (-001 US). Touchpad: without and with NFC. Bottom cover, fan, heatsink: UMA then discrete (heatsink discrete first). System board: 4 of 7 (i3, i5, i7 UMA; i5 discrete; non-Windows). Display panel: FHD 250, FHD 400, FHD touch-on-panel, HD, FHD privacy. Battery: the guide lists M02027-001. RTC battery number is from the removal chapter.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -13927,7 +14048,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12437044_en-US-1.pdf",
-  "pn_notes": "Most parts differ by finish: natural silver, nightfall black, Poseidon blue (in that order). Display assembly: UHD OLED touch (silver, black, blue), FHD 1000 nit privacy touch (silver, black, blue). Keyboard (US, backlit): silver privacy, silver, black privacy, black, blue privacy, blue. Top cover: silver, black, blue, black WWAN (non-Japan). System board: the guide lists Windows (-601) boards; 4 of 5 (i7-1065G7 16 GB, i7-1065G7 8 GB variants, i5-1035G4). Speakers: WWAN, non-WWAN. Antennas: WWAN antenna kit."
+  "pn_notes": "Most parts differ by finish: natural silver, nightfall black, Poseidon blue (in that order). Display assembly: UHD OLED touch (silver, black, blue), FHD 1000 nit privacy touch (silver, black, blue). Keyboard (US, backlit): silver privacy, silver, black privacy, black, blue privacy, blue. Top cover: silver, black, blue, black WWAN (non-Japan). System board: the guide lists Windows (-601) boards; 4 of 5 (i7-1065G7 16 GB, i7-1065G7 8 GB variants, i5-1035G4). Speakers: WWAN, non-WWAN. Antennas: WWAN antenna kit.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -14109,7 +14231,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Firefly%2014/HP%20Zbook%20Firefly%2014%20G7%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
-  "pn_notes": "Discrete graphics parts first, then UMA (top cover, touchpad button board, fan, heatsink, bottom cover). Top cover: backlit, backlit privacy for each. System board: 4 of 21 (discrete i7-10610U 16 GB, i5-10310U 16 GB; UMA i7-10610U, i5-10310U). Display panel: 1000 nit, 250, 250 touch-on-panel, UHD 400, FHD 400. Battery: the guide lists L78555-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
+  "pn_notes": "Discrete graphics parts first, then UMA (top cover, touchpad button board, fan, heatsink, bottom cover). Top cover: backlit, backlit privacy for each. System board: 4 of 21 (discrete i7-10610U 16 GB, i5-10310U 16 GB; UMA i7-10610U, i5-10310U). Display panel: 1000 nit, 250, 250 touch-on-panel, UHD 400, FHD 400. Battery: the guide lists L78555-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -14284,7 +14407,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12642772_en-US-1.pdf",
-  "pn_notes": "UMA parts first, then discrete graphics (top cover, touchpad button board, fan, heatsink, bottom cover). Top cover: backlit, backlit privacy for each. System board: UMA i7-1165G7, i5-1135G7; discrete i7-1165G7 16 GB, i5-1135G7 16 GB. Display panel: 1000, 250, 250 touch-on-panel, 400 nits. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
+  "pn_notes": "UMA parts first, then discrete graphics (top cover, touchpad button board, fan, heatsink, bottom cover). Top cover: backlit, backlit privacy for each. System board: UMA i7-1165G7, i5-1135G7; discrete i7-1165G7 16 GB, i5-1135G7 16 GB. Display panel: 1000, 250, 250 touch-on-panel, 400 nits. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -14460,7 +14584,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Firefly%2015/HP%20Zbook%20Firefly%2015%20G7%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
-  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: 4 of 17 (discrete i7-10610U, i5-10310U; UMA i7-10610U, i5-10310U). Heatsink: UMA, discrete. Bottom cover: discrete, UMA. Display panel: privacy, 250, 250 touch-on-panel, FHD 400, UHD 400. Battery: the guide lists L77991-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
+  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: 4 of 17 (discrete i7-10610U, i5-10310U; UMA i7-10610U, i5-10310U). Heatsink: UMA, discrete. Bottom cover: discrete, UMA. Display panel: privacy, 250, 250 touch-on-panel, FHD 400, UHD 400. Battery: the guide lists L77991-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -14636,7 +14761,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Firefly%2015/HP%20Zbook%20Firefly%2015%20G8%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
-  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: discrete i7-1165G7, i5-1135G7; UMA i7-1165G7, i5-1135G7. Heatsink and bottom cover: UMA, discrete. Display panel: FHD privacy, FHD 250, 250 touch-on-panel, FHD 400, UHD 400. Battery: the guide lists L77991-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
+  "pn_notes": "Top cover: backlit, not backlit, backlit privacy. System board: discrete i7-1165G7, i5-1135G7; UMA i7-1165G7, i5-1135G7. Heatsink and bottom cover: UMA, discrete. Display panel: FHD privacy, FHD 250, 250 touch-on-panel, FHD 400, UHD 400. Battery: the guide lists L77991-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -14784,7 +14910,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G7%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
-  "pn_notes": "Palmrest/top cover with keyboard (US): discrete backlit, discrete non-backlit, UMA backlit, UMA non-backlit. Fan: left, right. Heatsink and bottom cover: UMA, discrete; the guide prints the discrete heatsink, discrete bottom cover and left fan with a -601 suffix. System board: 4 of 21 (i9-10885H T2000, i7-10850H UMA, i5-10300H P620, i5-10300H UMA; non-Windows). Display panel: UHD 400, FHD 400, FHD 250 touch, FHD 250. Camera: HD+IR, HD."
+  "pn_notes": "Palmrest/top cover with keyboard (US): discrete backlit, discrete non-backlit, UMA backlit, UMA non-backlit. Fan: left, right. Heatsink and bottom cover: UMA, discrete; the guide prints the discrete heatsink, discrete bottom cover and left fan with a -601 suffix. System board: 4 of 21 (i9-10885H T2000, i7-10850H UMA, i5-10300H P620, i5-10300H UMA; non-Windows). Display panel: UHD 400, FHD 400, FHD 250 touch, FHD 250. Camera: HD+IR, HD.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -14935,7 +15062,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_5826571_en-US-1.pdf",
-  "pn_notes": "The guide lists the top cover and system board with a -xxx country/OS suffix; -001 (US English / non-Windows) is given here. Top cover: backlit, backlit privacy, RGB, RGB Z Command. System board: 4 of 23 (i7-12800H UMA, i7-12800H A1000, i9-12900H A2000, i7-12800H RTX 3060). Heatsink: UMA, A1000/A2000, high-end graphics. Fan: kit with both fans. Display assembly (touch or 120 Hz, whole assembly only): WQUXGA touch, WQUXGA 120 Hz. Display panel: WUXGA 400, WUXGA 1000 privacy. Speakers: one kit for woofers and tweeters."
+  "pn_notes": "The guide lists the top cover and system board with a -xxx country/OS suffix; -001 (US English / non-Windows) is given here. Top cover: backlit, backlit privacy, RGB, RGB Z Command. System board: 4 of 23 (i7-12800H UMA, i7-12800H A1000, i9-12900H A2000, i7-12800H RTX 3060). Heatsink: UMA, A1000/A2000, high-end graphics. Fan: kit with both fans. Display assembly (touch or 120 Hz, whole assembly only): WQUXGA touch, WQUXGA 120 Hz. Display panel: WUXGA 400, WUXGA 1000 privacy. Speakers: one kit for woofers and tweeters.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -15068,7 +15196,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12632106_en-US-1.pdf",
-  "pn_notes": "Heatsink (with fans): discrete, UMA, vapour chamber for RTX 3000 and up. Top cover: UMA, discrete, discrete privacy, RTX, RTX privacy (first series). System board: 4 of 29 (i5-10400H UMA, i7-10850H T1000 16 GB, i7-10850H T2000 16 GB, i7-10750H RTX 2070 16 GB). Display assembly: touch, FHD non-touch, UHD non-touch. Display panel: non-privacy, privacy. USB board: sold in the Cable Kit. Battery: the guide lists L78553-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards)."
+  "pn_notes": "Heatsink (with fans): discrete, UMA, vapour chamber for RTX 3000 and up. Top cover: UMA, discrete, discrete privacy, RTX, RTX privacy (first series). System board: 4 of 29 (i5-10400H UMA, i7-10850H T1000 16 GB, i7-10850H T2000 16 GB, i7-10750H RTX 2070 16 GB). Display assembly: touch, FHD non-touch, UHD non-touch. Display panel: non-privacy, privacy. USB board: sold in the Cable Kit. Battery: the guide lists L78553-002. Top cover and system board: -001 is US English / non-Windows (-601 for Windows boards).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -15224,7 +15353,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Studio%20x360/HP%20Zbook%20Studio%20x360%20G5%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide.pdf",
-  "pn_notes": "Battery: 4-cell, 6-cell. Top cover (US -001): backlit, backlit privacy. Heatsink: thermal module for discrete, UMA. System board: 4 of 10 (discrete i7-8850H, i7-8750H; UMA i7-8750H, i5-8300H; non-Windows, -601 for Windows). Display assembly: UHD touch without and with camera (whole unit only). Display panel: FHD, FHD privacy, UHD. Camera: IR, HD. Audio/headphone board: combined card reader/audio board. 2.5 in SSD bay: drive cable, then hard drive hardware kit. RAM: Core (16, 8, 4 GB), then Xeon ECC (16, 8 GB)."
+  "pn_notes": "Battery: 4-cell, 6-cell. Top cover (US -001): backlit, backlit privacy. Heatsink: thermal module for discrete, UMA. System board: 4 of 10 (discrete i7-8850H, i7-8750H; UMA i7-8750H, i5-8300H; non-Windows, -601 for Windows). Display assembly: UHD touch without and with camera (whole unit only). Display panel: FHD, FHD privacy, UHD. Camera: IR, HD. Audio/headphone board: combined card reader/audio board. 2.5 in SSD bay: drive cable, then hard drive hardware kit. RAM: Core (16, 8, 4 GB), then Xeon ECC (16, 8 GB).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -15367,7 +15497,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12664336_en-US-1.pdf",
-  "pn_notes": "Heatsink is the heat sink/fan assembly. Top cover includes keyboard and touchpad (US -001). RAM: 16 GB and 8 GB DDR4-2666, 16 GB DDR4-3200. SSD: 2 TB, 1 TB, 512 GB, 256 GB, 512 GB + Optane. Display panel: UHD 550 nit, UHD 340 nit, FHD 240 Hz, FHD 144 Hz. Camera is the webcam/microphone module. DC-in is the power connector cable; power button is the power button board. System board: i9-9880H RTX 2080, i9-9880H RTX 2070, i7-9750H RTX 2080, i7-9750H RTX 2070."
+  "pn_notes": "Heatsink is the heat sink/fan assembly. Top cover includes keyboard and touchpad (US -001). RAM: 16 GB and 8 GB DDR4-2666, 16 GB DDR4-3200. SSD: 2 TB, 1 TB, 512 GB, 256 GB, 512 GB + Optane. Display panel: UHD 550 nit, UHD 340 nit, FHD 240 Hz, FHD 144 Hz. Camera is the webcam/microphone module. DC-in is the power connector cable; power button is the power button board. System board: i9-9880H RTX 2080, i9-9880H RTX 2070, i7-9750H RTX 2080, i7-9750H RTX 2070.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -15521,7 +15652,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.cdrtd.com/blog/for-hp-probook-430-g6-notebook-pc-parts-list/",
-  "pn_notes": "Numbers are the HP MSG spare part table as copied on cdrtd.com. Top cover with keyboard: no backlight, backlit (US -001). RAM: 16/8/4 GB. SSD: 512 GB PCIe, 256 GB PCIe, 256 GB SATA, 128 GB SATA. Display panel: FHD, HD (non-touch), then FHD, HD (touch). Bezel: no camera, HD, HD+IR. Camera: HD, HD+IR. Hinges: non-touch, touch. DC-in is the power connector cable; USB-C port board is the power/USB board. System board: 4 of 8 CPU variants (i7-8565U, i5-8365U, i5-8265U, i3-8145U); -601 suffix for Windows. Antennas: WLAN, WWAN (non-touch), then WLAN, WWAN (touch)."
+  "pn_notes": "Numbers are the HP MSG spare part table as copied on cdrtd.com. Top cover with keyboard: no backlight, backlit (US -001). RAM: 16/8/4 GB. SSD: 512 GB PCIe, 256 GB PCIe, 256 GB SATA, 128 GB SATA. Display panel: FHD, HD (non-touch), then FHD, HD (touch). Bezel: no camera, HD, HD+IR. Camera: HD, HD+IR. Hinges: non-touch, touch. DC-in is the power connector cable; USB-C port board is the power/USB board. System board: 4 of 8 CPU variants (i7-8565U, i5-8365U, i5-8265U, i3-8145U); -601 suffix for Windows. Antennas: WLAN, WWAN (non-touch), then WLAN, WWAN (touch).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -15677,7 +15809,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://www.cdrtd.com/blog/for-hp-probook-430-g7-notebook-pc-parts-list/",
-  "pn_notes": "Numbers are the HP MSG spare part table as copied on cdrtd.com. Top cover with keyboard: no backlight, backlit, backlit privacy (US -001). RAM: 16/8/4 GB. SSD: 512 GB TLC, 512 GB, 256 GB, 128 GB SATA. Display panel: FHD, FHD privacy, HD (non-touch), then FHD, HD (touch). Bezel: no camera, HD, HD+IR. Camera: HD, HD+IR. Hinges: non-touch, touch. DC-in is the power connector cable; USB-C port board is the power/USB board. System board: i7-10510U, i5-10210U, i3-10110U, i5-10210U WWAN (5 variants total); -601 suffix for Windows. Antennas: WLAN, WWAN (non-touch), then WLAN, WWAN (touch)."
+  "pn_notes": "Numbers are the HP MSG spare part table as copied on cdrtd.com. Top cover with keyboard: no backlight, backlit, backlit privacy (US -001). RAM: 16/8/4 GB. SSD: 512 GB TLC, 512 GB, 256 GB, 128 GB SATA. Display panel: FHD, FHD privacy, HD (non-touch), then FHD, HD (touch). Bezel: no camera, HD, HD+IR. Camera: HD, HD+IR. Hinges: non-touch, touch. DC-in is the power connector cable; USB-C port board is the power/USB board. System board: i7-10510U, i5-10210U, i3-10110U, i5-10210U WWAN (5 variants total); -601 suffix for Windows. Antennas: WLAN, WWAN (non-touch), then WLAN, WWAN (touch).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -15829,7 +15962,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12638578_en-US-1.pdf",
-  "pn_notes": "Top cover with keyboard: backlit, not backlit, backlit privacy (US -001). Bottom cover: non-400 nit, 400 nit models. RAM: 16/8/4 GB. SSD: 1 TB, 512 GB, 256 GB, 128 GB. Display panel: FHD 250 nit, FHD touch, FHD 400 nit, FHD 1000 nit privacy, HD. Camera: HD, IR. Hinges: non-400 nit, 400 nit. DC-in is the power connector cable. System board: i7-1165G7, i5-1135G7, i3-1115G4, Pentium 7505 (Celeron M24273 also); -601 suffix for Windows. Display back cover: standard, 400 nit, privacy."
+  "pn_notes": "Top cover with keyboard: backlit, not backlit, backlit privacy (US -001). Bottom cover: non-400 nit, 400 nit models. RAM: 16/8/4 GB. SSD: 1 TB, 512 GB, 256 GB, 128 GB. Display panel: FHD 250 nit, FHD touch, FHD 400 nit, FHD 1000 nit privacy, HD. Camera: HD, IR. Hinges: non-400 nit, 400 nit. DC-in is the power connector cable. System board: i7-1165G7, i5-1135G7, i3-1115G4, Pentium 7505 (Celeron M24273 also); -601 suffix for Windows. Display back cover: standard, 400 nit, privacy.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -15994,7 +16128,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_12667846_en-US-1.pdf",
-  "pn_notes": "Bottom cover, fan: UMA, discrete graphics. Heatsink: UMA, MX130, MX250. Top cover with keyboard: backlit, no backlight, backlit privacy. Display panel: FHD, HD, FHD privacy, FHD touch. Bezel: no camera, HD, HD+IR. Camera: HD, HD+IR. DC-in is the power connector cable; USB-C port board is the USB board. System board: 4 of 10 variants (i7-10510U, i5-10210U, i3-10110U UMA; i7-10510U MX250); -601 suffix for Windows. Antennas: WLAN, WWAN."
+  "pn_notes": "Bottom cover, fan: UMA, discrete graphics. Heatsink: UMA, MX130, MX250. Top cover with keyboard: backlit, no backlight, backlit privacy. Display panel: FHD, HD, FHD privacy, FHD touch. Bezel: no camera, HD, HD+IR. Camera: HD, HD+IR. DC-in is the power connector cable; USB-C port board is the USB board. System board: 4 of 10 variants (i7-10510U, i5-10210U, i3-10110U UMA; i7-10510U MX250); -601 suffix for Windows. Antennas: WLAN, WWAN.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -16151,7 +16286,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://hp.it-shop.bg/uploaded/5/3/ProBook-450-G8-MSG.pdf",
-  "pn_notes": "Bottom cover, fan, heatsink: UMA, discrete graphics. Top cover with keyboard: not backlit, backlit, backlit privacy (US -001). Display panel: FHD 250 nit, FHD touch, FHD 400 nit, FHD 1000 nit privacy, HD. Camera: HD, IR. DC-in is the power connector cable. System board: 4 of 11 variants (UMA i7-1165G7, i5-1135G7, i3-1115G4; discrete i7-1165G7); -601 suffix for Windows. Antennas: WLAN, WWAN. Back cover: 250 nit WLAN, 250 nit WWAN, 400 nit."
+  "pn_notes": "Bottom cover, fan, heatsink: UMA, discrete graphics. Top cover with keyboard: not backlit, backlit, backlit privacy (US -001). Display panel: FHD 250 nit, FHD touch, FHD 400 nit, FHD 1000 nit privacy, HD. Camera: HD, IR. DC-in is the power connector cable. System board: 4 of 11 variants (UMA i7-1165G7, i5-1135G7, i3-1115G4; discrete i7-1165G7); -601 suffix for Windows. Antennas: WLAN, WWAN. Back cover: 250 nit WLAN, 250 nit WWAN, 400 nit.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -16322,7 +16458,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://h10032.www1.hp.com/ctg/Manual/c06422403.pdf",
-  "pn_notes": "Battery: the MSG lists L05766-850 (the input had L05766-855). RAM: 32/16/8/4 GB for Core and Xeon, then 16/8 GB ECC for Xeon. SSD: 2 TB, 1 TB, 512 GB, 256 GB PCIe, then 1 TB, 256 GB SATA. Fan: T1000/T2000, RTX 3000. Heatsink: UMA, T1000/T2000, RTX 3000. Touchpad: standard, DreamColor. Keyboard: backlit, backlit for privacy screens (US -001). Display assembly: DreamColor UHD, DreamColor UHD with IR camera. Display panel: FHD 250, FHD 400, FHD 1000 nit, UHD 400 nit, touch, touch privacy. Camera: FHD/IR, HD. Hinges: non-touch, touch. System board: 4 of 13 variants (Xeon E-2286M RTX 3000, i9-9880H RTX 3000, i7-9850H RTX 3000, i7-9750H UMA); -601 suffix for Windows. The ambient light sensor board and the color board share one number. Smart card reader is not available as a spare part."
+  "pn_notes": "Battery: the MSG lists L05766-850 (the input had L05766-855). RAM: 32/16/8/4 GB for Core and Xeon, then 16/8 GB ECC for Xeon. SSD: 2 TB, 1 TB, 512 GB, 256 GB PCIe, then 1 TB, 256 GB SATA. Fan: T1000/T2000, RTX 3000. Heatsink: UMA, T1000/T2000, RTX 3000. Touchpad: standard, DreamColor. Keyboard: backlit, backlit for privacy screens (US -001). Display assembly: DreamColor UHD, DreamColor UHD with IR camera. Display panel: FHD 250, FHD 400, FHD 1000 nit, UHD 400 nit, touch, touch privacy. Camera: FHD/IR, HD. Hinges: non-touch, touch. System board: 4 of 13 variants (Xeon E-2286M RTX 3000, i9-9880H RTX 3000, i7-9850H RTX 3000, i7-9750H UMA); -601 suffix for Windows. The ambient light sensor board and the color board share one number. Smart card reader is not available as a spare part.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -16460,7 +16597,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://archive.org/details/hp-zbook-maintenance-manual-archive",
-  "pn_notes": "From the HP ZBook Studio G3 MSG (archive.org copy). Battery: the MSG lists 808450-002. RAM: 16/8/4 GB for Core, then 16/8 GB ECC for Xeon. SSD: 1 TB, 512 GB, 256 GB PCIe, then 512 GB, 256 GB, 128 GB SATA. Heatsink (fan/heat sink assembly): discrete, discrete 4+4E, UMA. Keyboard: backlit, US. Display panel: FHD, UHD. Bezel: with, without webcam. System board: 4 of 10 variants (Xeon E3-1545M, i7-6820HQ discrete, i7-6820HQ UMA, i7-6700HQ UMA); -601 suffix for Windows 10. DreamColor and touch displays are spared only as whole assemblies (840945-001, 840946-001, 840947-001)."
+  "pn_notes": "From the HP ZBook Studio G3 MSG (archive.org copy). Battery: the MSG lists 808450-002. RAM: 16/8/4 GB for Core, then 16/8 GB ECC for Xeon. SSD: 1 TB, 512 GB, 256 GB PCIe, then 512 GB, 256 GB, 128 GB SATA. Heatsink (fan/heat sink assembly): discrete, discrete 4+4E, UMA. Keyboard: backlit, US. Display panel: FHD, UHD. Bezel: with, without webcam. System board: 4 of 10 variants (Xeon E3-1545M, i7-6820HQ discrete, i7-6820HQ UMA, i7-6700HQ UMA); -601 suffix for Windows 10. DreamColor and touch displays are spared only as whole assemblies (840945-001, 840946-001, 840947-001).",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -16608,7 +16746,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://h10032.www1.hp.com/ctg/Manual/c05481588.pdf",
-  "pn_notes": "Battery: 4-cell 64 Wh, 8-cell 92 Wh. RAM: 16/8/4 GB for Core, then 16/8 GB ECC for Xeon. SSD: 1 TB, 512 GB, 256 GB TLC, 256 GB MLC PCIe, then 512 GB FIPS, 128 GB SATA. Heatsink (thermal module): discrete, UMA. Keyboard: US. Display assembly: DreamColor UHD without camera, DreamColor UHD with camera, FHD touch. Display panel: FHD, UHD with cable, then FHD, UHD without cable. Bezel: with, without camera. System board: 4 of 10 variants (Xeon E3-1535M, i7-7820HQ discrete, i7-7820HQ UMA, i7-7700HQ UMA); -601 suffix for Windows 10."
+  "pn_notes": "Battery: 4-cell 64 Wh, 8-cell 92 Wh. RAM: 16/8/4 GB for Core, then 16/8 GB ECC for Xeon. SSD: 1 TB, 512 GB, 256 GB TLC, 256 GB MLC PCIe, then 512 GB FIPS, 128 GB SATA. Heatsink (thermal module): discrete, UMA. Keyboard: US. Display assembly: DreamColor UHD without camera, DreamColor UHD with camera, FHD touch. Display panel: FHD, UHD with cable, then FHD, UHD without cable. Bezel: with, without camera. System board: 4 of 10 variants (Xeon E3-1535M, i7-7820HQ discrete, i7-7820HQ UMA, i7-7700HQ UMA); -601 suffix for Windows 10.",
+  "ram_configs": []
  },
  {
   "brand": "HP",
@@ -16766,7 +16905,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_13037735_en-US-1.pdf",
-  "pn_notes": "Battery: 4-cell, 6-cell. RAM: 16/8/4 GB for Core, then 16/8 GB ECC for Xeon. SSD: 2 TB, 1 TB, 512 GB, 256 GB PCIe, 512 GB SATA FIPS, 360 GB PCIe. Heatsink (thermal module): discrete, UMA. Speakers are a speaker kit. Top cover with keyboard: backlit, backlit privacy (US -001). Display assembly: touch UHD without camera, with camera (touch screens are spared only as a whole). Display panel: FHD, FHD privacy, UHD. Bezel: with ambient light sensor (HD, IR, no camera), then without (HD, IR, no camera). Camera: HD, IR. Audio board is the card reader/audio board. System board: 4 of 10 variants (Xeon E-2186M discrete, i7-8850H discrete, i7-8850H UMA, i7-8750H UMA); -601 suffix for Windows 10. Hard drive: 2 TB, 1 TB, 500 GB, 500 GB FIPS."
+  "pn_notes": "Battery: 4-cell, 6-cell. RAM: 16/8/4 GB for Core, then 16/8 GB ECC for Xeon. SSD: 2 TB, 1 TB, 512 GB, 256 GB PCIe, 512 GB SATA FIPS, 360 GB PCIe. Heatsink (thermal module): discrete, UMA. Speakers are a speaker kit. Top cover with keyboard: backlit, backlit privacy (US -001). Display assembly: touch UHD without camera, with camera (touch screens are spared only as a whole). Display panel: FHD, FHD privacy, UHD. Bezel: with ambient light sensor (HD, IR, no camera), then without (HD, IR, no camera). Camera: HD, IR. Audio board is the card reader/audio board. System board: 4 of 10 variants (Xeon E-2186M discrete, i7-8850H discrete, i7-8850H UMA, i7-8750H UMA); -601 suffix for Windows 10. Hard drive: 2 TB, 1 TB, 500 GB, 500 GB FIPS.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -16951,7 +17091,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x390/20q0/20q0s04k00/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20Q0; many numbers are the same part from different suppliers. SSD: 256 GB, 512 GB, 1 TB PCIe, 128 GB 2242, 256 GB SATA. Heatsink is the thermal module with fan. Touchpad: clickpad, then clickpad with NFC. Keyboard: US English, first two non-backlit, last two backlit. Top cover (C-cover): standard, with fingerprint reader, ePrivacy variants. Display panel: FHD 300 nit, FHD 400 nit, HD, FHD touch. Bezel is the B-cover: with shutter, without shutter, ePrivacy. Camera: HD, then HD+IR. Hinges: touch, non-touch, ePrivacy variants. Power button is the power card. System board: 4 of 140 variants (i5-8265U, i7-8565U, i5-8365U, i7-8665U). Antennas: WWAN and WLAN sets."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20Q0; many numbers are the same part from different suppliers. SSD: 256 GB, 512 GB, 1 TB PCIe, 128 GB 2242, 256 GB SATA. Heatsink is the thermal module with fan. Touchpad: clickpad, then clickpad with NFC. Keyboard: US English, first two non-backlit, last two backlit. Top cover (C-cover): standard, with fingerprint reader, ePrivacy variants. Display panel: FHD 300 nit, FHD 400 nit, HD, FHD touch. Bezel is the B-cover: with shutter, without shutter, ePrivacy. Camera: HD, then HD+IR. Hinges: touch, non-touch, ePrivacy variants. Power button is the power card. System board: 4 of 140 variants (i5-8265U, i7-8565U, i5-8365U, i7-8665U). Antennas: WWAN and WLAN sets.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -17114,7 +17255,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-7th-gen-type-20qd-20qe/20qd/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20QD; many numbers are the same part from different suppliers. Bottom cover: WLAN, WWAN. Battery: the parts lookup lists these 51 Wh FRUs (the input had 02DL004-02DL006). SSD: 256 GB, 512 GB, 1 TB, 2 TB PCIe, 256 GB SATA. Heatsink is the thermal module with fan. Touchpad: glass clickpad, last two with NFC. Top cover is the C-cover with US English backlit keyboard (WLAN and WWAN versions). Display panel: FHD (3), FHD touch, WQHD, UHD. Camera: HD (3), then HD+IR. Hinges: standard, then ePrivacy. USB-C port board: USB power switch subcard, USB subcard. System board: 4 of 98 variants (i5-8265U, i7-8565U, i5-8365U, i7-8665U). Antennas: WLAN, WWAN sets."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20QD; many numbers are the same part from different suppliers. Bottom cover: WLAN, WWAN. Battery: the parts lookup lists these 51 Wh FRUs (the input had 02DL004-02DL006). SSD: 256 GB, 512 GB, 1 TB, 2 TB PCIe, 256 GB SATA. Heatsink is the thermal module with fan. Touchpad: glass clickpad, last two with NFC. Top cover is the C-cover with US English backlit keyboard (WLAN and WWAN versions). Display panel: FHD (3), FHD touch, WQHD, UHD. Camera: HD (3), then HD+IR. Hinges: standard, then ePrivacy. USB-C port board: USB power switch subcard, USB subcard. System board: 4 of 98 variants (i5-8265U, i7-8565U, i5-8365U, i7-8665U). Antennas: WLAN, WWAN sets.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -17267,7 +17409,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-13s-iml/20rr/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20RR; many numbers are the same part from different suppliers. RAM: 16/8/4 GB DDR4-2666, then 16/8 GB DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2280, then 128 GB, 256 GB, 512 GB 2242. Heatsink: UMA, discrete. Top cover with US English keyboard: first non-backlit, others backlit. Display panel: all 13.3-inch FHD IPS. Fingerprint reader is the fingerprint board with power button; the power button without fingerprint reader is 5CB0W44337. System board: 4 of 24 variants (i5-10210U UMA, i7-10510U UMA, i7-10710U UMA, i7-10510U discrete)."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20RR; many numbers are the same part from different suppliers. RAM: 16/8/4 GB DDR4-2666, then 16/8 GB DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2280, then 128 GB, 256 GB, 512 GB 2242. Heatsink: UMA, discrete. Top cover with US English keyboard: first non-backlit, others backlit. Display panel: all 13.3-inch FHD IPS. Fingerprint reader is the fingerprint board with power button; the power button without fingerprint reader is 5CB0W44337. System board: 4 of 24 variants (i5-10210U UMA, i7-10510U UMA, i7-10710U UMA, i7-10510U discrete).",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -17430,7 +17573,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14-iml/20rv/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20RV; many numbers are the same part from different suppliers. Battery: first three 45 Wh, last three 57 Wh. RAM: 16/8/4 GB DDR4-2666, then 16/8/4 GB DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2280, then 128 GB, 256 GB, 512 GB 2242. Heatsink: UMA, discrete. Top cover with US English keyboard: backlit with fingerprint, backlit without fingerprint, non-backlit with fingerprint, non-backlit without fingerprint. Display panel: 14-inch FHD, first four IPS 250 nit, last two TN 220 nit. Power button board: with fingerprint reader, without. System board: 4 of 56 variants (i5-10210U UMA, i5-10210U MX250, i7-10510U MX250, i3-10110U MX250). Hard drive: 1 TB 5400, 1 TB 7200, 500 GB, 2 TB. No hinge FRU is listed."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20RV; many numbers are the same part from different suppliers. Battery: first three 45 Wh, last three 57 Wh. RAM: 16/8/4 GB DDR4-2666, then 16/8/4 GB DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2280, then 128 GB, 256 GB, 512 GB 2242. Heatsink: UMA, discrete. Top cover with US English keyboard: backlit with fingerprint, backlit without fingerprint, non-backlit with fingerprint, non-backlit without fingerprint. Display panel: 14-inch FHD, first four IPS 250 nit, last two TN 220 nit. Power button board: with fingerprint reader, without. System board: 4 of 56 variants (i5-10210U UMA, i5-10210U MX250, i7-10510U MX250, i3-10110U MX250). Hard drive: 1 TB 5400, 1 TB 7200, 500 GB, 2 TB. No hinge FRU is listed.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -17585,7 +17729,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14s-iml/20rs/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20RS; many numbers are the same part from different suppliers. RAM: 16/8/4 GB DDR4-2666, then 16/8 GB DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2280, then 128 GB, 256 GB, 512 GB 2242. Heatsink: UMA, discrete. Top cover with US keyboard: first non-backlit, others backlit. Display panel: 14-inch FHD, first four IPS 250 nit, last two TN 220 nit. Fingerprint reader is the fingerprint board with power button; the power button without fingerprint reader is 5CB0W44271. System board: 4 of 24 variants (i7-10710U UMA, i7-10510U UMA, i7-10510U discrete, i5-10210U discrete)."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20RS; many numbers are the same part from different suppliers. RAM: 16/8/4 GB DDR4-2666, then 16/8 GB DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2280, then 128 GB, 256 GB, 512 GB 2242. Heatsink: UMA, discrete. Top cover with US keyboard: first non-backlit, others backlit. Display panel: 14-inch FHD, first four IPS 250 nit, last two TN 220 nit. Fingerprint reader is the fingerprint board with power button; the power button without fingerprint reader is 5CB0W44271. System board: 4 of 24 variants (i7-10710U UMA, i7-10510U UMA, i7-10510U discrete, i5-10210U discrete).",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -17730,7 +17875,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/lenovo-thinkbook-15p-imh/20v3/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20V3; many numbers are the same part from different suppliers. RAM: first three 16 GB, last three 8 GB DDR4-3200. SSD: 256 GB, 512 GB 2242, then 1 TB 2280. Top cover with backlit keyboard: USA English, English. Display assembly: UHD 500 nit colour-calibrated module. Display panel: FHD 300 nit (3), UHD 600 nit. Power button is the power board. System board: 4 of 24 variants (i5-10300H GTX 1650 x2, i7-10750H GTX 1650, i7-10870H GTX 1650)."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20V3; many numbers are the same part from different suppliers. RAM: first three 16 GB, last three 8 GB DDR4-3200. SSD: 256 GB, 512 GB 2242, then 1 TB 2280. Top cover with backlit keyboard: USA English, English. Display assembly: UHD 500 nit colour-calibrated module. Display panel: FHD 300 nit (3), UHD 600 nit. Power button is the power board. System board: 4 of 24 variants (i5-10300H GTX 1650 x2, i7-10750H GTX 1650, i7-10870H GTX 1650).",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -17867,7 +18013,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-13s-g2-itl/20v9/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20V9; many numbers are the same part from different suppliers. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 256 GB, 512 GB, 256 GB (2242). Top cover with backlit keyboard: USA English, English. Display assembly: WQXGA touch module. Display panel: WUXGA 300 nit (3), then QHD (2). I/O board: USB board, connector board. System board: 4 of 88 variants (i5-1135G7 8 GB, i5-1135G7 16 GB, i7-1165G7 8 GB, i7-1165G7 16 GB; RAM is on the board). No antenna FRU is listed."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20V9; many numbers are the same part from different suppliers. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 256 GB, 512 GB, 256 GB (2242). Top cover with backlit keyboard: USA English, English. Display assembly: WQXGA touch module. Display panel: WUXGA 300 nit (3), then QHD (2). I/O board: USB board, connector board. System board: 4 of 88 variants (i5-1135G7 8 GB, i5-1135G7 16 GB, i7-1165G7 8 GB, i7-1165G7 16 GB; RAM is on the board). No antenna FRU is listed.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -18041,7 +18188,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14-g2-itl/20vd/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20VD; many numbers are the same part from different suppliers. Bottom cover: standard, with HDD bay, then two later versions. Battery: first four 45 Wh 3-cell, last two 60 Wh 4-cell. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 128/256/512 GB (2242). Heatsink: UMA (2), discrete (2). Top cover with keyboard: USA English backlit (3), English non-backlit. Display panel: FHD non-touch IPS (3), FHD touch (2), FHD TN. Bezel: standard, for 2.4 mm panel. I/O board is the function board (with or without fingerprint reader and Ethernet). Power button is the power board (for FP and non-FP models). System board: 4 of 73 variants (i3 UMA, i5 UMA, i7 UMA, i5 MX450)."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20VD; many numbers are the same part from different suppliers. Bottom cover: standard, with HDD bay, then two later versions. Battery: first four 45 Wh 3-cell, last two 60 Wh 4-cell. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 128/256/512 GB (2242). Heatsink: UMA (2), discrete (2). Top cover with keyboard: USA English backlit (3), English non-backlit. Display panel: FHD non-touch IPS (3), FHD touch (2), FHD TN. Bezel: standard, for 2.4 mm panel. I/O board is the function board (with or without fingerprint reader and Ethernet). Power button is the power board (for FP and non-FP models). System board: 4 of 73 variants (i3 UMA, i5 UMA, i7 UMA, i5 MX450).",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -18192,7 +18340,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14-g5-irl/21jc/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 21JC; many numbers are the same part from different suppliers. Battery: first three 45 Wh 3-cell, last three 60 Wh 4-cell. RAM: 16 GB, then 8 GB DDR4-3200 (one bank is soldered). SSD: 512 GB, 1 TB (x2) 2280, then 256 GB, 512 GB, 1 TB 2242, all PCIe 4. Top cover with keyboard: USA English backlit, English backlit, English non-backlit. Display panel: FHD 45% NTSC (2), FHD 100% sRGB (2), FHD touch, FHD TN. Bezel: 2.4 mm, 3.0 mm panel. Camera: HD (3), FHD (3). Power button is the power board with LED. System board: 4 of 26 variants (i3-1315U, i5-1335U, i5-1340P, i7-1360P). The function (I/O) boards are 5C50S25539 and 5C50S25540."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 21JC; many numbers are the same part from different suppliers. Battery: first three 45 Wh 3-cell, last three 60 Wh 4-cell. RAM: 16 GB, then 8 GB DDR4-3200 (one bank is soldered). SSD: 512 GB, 1 TB (x2) 2280, then 256 GB, 512 GB, 1 TB 2242, all PCIe 4. Top cover with keyboard: USA English backlit, English backlit, English non-backlit. Display panel: FHD 45% NTSC (2), FHD 100% sRGB (2), FHD touch, FHD TN. Bezel: 2.4 mm, 3.0 mm panel. Camera: HD (3), FHD (3). Power button is the power board with LED. System board: 4 of 26 variants (i3-1315U, i5-1335U, i5-1340P, i7-1360P). The function (I/O) boards are 5C50S25539 and 5C50S25540.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -18322,7 +18471,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14s-g2-itl/20va/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20VA; many numbers are the same part from different suppliers. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 256 GB, 512 GB, 256 GB (2242). Top cover with keyboard: USA English, English. Display panel: all 14-inch FHD IPS 300 nit. I/O board: USB board, connector board. System board: 4 of 64 variants (i5-1135G7 8 GB, i5-1135G7 16 GB, i7-1165G7 8 GB, i7-1165G7 16 GB; RAM is on the board). No antenna FRU is listed."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20VA; many numbers are the same part from different suppliers. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 256 GB, 512 GB, 256 GB (2242). Top cover with keyboard: USA English, English. Display panel: all 14-inch FHD IPS 300 nit. I/O board: USB board, connector board. System board: 4 of 64 variants (i5-1135G7 8 GB, i5-1135G7 16 GB, i7-1165G7 8 GB, i7-1165G7 16 GB; RAM is on the board). No antenna FRU is listed.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -18477,7 +18627,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14s-yoga-itl/20we/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20WE; many numbers are the same part from different suppliers. Second number of bottom cover, hinges and fingerprint reader is for the Abyss Blue (AB) version. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 256/512 GB 2242 (4), then 1 TB 2280 (2). Top cover with backlit keyboard: USA English and English, first two grey, last two Abyss Blue. The FHD touch LCD modules are the display panel FRUs; no separate bezel FRU is listed. System board: i5-1135G7 (2), i7-1165G7 (2), all 8 GB on board (8 variants in total)."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20WE; many numbers are the same part from different suppliers. Second number of bottom cover, hinges and fingerprint reader is for the Abyss Blue (AB) version. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 256/512 GB 2242 (4), then 1 TB 2280 (2). Top cover with backlit keyboard: USA English and English, first two grey, last two Abyss Blue. The FHD touch LCD modules are the display panel FRUs; no separate bezel FRU is listed. System board: i5-1135G7 (2), i7-1165G7 (2), all 8 GB on board (8 variants in total).",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -18649,7 +18800,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-15-g2-itl/20ve/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20VE; many numbers are the same part from different suppliers. Bottom cover: standard, with HDD bay, with earbuds. Battery: first four 45 Wh 3-cell, last two 60 Wh 4-cell. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 128/256/512 GB (2242). Heatsink: UMA (2), discrete (2). Top cover with keyboard: USA English backlit (3), English non-backlit. Display panel: FHD 250 nit, FHD 300 nit, FHD 100% sRGB, FHD touch (2), FHD TN. Bezel: 2.6 mm, 3.2 mm panel. I/O board is the function board (with or without fingerprint reader). Power button is the power board (FP, non-FP). System board: 4 of 75 variants (i3 UMA, i5 UMA, i7 UMA, i5 MX450). The earbud board is 5C50S25155."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20VE; many numbers are the same part from different suppliers. Bottom cover: standard, with HDD bay, with earbuds. Battery: first four 45 Wh 3-cell, last two 60 Wh 4-cell. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 512 GB, 1 TB PCIe 4, 1 TB PCIe 3 (2280), then 128/256/512 GB (2242). Heatsink: UMA (2), discrete (2). Top cover with keyboard: USA English backlit (3), English non-backlit. Display panel: FHD 250 nit, FHD 300 nit, FHD 100% sRGB, FHD touch (2), FHD TN. Bezel: 2.6 mm, 3.2 mm panel. I/O board is the function board (with or without fingerprint reader). Power button is the power board (FP, non-FP). System board: 4 of 75 variants (i3 UMA, i5 UMA, i7 UMA, i5 MX450). The earbud board is 5C50S25155.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -18827,7 +18979,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-edge-laptops/thinkpad-e14-gen-3-type-20y7-20yd-20ye-20yf/20yd/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20YD (AMD); many numbers are the same part from different suppliers. Bottom cover: black, silver, textured, then two without RJ45. Battery: first four 45 Wh, last two 57 Wh. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 256/512 GB 2242 PCIe 3, 256/512 GB 2242 PCIe 4, 1 TB 2280. Heatsink is the thermal module with fan. Touchpad: CS20 clickpad, grey (3) and silver (3). Top cover with US English keyboard: non-backlit (2), backlit (2), with fingerprint, backlit with fingerprint. Display panel: FHD IPS 250/300 nit and 100% sRGB, then TN (2). Bezel: RGB camera, IR camera. Camera: HD (3), HD+IR (2). I/O board is the LAN board (non-FPR, FPR, then newer versions). The power button with fingerprint reader is one FRU. System board: 4 of 24 variants (R5 5500U, R3 5300U, R7 5700U, R7 5800U). No earbud board is listed for this MT."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20YD (AMD); many numbers are the same part from different suppliers. Bottom cover: black, silver, textured, then two without RJ45. Battery: first four 45 Wh, last two 57 Wh. RAM: 16 GB (2), 8 GB (2), 4 GB (2) DDR4-3200. SSD: 256/512 GB 2242 PCIe 3, 256/512 GB 2242 PCIe 4, 1 TB 2280. Heatsink is the thermal module with fan. Touchpad: CS20 clickpad, grey (3) and silver (3). Top cover with US English keyboard: non-backlit (2), backlit (2), with fingerprint, backlit with fingerprint. Display panel: FHD IPS 250/300 nit and 100% sRGB, then TN (2). Bezel: RGB camera, IR camera. Camera: HD (3), HD+IR (2). I/O board is the LAN board (non-FPR, FPR, then newer versions). The power button with fingerprint reader is one FRU. System board: 4 of 24 variants (R5 5500U, R3 5300U, R7 5700U, R7 5800U). No earbud board is listed for this MT.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -19003,7 +19156,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-edge-laptops/thinkpad-e15-gen-2-type-20td-20te/20td/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20TD; many numbers are the same part from different suppliers. Bottom cover: black UMA, silver UMA, black discrete, silver discrete, black with earbuds. Battery: all 45 Wh. RAM: 32 GB (2), 16 GB (2), 8 GB, 4 GB DDR4-3200. SSD: 256/512 GB 2242, 256/512 GB 2280, 1 TB PCIe 4. Heatsink: UMA (2), MX450 (2). Top cover with US English keyboard: black, black backlit, silver, silver backlit, black with FPR, black backlit with FPR. Display panel: FHD IPS 250/300 nit, 100% sRGB (2), FHD TN. Bezel: normal, IR. Camera: HD (3), HD+IR (3). I/O board is the USB board (without, with FPR). The fingerprint reader is part of the power button (black, silver). System board: 3 samples of 36 (i3-1115G4, i5-1135G7 MX350, i7-1165G7 MX350). Earbuds: earbud set, then the earbud USB-C board."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20TD; many numbers are the same part from different suppliers. Bottom cover: black UMA, silver UMA, black discrete, silver discrete, black with earbuds. Battery: all 45 Wh. RAM: 32 GB (2), 16 GB (2), 8 GB, 4 GB DDR4-3200. SSD: 256/512 GB 2242, 256/512 GB 2280, 1 TB PCIe 4. Heatsink: UMA (2), MX450 (2). Top cover with US English keyboard: black, black backlit, silver, silver backlit, black with FPR, black backlit with FPR. Display panel: FHD IPS 250/300 nit, 100% sRGB (2), FHD TN. Bezel: normal, IR. Camera: HD (3), HD+IR (3). I/O board is the USB board (without, with FPR). The fingerprint reader is part of the power button (black, silver). System board: 3 samples of 36 (i3-1115G4, i5-1135G7 MX350, i7-1165G7 MX350). Earbuds: earbud set, then the earbud USB-C board.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -19174,7 +19328,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-edge-laptops/thinkpad-e15-gen-4-type-21e6-21e7/21e6/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 21E6; many numbers are the same part from different suppliers. Bottom cover: black, silver (discrete models; no UMA cover is named). Battery: first four 57 Wh, last two 45 Wh. RAM: 32 GB (2), 16 GB (2), 8 GB (2) DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2242 PCIe 4 (two suppliers). Heatsink is the thermal module with fan. Top cover with US English keyboard: black, black backlit, black FPR, black backlit FPR, silver, silver backlit. Display panel: FHD 45% NTSC (2), FHD 100% sRGB (2), FHD touch, FHD TN. Bezel is the B-cover: RGB, IR. Camera: HD (2), FHD (2), FHD hybrid IR (2). I/O board: without FP, with FP (2). The fingerprint reader is in the power button. System board: 4 of 41 variants (i5-1235U, i5-1235U with Xe graphics, i7-1255U, i7-1260P). The lookup names the antenna 'Mars3.0 AMD'; it is listed for this MT. Earbuds: earbud set, then the earphone board."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 21E6; many numbers are the same part from different suppliers. Bottom cover: black, silver (discrete models; no UMA cover is named). Battery: first four 57 Wh, last two 45 Wh. RAM: 32 GB (2), 16 GB (2), 8 GB (2) DDR4-3200. SSD: 256 GB, 512 GB, 1 TB 2242 PCIe 4 (two suppliers). Heatsink is the thermal module with fan. Top cover with US English keyboard: black, black backlit, black FPR, black backlit FPR, silver, silver backlit. Display panel: FHD 45% NTSC (2), FHD 100% sRGB (2), FHD touch, FHD TN. Bezel is the B-cover: RGB, IR. Camera: HD (2), FHD (2), FHD hybrid IR (2). I/O board: without FP, with FP (2). The fingerprint reader is in the power button. System board: 4 of 41 variants (i5-1235U, i5-1235U with Xe graphics, i7-1255U, i7-1260P). The lookup names the antenna 'Mars3.0 AMD'; it is listed for this MT. Earbuds: earbud set, then the earphone board.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -19343,7 +19498,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-l-series-laptops/thinkpad-l13-type-20r3-20r4/20r3/parts",
-  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20R3; many numbers are the same part from different suppliers. Bottom cover: black, silver. Battery: all 46 Wh 4-cell. SSD: 256 GB, 512 GB, 1 TB 2280, then 128/256/512 GB 2242. Heatsink is the thermal module with fan. Touchpad: black (3), silver (2). Keyboard: US English, non-backlit (2), backlit (2), silver non-backlit. Top cover (upper case): black no FPR, black FPR, silver no FPR, silver FPR. Display panel: FHD IPS 250 nit (2), FHD 300 nit, FHD 45% NTSC, FHD touch, HD TN. Bezel: RGB, IR camera. Camera: HD (4), HD+IR (2). Fingerprint reader: four black modules, then the silver kit. System board: 4 of many variants (i3-10110U 4 GB, i5-10210U 4+4 GB, i7-10510U 4+4 GB, i5-10310U vPro 4+4 GB; RAM is on the board). I/O brackets: right, left."
+  "pn_notes": "FRUs from the Lenovo parts lookup for MT 20R3; many numbers are the same part from different suppliers. Bottom cover: black, silver. Battery: all 46 Wh 4-cell. SSD: 256 GB, 512 GB, 1 TB 2280, then 128/256/512 GB 2242. Heatsink is the thermal module with fan. Touchpad: black (3), silver (2). Keyboard: US English, non-backlit (2), backlit (2), silver non-backlit. Top cover (upper case): black no FPR, black FPR, silver no FPR, silver FPR. Display panel: FHD IPS 250 nit (2), FHD 300 nit, FHD 45% NTSC, FHD touch, HD TN. Bezel: RGB, IR camera. Camera: HD (4), HD+IR (2). Fingerprint reader: four black modules, then the silver kit. System board: 4 of many variants (i3-10110U 4 GB, i5-10210U 4+4 GB, i7-10510U 4+4 GB, i5-10310U vPro 4+4 GB; RAM is on the board). I/O brackets: right, left.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -19471,7 +19627,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21DC, 21DD)",
-  "pn_notes": "System board: 51 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, NFC card. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 51 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, NFC card. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -19643,7 +19800,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20VX, 20VY)",
-  "pn_notes": "System board: 100 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 100 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -19800,7 +19958,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20T4, 20T5)",
-  "pn_notes": "System board: 11 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, WWAN card, NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 11 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, WWAN card, NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -19960,7 +20119,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20W6, 20W7)",
-  "pn_notes": "System board: 79 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 79 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -20110,7 +20270,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20EN, 20EQ)",
-  "pn_notes": "System board: 51 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, WWAN card. Keyboard: US English FRUs."
+  "pn_notes": "System board: 51 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, WWAN card. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -20277,7 +20438,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20S0, 20S1)",
-  "pn_notes": "System board: 77 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 77 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -20443,7 +20605,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20XK, 20XL)",
-  "pn_notes": "System board: 27 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, Smart card reader, NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 27 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, Smart card reader, NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -20622,7 +20785,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20W0, 20W1)",
-  "pn_notes": "System board: 235 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 235 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -20791,7 +20955,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21AH, 21AJ)",
-  "pn_notes": "System board: 92 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 92 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -20975,7 +21140,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21HD, 21HE)",
-  "pn_notes": "System board: 81 variants by CPU/RAM; 4 shown. Keyboard: US English FRUs."
+  "pn_notes": "System board: 81 variants by CPU/RAM; 4 shown. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -21123,7 +21289,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20T0, 20T1)",
-  "pn_notes": "System board: 61 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 61 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -21274,7 +21441,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20WM, 20WN)",
-  "pn_notes": "System board: 95 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 95 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -21429,7 +21597,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21BR, 21BS)",
-  "pn_notes": "System board: 74 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): Smart card reader, NFC module. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 74 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): Smart card reader, NFC module. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -21593,7 +21762,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20S6, 20S7)",
-  "pn_notes": "System board: 72 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, WWAN card, NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 72 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, WWAN card, NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -21761,7 +21931,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20UR, 20US)",
-  "pn_notes": "System board: 46 variants by CPU/RAM; 4 shown. Keyboard: US English FRUs."
+  "pn_notes": "System board: 46 variants by CPU/RAM; 4 shown. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -21894,7 +22065,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21DA, 21DB)",
-  "pn_notes": "System board: 8 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, WWAN card. Keyboard: US English FRUs."
+  "pn_notes": "System board: 8 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, WWAN card. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -22045,7 +22217,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20L7, 20L8)",
-  "pn_notes": "System board: 40 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, Wi-Fi card, WWAN card, Coin-cell battery, Keyboard, Smart card reader, NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 40 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, Wi-Fi card, WWAN card, Coin-cell battery, Keyboard, Smart card reader, NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -22202,7 +22375,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20N4, 20N5)",
-  "pn_notes": "System board: 55 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, WWAN card, Keyboard, Camera, NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 55 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): RAM, SSD, WWAN card, Keyboard, Camera, NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -22356,7 +22530,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20QD, 20QE)",
-  "pn_notes": "System board: 51 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): Bottom cover, Battery, SSD, WWAN card, Coin-cell battery, Speakers, Palmrest/top cover, Display panel, Display bezel, Camera, Hinges, I/O board, Fingerprint reader, NFC module, Antennas. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 51 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): Bottom cover, Battery, SSD, WWAN card, Coin-cell battery, Speakers, Palmrest/top cover, Display panel, Display bezel, Camera, Hinges, I/O board, Fingerprint reader, NFC module, Antennas. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -22477,7 +22652,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21CB, 21CC)",
-  "pn_notes": "System board: 96 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 96 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -22597,7 +22773,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20XW, 20XX)",
-  "pn_notes": "System board: 55 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 55 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -22716,7 +22893,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20UB, 20UC)",
-  "pn_notes": "System board: 39 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): WWAN card, NFC module. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 39 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): WWAN card, NFC module. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -22840,7 +23018,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 20XY, 20Y0)",
-  "pn_notes": "System board: 84 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 84 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): NFC module. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -22965,7 +23144,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21CD, 21CE)",
-  "pn_notes": "System board: 56 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 56 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -23122,7 +23302,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21BN, 21BQ)",
-  "pn_notes": "System board: 87 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): SSD, Smart card reader, NFC module. Keyboard: US English FRUs."
+  "pn_notes": "System board: 87 variants by CPU/RAM; 4 shown. Not tagged to these machine types in the Lenovo list (verify fit): SSD, Smart card reader, NFC module. Keyboard: US English FRUs.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -23281,7 +23462,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/partslookup (machine types 21EX, 21EY)",
-  "pn_notes": "System board: 97 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard."
+  "pn_notes": "System board: 97 variants by CPU/RAM; 4 shown. Palmrest/top cover: C-cover with US English keyboard.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -23450,7 +23632,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x13-yoga-gen-1/20sx/parts",
-  "pn_notes": "From the Lenovo parts lookup for type 20SX. Palmrest/top cover is the C-cover with US keyboard (first without WWAN, second backlit with WWAN). Display assembly: FHD touch modules (300/400 nit, IR camera), then UHD OLED, then ePrivacy. Display panel and bezel are not sold separately. System board: 100 CPU/RAM variants, 4 shown (i5-10210U 8GB). Sensor board: WLAN, WWAN, Hall."
+  "pn_notes": "From the Lenovo parts lookup for type 20SX. Palmrest/top cover is the C-cover with US keyboard (first without WWAN, second backlit with WWAN). Display assembly: FHD touch modules (300/400 nit, IR camera), then UHD OLED, then ePrivacy. Display panel and bezel are not sold separately. System board: 100 CPU/RAM variants, 4 shown (i5-10210U 8GB). Sensor board: WLAN, WWAN, Hall.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -23618,7 +23801,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x13-yoga-gen-2-type-20w8-20w9/20w8/parts",
-  "pn_notes": "From the Lenovo parts lookup for type 20W8. Palmrest/top cover is the C-cover with US English backlit keyboard (first without WWAN, second with WWAN). Display assembly: WUXGA touch modules, then WQXGA; panel and bezel are not sold separately. Power button and fingerprint reader are one assembly. Touchpad: last two have NFC. System board: 80 variants, 4 shown (i5-1135G7). Antennas: last one is WWAN."
+  "pn_notes": "From the Lenovo parts lookup for type 20W8. Palmrest/top cover is the C-cover with US English backlit keyboard (first without WWAN, second with WWAN). Display assembly: WUXGA touch modules, then WQXGA; panel and bezel are not sold separately. Power button and fingerprint reader are one assembly. Touchpad: last two have NFC. System board: 80 variants, 4 shown (i5-1135G7). Antennas: last one is WWAN.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -23815,7 +23999,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x390/20q0/parts",
-  "pn_notes": "From the Lenovo parts lookup for type 20Q0. Keyboard: US English, first three backlit, last three non-backlit. Display panel: FHD non-touch, HD, then FHD touch. Display bezel is a bezel sheet (RGB, IR, MIC, then touch versions). Power button is the power PCB card; I/O board is the USB sub card. Palmrest: last three have fingerprint reader or ePrivacy. Display rear cover: PPS FHD, PPS HD, CFRP FHD, touch, ePrivacy. Antennas: first two WLAN, last two WWAN. System board: 140 variants, 4 shown. No complete display assembly FRU is listed."
+  "pn_notes": "From the Lenovo parts lookup for type 20Q0. Keyboard: US English, first three backlit, last three non-backlit. Display panel: FHD non-touch, HD, then FHD touch. Display bezel is a bezel sheet (RGB, IR, MIC, then touch versions). Power button is the power PCB card; I/O board is the USB sub card. Palmrest: last three have fingerprint reader or ePrivacy. Display rear cover: PPS FHD, PPS HD, CFRP FHD, touch, ePrivacy. Antennas: first two WLAN, last two WWAN. System board: 140 variants, 4 shown. No complete display assembly FRU is listed.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -23993,7 +24178,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x390-yoga/20nn/parts",
-  "pn_notes": "From the Lenovo parts lookup for type 20NN. Bottom cover and SIM tray: black, then silver. Palmrest/top cover is the C-cover with US English keyboard (first non-backlit, others backlit). Display assembly: FHD touch modules, last one with IR camera; panel and bezel are not sold separately. Fingerprint reader: last two are silver. Touchpad: last two silver. System board: 144 variants, 4 shown. Antennas: first two WLAN only, last two WLAN+WWAN."
+  "pn_notes": "From the Lenovo parts lookup for type 20NN. Bottom cover and SIM tray: black, then silver. Palmrest/top cover is the C-cover with US English keyboard (first non-backlit, others backlit). Display assembly: FHD touch modules, last one with IR camera; panel and bezel are not sold separately. Fingerprint reader: last two are silver. Touchpad: last two silver. System board: 144 variants, 4 shown. Antennas: first two WLAN only, last two WLAN+WWAN.",
+  "ram_configs": []
  },
  {
   "brand": "Lenovo",
@@ -24119,7 +24305,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/yoga-series/yoga-slim-7-13itl05/82cu/parts",
-  "pn_notes": "From the Lenovo parts lookup for type 82CU. Bottom cover and touchpad: Iron Grey, then Light Silver. Palmrest/top cover is the C-cover with US English backlit keyboard (first two Iron Grey, last two Light Silver). Display assembly: second is QHD touch glossy. System board: all 8 are i5-1135G7 or i7-1165G7 with 8 or 16 GB; 4 shown. Display panel and bezel are not sold separately."
+  "pn_notes": "From the Lenovo parts lookup for type 82CU. Bottom cover and touchpad: Iron Grey, then Light Silver. Palmrest/top cover is the C-cover with US English backlit keyboard (first two Iron Grey, last two Light Silver). Display assembly: second is QHD touch glossy. System board: all 8 are i5-1135G7 or i7-1165G7 with 8 or 16 GB; 4 shown. Display panel and bezel are not sold separately.",
+  "ram_configs": []
  },
  {
   "brand": "Metabox",
@@ -24195,7 +24382,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "low",
   "pn_source_url": "https://www.cdrtd.com/products/laptop-fan-heatsink-for-clevo-np50pnp-np55pnp-np60pnp-new.html",
-  "pn_notes": "Fan: Clevo CPU+GPU fan and heatsink module, from a parts seller listing that names the NP60PNP. Battery copied from the existing data. The Clevo service manual part list was only available as a low-resolution image, so no other numbers were confirmed."
+  "pn_notes": "Fan: Clevo CPU+GPU fan and heatsink module, from a parts seller listing that names the NP60PNP. Battery copied from the existing data. The Clevo service manual part list was only available as a low-resolution image, so no other numbers were confirmed.",
+  "ram_configs": []
  },
  {
   "brand": "Metabox",
@@ -24263,7 +24451,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "low",
   "pn_source_url": "https://www.cdrtd.com/products/laptop-battery-for-clevo-v150pnh-v150pnj-v150pnk-v150pnp-v155pnhq-v155pnjq-v155pnkq-v155pnpq-15-4v-3510mah-53-35wh-v157pnhq-v157pnjq-v157pnkq-v157pnpq-v158pnhq-v158pnjq-v158pnkq-v158pnpq.html",
-  "pn_notes": "Battery copied from the existing data. No Clevo part numbers for other V158PNP parts were found in a readable source."
+  "pn_notes": "Battery copied from the existing data. No Clevo part numbers for other V158PNP parts were found in a readable source.",
+  "ram_configs": []
  },
  {
   "brand": "Metabox",
@@ -24338,7 +24527,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "low",
   "pn_source_url": "https://www.cdrtd.com/products/laptop-cpu-gpu-fan-heatsink-for-clevo-nh77erq-nh77epy-nh79erq-nh79epy-4pin-new.html",
-  "pn_notes": "From parts seller listings that name the NH77ERQ. Heatsink: first is the CPU+GPU thermal module with fans, second is listed as the GPU fan and heatsink. Palmrest/top cover: one listing gives 6-39-NH771-022 in its title, so check the number on the old part. Battery copied from the existing data."
+  "pn_notes": "From parts seller listings that name the NH77ERQ. Heatsink: first is the CPU+GPU thermal module with fans, second is listed as the GPU fan and heatsink. Palmrest/top cover: one listing gives 6-39-NH771-022 in its title, so check the number on the old part. Battery copied from the existing data.",
+  "ram_configs": []
  },
  {
   "brand": "Metabox",
@@ -24413,7 +24603,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "low",
   "pn_source_url": "https://www.cdrtd.com/products/laptop-cpu-gpu-fan-heatsink-for-clevo-pc50hp-6-31-pc5h3-101-dfs5k22305283r-fmkk-dfs5k223052834-fmkl-4pin-dc5v-0-5a-new.html",
-  "pn_notes": "Heatsink: CPU+GPU thermal module with fans, listed for the PC50HP (same PC50 chassis family; fit on the PC50HR is not confirmed). Keyboard: US English non-backlit, listed for the PC50 series only. Battery copied from the existing data."
+  "pn_notes": "Heatsink: CPU+GPU thermal module with fans, listed for the PC50HP (same PC50 chassis family; fit on the PC50HR is not confirmed). Keyboard: US English non-backlit, listed for the PC50 series only. Battery copied from the existing data.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -24485,7 +24676,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "low",
   "pn_source_url": "https://www.ifixit.com/Teardown/Microsoft+Surface+Book+2+Teardown/100364",
-  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found."
+  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -24560,7 +24752,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "low",
   "pn_source_url": "https://www.ifixit.com/Device/Surface_Book_3",
-  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found. G3HTA065H is also listed in the existing data."
+  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found. G3HTA065H is also listed in the existing data.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -24646,7 +24839,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-3-and-4/surface-laptop-3-and-4-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list (models 1867 and 1868). SSD: 128 GB, 256 GB, 512 GB, 1 TB. Palmrest/top cover is the C-cover keyboard assembly with touchpad, US English (Americas/Asia): Black, Platinum, Cobalt Blue, Sandstone. Display assembly and feet: Black, Platinum, Cobalt Blue, Sandstone. The list gives no numbers for battery, fan, speakers, ports or system board."
+  "pn_notes": "From the Microsoft service parts list (models 1867 and 1868). SSD: 128 GB, 256 GB, 512 GB, 1 TB. Palmrest/top cover is the C-cover keyboard assembly with touchpad, US English (Americas/Asia): Black, Platinum, Cobalt Blue, Sandstone. Display assembly and feet: Black, Platinum, Cobalt Blue, Sandstone. The list gives no numbers for battery, fan, speakers, ports or system board.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -24733,7 +24927,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-3-and-4/surface-laptop-3-and-4-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list (13.5-inch models 1950, 1951, 1958, 1959). SSD: first three for 1950/1951 (256 GB, 512 GB, 1 TB), last three for 1958/1959 (128 GB, 256 GB, 512 GB). Palmrest/top cover is the C-cover keyboard with touchpad, US English: Black, Platinum, Sandstone, Ice Blue. Display assembly and feet: Black, Platinum, Sandstone, Ice Blue. The list gives no numbers for battery, fan, speakers, ports or system board."
+  "pn_notes": "From the Microsoft service parts list (13.5-inch models 1950, 1951, 1958, 1959). SSD: first three for 1950/1951 (256 GB, 512 GB, 1 TB), last three for 1958/1959 (128 GB, 256 GB, 512 GB). Palmrest/top cover is the C-cover keyboard with touchpad, US English: Black, Platinum, Sandstone, Ice Blue. Display assembly and feet: Black, Platinum, Sandstone, Ice Blue. The list gives no numbers for battery, fan, speakers, ports or system board.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -24843,7 +25038,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-5/surface-laptop-5-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list; CRU numbers shown (the FRU numbers differ, e.g. chassis U1L-00001). Bottom cover and battery are one part (chassis + battery): Platinum, Black, Sage, Sandstone. SSD: 256 GB, 512 GB. Fan is the thermal module with fan. DC-in is the Surflink port. Palmrest/top cover is the keyboard C-cover, US English: Platinum, Black, Sage, Sandstone. Display: Platinum, Black, Sage, Sandstone. System board: i5/8GB, i5/16GB, i7/16GB commercial CRUs, then consumer FRUs. No speaker number is listed."
+  "pn_notes": "From the Microsoft service parts list; CRU numbers shown (the FRU numbers differ, e.g. chassis U1L-00001). Bottom cover and battery are one part (chassis + battery): Platinum, Black, Sage, Sandstone. SSD: 256 GB, 512 GB. Fan is the thermal module with fan. DC-in is the Surflink port. Palmrest/top cover is the keyboard C-cover, US English: Platinum, Black, Sage, Sandstone. Display: Platinum, Black, Sage, Sandstone. System board: i5/8GB, i5/16GB, i7/16GB commercial CRUs, then consumer FRUs. No speaker number is listed.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -24948,7 +25144,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-6/surface-laptop-6-business-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list, 13.5-inch parts. Colour pairs are Platinum then Black. Bottom cover is the enclosure. Fan is the thermal module. Palmrest/top cover is the keyboard assembly with touchpad, US English (America/Asia). Display assembly includes the camera. DC-in is the Surface Connect port. System board: i5/8GB, i5/16GB, i5/32GB, i7/16GB, i7/32GB, i7/64GB. SSD: 256 GB, 512 GB, 1 TB."
+  "pn_notes": "From the Microsoft service parts list, 13.5-inch parts. Colour pairs are Platinum then Black. Bottom cover is the enclosure. Fan is the thermal module. Palmrest/top cover is the keyboard assembly with touchpad, US English (America/Asia). Display assembly includes the camera. DC-in is the Surface Connect port. System board: i5/8GB, i5/16GB, i5/32GB, i7/16GB, i7/32GB, i7/64GB. SSD: 256 GB, 512 GB, 1 TB.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25059,7 +25256,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-7-business/surface-laptop-7-business-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list, 13-inch (13.8-inch) parts. Colour pairs are Platinum then Black. Bottom cover is the enclosure. Battery, speakers, DC-in and feet: EP2 SKU first, then the substitute number. Speakers: left then right. Keyboard is the keyboard assembly with trackpad, English: Platinum, Black. Display assembly includes the camera. DC-in is the Surface Connect port. System board includes the thermal module: Ultra 5 16GB, Ultra 5 32GB, Ultra 7 16GB, Ultra 7 32GB."
+  "pn_notes": "From the Microsoft service parts list, 13-inch (13.8-inch) parts. Colour pairs are Platinum then Black. Bottom cover is the enclosure. Battery, speakers, DC-in and feet: EP2 SKU first, then the substitute number. Speakers: left then right. Keyboard is the keyboard assembly with trackpad, English: Platinum, Black. Display assembly includes the camera. DC-in is the Surface Connect port. System board includes the thermal module: Ultra 5 16GB, Ultra 5 32GB, Ultra 7 16GB, Ultra 7 32GB.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25164,7 +25362,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-laptop-studio/surface-laptop-studio-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list (model 1964). Pairs are FRU number then CRU number. Bottom cover and battery are one part (D-bucket + battery): FRU rest of world, FRU Americas, CRU Americas (the rest-of-world CRU number in the list duplicates the cosmetic plate CRU, so it is left out). SSD CRU numbers: 256 GB, 512 GB, 1 TB, 2 TB. Palmrest/top cover is the C-cover keyboard, English WW. DC-in is the Surflink port."
+  "pn_notes": "From the Microsoft service parts list (model 1964). Pairs are FRU number then CRU number. Bottom cover and battery are one part (D-bucket + battery): FRU rest of world, FRU Americas, CRU Americas (the rest-of-world CRU number in the list duplicates the cosmetic plate CRU, so it is left out). SSD CRU numbers: 256 GB, 512 GB, 1 TB, 2 TB. Palmrest/top cover is the C-cover keyboard, English WW. DC-in is the Surflink port.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25277,7 +25476,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro-11-and-pro-10-business/surface-pro-11-and-pro-10-business-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list, Surface Pro 10 for Business table. Colour pairs are Platinum then Graphite. Fan is the thermal module with fan. Camera: front, then rear. Power button part includes the volume buttons. DC-in is the Surface Connect port. System board: i5/8GB, i5/16GB, i5/32GB, i7/16GB, i7/32GB, i7/64GB. SSD: 256 GB, 512 GB, 1 TB."
+  "pn_notes": "From the Microsoft service parts list, Surface Pro 10 for Business table. Colour pairs are Platinum then Graphite. Fan is the thermal module with fan. Camera: front, then rear. Power button part includes the volume buttons. DC-in is the Surface Connect port. System board: i5/8GB, i5/16GB, i5/32GB, i7/16GB, i7/32GB, i7/64GB. SSD: 256 GB, 512 GB, 1 TB.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25342,7 +25542,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "low",
   "pn_source_url": "https://www.ifixit.com/Device/Microsoft_Surface_Pro_5",
-  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found."
+  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25407,7 +25608,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "low",
   "pn_source_url": "https://www.ifixit.com/Device/Microsoft_Surface_Pro_6",
-  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found."
+  "pn_notes": "Battery numbers copied from the existing data (cell maker model numbers). Microsoft publishes no service parts list for this model, so no other numbers were found.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25478,7 +25680,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro7-kickstand-replacement/surface-pro7-kickstand-replacement-device-information-and-service-parts",
-  "pn_notes": "Kickstand from the Microsoft service parts list: CRU Black, CRU Platinum, then FRU Black, FRU Platinum. Battery numbers copied from the existing data (cell maker model numbers). Microsoft lists no other Surface Pro 7 parts."
+  "pn_notes": "Kickstand from the Microsoft service parts list: CRU Black, CRU Platinum, then FRU Black, FRU Platinum. Battery numbers copied from the existing data (cell maker model numbers). Microsoft lists no other Surface Pro 7 parts.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25560,7 +25763,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro7-plus-business/surface-pro7-plus-business-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list; CRU numbers shown except the display. SSD: 128 GB, 256 GB, 512 GB, 1 TB (FRU numbers RPX-00004, RPZ-00005, RQG-00005, RPY-00003). Display assembly (TDM): Wi-Fi, then LTE. Kickstand: Black Wi-Fi, Platinum Wi-Fi, Platinum LTE. SSD door: Black, Platinum."
+  "pn_notes": "From the Microsoft service parts list; CRU numbers shown except the display. SSD: 128 GB, 256 GB, 512 GB, 1 TB (FRU numbers RPX-00004, RPZ-00005, RQG-00005, RPY-00003). Display assembly (TDM): Wi-Fi, then LTE. Kickstand: Black Wi-Fi, Platinum Wi-Fi, Platinum LTE. SSD door: Black, Platinum.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25648,7 +25852,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro8/surface-pro8-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list (models 1983 Wi-Fi and 1982 LTE). SSD CRU numbers: 128 GB, 256 GB, 512 GB, 1 TB. Fan is the thermal module: Wi-Fi, then LTE. Display assembly (TDM): FRU, then CRU. DC-in is the Surflink port. Kickstand CRU: Graphite Wi-Fi, Platinum Wi-Fi, Platinum LTE. SSD door CRU: Graphite, Platinum."
+  "pn_notes": "From the Microsoft service parts list (models 1983 Wi-Fi and 1982 LTE). SSD CRU numbers: 128 GB, 256 GB, 512 GB, 1 TB. Fan is the thermal module: Wi-Fi, then LTE. Display assembly (TDM): FRU, then CRU. DC-in is the Surflink port. Kickstand CRU: Graphite Wi-Fi, Platinum Wi-Fi, Platinum LTE. SSD door CRU: Graphite, Platinum.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25776,7 +25981,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro-9/surface-pro-9-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list. Pairs are CRU number then FRU number. Colour sets are Platinum, Graphite, Sapphire (Maya), Forest (Pine). SSD: 128 GB, 256 GB, 512 GB, 1 TB. Fan is the thermal module with fan. Speakers: right CRU, right FRU, left FRU. Camera: front, rear. Power button part includes the volume buttons. DC-in is the Surflink port. System board: 12 variants, 4 shown (i5 8GB, i5 16GB, i7 16GB, i7 32GB, all Nuvoton TPM). Enclosure is the back cover/chassis."
+  "pn_notes": "From the Microsoft service parts list. Pairs are CRU number then FRU number. Colour sets are Platinum, Graphite, Sapphire (Maya), Forest (Pine). SSD: 128 GB, 256 GB, 512 GB, 1 TB. Fan is the thermal module with fan. Speakers: right CRU, right FRU, left FRU. Camera: front, rear. Power button part includes the volume buttons. DC-in is the Surflink port. System board: 12 variants, 4 shown (i5 8GB, i5 16GB, i7 16GB, i7 32GB, all Nuvoton TPM). Enclosure is the back cover/chassis.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25894,7 +26100,8 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-pro9-5g/surface-pro9-5g-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list. Pairs are CRU number then FRU number. SSD: 128 GB, 256 GB, 512 GB. Heatsink is the thermal module. Camera: front, rear. Power button part includes the volume buttons. DC-in is the Surflink port. System board CRUs: SQ3 16GB mmWave, 8GB mmWave, 16GB Sub6, 8GB Sub6. Kickstand: Sub6, mmWave. Enclosure is the back cover/chassis."
+  "pn_notes": "From the Microsoft service parts list. Pairs are CRU number then FRU number. SSD: 128 GB, 256 GB, 512 GB. Heatsink is the thermal module. Camera: front, rear. Power button part includes the volume buttons. DC-in is the Surflink port. System board CRUs: SQ3 16GB mmWave, 8GB mmWave, 16GB Sub6, 8GB Sub6. Kickstand: Sub6, mmWave. Enclosure is the back cover/chassis.",
+  "ram_configs": []
  },
  {
   "brand": "Microsoft",
@@ -25974,6 +26181,7 @@ window.BATTERIES = [
   },
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-prox/surface-prox-device-information-and-service-parts",
-  "pn_notes": "From the Microsoft service parts list (model 1876). CRU numbers shown except the display. SSD: first three for SQ1 (128, 256, 512 GB), last two for SQ2 (256, 512 GB). Kickstand: Black SQ1, Black SQ2, Platinum SQ2. SSD door: Black, Platinum."
+  "pn_notes": "From the Microsoft service parts list (model 1876). CRU numbers shown except the display. SSD: first three for SQ1 (128, 256, 512 GB), last two for SQ2 (256, 512 GB). Kickstand: Black SQ1, Black SQ2, Platinum SQ2. SSD door: Black, Platinum.",
+  "ram_configs": []
  }
 ];

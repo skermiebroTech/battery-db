@@ -39,6 +39,7 @@ The URL hash keeps the search, so you can share a link such as `#q=latitude%2074
    | `ram_type` | Memory type, for example `DDR4-3200 SO-DIMM` or `LPDDR5 (soldered)` |
    | `ram_slots` | Number of memory slots the user can reach (`0` if none) |
    | `ram_max` | Maximum RAM the maker supports, for example `64 GB` |
+   | `ram_configs` | Memory configurations the maker supports, smallest first, separated by `; `, for example `8 GB (1x8 GB); 16 GB (2x8 GB)`. Soldered RAM lists sizes only, for example `8 GB; 16 GB` |
    | `ram_confidence` | `high`, `medium`, or `low` |
    | `ram_source_url` | Page that gave the memory data |
    | `ram_notes` | Configurations that differ, for example soldered RAM on some SKUs |
