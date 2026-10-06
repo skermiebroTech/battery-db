@@ -14,7 +14,7 @@
   function hay(r) {
     return [r.brand, r.model, ...(r.alias || []), ...(r.part_numbers || []), ...(r.battery_type || []),
       ...(r.charger_part_numbers || []), r.charger_connector || "", r.charger_watts ? r.charger_watts + "W" : "",
-      r.ram_type || "", RAM_LABEL[r.ram_upgradable] ? RAM_LABEL[r.ram_upgradable] + " RAM" : "",
+      r.ram_type || "", ...(r.ram_configs || []), RAM_LABEL[r.ram_upgradable] ? RAM_LABEL[r.ram_upgradable] + " RAM" : "",
       r.storage_type || "", r.wifi_type || "", r.gpu || "", r.wwan === "yes" ? "WWAN 4G 5G LTE" : "", r.replaceable_parts || "", ...Object.values(r.replaceable_part_numbers || {}).flat()].join(" ");
   }
   // Every token must appear somewhere (with punctuation and spaces ignored, so "x1carbon" and "cc03 xl" both work).
@@ -100,6 +100,7 @@
     const slots = r.ram_slots === 0 ? "no slots" : r.ram_slots ? `${r.ram_slots} slot${r.ram_slots === 1 ? "" : "s"}` : "";
     const rows = [
       ["RAM", [r.ram_type, slots].filter(Boolean).join(" · ")],
+      ["RAM configs", (r.ram_configs || []).join(" · ")],
       ["Storage", r.storage_type], ["Wi-Fi", r.wifi_type], ["WWAN", r.wwan_notes], ["GPU", r.gpu],
     ].filter(([, v]) => v);
     const pns = r.replaceable_part_numbers || {};
