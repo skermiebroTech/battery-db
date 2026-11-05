@@ -2157,6 +2157,281 @@ window.BATTERIES = [
   "pn_notes": "Parts seller listing with Apple part numbers. Colour sets are space gray, silver, gold (audio board: space gray/gold, then silver). System board: 4 of many variants."
  },
  {
+  "brand": "ASUS",
+  "model": "ZenBook 14 UX425EA (2020, 14 in, 11th Gen Intel)",
+  "alias": [
+   "ZenBook UX425EA_UX425EA",
+   "Zenbook 14 UX425EA",
+   "UX425EA",
+   "ZenBook 14 UX425"
+  ],
+  "battery_type": [
+   "C41N1904"
+  ],
+  "part_numbers": [
+   "C41N1904",
+   "C41N1904-1",
+   "0B200-03660000"
+  ],
+  "wh": 67,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://www.ipc-computer.eu/asus/notebook/zenbook-serie/zenbook-14-ux425ea/",
+  "notes": "4-cell 67 Wh 15.48 V Li-polymer. IPC lists an original 67 Wh pack for the UX425EA but shows no code. The code C41N1904 (0B200-03660000) is from several seller listings. Shared with ZenBook 13 UX325 and UM425.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "20V 3.25A",
+  "charger_part_numbers": [],
+  "charger_confidence": "high",
+  "charger_source_url": "https://asus.com/ar/laptops/for-home/zenbook/zenbook-14-ux425-11th-gen-intel/techspec",
+  "charger_notes": "ASUS spec page: 65 W USB-C adapter, 20 V output. IPC sells original 65 W USB-C adapters for this model but the pages checked do not give an ASUS part number for the UX425EA.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR4X-4266 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://asus.com/ar/laptops/for-home/zenbook/zenbook-14-ux425-11th-gen-intel/techspec",
+  "ram_notes": "8, 16 or 32 GB on board; choose at purchase. Core i3 models run at 3733 MHz. Geeknetic review confirms the RAM is soldered.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 PCIe 3.0 x2 NVMe",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel Wi-Fi 6 (AX201)",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "Integrated Intel Iris Xe (UHD on Core i3)",
+  "gpu_upgradable": "no",
+  "parts_confidence": "medium",
+  "parts_source_url": "https://www.geeknetic.es/Review/2029/ASUS-Zenbook-14-UX425EA-Review.html",
+  "parts_notes": "Geeknetic says the Wi-Fi card is soldered to the main board and the SSD is in its own M.2 slot. ASUS lists PCIe 3.0 x2; some configs use Intel Optane H10. The exact Wi-Fi chip (AX201) is assumed from the Tiger Lake platform; ASUS only says Intel Wi-Fi 6.",
+  "replaceable_parts": "Bottom cover; Battery; Speakers; SSD; Fan; Heatsink; I/O board; Palmrest/top cover with keyboard; Display panel; Display bezel; Camera; Display back cover; Touchpad; System board",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://www.manualslib.com/manual/3536066/Asus-Ux425ea.html",
+  "repair_confidence": "medium",
+  "repair_notes": "From the ASUS UX425EA disassembly guide (manualslib copy, excerpts only) and IPC parts lists. IPC sells the keyboard only with the top case. The Thunderbolt 4 / USB-C charge ports are on the main board; the guide shows no separate DC board. RAM and Wi-Fi are soldered.",
+  "replaceable_part_numbers": {},
+  "pn_confidence": "",
+  "pn_source_url": "",
+  "pn_notes": "No ASUS part numbers found on a loaded page apart from the battery code."
+ },
+ {
+  "brand": "ASUS",
+  "model": "Zenbook 14 OLED UX3405MA (2024, 14 in, Core Ultra)",
+  "alias": [
+   "ASUS Zenbook 14 UX3405MA_UX3405MA",
+   "Zenbook 14 OLED UX3405MA",
+   "UX3405MA",
+   "Zenbook 14 OLED UX3405",
+   "Q425MA"
+  ],
+  "battery_type": [
+   "C22N2211"
+  ],
+  "part_numbers": [
+   "C22N2211",
+   "0B200-04400000"
+  ],
+  "wh": 75,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://laptopbatteryexpress.com/Asus-C22N2211-Battery-for-ZenBook-14-UX3405MA-p/asus-c22n2211.htm",
+  "notes": "75 Wh 7.7 V Li-polymer, 2S2P (4 cells, cell pack 2ICP5/49/120-2). Shop lists C22N2211 = 0B200-04400000 for UX3405MA and Q425MA. ASUS spec page confirms 75 Wh 4-cell 2S2P.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "20V 3.25A",
+  "charger_part_numbers": [],
+  "charger_confidence": "high",
+  "charger_source_url": "https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/techspec/",
+  "charger_notes": "ASUS spec page: 65 W USB-C adapter, 20 V 3.25 A. ASUS says some regions ship without an adapter. No ASUS adapter part number found.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR5X-7467 (soldered); LPDDR5 on 8 GB models",
+  "ram_slots": 0,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/techspec/",
+  "ram_notes": "8, 16 or 32 GB on board; choose at purchase. Speed 7467 MT/s from the Notebookcheck review.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 4.0 x4 NVMe (single-sided only)",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX211 (Wi-Fi 6E); some SKUs list Wi-Fi 7",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "Integrated Intel Arc (Intel Graphics on Core Ultra 5 or single-channel memory)",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://www.notebookcheck.net/Asus-Zenbook-14-OLED-review-The-1-2-kg-subnotebook-with-120-Hz-OLED-and-Core-Ultra-7.805236.0.html",
+  "parts_notes": "Notebookcheck says the RAM and WLAN modules are soldered on. ASUS lists Wi-Fi 6E or Wi-Fi 7 options without a model mapping.",
+  "replaceable_parts": "Bottom cover; Battery; SSD; Fan",
+  "keyboard": "",
+  "screen": "",
+  "charge_port": "",
+  "fan": "",
+  "service_manual_url": "",
+  "repair_confidence": "low",
+  "repair_notes": "No ASUS service manual found. Notebookcheck says the bottom cover uses Torx screws with no hidden screws, and that the fan, M.2 2280 SSD and battery are reachable. Keyboard, screen, charge port and fan part structure not confirmed.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "0B200-04400000"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://laptopbatteryexpress.com/Asus-C22N2211-Battery-for-ZenBook-14-UX3405MA-p/asus-c22n2211.htm",
+  "pn_notes": "Only the battery part number was found."
+ },
+ {
+  "brand": "ASUS",
+  "model": "Zenbook 14X OLED UX3404VC (2023, 14.5 in)",
+  "alias": [
+   "Zenbook UX3404VC_UX3404VC",
+   "Zenbook 14X OLED UX3404VC",
+   "UX3404VC",
+   "Zenbook 14X OLED UX3404"
+  ],
+  "battery_type": [
+   "C31N2105"
+  ],
+  "part_numbers": [
+   "C31N2105",
+   "0B200-04140000"
+  ],
+  "wh": 70,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.sparepartworld.com/laptop-spare-parts/batteries/battery-0b200-04140000-102145774",
+  "notes": "3-cell 70 Wh 11.61 V Li-polymer (3ICP6/70/81). Sparepartworld lists the original ASUS 0B200-04140000 for the ZenBook 14X OLED UX3404VC. The code C31N2105 is from seller listings.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 90,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V (20V 4.5A)",
+  "charger_part_numbers": [],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://press.asus.com/news/press-releases/3355",
+  "charger_notes": "ASUS press release lists a 90 W or 100 W USB-C adapter, depending on config. Notebookcheck tested a 90 W adapter; both Thunderbolt 4 ports charge. The 20V 4.5A figure is calculated from 90 W. No ASUS adapter part number found.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR5-4800 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://press.asus.com/news/press-releases/3355",
+  "ram_notes": "16 or 32 GB on board; choose at purchase. Notebookcheck confirms the RAM is soldered.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 4.0 x4 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 (Wi-Fi 6E; M.2 2230 CNVi; replace only with another CNVi card)",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "NVIDIA GeForce RTX 3050 4 GB (UX3404VC); Intel Iris Xe on UX3404VA",
+  "gpu_upgradable": "no",
+  "parts_confidence": "medium",
+  "parts_source_url": "https://www.notebookcheck.net/Asus-ZenBook-14X-2023-laptop-review-OLED-ultrabook-at-its-limit.726779.0.html",
+  "parts_notes": "Notebookcheck says the SSD, the AX211 Wi-Fi module and the battery can be replaced. The M.2 2230 CNVi form factor is assumed for the AX211, not stated.",
+  "replaceable_parts": "Bottom cover; Battery; SSD; Wi-Fi card; Fan",
+  "keyboard": "",
+  "screen": "",
+  "charge_port": "",
+  "fan": "",
+  "service_manual_url": "",
+  "repair_confidence": "low",
+  "repair_notes": "No ASUS service manual found. Notebookcheck: nine screws hold the bottom cover; one fan (the previous model had two). Keyboard, screen, charge port and fan part structure not confirmed.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "0B200-04140000"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.sparepartworld.com/laptop-spare-parts/batteries/battery-0b200-04140000-102145774",
+  "pn_notes": "Only the battery part number was found."
+ },
+ {
+  "brand": "ASUS",
+  "model": "ROG Zephyrus G14 GA401IV (2020, 14 in)",
+  "alias": [
+   "ROG Zephyrus G14 GA401IV_GA401IV",
+   "Zephyrus G14 GA401IV",
+   "GA401IV",
+   "ROG Zephyrus G14 (2020)",
+   "GA401"
+  ],
+  "battery_type": [
+   "C41N1908"
+  ],
+  "part_numbers": [
+   "C41N1908",
+   "C41PQ05"
+  ],
+  "wh": 76,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://www.sparepartworld.com/laptop-spare-parts/batteries/battery-c41pq05-70631880",
+  "notes": "4-cell 76 Wh 15.4 V Li-polymer (4ICP4/59/134). Sparepartworld lists original C41PQ05 with substitute C41N1908; GA401IV is in its model list. Seller listings also give 0B200-03610000. Same pack for GA401II/IU/IH and 2021 GA401Q.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 180,
+  "charger_connector": "ASUS 6.0mm barrel",
+  "charger_output": "20V 9A",
+  "charger_part_numbers": [
+   "0A001-00263200",
+   "ADP-180TB H"
+  ],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://www.sparepartworld.com/laptop-spare-parts/ac-adapters/adapter-0a001-00263200-103319993",
+  "charger_notes": "Sparepartworld lists 0A001-00263200 (180 W, 6.0 x 3.7 mm with pin, angled) for the GA401IV. Substitutes: 0A001-00262600, 0A001-00264400, 0A001-00265200 and others. The model name ADP-180TB H is from seller listings. The left USB-C port also charges at up to 65 W (Ultrabookreview).",
+  "ram_upgradable": "partial",
+  "ram_type": "DDR4-3200 (8 or 16 GB soldered + SO-DIMM)",
+  "ram_slots": 1,
+  "ram_max": "40 GB",
+  "ram_configs": [],
+  "ram_confidence": "medium",
+  "ram_source_url": "https://www.ultrabookreview.com/36081-asus-rog-zephyrus-g14-ga401iv-review",
+  "ram_notes": "8 GB or 16 GB is soldered; one SO-DIMM slot. Ultrabookreview says the slot takes a 32 GB module (40 GB total) but did not test it. ASUS lists lower official maximums on some SKUs.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 3.0 x4 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX200 (M.2 2230)",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "NVIDIA GeForce RTX 2060 Max-Q 6 GB",
+  "gpu_upgradable": "no",
+  "parts_confidence": "medium",
+  "parts_source_url": "https://www.ultrabookreview.com/36081-asus-rog-zephyrus-g14-ga401iv-review",
+  "parts_notes": "Ultrabookreview names the Intel AX200 and one M.2 PCIe x4 slot. IPC sells a WIFI6 AX + BT5.0 M.2 2230 card as a GA401IV part. PCIe 3.0 is from the Ryzen 4000 platform, not from the review.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card; CPU fan; GPU fan; Keyboard; Display panel; Display assembly; Display back cover; System board; Antennas",
+  "keyboard": "",
+  "screen": "panel",
+  "charge_port": "",
+  "fan": "separate",
+  "service_manual_url": "",
+  "repair_confidence": "low",
+  "repair_notes": "No ASUS service manual for the GA401IV found. Parts list from IPC/Sparepartworld GA401IV pages. CPU and GPU fans are sold separately. IPC sells the keyboard as an order-related module; it is not clear if it includes the top case. IPC lists no separate DC-in part, only a DC jack repair service.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "C41N1908",
+    "C41PQ05"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.ipc-computer.eu/asus/notebook/rog-gaming-serie/rog-zephyrus-g14-ga401iv/",
+  "pn_notes": "IPC and Sparepartworld show ASUS model codes (for example GA401IV-1D K/B module, GA401IV MB 16G/R7-4800HS) but no ASUS 90NR/13N part numbers."
+ },
+ {
   "brand": "Dell",
   "model": "Inspiron 13 5330 (2023)",
   "alias": [],
@@ -9442,6 +9717,1004 @@ window.BATTERIES = [
   "pn_notes": "Parts seller data. Palmrest (shared with XPS 15 9520) includes keyboard and touchpad, US International. LED board is the status LED with cable."
  },
  {
+  "brand": "Dell",
+  "model": "Vostro 14 5402",
+  "alias": [
+   "Vostro 5402",
+   "Vostro 14 5402",
+   "P130G"
+  ],
+  "battery_type": [
+   "JK6Y6",
+   "H5CKD"
+  ],
+  "part_numbers": [
+   "JK6Y6",
+   "H5CKD"
+  ],
+  "wh": 40,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.parts-people.com/index.php?action=category&id=145&subid=1456",
+  "notes": "Dell spec guide lists 40 Wh 3-cell 11.25 V or 53 Wh 4-cell 15 V. JK6Y6 = 40 Wh 3-cell; H5CKD = 53 Wh 4-cell. Parts-People lists H5CKD for this model; JK6Y6 from seller listings and the shared Inspiron 5402 / Latitude 3510 chassis.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Dell 4.5mm barrel",
+  "charger_output": "19.5V 3.34A",
+  "charger_part_numbers": [
+   "LA65NS2-01",
+   "HA65NS5-00",
+   "0MGJN9",
+   "G6J41"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://dl.dell.com/topicspdf/vostro-14-5402-laptop_Owners-Manual_en-us.pdf",
+  "charger_notes": "Dell spec guide lists 45 W (19.5V 2.31A) and 65 W barrel adapters, both 4.5 mm x 2.9 mm. G6J41 from Parts-People; other part numbers from own knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-3200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/topicspdf/vostro-14-5402-laptop_Owners-Manual_en-us.pdf",
+  "ram_notes": "",
+  "storage_upgradable": "yes",
+  "storage_slots": 2,
+  "storage_type": "M.2 2230/2280 PCIe 3.0 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX201 or Wireless-AC 9462 (M.2 2230 CNVi), or Qualcomm QCA61x4A (M.2 2230)",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "Integrated Intel Iris Xe or UHD, or NVIDIA GeForce MX330/MX350 on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/topicspdf/vostro-14-5402-laptop_Owners-Manual_en-us.pdf",
+  "parts_notes": "Slot two takes NVMe, SATA or Optane H10. The service manual shows the second SSD slot only on discrete-graphics models. Intel CNVi cards take only other CNVi cards.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; DC-in / charge port; I/O board; Power button (with optional fingerprint reader); System board",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "separate",
+  "fan": "separate",
+  "service_manual_url": "https://dl.dell.com/content/manual34255007-vostro-5402-service-manual.pdf?language=en-us",
+  "repair_confidence": "high",
+  "repair_notes": "The keyboard comes only with the palm-rest assembly. The fan and the heat sink are separate parts. The DC-in port is a separate part. Speakers differ for 3-cell and 4-cell battery configs.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "JK6Y6",
+    "H5CKD"
+   ],
+   "Fan": [
+    "R6YTH"
+   ],
+   "Heatsink": [
+    "G5K92"
+   ],
+   "Speakers": [
+    "D8DXF",
+    "HGJYH"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "NRT55"
+   ],
+   "Display assembly": [
+    "8036X",
+    "71N49"
+   ],
+   "Power button": [
+    "M84KW"
+   ],
+   "System board": [
+    "H2F8K"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=145&subid=1456",
+  "pn_notes": "Speakers: D8DXF for 3-cell, HGJYH for 4-cell battery configs. Heatsink G5K92 is for discrete NVIDIA graphics. Palmrest NRT55 is a Spanish backlit layout. System board H2F8K is one i7 / NVIDIA variant of many. Parts-People also sells bare LCD panels (VP088, 2X30K, 340K9 FHD; 5XTCG HD), but the service manual covers only the full display assembly."
+ },
+ {
+  "brand": "Dell",
+  "model": "Alienware m18 R2",
+  "alias": [
+   "Alienware m18 R2",
+   "AW m18 R2",
+   "P51E"
+  ],
+  "battery_type": [
+   "9JRV0"
+  ],
+  "part_numbers": [
+   "9JRV0"
+  ],
+  "wh": 97,
+  "cells": 6,
+  "confidence": "medium",
+  "source_url": "https://www.parts-people.com/index.php?action=item&id=37278",
+  "notes": "Dell owner's manual lists one battery: 6-cell 97 Wh 11.4 V. Parts-People sells 9JRV0 for this model (also listed for Latitude 5521 / Precision 3561 97 Wh).",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 280,
+  "charger_connector": "Dell 7.4mm barrel",
+  "charger_output": "19.5V 14.36A",
+  "charger_part_numbers": [],
+  "charger_confidence": "high",
+  "charger_source_url": "https://dl.dell.com/content/manual20794954-alienware-m18-r2-owner-s-manual.pdf?language=en-us",
+  "charger_notes": "Dell manual lists a 280 W adapter and a 360 W small form factor adapter (19.5V 18.46A), both 7.4 mm x 5.1 mm. Adapter part numbers not found.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR5-5600 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/content/manual20794954-alienware-m18-r2-owner-s-manual.pdf?language=en-us",
+  "ram_notes": "Dell lists 5200, 5600 and 6000 MT/s (XMP) configs.",
+  "storage_upgradable": "yes",
+  "storage_slots": 4,
+  "storage_type": "M.2 2230/2280 PCIe 4.0 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel Killer AX1675i (Wi-Fi 6E) or Killer BE1750x (Wi-Fi 7), M.2 card",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "NVIDIA GeForce RTX 4060, 4070, 4080 or 4090, plus integrated Intel UHD",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/content/manual20794954-alienware-m18-r2-owner-s-manual.pdf?language=en-us",
+  "parts_notes": "RTX 4080/4090 models have four SSD slots (two M.2 2280 and two M.2 2230). RTX 4060/4070 models have two slots. RAID is supported.",
+  "replaceable_parts": "Bottom cover; RAM; SSD; Wi-Fi card; Fan; Fan/heatsink assembly; Heatsink; Speakers; Rear I/O cover; Battery; Keyboard controller board; USB-C board; Touchpad; DC-in / charge port; Display assembly; System board; Power button; Antennas; I/O board; Audio board; Palmrest/top cover with keyboard",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "separate",
+  "fan": "heatsink",
+  "service_manual_url": "https://dl.dell.com/content/manual20794954-alienware-m18-r2-owner-s-manual.pdf?language=en-us",
+  "repair_confidence": "high",
+  "repair_notes": "The owner's manual holds the removal steps. The keyboard comes only with the palm-rest assembly. The main fans are part of the fan and heat-sink assembly; one small fan is a separate part. The 7.4 mm power-adapter port is a separate part.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "9JRV0"
+   ],
+   "Keyboard controller board": [
+    "MV1J2"
+   ],
+   "USB-C board": [
+    "XXD7H"
+   ],
+   "I/O board": [
+    "1CNT5"
+   ],
+   "Speakers": [
+    "NWY5V"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=151&subid=1707",
+  "pn_notes": "I/O board 1CNT5 is the rear-port board. Keyboard controller board MV1J2 is for the RGB per-key keyboard. Most parts are shared with the m18 R1."
+ },
+ {
+  "brand": "Dell",
+  "model": "Inspiron 14 5406 2-in-1",
+  "alias": [
+   "Inspiron 5406 2n1",
+   "Inspiron 14 5406 2-in-1",
+   "Inspiron 5406 2-in-1",
+   "P126G"
+  ],
+  "battery_type": [
+   "JK6Y6",
+   "H5CKD"
+  ],
+  "part_numbers": [
+   "JK6Y6",
+   "H5CKD"
+  ],
+  "wh": 40,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1448",
+  "notes": "Dell setup guide lists 40 Wh 3-cell 11.4 V or 53 Wh 4-cell 15.2 V. JK6Y6 = 40 Wh 3-cell; H5CKD = 53 Wh 4-cell. Parts-People lists H5CKD for this model; JK6Y6 from seller listings.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 45,
+  "charger_connector": "Dell 4.5mm barrel",
+  "charger_output": "19.5V 2.31A",
+  "charger_part_numbers": [
+   "LA45NM140",
+   "HA45NM140",
+   "0KXTTW",
+   "G6J41"
+  ],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://dl.dell.com/topicspdf/inspiron-14-5406-2-in-1-laptop_users-guide_en-us.pdf",
+  "charger_notes": "Dell lists 45 W and 65 W (19.5V 3.34A) barrel adapters, 4.5 mm x 2.9 mm. Retail listings show 45 W; MX330 models likely ship with 65 W. G6J41 (65 W) from Parts-People; 45 W part numbers from own knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-3200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "16 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/topicspdf/inspiron-14-5406-2-in-1-laptop_users-guide_en-us.pdf",
+  "ram_notes": "Dell lists 16 GB as the maximum (2 x 8 GB).",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2230/2280 PCIe 3.0 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX201, 9560 or 9462 (M.2 2230 CNVi)",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "Integrated Intel Iris Xe or UHD, or NVIDIA GeForce MX330 on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/topicspdf/inspiron-14-5406-2-in-1-laptop_users-guide_en-us.pdf",
+  "parts_notes": "Optane H10 (M.2 2280) was an option. Intel CNVi cards take only other CNVi cards.",
+  "replaceable_parts": "Bottom cover; Battery; Coin-cell battery; RAM; Speakers; Heatsink; DC-in / charge port; Touchpad; SSD; Fan; I/O board; Power button board; Display assembly; System board; Palmrest/top cover with keyboard",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "separate",
+  "fan": "separate",
+  "service_manual_url": "https://dl.dell.com/content/manual31913329-inspiron-5406-2-in-1-service-manual.pdf?language=en-us",
+  "repair_confidence": "high",
+  "repair_notes": "The keyboard comes only with the palm-rest assembly. The touch display is sold only as an assembly. The DC-in port is a separate part. The service manual shows the Wi-Fi card on the system board but gives no removal procedure for it.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "JK6Y6",
+    "H5CKD"
+   ],
+   "Fan": [
+    "CHNHW"
+   ],
+   "Heatsink": [
+    "CGN5K"
+   ],
+   "Speakers": [
+    "3CNDP",
+    "NGP13"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "VJ41D",
+    "1GCR9",
+    "50JD3",
+    "RWMVT",
+    "JPNMD",
+    "YHRXY"
+   ],
+   "Power button board": [
+    "20GJH"
+   ],
+   "System board": [
+    "FW6F0",
+    "VMRNH"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=141&subid=1448",
+  "pn_notes": "Palmrest: VJ41D and 1GCR9 US backlit; 50JD3 and RWMVT US-International backlit; JPNMD Spanish non-backlit; YHRXY Spanish backlit. Fan and heatsink are for integrated graphics (UMA). System board: FW6F0 Core i5, VMRNH Core i7."
+ },
+ {
+  "brand": "Dell",
+  "model": "Latitude 15 3550 (2024)",
+  "alias": [
+   "Latitude 3550",
+   "Latitude 15 3550",
+   "P170G"
+  ],
+  "battery_type": [
+   "GRWKG",
+   "DR02P"
+  ],
+  "part_numbers": [
+   "GRWKG",
+   "JTG7N",
+   "DR02P",
+   "R73TC"
+  ],
+  "wh": 42,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1729",
+  "notes": "This is the 2024 model (P170G), not the 2015 Latitude 3550 (P38F). Dell manual lists 3-cell 42 Wh or 54 Wh, 11.4 V. GRWKG / JTG7N = 42 Wh (Parts-People). DR02P / R73TC = 54 Wh, from the sister Latitude 5450 data; not checked for this model.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "JJ12F",
+   "2WDR5",
+   "G6J41"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://dl.dell.com/content/manual19640705-latitude-3550-owner-s-manual.pdf?language=en-us",
+  "charger_notes": "Dell manual lists 60 W USB-C (Japan), 65 W 4.5 mm barrel (19.5V 3.34A), 65 W USB-C and 100 W USB-C. The laptop has both a 4.5 mm DC-in port and USB-C charging. JJ12F / 2WDR5 (65 W USB-C) and G6J41 (65 W barrel) from Parts-People.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR5-5600 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/content/manual19640705-latitude-3550-owner-s-manual.pdf?language=en-us",
+  "ram_notes": "13th Gen Core models run the memory at 5200 MT/s.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2230 PCIe 4.0 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 (M.2 2230 CNVi) or Realtek RTL8852BE (M.2 2230)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option only (DW5825e 4G LTE, M.2 3042 Key-B); needs the WWAN antennas and SIM slot that ship on WWAN-ready configs.",
+  "gpu": "Integrated Intel Graphics (Core Ultra) or Iris Xe/UHD (13th Gen), or NVIDIA GeForce MX570A on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/content/manual19640705-latitude-3550-owner-s-manual.pdf?language=en-us",
+  "parts_notes": "Only M.2 2230 SSDs fit.",
+  "replaceable_parts": "Bottom cover; RAM; Wi-Fi card; WWAN card; Coin-cell battery; Speakers; SSD; Fan; Battery; Battery cable; DC-in / charge port; Heatsink; Touchpad; I/O board; Power button; System board; Palmrest/top cover with keyboard; Display assembly; Display bezel; Display panel; Camera; Display cable; Display back cover",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "separate",
+  "fan": "separate",
+  "service_manual_url": "https://dl.dell.com/content/manual19640705-latitude-3550-owner-s-manual.pdf?language=en-us",
+  "repair_confidence": "high",
+  "repair_notes": "The owner's manual holds the removal steps. The keyboard comes only with the palm-rest assembly. The 4.5 mm DC-in port is a separate part; the USB-C port is on the system board. The fan and the heat sink are separate parts.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "GRWKG",
+    "JTG7N"
+   ],
+   "Wi-Fi card": [
+    "G83J7",
+    "16V6W"
+   ],
+   "Heatsink": [
+    "N52PP"
+   ],
+   "DC-in / charge port": [
+    "0R2W9"
+   ],
+   "Camera": [
+    "997FY",
+    "XYXJ2"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1729",
+  "pn_notes": "Wi-Fi card: G83J7 Intel AX211, 16V6W Realtek RTL8852BE. Heatsink N52PP is for integrated graphics (UMA). Dell part numbers from parts-people.com listings; some parts are shared with sister models."
+ },
+ {
+  "brand": "Dell",
+  "model": "Latitude 5421",
+  "alias": [
+   "Latitude 5421",
+   "Latitude 14 5421",
+   "P137G"
+  ],
+  "battery_type": [
+   "GRT01"
+  ],
+  "part_numbers": [
+   "GRT01"
+  ],
+  "wh": 64,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1515",
+  "notes": "Dell spec guide lists only a 4-cell 64 Wh 15.2 V battery (standard or Long Cycle Life). GRT01 from Parts-People; shared with Latitude 5521 and Precision 3561.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 90,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 4.5A (20V 4.5A)",
+  "charger_part_numbers": [
+   "LA90PM170",
+   "HA90PM170",
+   "K00F5"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://dl.dell.com/content/manual35367480-latitude-5421-setup-and-specifications.pdf?language=en-us",
+  "charger_notes": "Dell lists 90 W USB-C (UMA models only) and 130 W USB-C (20V 6.5A) for MX450 models. K00F5 (130 W) from Parts-People; 90 W part numbers from own knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-3200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/content/manual35367480-latitude-5421-setup-and-specifications.pdf?language=en-us",
+  "ram_notes": "",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2230/2280 PCIe 3.0/4.0 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX201 (M.2 2230 CNVi), Intel AX210 or Qualcomm QCA61x4A (M.2 2230)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option only (Intel XMM 7360 LTE, DW5820e, M.2 3042); needs the WWAN antennas and SIM slot that ship on WWAN-ready configs.",
+  "gpu": "Integrated Intel Iris Xe/UHD (11th Gen H-series), or NVIDIA GeForce MX450 on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/content/manual35367480-latitude-5421-setup-and-specifications.pdf?language=en-us",
+  "parts_notes": "Uses 11th Gen Intel H-series CPUs.",
+  "replaceable_parts": "SIM tray; Bottom cover; Wi-Fi card; WWAN card; SSD; RAM; Battery; Battery cable; LED board; Fan/heatsink assembly; Speakers; System board; Power button; Smart card reader; Coin-cell battery; Keyboard; Display assembly; Display bezel; Display panel; Camera; Display cable; Sensor board; Hinges; Display back cover; Palmrest/top cover",
+  "keyboard": "separate",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "heatsink",
+  "service_manual_url": "https://dl.dell.com/content/manual19233044-latitude-5421-service-manual.pdf?language=en-us",
+  "repair_confidence": "high",
+  "repair_notes": "The fan comes only as part of the heat-sink and fan assembly (UMA and discrete versions). Charging is through the USB-C ports on the system board.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "GRT01"
+   ],
+   "Fan/heatsink assembly": [
+    "3FGFF"
+   ],
+   "Speakers": [
+    "W3929"
+   ],
+   "Keyboard": [
+    "MF1DR",
+    "CW3R5",
+    "MV4X8",
+    "8MJ5F"
+   ],
+   "Display panel": [
+    "GC2FN",
+    "CYHFW"
+   ],
+   "Display cable": [
+    "VPHFP",
+    "WN8JV"
+   ],
+   "LED board": [
+    "H4YYK",
+    "1G1MX"
+   ],
+   "Power button": [
+    "8W7TH"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1515",
+  "pn_notes": "Keyboard: CW3R5, MV4X8 backlit; MF1DR US-International; 8MJ5F not marked backlit. Heatsink 3FGFF is for integrated graphics (UMA). Display cable: VPHFP IR cam, WN8JV HD cam. Power button 8W7TH is the cover without fingerprint reader. Many parts are shared with the Latitude 5420."
+ },
+ {
+  "brand": "Dell",
+  "model": "Latitude 5550",
+  "alias": [
+   "Latitude 5550",
+   "Latitude 15 5550",
+   "P127F"
+  ],
+  "battery_type": [
+   "GRWKG",
+   "DR02P"
+  ],
+  "part_numbers": [
+   "GRWKG",
+   "JTG7N",
+   "DR02P",
+   "R73TC"
+  ],
+  "wh": 42,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1719",
+  "notes": "Not the 2015 Latitude E5550. Dell manual lists 3-cell 42 Wh or 54 Wh, 11.4 V. GRWKG / JTG7N = 42 Wh (Parts-People). DR02P / R73TC = 54 Wh, from the sister Latitude 5450 data; not checked for this model.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "LA65NM190",
+   "HA65NM190",
+   "JJ12F",
+   "2WDR5"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://dl.dell.com/content/manual86060193-latitude-5550-owner-s-manual.pdf?language=en-us",
+  "charger_notes": "Dell manual lists 60 W Ultralight Mini, 65 W and 100 W USB-C adapters. Dell says 100 W is needed for ExpressCharge with the 54 Wh battery. JJ12F / 2WDR5 from Parts-People; LA/HA numbers from own knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR5-5600 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/content/manual86060193-latitude-5550-owner-s-manual.pdf?language=en-us",
+  "ram_notes": "13th Gen Core models run the memory at 5200 MT/s.",
+  "storage_upgradable": "yes",
+  "storage_slots": 2,
+  "storage_type": "M.2 2230/2280 PCIe 4.0 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 (M.2 2230 CNVi) or Realtek RTL8852BE (M.2 2230)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option only: 4G DW5825e or 5G DW5932e (M.2 3042 Key-B); needs the WWAN antennas and SIM slot that ship on WWAN-ready configs.",
+  "gpu": "Integrated Intel Graphics/Arc (Core Ultra) or Iris Xe/UHD (13th Gen), or NVIDIA GeForce RTX 2050 on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/content/manual86060193-latitude-5550-owner-s-manual.pdf?language=en-us",
+  "parts_notes": "SSD slot 1 takes M.2 2230 or 2280; SSD slot 2 takes M.2 2230 only.",
+  "replaceable_parts": "SIM tray; Bottom cover; Wi-Fi card; WWAN card; RAM; SSD; Fan; Battery; Touchpad; Speakers; Coin-cell battery; Heatsink; System board; Power button (with optional fingerprint reader); Keyboard; Display assembly; Display bezel; Display panel; Camera; Hinges; Display back cover; Display cable; Sensor board; Fingerprint reader; Smart card reader; Palmrest/top cover",
+  "keyboard": "separate",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://dl.dell.com/content/manual86060193-latitude-5550-owner-s-manual.pdf?language=en-us",
+  "repair_confidence": "high",
+  "repair_notes": "The owner's manual holds the removal steps. Charging is through the Thunderbolt 4 ports on the system board. The fan and the heat sink are separate parts.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "GRWKG",
+    "JTG7N"
+   ],
+   "Wi-Fi card": [
+    "G83J7",
+    "16V6W"
+   ],
+   "Keyboard": [
+    "835MH"
+   ],
+   "Speakers": [
+    "KH7D7"
+   ],
+   "Hinges": [
+    "CTKJN",
+    "YNNWF"
+   ],
+   "Display cable": [
+    "1NMHD"
+   ],
+   "Camera": [
+    "997FY"
+   ],
+   "Sensor board": [
+    "5XRGH"
+   ],
+   "Power button": [
+    "R3WHJ"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1719",
+  "pn_notes": "Keyboard 835MH is backlit. Display cable 1NMHD is for touch with IR cam. Power button R3WHJ is the cover without fingerprint reader. Sensor board 5XRGH is the hall sensor board. Many parts are shared with the Latitude 5540 and Precision 3580/3590."
+ },
+ {
+  "brand": "Dell",
+  "model": "Latitude 7340",
+  "alias": [
+   "Latitude 7340",
+   "Latitude 13 7340",
+   "Latitude 7340 2-in-1",
+   "P179G",
+   "P178G"
+  ],
+  "battery_type": [
+   "WW8N8",
+   "FH97R"
+  ],
+  "part_numbers": [
+   "WW8N8",
+   "66DWX",
+   "FH97R"
+  ],
+  "wh": 57,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1651",
+  "notes": "Dell spec guide lists 2-cell 38 Wh 7.6 V or 3-cell 57 Wh 11.4 V. WW8N8 (Long Life Cycle) and 66DWX = 57 Wh 3-cell; FH97R = 38 Wh 2-cell. Same packs as Latitude 7440/7640. The 2-in-1 uses the same batteries.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "JJ12F",
+   "2WDR5",
+   "XVH3P"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://dl.dell.com/content/manual45606387-latitude-7340-setup-and-specifications.pdf?language=en-us",
+  "charger_notes": "Dell lists 60 W, 65 W and 100 W USB-C adapters. JJ12F / 2WDR5 (65 W) and XVH3P (60 W) from Parts-People.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR5-4800 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/content/manual45606387-latitude-7340-setup-and-specifications.pdf?language=en-us",
+  "ram_notes": "",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2230 PCIe 4.0 NVMe",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX211 (Wi-Fi 6E)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option: 4G DW5823e (M.2 3042) or 5G DW5931e (M.2 3052); needs WWAN antennas. 5G-ready systems take only the 5G card.",
+  "gpu": "Integrated Intel Iris Xe",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/content/manual45606387-latitude-7340-setup-and-specifications.pdf?language=en-us",
+  "parts_notes": "Dell says the Wi-Fi is integrated on the system board. The same guide covers the clamshell (mainstream and ultralight) and the 2-in-1. The 2-in-1 is heavier (1.297 kg vs 1.156 kg) and has a touch display and pen support; memory, storage, wireless and batteries are the same.",
+  "replaceable_parts": "SIM tray; Bottom cover; SSD; WWAN card; Battery; Battery cable; Fan; Heatsink; Coin-cell battery; Display assembly; Speakers; Smart card reader; System board; Antennas; Power button (with optional fingerprint reader); Keyboard; Palmrest/top cover",
+  "keyboard": "separate",
+  "screen": "assembly",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://dl.dell.com/content/manual35247903-latitude-7340-service-manual.pdf?language=en-us",
+  "repair_confidence": "high",
+  "repair_notes": "RAM and Wi-Fi are soldered to the system board. The display is sold only as an assembly. The Thunderbolt charge ports are on the system board. Speakers differ for the ultralight and mainstream chassis.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "WW8N8",
+    "66DWX",
+    "FH97R"
+   ],
+   "Bottom cover": [
+    "5P1MJ"
+   ],
+   "Antennas": [
+    "NHYY4"
+   ],
+   "Keyboard": [
+    "2DJVH",
+    "988DY"
+   ],
+   "Speakers": [
+    "G6RNN"
+   ],
+   "Display cable": [
+    "K7J1N"
+   ],
+   "Touchpad": [
+    "W5R7D"
+   ],
+   "System board": [
+    "8NH88",
+    "8TC66",
+    "DV6J5"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=140&subid=1651",
+  "pn_notes": "Bottom cover 5P1MJ is for the ultralight chassis. Keyboards 2DJVH and 988DY are backlit. Display cable K7J1N is for the clamshell non-touch FHD+ panel; the 2-in-1 uses 9H5MK (touch, IR). System board: 8NH88 and 8TC66 Core i5, DV6J5 Core i7, all 16 GB. Parts-People lists most parts for both versions."
+ },
+ {
+  "brand": "Dell",
+  "model": "Precision 3470 (14in mobile workstation)",
+  "alias": [
+   "Precision 3470",
+   "Precision 14 3470",
+   "P137G"
+  ],
+  "battery_type": [
+   "GRT01"
+  ],
+  "part_numbers": [
+   "GRT01"
+  ],
+  "wh": 64,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1591",
+  "notes": "Dell spec guide lists only a 4-cell 64 Wh 15.2 V battery (standard or Long Lifecycle). GRT01 from Parts-People; shared with Latitude 5421/5521.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 90,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 4.5A (20V 4.5A)",
+  "charger_part_numbers": [
+   "LA90PM170",
+   "HA90PM170",
+   "K00F5"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://dl.dell.com/content/manual32768888-precision-3470-setup-and-specifications.pdf?language=en-us",
+  "charger_notes": "Dell lists 90 W USB-C (UMA models only) and 130 W USB-C (20V 6.5A) for NVIDIA T550 models. K00F5 (130 W) from Parts-People; 90 W part numbers from own knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR5-4800 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/content/manual32768888-precision-3470-setup-and-specifications.pdf?language=en-us",
+  "ram_notes": "",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2230/2280 PCIe 4.0 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 (M.2 2230 CNVi) or Realtek RTL8822CE (M.2 2230)",
+  "wwan": "no",
+  "wwan_notes": "The Dell spec guide lists no WWAN option; the service manual shows only a dummy SIM-slot filler.",
+  "gpu": "Integrated Intel Iris Xe, or NVIDIA T550 (4 GB) on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/content/manual32768888-precision-3470-setup-and-specifications.pdf?language=en-us",
+  "parts_notes": "Same chassis as the Latitude 5430/5431.",
+  "replaceable_parts": "Bottom cover; Wi-Fi card; SSD; RAM; Battery; Battery cable; LED board; Fan/heatsink assembly; Speakers; System board; Power button; Smart card reader; Coin-cell battery; Keyboard; Display assembly; Display bezel; Display panel; Camera; Display cable; Sensor board; Hinges; Display back cover; Palmrest/top cover",
+  "keyboard": "separate",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "heatsink",
+  "service_manual_url": "https://dl.dell.com/content/manual27374215-precision-3470-service-manual.pdf?language=en-us",
+  "repair_confidence": "high",
+  "repair_notes": "The fan comes only as part of the heat-sink and fan assembly. Charging is through the USB-C ports on the system board.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "GRT01"
+   ],
+   "Fan/heatsink assembly": [
+    "M2THV"
+   ],
+   "Keyboard": [
+    "MF1DR",
+    "MV4X8"
+   ],
+   "Speakers": [
+    "0X60D"
+   ],
+   "Hinges": [
+    "0FJ0X",
+    "MX89N"
+   ],
+   "Smart card reader": [
+    "4PH29"
+   ],
+   "LED board": [
+    "H4YYK",
+    "1G1MX"
+   ],
+   "Display panel": [
+    "9PN3R"
+   ],
+   "Display cable": [
+    "VPHFP",
+    "WN8JV",
+    "9Y1XX"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=142&subid=1591",
+  "pn_notes": "Heatsink M2THV is for integrated graphics (UMA). Keyboard: MV4X8 backlit, MF1DR US-International. Display panel 9PN3R is FHD touch. Display cable: VPHFP IR cam, WN8JV HD cam, 9Y1XX touch with IR. Many parts are shared with the Latitude 5420/5430/5431."
+ },
+ {
+  "brand": "Dell",
+  "model": "XPS 13 9310",
+  "alias": [
+   "XPS 13 9310",
+   "XPS 9310",
+   "P117G"
+  ],
+  "battery_type": [
+   "WN0N0"
+  ],
+  "part_numbers": [
+   "WN0N0",
+   "722KK"
+  ],
+  "wh": 52,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1453",
+  "notes": "Single option: 4-cell 52 Wh 7.6 V (Dell spec guide). Type WN0N0; Parts-People sells DP/N 722KK. Same pack as XPS 13 9300/9305. Not for the XPS 13 9310 2-in-1.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 45,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 2.25A (20V 2.25A)",
+  "charger_part_numbers": [
+   "LA45NM150",
+   "0HDCY5"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://dl.dell.com/content/manual17005717-xps-13-9310-setup-and-specifications.pdf?language=en-us",
+  "charger_notes": "Dell lists only the 45 W USB-C adapter. Part numbers from own knowledge (same adapter as XPS 13 9300).",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR4x-4267 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/content/manual17005717-xps-13-9310-setup-and-specifications.pdf?language=en-us",
+  "ram_notes": "",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2230/2280 PCIe 3.0 NVMe",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Killer AX1650 or Killer AX500-DBS",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "Integrated Intel Iris Xe or UHD",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/content/manual17005717-xps-13-9310-setup-and-specifications.pdf?language=en-us",
+  "parts_notes": "Dell says the wireless module is integrated on the system board.",
+  "replaceable_parts": "Bottom cover; Battery; SSD; Fan; Heatsink; Fan/heatsink assembly; Display assembly; System board; Status-light board; Palmrest/top cover with keyboard",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://dl.dell.com/topicspdf/xps-13-9310-laptop_service-manual_en-us.pdf",
+  "repair_confidence": "high",
+  "repair_notes": "The keyboard, speakers and power button come only with the palm-rest assembly. RAM and Wi-Fi are soldered. The Thunderbolt charge ports are on the system board. The fans can be removed apart from the heat sink.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "WN0N0",
+    "722KK"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "TY3HD"
+   ],
+   "Display assembly": [
+    "GM6DH",
+    "4MFP0",
+    "X38GV",
+    "105D4"
+   ],
+   "System board": [
+    "DXP1F",
+    "7CVRK",
+    "CDKXN"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1453",
+  "pn_notes": "Palmrest TY3HD is white, with speakers and fingerprint reader. Display assembly: GM6DH FHD+ non-touch; 4MFP0 FHD+ touch white; X38GV FHD+ touch silver; 105D4 UHD+ touch. System board: DXP1F i7 16 GB, 7CVRK i7 32 GB, CDKXN i7 16 GB."
+ },
+ {
+  "brand": "Dell",
+  "model": "XPS 13 9315",
+  "alias": [
+   "XPS 9315",
+   "XPS 13 9315",
+   "P153G"
+  ],
+  "battery_type": [
+   "YM15G"
+  ],
+  "part_numbers": [
+   "YM15G"
+  ],
+  "wh": 51,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1220",
+  "notes": "Single option: 3-cell 51 Wh 11.55 V (Dell spec guide). YM15G from Parts-People. Not for the XPS 13 9315 2-in-1.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 45,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V (20V 2.25A)",
+  "charger_part_numbers": [],
+  "charger_confidence": "high",
+  "charger_source_url": "https://dl.dell.com/content/manual28288318-xps-13-9315-xps-9315-setup-and-specifications.pdf?language=en-us",
+  "charger_notes": "Dell lists only a 45 W USB-C adapter (20/15/9/5 V). Adapter part number not found. Connect the adapter to only one of the two USB-C ports.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR5-5200 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/content/manual28288318-xps-13-9315-xps-9315-setup-and-specifications.pdf?language=en-us",
+  "ram_notes": "",
+  "storage_upgradable": "no",
+  "storage_slots": 0,
+  "storage_type": "BGA SSD PCIe 4.0 x2 NVMe (soldered)",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX211 (Wi-Fi 6E)",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "Integrated Intel Iris Xe",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/content/manual28288318-xps-13-9315-xps-9315-setup-and-specifications.pdf?language=en-us",
+  "parts_notes": "The SSD is a BGA chip on the system board. The service manual has no SSD or Wi-Fi card procedure.",
+  "replaceable_parts": "Bottom cover; Battery; Fan; Heatsink; Display assembly; I/O board; System board; Palmrest/top cover with keyboard",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "separate",
+  "fan": "separate",
+  "service_manual_url": "https://dl.dell.com/content/manual46406456-xps-13-9315-xps-9315-service-manual.pdf?language=en-us",
+  "repair_confidence": "high",
+  "repair_notes": "RAM, SSD and Wi-Fi are soldered. The keyboard comes with the palm-rest assembly in the service manual. One of the two Thunderbolt charge ports is on the I/O daughter board; the other is on the system board.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "YM15G"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "TKH4F",
+    "DGNXW"
+   ],
+   "Power button": [
+    "R25TR"
+   ],
+   "Antennas": [
+    "THM6Y"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1220",
+  "pn_notes": "Power button R25TR has the fingerprint reader (Ice Blue). Parts-People also sells a separate backlit keyboard (1RTVF) and the display back cover with hinges (T7CJJ), but the service manual does not list them."
+ },
+ {
+  "brand": "Dell",
+  "model": "XPS 13 Plus 9320",
+  "alias": [
+   "XPS 9320",
+   "XPS 13 Plus 9320",
+   "XPS 13 9320",
+   "P151G"
+  ],
+  "battery_type": [
+   "MN79H"
+  ],
+  "part_numbers": [
+   "MN79H"
+  ],
+  "wh": 55,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.laptopbatteryexpress.com/Dell-MN79H-Battery-p/dell-mn79h.htm",
+  "notes": "Single option: 3-cell 55 Wh 11.55 V (Dell spec guide). MN79H from a battery seller that lists XPS 13 9320 and 9340; seller listings also give DP/N J7H5M and NXRKW.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 60,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3A (20V 3A)",
+  "charger_part_numbers": [
+   "XVH3P"
+  ],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://dl.dell.com/content/manual4700340-xps-13-plus-9320-xps-9320-setup-and-specifications.pdf?language=en-us",
+  "charger_notes": "Dell lists only the 60 W USB-C adapter. XVH3P is the 60 W USB-C adapter DP/N from Parts-People.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR5-5200 or LPDDR5-6000 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://dl.dell.com/content/manual4700340-xps-13-plus-9320-xps-9320-setup-and-specifications.pdf?language=en-us",
+  "ram_notes": "12th Gen models use 5200 MT/s; 13th Gen models use 6000 MT/s.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2230/2280 PCIe 4.0 NVMe",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX211 (Wi-Fi 6E)",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "Integrated Intel Iris Xe",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://dl.dell.com/content/manual4700340-xps-13-plus-9320-xps-9320-setup-and-specifications.pdf?language=en-us",
+  "parts_notes": "Dell says the WLAN is onboard and not upgradable. 12th Gen models list PCIe Gen3 SSDs; 13th Gen models list Gen4.",
+  "replaceable_parts": "Bottom cover; Battery; SSD; Fan; Heatsink; Display assembly; System board; Power button (with fingerprint reader); Keyboard; Palmrest/top cover",
+  "keyboard": "separate",
+  "screen": "assembly",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://dl.dell.com/content/manual6046015-xps-13-plus-9320-xps-9320-service-manual.pdf?language=en-us",
+  "repair_confidence": "high",
+  "repair_notes": "RAM and Wi-Fi are soldered. The keyboard is a separate part, removed after the system board. The two Thunderbolt charge ports are on the system board.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "MN79H"
+   ],
+   "Palmrest/top cover": [
+    "7J5RV",
+    "H7JYC",
+    "W6DN3"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.parts-people.com/index.php?action=category&id=143&subid=1571",
+  "pn_notes": "Palmrest/top cover with touchpad; three DP/Ns in one Parts-People listing. Battery number from laptopbatteryexpress.com. Parts-People lists few other parts for this model."
+ },
+ {
   "brand": "Dynabook",
   "model": "Portege X30L-K (13.3in)",
   "alias": [],
@@ -9820,6 +11093,74 @@ window.BATTERIES = [
   "pn_confidence": "high",
   "pn_source_url": "https://aps2.support.emea.dynabook.com/kb0/MAN2504120000R01_MM_X40L-K.pdf",
   "pn_notes": "The maintenance manual lists part codes only for the battery (65 Wh) and the 14 in WUXGA LCD module."
+ },
+ {
+  "brand": "Dynabook",
+  "model": "Portege X30W-J (13.3in convertible 2-in-1)",
+  "alias": [
+   "PORTEGE X30W-J",
+   "Portege X30W-J",
+   "Portégé X30W-J",
+   "Toshiba Portege X30W-J",
+   "X30W-J"
+  ],
+  "battery_type": [
+   "PS0010UA1BRS"
+  ],
+  "part_numbers": [
+   "PS0010UA1BRS"
+  ],
+  "wh": 53,
+  "cells": 4,
+  "confidence": "medium",
+  "source_url": "https://inquirecontent1.ingrammicro.com/Manufacturer-Brochure/1066668589.pdf",
+  "notes": "4-cell 53 Wh 15.4 V (cell pack 4ICP5/63/71). The Dynabook brochure gives 4-cell 53 Wh. The code PS0010UA1BRS is from seller listings; same pack as the Portege X30W-K. Not interchangeable with the X30L PS0011UA1BRS pack.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "PA5279U-1ACA",
+   "PA5279E-1AC3",
+   "PA5352U-1ACA"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://inquirecontent1.ingrammicro.com/Manufacturer-Brochure/1066668589.pdf",
+  "charger_notes": "Dynabook brochure: 65W 100-240V USB Type-C AC adaptor; charges over the Thunderbolt 4 ports. The part numbers are the standard Dynabook 65 W USB-C adapters from general knowledge; the brochure does not list them. IPC also sells a 45 W USB-C adapter for this model.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR4X-4266 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://inquirecontent1.ingrammicro.com/Manufacturer-Brochure/1066668589.pdf",
+  "ram_notes": "Memory is on-board; choose 8, 16 or 32 GB at purchase.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 3.0 NVMe",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX201 (Wi-Fi 6)",
+  "wwan": "yes",
+  "wwan_notes": "LTE on some models only (for example X30W-J-11J and -11N, with nano-SIM slot); factory option.",
+  "gpu": "Integrated Intel Iris Xe",
+  "gpu_upgradable": "no",
+  "parts_confidence": "medium",
+  "parts_source_url": "https://www.allround-pc.com/news/lte-modelle-des-dynabook-portege-x30w-j-starten-im-mai",
+  "parts_notes": "Brochure lists Intel Wi-Fi 6 and M.2 PCIe NVMe SSD. Notebookcheck names the AX201 and a PCIe 3.0 x4 SSD with no second slot. Wi-Fi is treated as soldered because the shared X30W-J/K maintenance manual has no WLAN connector; not checked on a J board. ComputerBase says only the SSD and battery are user-serviceable.",
+  "replaceable_parts": "Bottom cover; Battery; SSD; WWAN card; Fan; Heatsink; Speakers; Touchpad; Keyboard; Palmrest/top cover; Display panel; Camera; Hinges; System board; Antennas; Rear camera",
+  "keyboard": "separate",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://aps2.support.emea.dynabook.com/kb0/MAN2504110000R01_MM_X30W-K.pdf",
+  "repair_confidence": "medium",
+  "repair_notes": "Dynabook publishes one maintenance manual for the X30W-J and X30W-K. That PDF was too large to load here, so these values follow the existing X30W-K row. RAM and Wi-Fi are on the system board; the USB-C charge ports are on the system board. Two fans (ComputerBase).",
+  "replaceable_part_numbers": {},
+  "pn_confidence": "",
+  "pn_source_url": "",
+  "pn_notes": "Not checked. The X30W-K row lists battery, keyboard and display codes from the shared X30W-J/K maintenance manual; they probably apply here too."
  },
  {
   "brand": "HP",
@@ -17720,6 +19061,2011 @@ window.BATTERIES = [
   "pn_notes": "Battery: 4-cell, 6-cell. RAM: 16/8/4 GB for Core, then 16/8 GB ECC for Xeon. SSD: 2 TB, 1 TB, 512 GB, 256 GB PCIe, 512 GB SATA FIPS, 360 GB PCIe. Heatsink (thermal module): discrete, UMA. Speakers are a speaker kit. Top cover with keyboard: backlit, backlit privacy (US -001). Display assembly: touch UHD without camera, with camera (touch screens are spared only as a whole). Display panel: FHD, FHD privacy, UHD. Bezel: with ambient light sensor (HD, IR, no camera), then without (HD, IR, no camera). Camera: HD, IR. Audio board is the card reader/audio board. System board: 4 of 10 variants (Xeon E-2186M discrete, i7-8850H discrete, i7-8850H UMA, i7-8750H UMA); -601 suffix for Windows 10. Hard drive: 2 TB, 1 TB, 500 GB, 500 GB FIPS."
  },
  {
+  "brand": "HP",
+  "model": "EliteBook 840 14 inch G9 Notebook PC (2022)",
+  "alias": [
+   "HP EliteBook 840 14 inch G9 Notebook PC",
+   "EliteBook 840 G9",
+   "HP 840 G9"
+  ],
+  "battery_type": [
+   "WP03XL"
+  ],
+  "part_numbers": [
+   "M73466-005",
+   "M73468-005",
+   "WP03XL"
+  ],
+  "wh": 51,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://partsurfer.hp.com/?searchtext=6T198EA",
+  "notes": "Two sizes, both WP03XL: M73466-005 = 51Wh 3-cell (WP03051XL); M73468-005 = 38Wh 3-cell (WP03038XL). HP QuickSpecs list 38Wh and 51Wh HP Long Life 3-cell options. Part descriptions from HP PartSurfer.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "M54350-001",
+   "L43407-001"
+  ],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://hp.it-shop.bg/uploaded/7/6/EliteBook-840-G9-QS.pdf",
+  "charger_notes": "HP QuickSpecs list 65 W and 45 W HP Smart USB-C adapters. PartSurfer shows L43407-001 (45 W USB-C, 20V 2.25A) on SKU 6T198EA. M54350-001 is the 65 W slim USB-C adapter that PartSurfer lists for the 840 G10; not checked for G9 SKUs. Output values from general knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR5-4800 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://hp.it-shop.bg/uploaded/7/6/EliteBook-840-G9-QS.pdf",
+  "ram_notes": "QuickSpecs: 2 DDR5 SODIMM slots, dual channel, max 64GB DDR5-4800.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 4.0 x4 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 Wi-Fi 6E + BT 5.3 (M.2 CNVi card, vPro or non-vPro)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option: Intel 5000 5G or Intel XMM 7560 R+ LTE-Advanced Pro (Cat 16). WWAN configs use a WWAN display with antennas and a nano SIM slot.",
+  "gpu": "Integrated Intel Iris Xe (UHD with single-channel memory)",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://hp.it-shop.bg/uploaded/7/6/EliteBook-840-G9-QS.pdf",
+  "parts_notes": "QuickSpecs list one primary M.2 SSD slot. The WLAN is an M.2 CNVi card; replace only with another CNVi card. QuickSpecs PDF is HP document c08049272 (mirror copy).",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card; WWAN card; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Display panel; Display bezel; Display back cover; Camera; Hinges; USB board; Audio jack; Card reader; Fingerprint reader; NFC module; IR hub board; Microphone board; System board",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://www.manualslib.com/manual/2793684/Hp-Elitebook-840-G9.html",
+  "repair_confidence": "high",
+  "repair_notes": "HP MSG (document N09567-001) lists Keyboard with top cover as one part, and says display spare parts come only as subcomponents. The fan and heat sink are separate parts. The USB-C/Thunderbolt charge ports are on the system board.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N09026-001"
+   ],
+   "Battery": [
+    "M73466-005",
+    "M73468-005"
+   ],
+   "RAM": [
+    "N77399-001"
+   ],
+   "SSD": [
+    "L85354-001",
+    "N45477-001"
+   ],
+   "Wi-Fi card": [
+    "M53363-001"
+   ],
+   "Coin-cell battery": [
+    "N15765-001"
+   ],
+   "Fan": [
+    "N09035-001"
+   ],
+   "Heatsink": [
+    "N07344-001"
+   ],
+   "Speakers": [
+    "N09034-001"
+   ],
+   "Touchpad": [
+    "N09033-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N09058-031",
+    "N09059-001"
+   ],
+   "Display bezel": [
+    "N09021-001"
+   ],
+   "Display back cover": [
+    "N09017-001"
+   ],
+   "Camera": [
+    "N09061-001"
+   ],
+   "Hinges": [
+    "N09028-001"
+   ],
+   "USB board": [
+    "N09042-001"
+   ],
+   "Card reader": [
+    "N02323-001"
+   ],
+   "IR hub board": [
+    "N08541-001"
+   ],
+   "Microphone board": [
+    "N15440-001"
+   ],
+   "System board": [
+    "N09045-601"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://partsurfer.hp.com/?searchtext=6T198EA",
+  "pn_notes": "From the HP PartSurfer BOM of SKU 6T198EA (i5-1245U, UK keyboard), plus M73468-005 checked in PartSurfer. Top cover N09058-031 = backlit UK; N09059-xx1 = backlit privacy versions per the MSG (-001 = US assumed). System board -601 = Windows. Display panel is not listed in this BOM."
+ },
+ {
+  "brand": "HP",
+  "model": "EliteBook 840 14 inch G10 Notebook PC (2023)",
+  "alias": [
+   "HP EliteBook 840 14 inch G10 Notebook PC",
+   "EliteBook 840 G10",
+   "HP 840 G10"
+  ],
+  "battery_type": [
+   "WP03XL"
+  ],
+  "part_numbers": [
+   "M73466-005",
+   "M73468-005",
+   "WP03XL"
+  ],
+  "wh": 51,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://partsurfer.hp.com/?searchtext=89D93UT",
+  "notes": "Two sizes, both WP03XL: M73466-005 = 51Wh 3-cell; M73468-005 = 38Wh 3-cell. HP MSG lists 38 Whr and 51 Whr 3-cell polymer batteries. Same battery as the 840 G9.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "M54350-001"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://partsurfer.hp.com/?searchtext=89D93UT",
+  "charger_notes": "PartSurfer lists M54350-001 (65 W slim USB-C nPFC) on SKU 89D93UT. The MSG lists 65 W USB-C nPFC adapters in standard and slim form. Output values from general knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR5-5200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://manualsnet.com/hp/elitebook-840-g10",
+  "ram_notes": "MSG: two customer-accessible SODIMM slots, DDR5-4800 or DDR5-5200, up to 64 GB. PartSurfer shows a DDR5-5600 module (N38627-001) fitted.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 4.0 x4 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 Wi-Fi 6E + BT 5.3 (M.2 CNVi card, vPro or non-vPro)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option: Intel 5000 5G or Intel XMM 7560 LTE-Advanced Pro (Cat 16). Needs the WWAN antennas of WWAN configs.",
+  "gpu": "Integrated Intel Iris Xe",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://manualsnet.com/hp/elitebook-840-g10",
+  "parts_notes": "MSG (document N41962-001) lists a WLAN module and a WWAN module as replaceable parts. PartSurfer lists the WLAN as M53363-001 (M.2 2230).",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card; WWAN card; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Display panel; Display bezel; Display back cover; Camera; USB board; Audio jack; Card reader; Fingerprint reader; NFC module; IR hub board; Microphone board; System board",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://manualsnet.com/hp/elitebook-840-g10",
+  "repair_confidence": "high",
+  "repair_notes": "The MSG lists Keyboard with top cover as one part. PartSurfer lists the raw display panel, the fan and the heat sink as their own parts. The USB-C/Thunderbolt charge ports are on the system board. Many parts are shared with the 840 G9.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N09026-001"
+   ],
+   "Battery": [
+    "M73466-005",
+    "M73468-005"
+   ],
+   "RAM": [
+    "N38627-001"
+   ],
+   "SSD": [
+    "M17436-001"
+   ],
+   "Wi-Fi card": [
+    "M53363-001"
+   ],
+   "Coin-cell battery": [
+    "N15765-001"
+   ],
+   "Fan": [
+    "N09035-001"
+   ],
+   "Heatsink": [
+    "N07344-001"
+   ],
+   "Speakers": [
+    "N09034-001"
+   ],
+   "Touchpad": [
+    "N09033-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N45442-001",
+    "N45442-DB1"
+   ],
+   "Display panel": [
+    "N22326-001"
+   ],
+   "Display bezel": [
+    "N09021-001"
+   ],
+   "Display back cover": [
+    "N49584-001"
+   ],
+   "Camera": [
+    "N48855-001"
+   ],
+   "USB board": [
+    "N09042-001"
+   ],
+   "Fingerprint reader": [
+    "N02325-001"
+   ],
+   "IR hub board": [
+    "N08541-001"
+   ],
+   "Microphone board": [
+    "N15440-001"
+   ],
+   "System board": [
+    "N45153-601"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://partsurfer.hp.com/?searchtext=89D93UT",
+  "pn_notes": "From the HP PartSurfer BOM of SKU 89D93UT (i5-1345U, WUXGA 250 nit). Top cover: -001 = backlit US, -DB1 = backlit Canadian English/French. Display back cover includes hinges. System board -601 = Windows."
+ },
+ {
+  "brand": "HP",
+  "model": "ProBook 640 G8 Notebook PC (2021, 14 in)",
+  "alias": [
+   "HP ProBook 640 G8 Notebook PC",
+   "ProBook 640 G8",
+   "HP 640 G8"
+  ],
+  "battery_type": [
+   "RH03XL"
+  ],
+  "part_numbers": [
+   "M02027-005",
+   "RH03XL"
+  ],
+  "wh": 45,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://partsurfer.hp.com/?searchtext=3A6B9EA",
+  "notes": "RH03XL 45Wh 3-cell (RH03045XL), HP Long Life. Same pack as the ProBook 430/440/450/630/650 G8.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 45,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 2.25A (20V 2.25A)",
+  "charger_part_numbers": [
+   "L43407-001"
+  ],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://partsurfer.hp.com/?searchtext=3A6B9EA",
+  "charger_notes": "PartSurfer lists L43407-001 (45 W nPFC USB-C) on SKU 3A6B9EA. The MSG lists 45 W and 65 W Smart AC adapters and an AC Smart Pin plug, so 4.5 mm barrel adapters also fit. Output values from general knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-3200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://manualsnet.com/hp/probook-640-g8",
+  "ram_notes": "MSG: two customer-accessible memory slots, DDR4-3200 dual channel, up to 64 GB.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280/2242 PCIe NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX201 Wi-Fi 6 (M.2 2230 CNVi) or Intel AC 9560",
+  "wwan": "yes",
+  "wwan_notes": "Factory option (MSG has a WWAN module procedure); WWAN antennas only on select products. Module types not checked.",
+  "gpu": "Integrated Intel Iris Xe (UHD on i3), or NVIDIA GeForce MX450 on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "medium",
+  "parts_source_url": "https://manualsnet.com/hp/probook-640-g8",
+  "parts_notes": "MSG (document M22132-001) lists MX450 as a graphics option, and PartSurfer lists a DSC (discrete) system board M49544-601. The MSG summary did not state the number of M.2 slots; one slot assumed.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card; WWAN card; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Display panel; Display bezel; Display back cover; Camera; USB board; I/O board; Fingerprint reader; NFC module; Microphone board; System board",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://manualsnet.com/hp/probook-640-g8",
+  "repair_confidence": "medium",
+  "repair_notes": "MSG lists Keyboard with top cover, Fan and Heat sink as separate procedures. PartSurfer lists the raw display panel. The MSG has no power connector part, so the charge ports are taken to be on the system board (not confirmed).",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M21370-001"
+   ],
+   "Battery": [
+    "M02027-005"
+   ],
+   "RAM": [
+    "L46598-002"
+   ],
+   "SSD": [
+    "L85354-002",
+    "N45477-002"
+   ],
+   "Wi-Fi card": [
+    "L92722-002"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21718-001"
+   ],
+   "Speakers": [
+    "M21400-001"
+   ],
+   "Touchpad": [
+    "M27891-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M48794-031",
+    "M48794-131",
+    "M48794-B31",
+    "M48794-DH1"
+   ],
+   "Display panel": [
+    "M21389-001"
+   ],
+   "Display bezel": [
+    "M21387-001"
+   ],
+   "Display back cover": [
+    "M21382-001"
+   ],
+   "Camera": [
+    "M29582-001"
+   ],
+   "I/O board": [
+    "M48790-001"
+   ],
+   "Fingerprint reader": [
+    "M21402-001"
+   ],
+   "Microphone board": [
+    "M27886-001"
+   ],
+   "System board": [
+    "M49539-601",
+    "M49544-601"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://partsurfer.hp.com/?searchtext=3A6B9EA",
+  "pn_notes": "From the HP PartSurfer BOM of SKU 3A6B9EA (i5-1145G7). Top cover: -031 UK, -131 Portugal, -B31 Euro, -DH1 Nordic (all Thunderbolt-version). System board: M49539-601 = UMA, no WWAN; M49544-601 = discrete GPU with WWAN. Heat sink part number not in this BOM."
+ },
+ {
+  "brand": "HP",
+  "model": "ProBook 450 G7 Notebook PC (2020, 15.6 in)",
+  "alias": [
+   "ProBook 450 G7",
+   "HP ProBook 450 G7 Notebook PC",
+   "HP 450 G7"
+  ],
+  "battery_type": [
+   "RE03XL"
+  ],
+  "part_numbers": [
+   "L32656-005",
+   "L32656-002",
+   "RE03XL"
+  ],
+  "wh": 45,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://partsurfer.hp.com/?searchtext=8VU77EA",
+  "notes": "RE03XL 45Wh 3-cell (RE03045XL). PartSurfer lists L32656-002 on SKU 8VU77EA and L32656-005 as the same 3C 45Wh pack. Same pack as the ProBook 430/440 G6/G7.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 45,
+  "charger_connector": "HP 4.5mm Smart barrel",
+  "charger_output": "19.5V 2.31A",
+  "charger_part_numbers": [
+   "741727-001"
+  ],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://partsurfer.hp.com/?searchtext=8VU77EA",
+  "charger_notes": "PartSurfer lists 741727-001 (45 W nPFC Smart 4.5 mm) on SKU 8VU77EA. The USB-C port supports power delivery. 65 W 4.5 mm adapters ship with some configs (not verified in an HP document). Output value from general knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-2666 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://www.manualslib.com/manual/2265287/Hp-Probook-450-G7.html?page=10",
+  "ram_notes": "MSG: two customer-accessible slots, PC4-2666 DDR4 SODIMMs, up to 32 GB. PartSurfer fits a DDR4-3200 module that runs at 2666.",
+  "storage_upgradable": "yes",
+  "storage_slots": 2,
+  "storage_type": "M.2 2280 PCIe NVMe or SATA + 2.5in SATA 7 mm bay",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX201 Wi-Fi 6 (M.2 2230 CNVi), Intel AC 9560 or Realtek RTL8822CE",
+  "wwan": "yes",
+  "wwan_notes": "Factory option: Intel XMM 7360 LTE-Advanced. The MSG has SIM card and WWAN module procedures.",
+  "gpu": "Integrated Intel UHD Graphics, or NVIDIA GeForce MX250 (2 GB) on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://www.manualslib.com/manual/2265287/Hp-Probook-450-G7.html?page=10",
+  "parts_notes": "MSG: M.2 2280 SSD (PCIe NVMe or SATA, some with Optane) plus a 2.5 in 7 mm SATA hard drive bay.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Hard drive; Wi-Fi card; WWAN card; SIM card; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Display panel; Display bezel; Display back cover; Camera; Hinges; DC-in / charge port; USB board; Battery connector board; Fingerprint reader; Smart card reader; Microphone board; System board; Antennas",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "separate",
+  "fan": "separate",
+  "service_manual_url": "https://www.manualslib.com/manual/2265287/Hp-Probook-450-G7.html",
+  "repair_confidence": "high",
+  "repair_notes": "MSG lists Keyboard/Top Cover as one part, and Fan, Heat Sink and Power Connector Cable as separate procedures. PartSurfer lists the raw display panel. The USB-C port is on the system board.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L79384-001"
+   ],
+   "Battery": [
+    "L32656-002"
+   ],
+   "RAM": [
+    "L46598-002"
+   ],
+   "SSD": [
+    "L77289-001"
+   ],
+   "Wi-Fi card": [
+    "L57250-002",
+    "L92724-002"
+   ],
+   "Coin-cell battery": [
+    "L02772-001"
+   ],
+   "Fan": [
+    "L45100-001"
+   ],
+   "Heatsink": [
+    "L45098-001"
+   ],
+   "Speakers": [
+    "L45092-001"
+   ],
+   "Touchpad": [
+    "L77267-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "L45091-031",
+    "L45091-051",
+    "L45091-071",
+    "L45091-131",
+    "L45091-151",
+    "L45091-251",
+    "L45091-B31",
+    "L45091-BA1"
+   ],
+   "Display panel": [
+    "L79188-001"
+   ],
+   "Display bezel": [
+    "L77285-001"
+   ],
+   "Display back cover": [
+    "L77277-001"
+   ],
+   "Camera": [
+    "L83709-001"
+   ],
+   "Hinges": [
+    "L79189-001"
+   ],
+   "DC-in / charge port": [
+    "L01048-001"
+   ],
+   "USB board": [
+    "L44578-001"
+   ],
+   "Battery connector board": [
+    "L45086-001"
+   ],
+   "Smart card reader": [
+    "L44579-001"
+   ],
+   "Microphone board": [
+    "L44541-001"
+   ],
+   "System board": [
+    "L78085-601"
+   ],
+   "Antennas": [
+    "L77283-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://partsurfer.hp.com/?searchtext=8VU77EA",
+  "pn_notes": "From the HP PartSurfer BOM of SKU 8VU77EA (i5-10210U, UMA). Top cover (not backlit): -031 UK, -051 FR, -071 SP, -131 PORT, -151 GK, -251 RUSS, -B31 INTL, -BA1 SL. USB board includes the power button. System board -601 = Windows."
+ },
+ {
+  "brand": "HP",
+  "model": "ProBook 455 15.6 inch G10 Notebook PC (2023)",
+  "alias": [
+   "HP ProBook 455 15.6 inch G10 Notebook PC",
+   "ProBook 455 G10",
+   "HP 455 G10"
+  ],
+  "battery_type": [
+   "RH03XL"
+  ],
+  "part_numbers": [
+   "M75599-005",
+   "M73472-005",
+   "RH03XL"
+  ],
+  "wh": 42,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://partsurfer.hp.com/?searchtext=7P3B5UT",
+  "notes": "Two sizes, both RH03XL: M75599-005 = 42Wh 3-cell (from PartSurfer, SKU 7P3B5UT); M73472-005 = 51Wh 3-cell (family part, not checked for this model). HP MSG lists 3-cell 42 Whr and 51 Whr HP Long Life batteries.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "HP 4.5mm Smart barrel",
+  "charger_output": "19.5V 3.33A",
+  "charger_part_numbers": [
+   "710412-001"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://partsurfer.hp.com/?searchtext=7P3B5UT",
+  "charger_notes": "PartSurfer lists 710412-001 (65 W nPFC 4.5 mm) on SKU 7P3B5UT. The MSG also lists 45 W 4.5 mm and 45 W / 65 W USB-C adapters. Output value from general knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-3200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://www.manua.ls/hp/probook-455-g10/manual?p=9",
+  "ram_notes": "MSG: two memory slots (accessible by IT or self-maintainers), DDR4-3200 dual channel, up to 32 GB.",
+  "storage_upgradable": "yes",
+  "storage_slots": 2,
+  "storage_type": "M.2 2280 PCIe 4.0 NVMe + second M.2 2230 PCIe NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "MediaTek RZ616 (MT7922) Wi-Fi 6E or Realtek 8852CE Wi-Fi 6E (M.2 2230)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option: Intel XMM 7560 R+ LTE-Advanced Pro (Cat 16) or Fibocom LTE Cat 16. Antennas are in the top of the display; eSIM support.",
+  "gpu": "Integrated AMD Radeon Graphics",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://www.manua.ls/hp/probook-455-g10/manual?p=10",
+  "parts_notes": "MSG lists a 2nd solid-state drive in M.2 2230 size. PartSurfer lists the WLAN as an M.2 card (N22541-001).",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card; WWAN card; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Display panel; Display bezel; Display back cover; Camera; Hinges; DC-in / charge port; I/O board; Fingerprint reader; System board; Antennas",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "separate",
+  "fan": "separate",
+  "service_manual_url": "https://www.manua.ls/hp/probook-455-g10/manual?p=11",
+  "repair_confidence": "medium",
+  "repair_notes": "PartSurfer lists the top cover with keyboard as one part, and the raw panel, fan, heat sink and DC-in jack as their own parts. The USB-C port is on the system board. Removal procedure list in the MSG not checked.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N39181-001"
+   ],
+   "Battery": [
+    "M75599-005"
+   ],
+   "RAM": [
+    "L67710-001"
+   ],
+   "SSD": [
+    "N77391-001"
+   ],
+   "Wi-Fi card": [
+    "N22541-001"
+   ],
+   "Coin-cell battery": [
+    "M34737-001"
+   ],
+   "Fan": [
+    "M21718-001"
+   ],
+   "Heatsink": [
+    "M47406-001"
+   ],
+   "Speakers": [
+    "M21723-001"
+   ],
+   "Touchpad": [
+    "N54002-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "P18870-001",
+    "N39018-DB1"
+   ],
+   "Display panel": [
+    "N43570-001"
+   ],
+   "Display bezel": [
+    "M21992-001"
+   ],
+   "Display back cover": [
+    "N39022-001"
+   ],
+   "Camera": [
+    "N05869-001"
+   ],
+   "Hinges": [
+    "M21732-001"
+   ],
+   "DC-in / charge port": [
+    "M21725-001"
+   ],
+   "I/O board": [
+    "N38993-001"
+   ],
+   "Fingerprint reader": [
+    "N00879-001"
+   ],
+   "System board": [
+    "N38980-601"
+   ],
+   "Antennas": [
+    "N03219-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://partsurfer.hp.com/?searchtext=7P3B5UT",
+  "pn_notes": "From the HP PartSurfer BOM of SKU 7P3B5UT (Ryzen 5 7530U, FHD 250 nit). Top cover: P18870-001 = backlit US; N39018-DB1 = backlit EN/FR. Bottom cover N39181-001 is for the 42 Wh battery. Display back cover N39022-001 = with antennas, no WWAN. System board -601 = Windows."
+ },
+ {
+  "brand": "HP",
+  "model": "ZBook Power 15.6 inch G9 Mobile Workstation PC (2022)",
+  "alias": [
+   "HP ZBook Power 15.6 inch G9 Mobile Workstation PC",
+   "ZBook Power G9",
+   "HP ZBook Power 15 G9"
+  ],
+  "battery_type": [
+   "IR06XL"
+  ],
+  "part_numbers": [
+   "M02029-005",
+   "IR06XL"
+  ],
+  "wh": 83,
+  "cells": 6,
+  "confidence": "high",
+  "source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G9%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "notes": "6-cell 83Wh IR06XL (IR06083XL), HP Long Life. Same pack as the ZBook Power G7/G8/G10.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 150,
+  "charger_connector": "HP 4.5mm Smart barrel",
+  "charger_output": "19.5V 7.7A",
+  "charger_part_numbers": [
+   "L32661-001",
+   "M95377-001"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G9%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "charger_notes": "MSG lists 150 W (L32661-001) and 120 W (M95377-001, 19.5V 6.15A) HP Smart PFC 4.5 mm slim adapters. PartSurfer shows the 150 W on SKU 6G950UT. The USB-C port also accepts a USB-C adapter. Output values from general knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR5-4800 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G9%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "ram_notes": "MSG: two memory module slots (listed as nonaccessible, so behind service access), DDR5-4800, up to 64 GB.",
+  "storage_upgradable": "yes",
+  "storage_slots": 2,
+  "storage_type": "M.2 2280 PCIe 4.0 x4 NVMe (x2)",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX211 Wi-Fi 6E (vPro or non-vPro)",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "Integrated Intel Iris Xe, or NVIDIA T600, RTX A1000, RTX A2000 or GeForce RTX 3050",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G9%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "parts_notes": "MSG lists a second M.2 SSD and NVMe RAID 0/1. The MSG has no WLAN module part or procedure, and lists system boards for models without WLAN, so the WLAN is on the system board. No WWAN option in the MSG.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Display panel; Display bezel; Display back cover; Camera; Hinges; Card reader; Fingerprint reader; NFC module; Sensor board; System board; Antennas",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G9%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "repair_confidence": "high",
+  "repair_notes": "Two fans (CPU and GPU) are separate from the heat sink. Display spare parts come only as subcomponents. The MSG lists no power connector cable, so the barrel and USB-C charge ports are taken to be on the system board.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N06899-001",
+    "N06898-001"
+   ],
+   "Battery": [
+    "M02029-005"
+   ],
+   "RAM": [
+    "N05331-002",
+    "M97596-002",
+    "M97595-002"
+   ],
+   "SSD": [
+    "N06219-002",
+    "M52027-002",
+    "M16560-002",
+    "M17436-002",
+    "M52031-002",
+    "M52025-002",
+    "M52029-002"
+   ],
+   "Coin-cell battery": [
+    "M36463-001"
+   ],
+   "Fan": [
+    "N06900-001",
+    "N06901-001",
+    "N32583-001"
+   ],
+   "Heatsink": [
+    "N06903-001",
+    "N06902-001"
+   ],
+   "Speakers": [
+    "N06905-001"
+   ],
+   "Touchpad": [
+    "M21854-001",
+    "N03115-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N06912-001",
+    "N06914-001"
+   ],
+   "Display panel": [
+    "N06891-001",
+    "N06893-001",
+    "N06892-001",
+    "N06894-001"
+   ],
+   "Display bezel": [
+    "M21864-001",
+    "M21863-001",
+    "M21865-001"
+   ],
+   "Display back cover": [
+    "N06907-001",
+    "N06906-001"
+   ],
+   "Camera": [
+    "N06896-001",
+    "N06895-001"
+   ],
+   "Hinges": [
+    "M21867-001"
+   ],
+   "Card reader": [
+    "M21398-001"
+   ],
+   "Fingerprint reader": [
+    "N06897-001"
+   ],
+   "NFC module": [
+    "L02249-001"
+   ],
+   "Sensor board": [
+    "M21844-001"
+   ],
+   "System board": [
+    "N06883-601",
+    "N06870-601",
+    "N06876-601",
+    "N06888-601"
+   ],
+   "Antennas": [
+    "N03119-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G9%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (archive.org text copy) and the PartSurfer BOM of SKU 6G950UT. Top cover: N06912 = backlit, N06914 = not backlit (-001 US). Bottom cover: N06899 = discrete GPU, N06898 = UMA. Fan: N06900 = CPU, N06901 = GPU, N32583 = left+right set. System board: i7-12700H with T600 / A1000 / A2000, and i7-12700H UMA shown; about 20 variants exist (-001 non-Windows, -601 Windows)."
+ },
+ {
+  "brand": "HP",
+  "model": "ZBook Power 15.6 inch G10 Mobile Workstation PC (2023)",
+  "alias": [
+   "HP ZBook Power 15.6 Inch G10 Mobile Workstation PC",
+   "ZBook Power G10",
+   "HP ZBook Power 15 G10"
+  ],
+  "battery_type": [
+   "IR06XL"
+  ],
+  "part_numbers": [
+   "M02029-005",
+   "IR06XL"
+  ],
+  "wh": 83,
+  "cells": 6,
+  "confidence": "high",
+  "source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "notes": "6-cell 83Wh IR06XL (IR06083XL), HP Long Life with HP Fast Charge. Same pack as the ZBook Power G7/G8/G9.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 150,
+  "charger_connector": "HP 4.5mm Smart barrel",
+  "charger_output": "19.5V 7.7A",
+  "charger_part_numbers": [
+   "L32661-001",
+   "M95377-001",
+   "M52952-001"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "charger_notes": "MSG spec lists the 150 W PFC slim 4.5 mm Smart adapter (L32661-001; PartSurfer shows it on SKU 865T2EA). The parts list also has 120 W 4.5 mm (M95377-001) and 280 W 7.4 mm (M52952-001). Output values from general knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR5-5200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "ram_notes": "MSG: two SODIMM slots, DDR5-5200 dual channel, up to 64 GB. Spare modules are DDR5-5600.",
+  "storage_upgradable": "yes",
+  "storage_slots": 2,
+  "storage_type": "M.2 2280 PCIe 4.0 x4 NVMe (x2)",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX211 Wi-Fi 6E + BT 5.3 (vPro or non-vPro)",
+  "wwan": "no",
+  "wwan_notes": "The MSG component list names WWAN antennas for select products, but the spec and parts list have no WWAN module.",
+  "gpu": "Integrated Intel Iris Xe, or NVIDIA RTX A500, RTX A1000, RTX A2000, RTX A3000 or GeForce RTX 4050",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "parts_notes": "MSG lists second SSD options and NVMe RAID 0/1. No WLAN module part; system boards exist for models without WLAN, so the WLAN is on the board. The AMD version is a separate model (ZBook Power G10 A).",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Display panel; Display bezel; Display back cover; Camera; Hinges; Card reader; Fingerprint reader; NFC module; Sensor board; System board; Antennas",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "repair_confidence": "high",
+  "repair_notes": "Fan Kit (CPU and GPU fans) is separate from the heat sink. Display spare parts come only as subcomponents. The MSG lists no power connector cable, so the charge ports are taken to be on the system board.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N52399-001"
+   ],
+   "Battery": [
+    "M02029-005"
+   ],
+   "RAM": [
+    "N50075-001",
+    "N38627-001",
+    "N37792-001"
+   ],
+   "SSD": [
+    "N06219-001",
+    "M52027-001",
+    "M16560-001",
+    "M17436-001",
+    "N45476-001",
+    "M52031-001",
+    "N58156-001"
+   ],
+   "Coin-cell battery": [
+    "M36463-001"
+   ],
+   "Fan": [
+    "N32583-001"
+   ],
+   "Heatsink": [
+    "N56091-001"
+   ],
+   "Speakers": [
+    "N06905-001"
+   ],
+   "Touchpad": [
+    "N21017-001",
+    "N21016-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N52484-001",
+    "N52485-001"
+   ],
+   "Display panel": [
+    "N52398-001",
+    "N58155-001",
+    "N52397-001",
+    "N52395-001",
+    "N06892-001"
+   ],
+   "Display bezel": [
+    "N56094-001",
+    "M21863-001",
+    "M21865-001"
+   ],
+   "Display back cover": [
+    "N56096-001",
+    "N56097-001",
+    "N58070-001",
+    "N58071-001",
+    "N58072-001",
+    "N58073-001"
+   ],
+   "Camera": [
+    "N56099-001",
+    "N06895-001"
+   ],
+   "Hinges": [
+    "N56095-001"
+   ],
+   "Card reader": [
+    "N12914-001"
+   ],
+   "Fingerprint reader": [
+    "N06897-001"
+   ],
+   "NFC module": [
+    "L02249-001"
+   ],
+   "Sensor board": [
+    "N56100-001"
+   ],
+   "System board": [
+    "N52377-601",
+    "N52381-601",
+    "N52385-601",
+    "N52389-601"
+   ],
+   "Antennas": [
+    "N03119-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Power%2015/HP%20Zbook%20Power%2015%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (archive.org text copy), checked against the PartSurfer BOM of SKU 865T2EA. Top cover: N52484 = backlit, N52485 = not backlit (-001 US). Touchpad: N21017 = no NFC, N21016 = NFC. System board: i7-13700H with A1000 / A2000 / A3000 / RTX 4050 shown; about 25 variants exist (-001 non-Windows, -601 Windows)."
+ },
+ {
+  "brand": "HP",
+  "model": "ZBook Studio 16 inch G10 Mobile Workstation PC (2023)",
+  "alias": [
+   "HP ZBook Studio 16 inch G10 Mobile Workstation PC",
+   "ZBook Studio G10",
+   "ZBook Studio 16 G10"
+  ],
+  "battery_type": [
+   "MN06XL"
+  ],
+  "part_numbers": [
+   "M82230-005",
+   "MN06XL"
+  ],
+  "wh": 86,
+  "cells": 6,
+  "confidence": "high",
+  "source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Studio%2016/HP%20Zbook%20Studio%2016%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "notes": "6-cell 86Wh MN06XL (MN06086XL), HP Long Life with HP Fast Charge. Same pack as the ZBook Studio 16 G9.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 200,
+  "charger_connector": "HP 4.5mm Smart barrel",
+  "charger_output": "19.5V 10.3A",
+  "charger_part_numbers": [
+   "L74881-001",
+   "N43500-001",
+   "L00895-003"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://partsurfer.hp.com/?searchtext=62X11EA",
+  "charger_notes": "MSG lists 200 W and 150 W HP Smart PFC right-angle slim 4.5 mm adapters; the parts list also has a 280 W 7.4 mm adapter (M52952-001). PartSurfer shows L74881-001 and N43500-001 (200 W) on SKU 62X11EA. The USB-C/Thunderbolt ports also accept USB-C power. Output value from general knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR5-5600 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Studio%2016/HP%20Zbook%20Studio%2016%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "ram_notes": "MSG: two SODIMM slots, DDR5-5600 or DDR5-4800, up to 64 GB. A shield covers the memory.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 4.0 x4 NVMe",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX211 Wi-Fi 6E + BT 5.3 (M.2 1216 CNVi, vPro)",
+  "wwan": "no",
+  "wwan_notes": "The MSG port list names a SIM card slot for select products, but there is no WWAN module in the spec or parts list.",
+  "gpu": "Integrated Intel Iris Xe, or NVIDIA RTX A1000, RTX 2000 Ada, RTX 3000 Ada, RTX 4000 Ada, GeForce RTX 4070 or RTX 4080",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Studio%2016/HP%20Zbook%20Studio%2016%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "parts_notes": "MSG: one M.2 2280 SSD with a shield. The WLAN is an integrated M.2 1216 (solder-down) module with no removal procedure.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Display panel; Display bezel; Display back cover; Camera; Hinges; Microphone module; Ambient light sensor; Sensor board; Motion board; Transfer board; Audio jack; Fingerprint reader; System board; Antennas",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Studio%2016/HP%20Zbook%20Studio%2016%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "repair_confidence": "high",
+  "repair_notes": "Fan Kit (left and right fans) is separate from the heat sink. The MSG lists a display panel assembly as a subcomponent; PartSurfer calls the same part a hinge-up (HU) unit. The USB-C/Thunderbolt ports are on the system board; no power connector part is listed.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N51006-001"
+   ],
+   "Battery": [
+    "M82230-005"
+   ],
+   "RAM": [
+    "N51121-001",
+    "N38627-001",
+    "N37792-002",
+    "N19982-001",
+    "M97596-002",
+    "M97595-002"
+   ],
+   "SSD": [
+    "N06219-002",
+    "M52027-002",
+    "M16560-002",
+    "N23415-002",
+    "M17436-002",
+    "M52031-002"
+   ],
+   "Coin-cell battery": [
+    "N10921-001"
+   ],
+   "Fan": [
+    "N10924-001"
+   ],
+   "Heatsink": [
+    "N10927-001",
+    "N51005-001",
+    "N10925-001"
+   ],
+   "Speakers": [
+    "N51007-001"
+   ],
+   "Touchpad": [
+    "N10923-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N10947-001",
+    "N10946-001",
+    "N10945-001"
+   ],
+   "Display panel": [
+    "N51321-001",
+    "N51322-001",
+    "N10910-001"
+   ],
+   "Display bezel": [
+    "N10930-001"
+   ],
+   "Display back cover": [
+    "N54630-001"
+   ],
+   "Camera": [
+    "N51318-001"
+   ],
+   "Hinges": [
+    "N10932-001"
+   ],
+   "Microphone module": [
+    "N10936-001"
+   ],
+   "Ambient light sensor": [
+    "N10915-001"
+   ],
+   "Sensor board": [
+    "N10917-001"
+   ],
+   "Motion board": [
+    "N10918-001"
+   ],
+   "Transfer board": [
+    "N10919-001"
+   ],
+   "Audio jack": [
+    "N10939-001"
+   ],
+   "Fingerprint reader": [
+    "N10920-001"
+   ],
+   "System board": [
+    "N50977-601",
+    "N50982-601",
+    "N50986-601",
+    "N51003-601"
+   ],
+   "Antennas": [
+    "N10931-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://archive.org/download/hp-zbook-maintenance-manual-archive/Zbook%20Studio%2016/HP%20Zbook%20Studio%2016%20G10%20Mobile%20Workstation%20Maintenance%20and%20Service%20Guide_djvu.txt",
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (archive.org text copy), checked against the PartSurfer BOM of SKU 62X11EA. Top cover (all backlit): N10947 = standard, N10946 = Z Command key with RGB webcam, N10945 = RGB webcam (-001 US). Heatsink: N10927 = discrete with i9, N51005 = discrete with i7/i5, N10925 = UMA. Display panel: N51321 = DreamColor 500 nit, N51322 / N10910 = OLED. System board: i7-13700H with RTX 4070 / A1000 / RTX 2000 and UMA shown; about 60 variants exist (-001 non-Windows, -601 Windows)."
+ },
+ {
+  "brand": "HP",
+  "model": "ProBook x360 435 G7 Notebook PC (2020, 13.3 in convertible)",
+  "alias": [
+   "HP ProBook x360 435 G7",
+   "ProBook x360 435 G7",
+   "HP ProBook x360 435 G7 Notebook PC"
+  ],
+  "battery_type": [
+   "SX03XL"
+  ],
+  "part_numbers": [
+   "L78125-006",
+   "L78125-005",
+   "SX03XL"
+  ],
+  "wh": 45,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://www.manualslib.com/manual/1854962/Hp-Probook-X360-435-G7.html?page=27",
+  "notes": "HP service guide lists battery spare L78125-006 (3 cell, 45 Wh, Long Life). The same SX03XL pack fits the 435 G8. Shops also list L78125-005.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A / 15V 4.33A / 12V 5A / 9V 3A / 5V 3A)",
+  "charger_part_numbers": [
+   "L67440-001",
+   "710412-001",
+   "741727-001",
+   "L43407-001"
+  ],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://www.manualslib.com/manual/1854962/Hp-Probook-X360-435-G7.html?page=29",
+  "charger_notes": "The guide lists 65 W and 45 W adapters, each as USB-C or HP 4.5 mm barrel (65 W 4.5 mm 710412-001, 45 W 4.5 mm 741727-001, 45 W USB-C L43407-001). The adapter that shipped depends on the config. The page text did not align every number with its row, so the USB-C 65 W number is matched by order and by the same table in the 435 G8 guide.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-3200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "16 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://www.manualslib.com/manual/1854962/Hp-Probook-X360-435-G7.html?page=9",
+  "ram_notes": "HP says both slots are accessible to IT or self-maintainers. HP lists 16 GB as the maximum for the G7 (the G8 guide says 32 GB).",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 3.0 NVMe (128 GB SATA option)",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX200, Intel AC 9260 or Realtek RTL8822CE (M.2 2230)",
+  "wwan": "no",
+  "wwan_notes": "No WWAN option in the HP guide.",
+  "gpu": "Integrated AMD Radeon Graphics",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://www.manualslib.com/manual/1854962/Hp-Probook-X360-435-G7.html?page=10",
+  "parts_notes": "WLAN spares: AC 9260 L16647-002, AX200 L35282-002, RTL8822CE L44796-002.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Rear camera; Fingerprint reader; DC-in / charge port; System board",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "separate",
+  "fan": "separate",
+  "service_manual_url": "https://www.manualslib.com/manual/1854962/Hp-Probook-X360-435-G7.html",
+  "repair_confidence": "high",
+  "repair_notes": "Keyboard is sold only with the top cover. The display is sold only as a full assembly. The 4.5 mm DC-in jack is on a separate power connector cable; the USB-C port is on the system board. An HP forum post says the guide does not mention that Battery Safe mode must be turned on before parts replacement.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M03423-001"
+   ],
+   "Battery": [
+    "L78125-006"
+   ],
+   "RAM": [
+    "L67710-002",
+    "L46598-002",
+    "L83673-002"
+   ],
+   "SSD": [
+    "L85346-002",
+    "L85360-002",
+    "L85364-002",
+    "L85354-002"
+   ],
+   "Wi-Fi card": [
+    "L16647-002",
+    "L35282-002",
+    "L44796-002"
+   ],
+   "Coin-cell battery": [
+    "L13694-001"
+   ],
+   "Fan": [
+    "M03432-001"
+   ],
+   "Heatsink": [
+    "M03433-001"
+   ],
+   "Speakers": [
+    "M03439-001"
+   ],
+   "Touchpad": [
+    "M03435-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M03444-xx1",
+    "M03445-xx1",
+    "M03446-xx1",
+    "M03447-xx1",
+    "M03448-xx1",
+    "M03449-xx1"
+   ],
+   "Display assembly": [
+    "M03425-001",
+    "M03426-001",
+    "M03427-001",
+    "M03428-001",
+    "M03429-001",
+    "M03430-001"
+   ],
+   "Rear camera": [
+    "M03443-001"
+   ],
+   "Fingerprint reader": [
+    "M03434-001"
+   ],
+   "DC-in / charge port": [
+    "M03424-001"
+   ],
+   "System board": [
+    "M09344-xx1",
+    "M03442-xx1",
+    "M09343-xx1",
+    "M03441-xx1",
+    "M03440-xx1"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualslib.com/manual/1854962/Hp-Probook-X360-435-G7.html?page=26",
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (ManualsLib copy). Page text lost some row alignment, so the bottom cover and SSD rows are matched by order. Top cover: backlit or not, with or without rear camera; xx1 is the country code. System board: Ryzen 7 4750U, 7 4700U, 5 4650U, 5 4500U, 3 4300U (-001 non-Windows, -601 Windows). Display: 250, 400 or 1000 nits privacy, HD or HD+IR camera."
+ },
+ {
+  "brand": "HP",
+  "model": "ProBook x360 435 G8 Notebook PC (2021, 13.3 in convertible)",
+  "alias": [
+   "HP ProBook x360 435 G8 Notebook PC",
+   "HP ProBook x360 435 G8",
+   "ProBook x360 435 G8"
+  ],
+  "battery_type": [
+   "SX03XL"
+  ],
+  "part_numbers": [
+   "L78125-006",
+   "L78125-005",
+   "SX03XL"
+  ],
+  "wh": 45,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://manualsnet.com/hp/probook-x360-435-g8",
+  "notes": "HP service guide lists battery spare L78125-006 (3 cell, 45 Wh). Same SX03XL pack as the 435 G7.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A / 15V 4.33A / 12V 5A / 9V 3A / 5V 3A)",
+  "charger_part_numbers": [
+   "L67440-001",
+   "710412-001",
+   "913691-850",
+   "741727-001",
+   "742436-001",
+   "L43407-001"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://manualsnet.com/hp/probook-x360-435-g8",
+  "charger_notes": "HP lists 65 W and 45 W Smart adapters, as straight USB-C or right-angle 4.5 mm barrel. 65 W USB-C L67440-001; 65 W 4.5 mm 710412-001 (EM 913691-850); 45 W 4.5 mm 741727-001 (2-pin 742436-001); 45 W USB-C L43407-001. The adapter that shipped depends on the config.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-3200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://manualsnet.com/hp/probook-x360-435-g8",
+  "ram_notes": "Two slots, both accessible to IT or self-maintainers.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 3.0 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX200, Intel AC 9260 or Realtek RTL8822CE (M.2 2230)",
+  "wwan": "no",
+  "wwan_notes": "No WWAN option in the HP guide.",
+  "gpu": "Integrated AMD Radeon Graphics",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://manualsnet.com/hp/probook-x360-435-g8",
+  "parts_notes": "WLAN spares: AC 9260 L16647-002, AX200 L35282-002, RTL8822CE L44796-002.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Rear camera; Fingerprint reader; DC-in / charge port; System board",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "separate",
+  "fan": "separate",
+  "service_manual_url": "https://manualsnet.com/hp/probook-x360-435-g8",
+  "repair_confidence": "high",
+  "repair_notes": "Keyboard is sold only with the top cover. The display is sold only as a full assembly. The 4.5 mm DC-in jack is on a separate power connector cable; the USB-C port is on the system board.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "M46280-001"
+   ],
+   "Battery": [
+    "L78125-006"
+   ],
+   "RAM": [
+    "L67710-002",
+    "L46598-002",
+    "L83673-002"
+   ],
+   "SSD": [
+    "L85348-002",
+    "L85360-002",
+    "L85364-002",
+    "L85354-002"
+   ],
+   "Wi-Fi card": [
+    "L16647-002",
+    "L35282-002",
+    "L44796-002"
+   ],
+   "Coin-cell battery": [
+    "L13694-001"
+   ],
+   "Fan": [
+    "M03432-001"
+   ],
+   "Heatsink": [
+    "M46284-001"
+   ],
+   "Speakers": [
+    "M03439-001"
+   ],
+   "Touchpad": [
+    "M46283-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "M46291-xx1",
+    "M46292-xx1",
+    "M46293-xx1",
+    "M46294-xx1",
+    "M46295-xx1",
+    "M46296-xx1"
+   ],
+   "Display assembly": [
+    "M46285-001",
+    "M46286-001",
+    "M46287-001",
+    "M46288-001",
+    "M46289-001",
+    "M46290-001"
+   ],
+   "Rear camera": [
+    "M03443-001"
+   ],
+   "Fingerprint reader": [
+    "M46281-001"
+   ],
+   "DC-in / charge port": [
+    "M03424-001"
+   ],
+   "System board": [
+    "M46279-xx1",
+    "M46278-xx1",
+    "M46277-xx1",
+    "M46276-xx1",
+    "M46274-xx1",
+    "M46275-xx1"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://manualsnet.com/hp/probook-x360-435-g8",
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (manualsnet copy). Top cover: backlit, not backlit, backlit privacy, with or without rear camera; xx1 is the country code. System board: Ryzen 7 5850U, 7 5800U, 5 5650U, 5 5600U, 3 5450U, 3 5400U (-001 non-Windows, -601 Windows). Cable Kit M03431-001, Bracket Kit M03436-001, Plastics Kit M46282-001, Screw Kit M03438-001."
+ },
+ {
+  "brand": "HP",
+  "model": "Pro x360 435 13.3 inch G9 Notebook PC (2022, convertible)",
+  "alias": [
+   "HP Pro x360 435 13.3 inch G9 Notebook PC",
+   "HP Pro x360 435 G9",
+   "Pro x360 435 G9",
+   "ProBook x360 435 G9"
+  ],
+  "battery_type": [
+   "SX03XL"
+  ],
+  "part_numbers": [
+   "M75597-006",
+   "SX03XL"
+  ],
+  "wh": 42,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.sparepartworld.com/hp/notebook/pro-serie/pro-x360-435-g9/",
+  "notes": "Sparepartworld gives 42 Wh. Reseller listings name the spare M75597-006 (SX03042XL, 3 cell 42 Wh 3.95 Ah), the same pack as the Pro x360 435 G10. HP service guide could not be read, so the part number is not confirmed by HP.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 45,
+  "charger_connector": "HP 4.5mm barrel",
+  "charger_output": "19.5V 2.31A",
+  "charger_part_numbers": [],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://hssl.us/hp-pro-x360-435-g9-13-3-touchscreen-convertible-2-in-1-notebook-full-hd-1920-x-1080-amd-ryzen-3-5425u-quad-core-4-core-2-70-ghz-8-gb-total-ram-256-gb-ssd-amd-chip-windows-11-pro-amd-radeon-graphics-6f7s6ut-aba",
+  "charger_notes": "Retailer lists a 45 W adapter for the base config. Sparepartworld lists 45 W barrel and 65 W USB-C and barrel adapters as fits. Adapter part numbers not found from an HP source.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-3200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "medium",
+  "ram_source_url": "https://hssl.us/hp-pro-x360-435-g9-13-3-touchscreen-convertible-2-in-1-notebook-full-hd-1920-x-1080-amd-ryzen-3-5425u-quad-core-4-core-2-70-ghz-8-gb-total-ram-256-gb-ssd-amd-chip-windows-11-pro-amd-radeon-graphics-6f7s6ut-aba",
+  "ram_notes": "Retailer data: 2 SO-DIMM slots, 1 x 8 GB fitted, 32 GB max. Not checked against HP QuickSpecs.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe NVMe",
+  "wifi_upgradable": "",
+  "wifi_type": "Wi-Fi 6/6E (802.11ax); exact card not confirmed",
+  "wwan": "no",
+  "wwan_notes": "No WWAN option found.",
+  "gpu": "Integrated AMD Radeon Graphics",
+  "gpu_upgradable": "no",
+  "parts_confidence": "medium",
+  "parts_source_url": "https://hssl.us/hp-pro-x360-435-g9-13-3-touchscreen-convertible-2-in-1-notebook-full-hd-1920-x-1080-amd-ryzen-3-5425u-quad-core-4-core-2-70-ghz-8-gb-total-ram-256-gb-ssd-amd-chip-windows-11-pro-amd-radeon-graphics-6f7s6ut-aba",
+  "parts_notes": "Ryzen 5025U/5425U/5625U/5825U. Wi-Fi card model and whether it is soldered were not confirmed.",
+  "replaceable_parts": "",
+  "keyboard": "",
+  "screen": "",
+  "charge_port": "",
+  "fan": "",
+  "service_manual_url": "",
+  "repair_confidence": "",
+  "repair_notes": "The HP service guide for the G9 could not be read (too large to fetch, and no mirror found). Repair data left empty.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "M75597-006"
+   ]
+  },
+  "pn_confidence": "medium",
+  "pn_source_url": "https://www.sparepartworld.com/hp/notebook/pro-serie/pro-x360-435-g9/",
+  "pn_notes": "Only the battery number was found (reseller listings). Use HP PartSurfer with the product number for other parts."
+ },
+ {
+  "brand": "HP",
+  "model": "Elite x2 G8 Tablet (2021, 13 in detachable)",
+  "alias": [
+   "HP Elite x2 G8 Tablet",
+   "HP Elite x2 G8",
+   "Elite x2 G8"
+  ],
+  "battery_type": [
+   "MC02XL"
+  ],
+  "part_numbers": [
+   "M33875-005",
+   "MC02XL"
+  ],
+  "wh": 47,
+  "cells": 2,
+  "confidence": "high",
+  "source_url": "https://manualsnet.com/hp/elite-x2-g8",
+  "notes": "HP service guide lists battery M33875-005 (2 cell, 47 Wh Long Life polymer). Shops name the pack MC02XL (MC02047XL-PL).",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A / 15V 4.33A / 12V 5A / 9V 3A / 5V 3A)",
+  "charger_part_numbers": [
+   "L04650-850",
+   "L32392-001"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://manualsnet.com/hp/elite-x2-g8",
+  "charger_notes": "65 W USB-C nPFC slim (L04650-850) or RC (L32392-001). The guide also lists a 120 W 7.4 mm Smart adapter (L57117-001) for use with a dock.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR4x-4266 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "16 GB",
+  "ram_configs": [],
+  "ram_confidence": "medium",
+  "ram_source_url": "https://manualsnet.com/hp/elite-x2-g8",
+  "ram_notes": "HP sells the system board only with 8 GB or 16 GB of memory on it, so RAM is soldered. LPDDR4x-4266 is from HP product pages quoted by resellers.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 3.0 NVMe",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX201 (Wi-Fi 6)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option: Intel XMM 7360 LTE-Advanced (Cat 9) card L70670-005. WWAN models use the speaker kit with WWAN antennas (M51639-001). Nano SIM tray on the side.",
+  "gpu": "Integrated Intel Iris Xe (UHD on i3)",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://manualsnet.com/hp/elite-x2-g8",
+  "parts_notes": "HP says WLAN is on a soldered connector; the guide lists no WLAN module spare.",
+  "replaceable_parts": "Battery; SSD; WWAN card; Heatsink; Speakers; Keyboard; Display panel; Back cover; Camera; Hinges; Power button board; Volume board; Fingerprint reader; SIM board; POGO connector; Kickstand; System board; Antennas",
+  "keyboard": "separate",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "heatsink",
+  "service_manual_url": "https://manualsnet.com/hp/elite-x2-g8",
+  "repair_confidence": "high",
+  "repair_notes": "Detachable tablet. The keyboard is the separate HP Collaboration Keyboard. The touch display panel is sold alone. The fan comes only with the heat sink. The USB-C ports are on the system board. RAM and Wi-Fi are on the system board.",
+  "replaceable_part_numbers": {
+   "Battery": [
+    "M33875-005"
+   ],
+   "SSD": [
+    "L85358-005",
+    "L85348-005",
+    "L85366-005",
+    "L85360-005",
+    "L85364-005",
+    "L85368-005",
+    "M07245-005",
+    "L85350-005",
+    "L85354-005",
+    "M06792-005"
+   ],
+   "WWAN card": [
+    "L70670-005"
+   ],
+   "Heatsink": [
+    "L67416-001"
+   ],
+   "Speakers": [
+    "M51638-001",
+    "M51639-001"
+   ],
+   "Keyboard": [
+    "M51231-001"
+   ],
+   "Display panel": [
+    "M51632-001",
+    "M51634-001",
+    "M51633-001"
+   ],
+   "Back cover": [
+    "M51636-001"
+   ],
+   "Camera": [
+    "M75415-001",
+    "L67412-001"
+   ],
+   "Hinges": [
+    "M51637-001"
+   ],
+   "Power button board": [
+    "L67420-001"
+   ],
+   "Volume board": [
+    "M73529-001"
+   ],
+   "Fingerprint reader": [
+    "M51644-001"
+   ],
+   "SIM board": [
+    "M51642-001"
+   ],
+   "POGO connector": [
+    "L67422-001"
+   ],
+   "Kickstand": [
+    "L67409-001"
+   ],
+   "System board": [
+    "M51650-001",
+    "M75287-001",
+    "M51651-001",
+    "M51652-001",
+    "M51657-001",
+    "M51653-001",
+    "M51654-001",
+    "M51658-001",
+    "M51655-001",
+    "M75288-001",
+    "M51656-001"
+   ],
+   "Antennas": [
+    "M51638-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://manualsnet.com/hp/elite-x2-g8",
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (manualsnet copy). Heatsink includes the fan. Speakers: kit with WLAN antennas or with WWAN antennas. Display panel: WUXGA+, WUXGA+ privacy, 3K2K. Camera: 8 MP rear, 2 MP IR front. System board: i3-1115G4 to i7-1185G7 with 8 GB or 16 GB (-001 non-Windows, -601 Windows). Keyboard: US English; other country codes are listed in the guide."
+ },
+ {
+  "brand": "HP",
+  "model": "Elite x360 1040 14 inch G9 2-in-1 Notebook PC (2022, convertible)",
+  "alias": [
+   "HP Elite x360 1040 14 inch G9 2-in-1 Notebook PC",
+   "HP Elite x360 1040 G9",
+   "Elite x360 1040 G9",
+   "EliteBook x360 1040 G9"
+  ],
+  "battery_type": [
+   "WP03XL"
+  ],
+  "part_numbers": [
+   "M73466-005",
+   "M73468-005",
+   "WP03XL"
+  ],
+  "wh": 51,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://manualsnet.com/hp/elite-x360-1040-g9",
+  "notes": "HP service guide lists two 3-cell packs: M73466-005 = 51 Wh 4.68 Ah, M73468-005 = 38 Wh 3.53 Ah. Shops name the 51 Wh pack WP03XL (WP03051XL, HSTNN-IB9Y). Family code of the 38 Wh pack not confirmed.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A / 15V 4.33A / 12V 5A / 9V 3A / 5V 3A)",
+  "charger_part_numbers": [
+   "L04650-850",
+   "L32392-001",
+   "L21847-001",
+   "L43407-001",
+   "L32390-001",
+   "860210-001"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://manualsnet.com/hp/elite-x360-1040-g9",
+  "charger_notes": "HP lists 65 W USB-C (standard or slim) and 45 W USB-C Smart adapters. 65 W: L04650-850 (slim), L32392-001 (RC), L21847-001 (travel). 45 W: L43407-001, L32390-001, 860210-001.",
+  "ram_upgradable": "no",
+  "ram_type": "Soldered (8 GB or 16 GB on the system board)",
+  "ram_slots": 0,
+  "ram_max": "16 GB",
+  "ram_configs": [],
+  "ram_confidence": "medium",
+  "ram_source_url": "https://manualsnet.com/hp/elite-x360-1040-g9",
+  "ram_notes": "The guide's spec table says two SO-DIMM slots up to 64 GB DDR5-4800, but every system board spare includes 8 GB or 16 GB of memory and no memory module spare is listed, so RAM is soldered. Resellers list DDR5-4800 or LPDDR5 onboard. Memory type not confirmed.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 4.0 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 (M.2 2230 CNVi)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option: Intel 5000 5G (M46335-001) or Intel XMM 7560 R+ LTE (M52040-001). WWAN models use a different bottom cover and display assembly with WWAN antennas.",
+  "gpu": "Integrated Intel Iris Xe",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://manualsnet.com/hp/elite-x360-1040-g9",
+  "parts_notes": "WLAN spares M53366-001 (AX211) and M53363-001 (AX211 vPro). NFC module M08706-001.",
+  "replaceable_parts": "Bottom cover; Battery; SSD; Wi-Fi card; WWAN card; Coin-cell battery; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display assembly; Smart card reader; Fingerprint reader; NFC module; Audio jack; USB/SIM connector board; System board",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://manualsnet.com/hp/elite-x360-1040-g9",
+  "repair_confidence": "high",
+  "repair_notes": "Keyboard is sold only with the top cover. The display is sold as a full assembly (one note in the guide also mentions subcomponents). Charging is through the USB-C/Thunderbolt ports on the system board. RAM is on the system board.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "N09282-001",
+    "N09281-001"
+   ],
+   "Battery": [
+    "M73466-005",
+    "M73468-005"
+   ],
+   "SSD": [
+    "M52027-001",
+    "M17436-001",
+    "L89745-001",
+    "M52031-001",
+    "M52025-001",
+    "M52029-001",
+    "L85354-001"
+   ],
+   "Wi-Fi card": [
+    "M53366-001",
+    "M53363-001"
+   ],
+   "WWAN card": [
+    "M46335-001",
+    "M52040-001"
+   ],
+   "Coin-cell battery": [
+    "L13694-001"
+   ],
+   "Fan": [
+    "N08535-001"
+   ],
+   "Heatsink": [
+    "N07350-001"
+   ],
+   "Speakers": [
+    "N13695-001"
+   ],
+   "Touchpad": [
+    "N13694-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "N09294-001",
+    "N09295-001"
+   ],
+   "Display assembly": [
+    "N13242-001",
+    "N09531-001",
+    "N13243-001",
+    "N09532-001",
+    "N13244-001",
+    "N09533-001",
+    "N13245-001",
+    "N13240-001",
+    "N13246-001",
+    "N13241-001"
+   ],
+   "Smart card reader": [
+    "N08543-001"
+   ],
+   "Fingerprint reader": [
+    "N08532-001"
+   ],
+   "NFC module": [
+    "M08706-001"
+   ],
+   "Audio jack": [
+    "N11993-001"
+   ],
+   "USB/SIM connector board": [
+    "N09292-001"
+   ],
+   "System board": [
+    "N09312-001",
+    "N09311-001",
+    "N09313-001",
+    "N09314-001",
+    "N09309-001",
+    "N09310-001",
+    "N09306-001",
+    "N09305-001",
+    "N09307-001",
+    "N09308-001",
+    "N09303-001",
+    "N09302-001",
+    "N09304-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://manualsnet.com/hp/elite-x360-1040-g9",
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (manualsnet copy). Bottom cover: WWAN, non-WWAN. Battery: 51 Wh, 38 Wh. Top cover: N09294 backlit, N09295 backlit privacy (-001 US; other country codes in the guide). Display: 250, 400 or 1000 nits, WWAN or non-WWAN. System board: i5-1235U to i7-1265U with 8 or 16 GB (-001 non-Windows, -601 Windows). Cable Kit N09289-001, Bracket Kit N09285-001, Plastics Kit N09286-001, Screw Kit N15476-001."
+ },
+ {
+  "brand": "HP",
+  "model": "Pavilion Gaming Laptop 15-ec0000 (2019, 15.6 in)",
+  "alias": [
+   "HP Pavilion Gaming Laptop 15-ec0xxx",
+   "HP Pavilion Gaming 15-ec0000",
+   "Pavilion Gaming 15-ec0xxx",
+   "HP Pavilion Gaming 15z-ec000"
+  ],
+  "battery_type": [
+   "PG03XL"
+  ],
+  "part_numbers": [
+   "L48495-005",
+   "L48495-006",
+   "PG03XL"
+  ],
+  "wh": 52,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://www.manualslib.com/manual/1660707/Hp-Pavilion-Gaming-15-Series.html?page=26",
+  "notes": "HP service guide lists battery L48495-005 (3 cell, 52 Wh). Shops name it PG03XL and list L48495-006 as the later number. Same pack as Pavilion Gaming 15-dk and 15-ec1/ec2.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 150,
+  "charger_connector": "HP 4.5mm barrel",
+  "charger_output": "19.5V 7.7A",
+  "charger_part_numbers": [
+   "L32661-001",
+   "L00818-850",
+   "L15534-001"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://www.manualslib.com/manual/1660707/Hp-Pavilion-Gaming-15-Series.html?page=30",
+  "charger_notes": "HP lists 150 W (L32661-001), 200 W (L00818-850, 19.5V 10.3A) and 135 W (L15534-001, 19.5V 6.92A) slim PFC 4.5 mm adapters. The guide has separate power connector cables for 150 W and 200 W models; the 200 W adapter goes with GTX 1660 Ti models. Output values from general knowledge.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-2400 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://www.ifixit.com/Document/PelUPBYtN5EUgKGH/HP-Pavilion-Gaming-15-ec-Maintenance-and-Service-Guide.pdf",
+  "ram_notes": "Two customer-accessible slots, DDR4-2400 dual channel. HP spare modules are DDR4-2666 (8 GB 937236-855, 4 GB L10598-855).",
+  "storage_upgradable": "yes",
+  "storage_slots": 2,
+  "storage_type": "M.2 2280 PCIe 3.0 NVMe + 2.5in SATA (7 mm)",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Realtek RTL8822CE (M.2 2230)",
+  "wwan": "no",
+  "wwan_notes": "No WWAN option in the HP guide.",
+  "gpu": "AMD Radeon Vega 8/10 integrated + NVIDIA GeForce GTX 1050 3 GB, GTX 1650 4 GB or GTX 1660 Ti 6 GB",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://www.manualslib.com/manual/1660707/Hp-Pavilion-Gaming-15-Series.html?page=12",
+  "parts_notes": "One M.2 slot and one 2.5 in bay. HDD-only configs have the M.2 slot free. The NVIDIA GPU is on the system board.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; HDD; Wi-Fi card; Fan; Heatsink; Speakers; Touchpad; Palmrest/top cover with keyboard; Display panel; Display bezel; Display back cover; Camera; Hinges; Display cable; DC-in / charge port; Power button/USB board; System board; Antennas",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "separate",
+  "fan": "separate",
+  "service_manual_url": "https://www.manualslib.com/manual/1660707/Hp-Pavilion-Gaming-15-Series.html",
+  "repair_confidence": "high",
+  "repair_notes": "Keyboard is sold only with the top cover. The display is sold as subcomponents (panel, bezel, back cover, hinges, cable, camera). The DC-in jack is on a separate power connector cable (150 W and 200 W versions).",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "L72705-001",
+    "L72706-001"
+   ],
+   "Battery": [
+    "L48495-005"
+   ],
+   "RAM": [
+    "937236-855",
+    "L10598-855"
+   ],
+   "SSD": [
+    "L72515-001",
+    "L71936-001",
+    "L71934-001",
+    "L71935-001",
+    "L71933-001",
+    "L71937-001"
+   ],
+   "HDD": [
+    "766644-005",
+    "762990-005"
+   ],
+   "Wi-Fi card": [
+    "L44796-005"
+   ],
+   "Fan": [
+    "L72702-001"
+   ],
+   "Heatsink": [
+    "L81917-001",
+    "L72701-001",
+    "L72700-001"
+   ],
+   "Speakers": [
+    "L72708-001"
+   ],
+   "Touchpad": [
+    "L72709-001"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "L72597-xx1",
+    "L72598-xx1",
+    "L72599-xx1",
+    "L72600-xx1"
+   ],
+   "Display panel": [
+    "L71938-001",
+    "L71939-001",
+    "L71940-001",
+    "L71941-001"
+   ],
+   "Display bezel": [
+    "L72717-001"
+   ],
+   "Display back cover": [
+    "L72711-001",
+    "L72713-001"
+   ],
+   "Camera": [
+    "L72721-001"
+   ],
+   "Hinges": [
+    "L72710-001"
+   ],
+   "Display cable": [
+    "L72719-001",
+    "L72720-001"
+   ],
+   "DC-in / charge port": [
+    "L72704-001",
+    "L72703-001"
+   ],
+   "Power button/USB board": [
+    "L72694-001",
+    "L72695-001",
+    "L72696-001"
+   ],
+   "System board": [
+    "L71932-xx1",
+    "L71930-xx1",
+    "L71931-xx1",
+    "L71929-xx1",
+    "L71928-xx1"
+   ],
+   "Antennas": [
+    "L75188-001"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://www.manualslib.com/manual/1660707/Hp-Pavilion-Gaming-15-Series.html?page=25",
+  "pn_notes": "Numbers from the HP Maintenance and Service Guide (ManualsLib copy). Page text lost some row alignment, so colour variants are matched by order. Top cover: acid green, ghost white backlit, ghost white not backlit, ultra violet. Heatsink: GTX 1660 Ti, GTX 1650, GTX 1050. DC-in cable: 200 W, 150 W. System board: Ryzen 7 3750H or Ryzen 5 3550H with GTX 1660 Ti, 1650 or 1050 (-001 non-Windows, -601 Windows). Display back cover: only two of the colour variants were read."
+ },
+ {
+  "brand": "HP",
+  "model": "Laptop 15s-fq5000 (2022, 15.6 in)",
+  "alias": [
+   "HP Laptop 15s-fq5xxx",
+   "HP 15s-fq5000",
+   "HP Laptop 15s-fq5000",
+   "15s-fq5xxx"
+  ],
+  "battery_type": [
+   "HT03XL"
+  ],
+  "part_numbers": [
+   "L11119-855",
+   "HT03XL"
+  ],
+  "wh": 41,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.jarcomputers.com/images/custom/docs/42c49487-6266-40f6-be8b-6b0061ba315c-166640667287.pdf",
+  "notes": "HP product sheet (15s-fq5015nu) gives 3-cell 41 Wh Li-ion. The HT03XL / L11119-855 code is from general knowledge of the 15s-fq family and was not confirmed for this model; check the battery label. HP says it has no service guide for the 15s-fq5000 series.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 45,
+  "charger_connector": "HP 4.5mm barrel",
+  "charger_output": "19.5V 2.31A",
+  "charger_part_numbers": [
+   "741727-001"
+  ],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://www.jarcomputers.com/images/custom/docs/42c49487-6266-40f6-be8b-6b0061ba315c-166640667287.pdf",
+  "charger_notes": "HP product sheet lists a 45 W Smart AC adapter. Some i5/i7 configs may ship with 65 W. Part number from general knowledge (HP 45 W 4.5 mm Smart).",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR4-3200 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "",
+  "ram_configs": [],
+  "ram_confidence": "medium",
+  "ram_source_url": "https://www.jarcomputers.com/images/custom/docs/42c49487-6266-40f6-be8b-6b0061ba315c-166640667287.pdf",
+  "ram_notes": "HP product sheet shows 16 GB as 2 x 8 GB DDR4-3200, so there are two slots. HP gives no official maximum; resellers say 16 GB or 32 GB.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 PCIe NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Realtek RTL8821CE (M.2, Wi-Fi 5 1x1)",
+  "wwan": "no",
+  "wwan_notes": "No WWAN option.",
+  "gpu": "Integrated Intel UHD (i3) or Iris Xe (i5/i7 with dual-channel RAM)",
+  "gpu_upgradable": "no",
+  "parts_confidence": "medium",
+  "parts_source_url": "https://www.jarcomputers.com/images/custom/docs/42c49487-6266-40f6-be8b-6b0061ba315c-166640667287.pdf",
+  "parts_notes": "Storage slot count and M.2 length not confirmed by an HP source. Wi-Fi card is from one product sheet; other configs can differ.",
+  "replaceable_parts": "",
+  "keyboard": "",
+  "screen": "",
+  "charge_port": "",
+  "fan": "",
+  "service_manual_url": "",
+  "repair_confidence": "",
+  "repair_notes": "HP has no Maintenance and Service Guide for the 15s-fq5000 series, so repair data is left empty.",
+  "replaceable_part_numbers": {},
+  "pn_confidence": "",
+  "pn_source_url": "",
+  "pn_notes": "No HP parts list found. Use HP PartSurfer with the product number."
+ },
+ {
   "brand": "Lenovo",
   "model": "ThinkPad X390 (MTM 20Q0)",
   "alias": [
@@ -25367,6 +28713,1262 @@ window.BATTERIES = [
   "pn_notes": "From the Lenovo parts lookup for type 82CU. Bottom cover and touchpad: Iron Grey, then Light Silver. Palmrest/top cover is the C-cover with US English backlit keyboard (first two Iron Grey, last two Light Silver). Display assembly: second is QHD touch glossy. System board: all 8 are i5-1135G7 or i7-1165G7 with 8 or 16 GB; 4 shown. Display panel and bezel are not sold separately."
  },
  {
+  "brand": "Lenovo",
+  "model": "ThinkBook 15 G4 IAP",
+  "alias": [
+   "ThinkBook 15 G4 IAP",
+   "ThinkBook 15 Gen 4 (Intel)",
+   "21DJ"
+  ],
+  "battery_type": [
+   "L19M3PDA",
+   "L19C3PDA",
+   "L19D3PDA",
+   "L19M4PDB",
+   "L19C4PDB",
+   "L20M4PDB"
+  ],
+  "part_numbers": [
+   "5B10Z21210",
+   "5B10Z21202",
+   "5B10Z21198",
+   "5B10Z21197",
+   "5B11N52054",
+   "5B11N52076",
+   "5B10Z21201",
+   "5B10Z21209",
+   "5B11C22842",
+   "5B11N52063",
+   "5B11N52069"
+  ],
+  "wh": 45,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-15-g4-iap/21dj/parts/display/compatible",
+  "notes": "Two sizes. 45Wh 3-cell: 5B10Z21210, 5B10Z21202, 5B10Z21198, 5B10Z21197, 5B11N52052, 5B11N52054, 5B11N52073, 5B11N52076 (L19M3PDA / L19C3PDA / L19L3PDA / L19D3PDA). 60Wh 4-cell: 5B10Z21201, 5B10Z21209, 5B11C22842, 5B11N52056, 5B11N52063, 5B11N52069 (L19M4PDB / L19C4PDB / L20M4PDB). PSREF lists both sizes. FRU numbers from the Lenovo parts lookup; cell-pack codes from parts sellers. Same packs as ThinkBook 14/15 G2 to G5.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "02DL128",
+   "5A10W86261",
+   "5A11E21011",
+   "5A11C11088",
+   "5A10W86264",
+   "5A10W86265"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_15_G4_IAP/ThinkBook_15_G4_IAP_Spec.pdf",
+  "charger_notes": "PSREF: 65W USB-C (3-pin) or 65W USB-C slim (2-pin, wall-mount) adapter, PD 3.0; offering depends on country. Also listed: 02DL124, 02DL126, 5A11E21013, 5A11J75641 (China). 5A10W86264 is a 2-pin US adapter, 5A10W86265 a 2-pin EU adapter.",
+  "ram_upgradable": "partial",
+  "ram_type": "DDR4-3200 (soldered + SO-DIMM)",
+  "ram_slots": 1,
+  "ram_max": "40 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_15_G4_IAP/ThinkBook_15_G4_IAP_Spec.pdf",
+  "ram_notes": "8 GB is soldered to the system board. One DDR4 SO-DIMM slot takes up to 32 GB.",
+  "storage_upgradable": "yes",
+  "storage_slots": 2,
+  "storage_type": "M.2 2280 PCIe 4.0 NVMe (two slots; 2242 drives also fit)",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 or AX201 (M.2 2230 CNVi), Intel 9560, or Realtek RTL8852BE (M.2 2230)",
+  "wwan": "no",
+  "wwan_notes": "PSREF lists no WWAN option.",
+  "gpu": "Integrated Intel Iris Xe (UHD on i3 or single-channel memory), or NVIDIA GeForce MX550 2GB on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_15_G4_IAP/ThinkBook_15_G4_IAP_Spec.pdf",
+  "parts_notes": "PSREF: two M.2 2280 PCIe 4.0 x4 slots; Lenovo ships M.2 2242 or 2280 SSDs. Wi-Fi 5, Wi-Fi 6 or Wi-Fi 6E M.2 card; the Lenovo parts lookup lists Realtek 8852BE, Intel AX211, AX201 and 9560 cards.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card; Coin-cell battery; Fan; Heatsink; Speakers; Palmrest/top cover with keyboard; Display panel; Display bezel; Display back cover; Camera; Hinge cover; eDP cable; I/O board; Fingerprint reader board; System board",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://inquirecontent2.ingrammicro.com/User-Manual/1077610515.pdf",
+  "repair_confidence": "medium",
+  "repair_notes": "Keyboard comes only with the upper case (C-cover). The fan is a separate part from the heatsink. USB-C charge ports are on the system board. The Lenovo HMM (ThinkBook 14/15 G4 IAP/ABA) was found but not read in full; parts data is from the Lenovo parts lookup.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1J09194",
+    "5CB1J09195",
+    "5CB1B34805"
+   ],
+   "Battery": [
+    "5B10Z21210",
+    "5B10Z21209",
+    "5B11N52054",
+    "5B11N52063"
+   ],
+   "RAM": [
+    "5M30Z71712",
+    "5M30Z71713",
+    "5M30V06981"
+   ],
+   "SSD": [
+    "5SS1K96260",
+    "5SS1F28991",
+    "5SS1D33970"
+   ],
+   "Wi-Fi card": [
+    "5W10V25811",
+    "5W10V25812",
+    "5W10V25844",
+    "5W10V25775",
+    "5W10V25772"
+   ],
+   "Coin-cell battery": [
+    "5B10S34082"
+   ],
+   "Fan": [
+    "5F10S13937",
+    "5F10S13936"
+   ],
+   "Heatsink": [
+    "5H40S20676",
+    "5H40S20677",
+    "5H40S20678",
+    "5H40S20679"
+   ],
+   "Speakers": [
+    "5SB0S31979"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "5CB1J09227",
+    "5CB1J09292"
+   ],
+   "Display panel": [
+    "5D11J12384",
+    "5D11H31886",
+    "5D11H87186"
+   ],
+   "Display bezel": [
+    "5B30S19058",
+    "5B30S19059"
+   ],
+   "Display back cover": [
+    "5CB1H88666",
+    "5CB1H88667",
+    "5CB1H88668"
+   ],
+   "Camera": [
+    "5C20Z72182",
+    "5C20Z72183"
+   ],
+   "Hinge cover": [
+    "5CB1B34807"
+   ],
+   "eDP cable": [
+    "5C10S30188",
+    "5C10S30189"
+   ],
+   "I/O board": [
+    "5C50S25384",
+    "5C50S25385",
+    "5C50S25411"
+   ],
+   "Fingerprint reader board": [
+    "5F30S94994"
+   ],
+   "System board": [
+    "5B21H85881",
+    "5B21H84376",
+    "5B21H85889"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-15-g4-iap/21dj/parts/display/compatible",
+  "pn_notes": "Lenovo compatible-parts list for machine type 21DJ (468 parts). Heatsink: UMA or discrete (MX550), two suppliers. Palmrest/top cover: US English backlit (5CB1J09227) and non-backlit (5CB1J09292); 129 language variants. System board: 38 variants by CPU and GPU; 3 shown."
+ },
+ {
+  "brand": "Lenovo",
+  "model": "ThinkBook 14 G4 IAP",
+  "alias": [
+   "ThinkBook 14 G4 IAP",
+   "ThinkBook 14 Gen 4 (Intel)",
+   "21DH"
+  ],
+  "battery_type": [
+   "L19M3PDA",
+   "L19C3PDA",
+   "L19D3PDA",
+   "L19M4PDB",
+   "L19C4PDB",
+   "L20M4PDB"
+  ],
+  "part_numbers": [
+   "5B10Z21210",
+   "5B10Z21202",
+   "5B10Z21198",
+   "5B10Z21197",
+   "5B11N52054",
+   "5B11N52076",
+   "5B10Z21201",
+   "5B10Z21209",
+   "5B11C22842",
+   "5B11N52063",
+   "5B11N52069"
+  ],
+  "wh": 45,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14-g4-iap/21dh/parts/display/compatible",
+  "notes": "Two sizes. 45Wh 3-cell: 5B10Z21210, 5B10Z21202, 5B10Z21198, 5B10Z21197, 5B11N52052, 5B11N52054, 5B11N52073, 5B11N52076 (L19M3PDA / L19C3PDA / L19L3PDA / L19D3PDA). 60Wh 4-cell: 5B10Z21201, 5B10Z21209, 5B11C22842, 5B11N52056, 5B11N52063, 5B11N52069 (L19M4PDB / L19C4PDB / L20M4PDB). PSREF lists both sizes. FRU numbers from the Lenovo parts lookup; cell-pack codes from parts sellers. Same packs as ThinkBook 14/15 G2 to G5.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "02DL128",
+   "5A10W86261",
+   "5A11E21011",
+   "5A11C11088",
+   "5A10W86264",
+   "5A10W86265"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14_G4_IAP/ThinkBook_14_G4_IAP_Spec.pdf",
+  "charger_notes": "PSREF: 65W USB-C (3-pin) or 65W USB-C slim (2-pin, wall-mount) adapter, PD 3.0; offering depends on country. Also listed: 02DL124, 02DL126, 5A11E21013, 5A11J75641 (China). 5A10W86264 is a 2-pin US adapter, 5A10W86265 a 2-pin EU adapter.",
+  "ram_upgradable": "partial",
+  "ram_type": "DDR4-3200 (soldered + SO-DIMM)",
+  "ram_slots": 1,
+  "ram_max": "40 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14_G4_IAP/ThinkBook_14_G4_IAP_Spec.pdf",
+  "ram_notes": "8 GB is soldered to the system board. One DDR4 SO-DIMM slot takes up to 32 GB.",
+  "storage_upgradable": "yes",
+  "storage_slots": 2,
+  "storage_type": "M.2 2280 PCIe 4.0 NVMe (two slots; 2242 drives also fit)",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 or AX201 (M.2 2230 CNVi), Intel 9560, or Realtek RTL8852BE (M.2 2230)",
+  "wwan": "no",
+  "wwan_notes": "PSREF lists no WWAN option.",
+  "gpu": "Integrated Intel Iris Xe (UHD on i3 or single-channel memory), or NVIDIA GeForce MX550 2GB on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14_G4_IAP/ThinkBook_14_G4_IAP_Spec.pdf",
+  "parts_notes": "PSREF: two M.2 2280 PCIe 4.0 x4 slots; Lenovo ships M.2 2242 or 2280 SSDs. Wi-Fi 5, Wi-Fi 6 or Wi-Fi 6E M.2 card; the Lenovo parts lookup lists Realtek 8852BE, Intel AX211, AX201 and 9560 cards.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card; Coin-cell battery; Fan; Heatsink; Speakers; Palmrest/top cover with keyboard; Display panel; Display bezel; Display back cover; Camera; Hinge cover; eDP cable; System board",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "https://inquirecontent2.ingrammicro.com/User-Manual/1077610515.pdf",
+  "repair_confidence": "medium",
+  "repair_notes": "Keyboard comes only with the upper case (C-cover). The fan is a separate part from the heatsink. USB-C charge ports are on the system board. The Lenovo HMM (ThinkBook 14/15 G4 IAP/ABA) was found but not read in full; parts data is from the Lenovo parts lookup.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1J09066",
+    "5CB1J09067"
+   ],
+   "Battery": [
+    "5B10Z21210",
+    "5B10Z21209",
+    "5B11N52054",
+    "5B11N52063"
+   ],
+   "RAM": [
+    "5M30Z71712",
+    "5M30Z71714"
+   ],
+   "SSD": [
+    "5SS1K96260",
+    "5SS1F28991",
+    "5SS1D33970"
+   ],
+   "Wi-Fi card": [
+    "5W10V25811",
+    "5W10V25812",
+    "5W10V25844",
+    "5W10V25775",
+    "5W10V25772"
+   ],
+   "Coin-cell battery": [
+    "5B10S34080"
+   ],
+   "Fan": [
+    "5F10S13930",
+    "5F10S13929"
+   ],
+   "Heatsink": [
+    "5H40S20672",
+    "5H40S20673",
+    "5H40S20674",
+    "5H40S20675"
+   ],
+   "Speakers": [
+    "5SB0S31980"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "5CB1J09192",
+    "5CB1J09193"
+   ],
+   "Display panel": [
+    "5D11K86985",
+    "5D11J18207",
+    "5D11C12732"
+   ],
+   "Display bezel": [
+    "5B30S19060",
+    "5B30S19061"
+   ],
+   "Display back cover": [
+    "5CB1H92146",
+    "5CB1H92147",
+    "5CB1H92148"
+   ],
+   "Camera": [
+    "5C20Z72182",
+    "5C20Z72183"
+   ],
+   "Hinge cover": [
+    "5CB1B02548"
+   ],
+   "eDP cable": [
+    "5C10S30170",
+    "5C10S30171"
+   ],
+   "System board": [
+    "5B21J23419",
+    "5B21J09819"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkbook-series/thinkbook-14-g4-iap/21dh/parts/display/compatible",
+  "pn_notes": "Lenovo compatible-parts list for machine type 21DH (457 parts). Heatsink: UMA or discrete (MX550), two suppliers. Palmrest/top cover: 128 language and backlight variants; 2 shown. System board: 38 variants; 2 shown (China-region boards)."
+ },
+ {
+  "brand": "Lenovo",
+  "model": "ThinkPad X1 Carbon Gen 8",
+  "alias": [
+   "ThinkPad X1 Carbon Gen 8",
+   "X1 Carbon 8th Gen",
+   "20U9",
+   "20UA"
+  ],
+  "battery_type": [
+   "L18M4P72"
+  ],
+  "part_numbers": [
+   "5B10W51833",
+   "5B10W51834",
+   "5B10W51835",
+   "02DL004",
+   "02DL005",
+   "02DL006"
+  ],
+  "wh": 51,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-8th-gen-type-20u9-20ua/20u9/parts/display/compatible",
+  "notes": "51Wh 4-cell, 15.36V. Lenovo parts lookup lists FRUs 5B10W51833 (LGC), 5B10W51834 (SMP), 5B10W51835 (CXP). Sellers map them to cell packs L18M4P72 / L18C4P71 / L18L4P71, the same packs as X1 Carbon 7th Gen (02DL004 to 02DL006) and X1 Yoga Gen 4/5.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "5A10W86250",
+   "5A10W86251",
+   "5A10W86252",
+   "5A10W86253",
+   "02DL151",
+   "02DL152",
+   "5A10W86242",
+   "5A10W86243"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X1_Carbon_Gen_8/ThinkPad_X1_Carbon_Gen_8_Spec.pdf",
+  "charger_notes": "PSREF lists 45W and 65W USB-C adapters (2-pin, 3-pin, slim), PD 3.0; offering depends on country. Rapid Charge needs the 65W adapter. 5A10W86242 to 5A10W86249 are 45W; the others shown are 65W. The Lenovo parts lookup lists 30 adapter FRUs.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR3-2133 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "16 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X1_Carbon_Gen_8/ThinkPad_X1_Carbon_Gen_8_Spec.pdf",
+  "ram_notes": "8 GB or 16 GB soldered to the system board, no slots.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 3.0 NVMe",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX201 (CNVi)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option (M.2 card: Fibocom L850-GL, L860-GL or Quectel EM05). Non-WWAN models are not WWAN upgradable unless they are antenna ready.",
+  "gpu": "Integrated Intel UHD Graphics",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X1_Carbon_Gen_8/ThinkPad_X1_Carbon_Gen_8_Spec.pdf",
+  "parts_notes": "PSREF: one M.2 2280 PCIe 3.0 x4 drive, up to 2 TB. The Lenovo parts lookup lists no Wi-Fi card, so Wi-Fi is on the system board.",
+  "replaceable_parts": "Bottom cover; Battery; SSD; WWAN card; Coin-cell battery; Fan/heatsink assembly; Speakers; Palmrest/top cover with keyboard; Touchpad; Display panel; Display back cover; Display bezel; Camera; Hinges; USB/power button board; Fingerprint reader; NFC module; eSIM card; System board; Antennas",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "heatsink",
+  "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/x1_yoga_gen5_x1_carbon_gen8_hmm_en.pdf",
+  "repair_confidence": "medium",
+  "repair_notes": "RAM and Wi-Fi are soldered. Keyboard comes only with the C-cover. Fan comes only as the thermal module with the heatsink. USB-C charge ports are on the system board. The HMM was found but not read in full; parts data is from the Lenovo parts lookup.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5M10Z41637",
+    "5M10Z41638"
+   ],
+   "Battery": [
+    "5B10W51833",
+    "5B10W51834",
+    "5B10W51835"
+   ],
+   "SSD": [
+    "00UP734",
+    "00UP735",
+    "00UP736",
+    "5SS0V26412"
+   ],
+   "WWAN card": [
+    "5W10V25790",
+    "5W10V25794",
+    "02HK709"
+   ],
+   "Coin-cell battery": [
+    "5B10W13978"
+   ],
+   "Fan/heatsink assembly": [
+    "5H40W65011",
+    "5H40W65012",
+    "5H40W65014"
+   ],
+   "Speakers": [
+    "5SB0V25485",
+    "5SB0V25486"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "5M10Z37041",
+    "5M10Z37045"
+   ],
+   "Touchpad": [
+    "01YU088",
+    "01YU092"
+   ],
+   "Display panel": [
+    "01YN157",
+    "5D10V82346",
+    "5D10V82345",
+    "5D10V82348"
+   ],
+   "Display back cover": [
+    "5M10Z27418",
+    "5M10Z27420",
+    "5M11A36912"
+   ],
+   "Display bezel": [
+    "5M10Y34503",
+    "5M10Y34507"
+   ],
+   "Camera": [
+    "01HW057",
+    "01HW059",
+    "5C20W42984"
+   ],
+   "Hinges": [
+    "5H50V28087",
+    "5H50V28088"
+   ],
+   "USB/power button board": [
+    "00HW569",
+    "00HW570"
+   ],
+   "Fingerprint reader": [
+    "5F30V25898"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "eSIM card": [
+    "5W11H85415"
+   ],
+   "System board": [
+    "5B21C69328",
+    "5B21C69331"
+   ],
+   "Antennas": [
+    "5A30V25487",
+    "5A30V25488",
+    "5A30V25489",
+    "5A30V25490"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-8th-gen-type-20u9-20ua/20u9/parts/display/compatible",
+  "pn_notes": "Lenovo compatible-parts list for machine type 20U9 (507 parts). Bottom cover: WLAN-only and WWAN versions. Display bezel is a bezel sheet (RGB or IR camera). Display panel: FHD 400 nit, FHD touch, FHD ePrivacy, UHD. Palmrest/top cover: 144 language variants; 2 shown. System board: 110 variants; 2 shown."
+ },
+ {
+  "brand": "Lenovo",
+  "model": "ThinkPad X1 Carbon Gen 13",
+  "alias": [
+   "ThinkPad X1 Carbon Gen 13",
+   "X1 Carbon 13th Gen",
+   "X1 Carbon Gen 13 Aura Edition",
+   "21NS",
+   "21NT",
+   "21NX",
+   "21NY"
+  ],
+  "battery_type": [
+   "L24M3P70"
+  ],
+  "part_numbers": [
+   "5B11M90097",
+   "5B11M90098",
+   "5B11M90099",
+   "5B11M90100"
+  ],
+  "wh": 57,
+  "cells": 3,
+  "confidence": "medium",
+  "source_url": "https://www.nzbattery.co.nz/lenovo-nz/battery-lenovo-thinkpad-x1-carbon-gen-13-21ns0070ml.htm",
+  "notes": "57Wh 3-cell, 11.7V. PSREF gives 57Wh. Lenovo parts lookup lists FRUs 5B11M90097 to 5B11M90100 (11.7V 57Wh 3cell). Cell-pack codes L24M3P70, L24B3P70, L24C3P71, L24D3P71 come from a parts seller. Shared with X1 2-in-1 Gen 10.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "5A11K67862",
+   "5A11K67863",
+   "5A11K67864",
+   "5A11K67865",
+   "5A11K67866",
+   "5A11K67867",
+   "5A11Q35711"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X1_Carbon_Gen_13/ThinkPad_X1_Carbon_Gen_13_Spec.pdf",
+  "charger_notes": "PSREF lists only 65W USB-C adapters (2-pin, 3-pin, nano GaN wall-mount, slim, slim GaN), PD 3.0; offering depends on country. FRU numbers from the Lenovo parts lookup (25 adapter FRUs); 2-pin and 3-pin variants shown.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR5x-8533 on package (V series) or LPDDR5x-8400 soldered (U/H series)",
+  "ram_slots": 0,
+  "ram_max": "64 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X1_Carbon_Gen_13/ThinkPad_X1_Carbon_Gen_13_Spec.pdf",
+  "ram_notes": "Aura Edition (Core Ultra 200V) has 16 GB or 32 GB memory on the CPU package. Models with U or H series CPUs have soldered memory up to 64 GB.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 5.0 NVMe (PCIe 4.0 on U series)",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX211 (Wi-Fi 6E) or BE201 (Wi-Fi 7)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option (M.2 card: Quectel EM160R-GL 4G or RM520N-GL 5G). V series models are upgradable only to 5G and need an antenna-ready config.",
+  "gpu": "Integrated Intel Arc 130V/140V (V series) or Arc 130T/140T / Intel Graphics (U/H series)",
+  "gpu_upgradable": "no",
+  "parts_confidence": "medium",
+  "parts_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X1_Carbon_Gen_13/ThinkPad_X1_Carbon_Gen_13_Spec.pdf",
+  "parts_notes": "PSREF: one M.2 2280 slot, PCIe 5.0 x4 on V and H series, PCIe 4.0 x4 on U series. The Lenovo parts lookup lists no Wi-Fi card, so Wi-Fi is taken as on the system board; not confirmed in the HMM.",
+  "replaceable_parts": "Bottom cover; Battery; SSD; WWAN card; Coin-cell battery; Fan/heatsink assembly; Speakers; Palmrest/top cover with keyboard; Touchpad; Display assembly; NFC module; System board; Antennas",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "board",
+  "fan": "heatsink",
+  "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/x1_carbon_gen13_x1_2in1_gen10_hmm_en.pdf",
+  "repair_confidence": "medium",
+  "repair_notes": "Memory is on the CPU package or soldered. Keyboard comes only with the C-cover. The Lenovo parts lookup lists only full LCD modules, not separate panels. Fan comes with the heatsink. The HMM was found but not read in full; parts data is from the Lenovo parts lookup.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5M11S11996",
+    "5M11S11997",
+    "5M11S11998",
+    "5M11S12001"
+   ],
+   "Battery": [
+    "5B11M90097",
+    "5B11M90098",
+    "5B11M90099",
+    "5B11M90100"
+   ],
+   "SSD": [
+    "5SS1P71534",
+    "5SS1P71535",
+    "5SS1P71536"
+   ],
+   "WWAN card": [
+    "5W11H85447",
+    "5W11H85458",
+    "5W11H85383"
+   ],
+   "Coin-cell battery": [
+    "5B10W13979",
+    "5B10W13980",
+    "5B11Q51973"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41J76276",
+    "5H41J76277"
+   ],
+   "Speakers": [
+    "5SB1P44209",
+    "5SB1P44210"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "5M11Q56073",
+    "5M11Q56074"
+   ],
+   "Touchpad": [
+    "5M11G56199",
+    "5M11G56205",
+    "5T61P80896"
+   ],
+   "Display assembly": [
+    "5M11S12002",
+    "5M11S10262",
+    "5M11N61067"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "System board": [
+    "5B21V64261",
+    "5B21V64267"
+   ],
+   "Antennas": [
+    "5A31K53982",
+    "5A31K53983"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-13th-gen-type-21ns-21nt/21ns/parts/display/compatible",
+  "pn_notes": "Lenovo compatible-parts list for machine type 21NS (475 parts). Bottom cover: aluminum or magnesium WLAN versions, and a WWAN version. Touchpad: standard clickpad or haptic ForcePad (5T61P80896). Display assembly: 2.8K OLED or WUXGA (touch and non-touch). Palmrest/top cover: 148 language variants; 2 shown. System board: 116 variants; 2 shown."
+ },
+ {
+  "brand": "Lenovo",
+  "model": "ThinkPad T15 Gen 2 (Intel)",
+  "alias": [
+   "ThinkPad T15 Gen 2i",
+   "ThinkPad T15 Gen 2",
+   "20W4",
+   "20W5"
+  ],
+  "battery_type": [
+   "L18M3P71"
+  ],
+  "part_numbers": [
+   "5B10W51831",
+   "5B10W51832",
+   "5B10W51823",
+   "5B10W13913",
+   "5B10W13914",
+   "02DL011",
+   "02DL012"
+  ],
+  "wh": 57,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t15-gen-2-type-20w4-20w5/20w4/parts/display/compatible",
+  "notes": "57Wh 3-cell, 11.52V. Lenovo parts lookup lists FRUs 5B10W51831, 5B10W51832, 5B10W51823, 5B10W13913, 5B10W13914. Cell packs L18M3P71 / L18L3P71 / L20D3P71 (from parts sellers). Same pack as T590, P53s, T15 Gen 1 and P15s Gen 1/2.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "5A10W86302",
+   "5A10W86303",
+   "5A10W86298",
+   "5A10W86299"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T15_Gen_2/ThinkPad_T15_Gen_2_Spec.pdf",
+  "charger_notes": "PSREF lists 45W and 65W USB-C adapters (2-pin, 3-pin, slim), PD 3.0. In EMEA only the 65W adapter ships. 5A10W86302/5A10W86303 are 65W, 5A10W86298/5A10W86299 are 45W. The Lenovo parts lookup lists 28 adapter FRUs.",
+  "ram_upgradable": "partial",
+  "ram_type": "DDR4-3200 (soldered + SO-DIMM)",
+  "ram_slots": 1,
+  "ram_max": "48 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T15_Gen_2/ThinkPad_T15_Gen_2_Spec.pdf",
+  "ram_notes": "8 GB or 16 GB is soldered to the system board. One SO-DIMM slot takes up to 32 GB. Max is 40 GB on 8 GB soldered models.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 3.0 NVMe",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX201 (CNVi) or AX210",
+  "wwan": "yes",
+  "wwan_notes": "Factory option (M.2 card: Quectel EM120R-GL or EM160R-GL 4G). Needs the WWAN antennas that ship on WWAN or antenna-ready configs.",
+  "gpu": "Integrated Intel Iris Xe, or NVIDIA GeForce MX450 2GB on some configs",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T15_Gen_2/ThinkPad_T15_Gen_2_Spec.pdf",
+  "parts_notes": "PSREF: one M.2 2280 PCIe 3.0 x4 slot; a PCIe 4.0 SSD runs at about PCIe 3.0 speed. The Lenovo parts lookup lists no Wi-Fi card, so Wi-Fi is on the system board.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; WWAN card; Coin-cell battery; Fan/heatsink assembly; Speakers; Keyboard; Palmrest/top cover; Touchpad; Display panel; Display bezel; Display back cover; Camera; Hinges; Fingerprint reader; Smart card reader; NFC module; eSIM card; System board; Antennas",
+  "keyboard": "separate",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "heatsink",
+  "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t15_gen2_p15s_gen2_hmm_en.pdf",
+  "repair_confidence": "medium",
+  "repair_notes": "One RAM slot; the other RAM is soldered. Wi-Fi is on the system board. Fan comes only as the thermal module with the heatsink. USB-C charge ports are on the system board. The HMM was found but not read in full; parts data is from the Lenovo parts lookup.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Z69265",
+    "5CB0Z69266",
+    "5CB0Z69569",
+    "5CB0Z69570"
+   ],
+   "Battery": [
+    "5B10W51831",
+    "5B10W51832",
+    "5B10W51823",
+    "5B10W13913"
+   ],
+   "SSD": [
+    "5SS1D71683",
+    "5SS1D71684",
+    "5SS1D71685"
+   ],
+   "WWAN card": [
+    "5W10V25815",
+    "5W10V25859",
+    "5W10V25820",
+    "5W10V25822"
+   ],
+   "Coin-cell battery": [
+    "02HK903",
+    "02HK904"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77169",
+    "5H41B77170",
+    "5H41B77167",
+    "5H41B77168"
+   ],
+   "Speakers": [
+    "5SB0S73516"
+   ],
+   "Keyboard": [
+    "5N21B08476",
+    "5N21B08477"
+   ],
+   "Palmrest/top cover": [
+    "5CB0Z69276",
+    "5CB0Z69277",
+    "5CB0Z69576",
+    "5CB0Z69577"
+   ],
+   "Touchpad": [
+    "5M11A17792",
+    "5M11A17793"
+   ],
+   "Display panel": [
+    "5D11C89629",
+    "5D10X08065",
+    "5D10W46482"
+   ],
+   "Display bezel": [
+    "01YT318",
+    "5M10V27627"
+   ],
+   "Display back cover": [
+    "5CB0Z69270",
+    "5CB0Z69273",
+    "5CB0Z69275"
+   ],
+   "Camera": [
+    "5C20X55540",
+    "5C21C16301"
+   ],
+   "Hinges": [
+    "01YT330",
+    "01YT331",
+    "01YT332",
+    "01YT333"
+   ],
+   "Fingerprint reader": [
+    "5F30V25949",
+    "5F30V25962"
+   ],
+   "Smart card reader": [
+    "04X5393"
+   ],
+   "NFC module": [
+    "01AX745"
+   ],
+   "eSIM card": [
+    "5W11H85415"
+   ],
+   "System board": [
+    "5B21M82905",
+    "5B21M82908"
+   ],
+   "Antennas": [
+    "5A30Z88157",
+    "5A30Z88159"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t15-gen-2-type-20w4-20w5/20w4/parts/display/compatible",
+  "pn_notes": "Lenovo compatible-parts list for machine type 20W4 (1349 parts). Fan/heatsink: UMA or discrete (MX450). Hinges: FHD or UHD, two suppliers. Keyboard: 296 language variants; 2 shown (EURO English, Japanese). System board: 650 variants; 2 shown."
+ },
+ {
+  "brand": "Lenovo",
+  "model": "ThinkPad T14s Gen 4 (Intel)",
+  "alias": [
+   "ThinkPad T14s Gen 4",
+   "ThinkPad T14s Gen 4 Intel",
+   "21F6",
+   "21F7"
+  ],
+  "battery_type": [
+   "L21L4P73"
+  ],
+  "part_numbers": [
+   "5B10W51874",
+   "5B10W51875",
+   "5B10W51876",
+   "5B10W51877",
+   "5B11M90030",
+   "5B11M90031",
+   "5B11M90032",
+   "5B11M90033"
+  ],
+  "wh": 57,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t14s-gen-4-type-21f6-21f7/21f6/parts/display/compatible",
+  "notes": "57Wh 4-cell, 15.36V. FRUs from the Lenovo parts lookup. Cell packs L21L4P73, L21M4P75, L21D4P74, L21B4P71 (from parts sellers). Shared with T14s Gen 3 and the T14s Gen 4 AMD (21F8, 21F9).",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "5A10W86315",
+   "5A10W86316",
+   "5A10W86318",
+   "5A10W86319"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T14s_Gen_4_Intel/ThinkPad_T14s_Gen_4_Intel_Spec.pdf",
+  "charger_notes": "PSREF lists 45W and 65W USB-C adapters (2-pin, 3-pin, slim), PD 3.0; offering depends on country. Rapid Charge needs 65W. FRUs shown are 65W (3-pin 5A10W86315/5A10W86316, 2-pin 5A10W86318/5A10W86319); the Lenovo parts lookup lists 22 adapter FRUs.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR5x-4800 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "32 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T14s_Gen_4_Intel/ThinkPad_T14s_Gen_4_Intel_Spec.pdf",
+  "ram_notes": "16 GB or 32 GB soldered, no slots. The chips are LPDDR5x-6400 but run at 4800. AMD models: LPDDR5X-6400 soldered, 16 or 32 GB.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2280 PCIe 4.0 NVMe",
+  "wifi_upgradable": "no",
+  "wifi_type": "Soldered Intel AX211 (Wi-Fi 6E, CNVi)",
+  "wwan": "yes",
+  "wwan_notes": "Factory option (M.2 card: Quectel EM05-G 4G, Fibocom L860-GL-16 4G or FM350-GL 5G). WWAN-upgradable (antenna ready) configs only in EMEA.",
+  "gpu": "Integrated Intel Iris Xe",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T14s_Gen_4_Intel/ThinkPad_T14s_Gen_4_Intel_Spec.pdf",
+  "parts_notes": "PSREF: one M.2 2280 PCIe 4.0 x4 slot. The Lenovo parts lookup lists no Wi-Fi card for 21F6, so Wi-Fi is on the system board. AMD models (21F8, 21F9) use MediaTek RZ616 or Qualcomm NFA725A Wi-Fi 6E and AMD Radeon 740M/780M graphics; whether that Wi-Fi is socketed was not checked.",
+  "replaceable_parts": "Bottom cover; Battery; SSD; WWAN card; Coin-cell battery; Fan/heatsink assembly; Speakers; Palmrest/top cover with keyboard; Touchpad; Display panel; Display assembly; Display back cover; Display bezel; Camera; Hinges; eDP cable; Camera cable; System board; Antennas",
+  "keyboard": "palmrest",
+  "screen": "panel",
+  "charge_port": "board",
+  "fan": "heatsink",
+  "service_manual_url": "https://download.lenovo.com/pccbbs/mobiles_pdf/t14s_gen4_hmm_en.pdf",
+  "repair_confidence": "medium",
+  "repair_notes": "RAM and Wi-Fi are soldered. Keyboard comes only with the C-cover. Fan comes only as the thermal module. Most panels are sold alone; the 2.8K OLED comes as a full LCD module. USB-C charge ports are on the system board. The HMM was found but not read in full; parts data is from the Lenovo parts lookup.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1L57621",
+    "5CB1L57624",
+    "5CB1L57627",
+    "5CB1L57630"
+   ],
+   "Battery": [
+    "5B10W51874",
+    "5B10W51875",
+    "5B11M90030",
+    "5B11M90031"
+   ],
+   "SSD": [
+    "5SS1L46685",
+    "5SS1L46686",
+    "5SS1L46687"
+   ],
+   "WWAN card": [
+    "5W10V25827",
+    "5W10V25828",
+    "5W10V25829"
+   ],
+   "Coin-cell battery": [
+    "01AY996",
+    "01AY997"
+   ],
+   "Fan/heatsink assembly": [
+    "5H41B77379",
+    "5H41B77380"
+   ],
+   "Speakers": [
+    "5SB0Z88678"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "5M11L59647",
+    "5M11L59648"
+   ],
+   "Touchpad": [
+    "5M11G56180",
+    "5M11G56183"
+   ],
+   "Display panel": [
+    "5D11L89624",
+    "5D11L44830",
+    "5D11D96811",
+    "5D11G99892"
+   ],
+   "Display assembly": [
+    "5M11J05813",
+    "5M11J05815"
+   ],
+   "Display back cover": [
+    "5CB1L57651",
+    "5CB1L57654",
+    "5CB1L57754",
+    "5CB1L57757"
+   ],
+   "Display bezel": [
+    "5CB1L57617",
+    "5CB1L57619"
+   ],
+   "Camera": [
+    "5C21D67583",
+    "5C51L61837"
+   ],
+   "Hinges": [
+    "5H50W13809",
+    "5H50W13810",
+    "5H50W13811"
+   ],
+   "eDP cable": [
+    "5C11H81544",
+    "5C11H81546",
+    "5C11H81547"
+   ],
+   "Camera cable": [
+    "5C11H81543",
+    "5C11H81545"
+   ],
+   "System board": [
+    "5B21L76901",
+    "5B21L76906"
+   ],
+   "Antennas": [
+    "5A30Z88200",
+    "5A30Z88201",
+    "5A30Z88202",
+    "5A30Z88203"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t14s-gen-4-type-21f6-21f7/21f6/parts/display/compatible",
+  "pn_notes": "Lenovo compatible-parts list for machine type 21F6 (794 parts). Bottom cover: WLAN, WWAN and 5G versions. Display assembly: OLED WQXGA+ modules. Palmrest/top cover: 370 language variants; 2 shown (UK English). System board: 128 variants; 2 shown."
+ },
+ {
+  "brand": "Lenovo",
+  "model": "IdeaPad Flex 5 14IIL05",
+  "alias": [
+   "IdeaPad Flex 5 14IIL05",
+   "Flex 5-14IIL05",
+   "Flex 5 14 (Intel, 2020)",
+   "81X1",
+   "81WS"
+  ],
+  "battery_type": [
+   "L19M3PD6"
+  ],
+  "part_numbers": [
+   "5B10X49072",
+   "5B10X49073",
+   "5B10X49075",
+   "5B10X49077"
+  ],
+  "wh": 52.5,
+  "cells": 3,
+  "confidence": "high",
+  "source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/flex-series/flex-5-14iil05/81x1/parts/display/compatible",
+  "notes": "52.5Wh 3-cell, 11.52V. FRUs from the Lenovo parts lookup. Sellers map them to cell packs L19M3PD6 / L19C3PD6 / L19D3PD6 / L19L3PD6. Not the same pack as the non-Flex IdeaPad 5 14IIL05.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "Lenovo 4.0mm round tip or USB-C",
+  "charger_output": "20V 3.25A",
+  "charger_part_numbers": [
+   "01FR148",
+   "01FR149",
+   "01FR150",
+   "01FR151",
+   "01FR157",
+   "5A10J40449",
+   "02DL126",
+   "02DL128",
+   "02DL149"
+  ],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Flex_5_14IIL05/IdeaPad_Flex_5_14IIL05_Spec.pdf",
+  "charger_notes": "PSREF lists a 65W round-tip adapter (2-pin wall-mount or 3-pin) and a 65W USB-C (3-pin, PD 3.0) adapter; offering depends on country. Models that ship with a USB-C adapter charge through the USB-C port. 01FR160 is ADLX65CCGB2A. Round tip size (4.0 x 1.7 mm) from general knowledge.",
+  "ram_upgradable": "no",
+  "ram_type": "DDR4-3200 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "16 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Flex_5_14IIL05/IdeaPad_Flex_5_14IIL05_Spec.pdf",
+  "ram_notes": "4 GB, 8 GB or 16 GB soldered to the system board, no slots.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2242 PCIe 3.0 x2 or M.2 2280 PCIe 3.0 x4 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX201 or 9560 (M.2 2230 CNVi), or Realtek RTL8822CE (M.2 2230)",
+  "wwan": "no",
+  "wwan_notes": "PSREF lists no WWAN option.",
+  "gpu": "Integrated Intel UHD or Iris Plus; some configs have an NVIDIA GeForce MX330",
+  "gpu_upgradable": "no",
+  "parts_confidence": "medium",
+  "parts_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Flex_5_14IIL05/IdeaPad_Flex_5_14IIL05_Spec.pdf",
+  "parts_notes": "PSREF: one drive, either an M.2 2242 PCIe 3.0 x2 slot or an M.2 2280 PCIe 3.0 x4 slot by model. Wi-Fi 5 or Wi-Fi 6 M.2 card. The PSREF graphics table did not extract; discrete-GPU configs are shown by the DIS heatsink and system boards in the Lenovo parts lookup, and the MX330 name is from general knowledge.",
+  "replaceable_parts": "Bottom cover; Battery; SSD; Wi-Fi card; Fan; Heatsink; Speakers; Palmrest/top cover with keyboard; Touchpad; Display assembly; Display back cover; Camera; Hinges; USB board; Fingerprint reader board; eDP cable; System board",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "",
+  "repair_confidence": "medium",
+  "repair_notes": "No Lenovo HMM was found for the 14IIL05. Parts data is from the Lenovo parts lookup. Keyboard comes only with the upper case. Display comes only as a full touch LCD module. The fan is separate from the heatsink. Charge-port location (system board) is not confirmed.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB0Y85287",
+    "5CB0Y85288",
+    "5CB0Y85289"
+   ],
+   "Battery": [
+    "5B10X49072",
+    "5B10X49073",
+    "5B10X49075",
+    "5B10X49077"
+   ],
+   "SSD": [
+    "5SS0X54153",
+    "5SS0X54155",
+    "5SS0Z21494",
+    "5SS0W86212"
+   ],
+   "Wi-Fi card": [
+    "01AX798",
+    "5W10V25772",
+    "02HK701"
+   ],
+   "Fan": [
+    "5F10S13911"
+   ],
+   "Heatsink": [
+    "5H40S20050",
+    "5H40S20051"
+   ],
+   "Speakers": [
+    "5SB0S31919"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "5CB0Y85674",
+    "5CB0Y85677"
+   ],
+   "Touchpad": [
+    "5T60S94227",
+    "5T60S94228",
+    "5T60S94229"
+   ],
+   "Display assembly": [
+    "5D10S39641",
+    "5D10S39642"
+   ],
+   "Display back cover": [
+    "5CB0Y85290",
+    "5CB0Y85293",
+    "5CB0Y85294",
+    "5CB0Y85295"
+   ],
+   "Camera": [
+    "5C20S40568"
+   ],
+   "Hinges": [
+    "5H50S28954",
+    "5H50S28955",
+    "5H50S28956"
+   ],
+   "USB board": [
+    "5C50S25058"
+   ],
+   "Fingerprint reader board": [
+    "5F30S94903",
+    "5F30S94904",
+    "5F30S94905"
+   ],
+   "eDP cable": [
+    "5C10S30056"
+   ],
+   "System board": [
+    "5B21B26529",
+    "5B21B26531",
+    "5B21B26533",
+    "5B21B26535"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/flex-series/flex-5-14iil05/81x1/parts/display/compatible",
+  "pn_notes": "Lenovo compatible-parts list for machine type 81X1 (742 parts). Colors: PG, GY and LT variants for covers, touchpad, hinges and fingerprint board. Heatsink: UMA (5H40S20050) or discrete (5H40S20051). Display assembly: IPS 250 nit or TN 220 nit. Palmrest/top cover: 378 variants; 2 shown. System board: U = integrated, D = discrete GPU."
+ },
+ {
+  "brand": "Lenovo",
+  "model": "Yoga 7 14IRL8",
+  "alias": [
+   "Yoga 7 14IRL8",
+   "Yoga 7i 14 Gen 8",
+   "Yoga 7i 2-in-1 14 (2023)",
+   "82YL"
+  ],
+  "battery_type": [
+   "L22M4PA1"
+  ],
+  "part_numbers": [
+   "5B11K38963",
+   "5B11K38966",
+   "5B11N45944",
+   "5B11N45982"
+  ],
+  "wh": 71,
+  "cells": 4,
+  "confidence": "high",
+  "source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/yoga-series/yoga-7-14irl8/82yl/parts/display/compatible",
+  "notes": "71Wh 4-cell, 15.36V. Lenovo parts lookup: 5B11K38966 / 5B11N45944 = L22M4PA1 (SP/A); 5B11K38963 / 5B11N45982 = L22D4PA1 (SD/C).",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 65,
+  "charger_connector": "USB-C",
+  "charger_output": "5-20V up to 3.25A (20V 3.25A)",
+  "charger_part_numbers": [
+   "5A11J62092",
+   "5A11J75645",
+   "5A11J75649",
+   "5A11J75668"
+  ],
+  "charger_confidence": "high",
+  "charger_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_7_14IRL8/Yoga_7_14IRL8_Spec.pdf",
+  "charger_notes": "PSREF: 65W USB-C (3-pin) or 65W USB-C slim wall-mount adapter, PD 3.0; offering depends on country. 5A11J62092 is 3-pin; 5A11J75645 (US), 5A11J75649 (EU) and 5A11J75668 (China, white) are 2-pin.",
+  "ram_upgradable": "no",
+  "ram_type": "LPDDR5-5200 (soldered)",
+  "ram_slots": 0,
+  "ram_max": "16 GB",
+  "ram_configs": [],
+  "ram_confidence": "high",
+  "ram_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_7_14IRL8/Yoga_7_14IRL8_Spec.pdf",
+  "ram_notes": "8 GB or 16 GB soldered, no slots.",
+  "storage_upgradable": "yes",
+  "storage_slots": 1,
+  "storage_type": "M.2 2242 PCIe 4.0 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 (M.2 2230 CNVi)",
+  "wwan": "no",
+  "wwan_notes": "PSREF: no WWAN support.",
+  "gpu": "Integrated Intel Iris Xe",
+  "gpu_upgradable": "no",
+  "parts_confidence": "high",
+  "parts_source_url": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_7_14IRL8/Yoga_7_14IRL8_Spec.pdf",
+  "parts_notes": "PSREF: one M.2 2242 PCIe 4.0 x4 slot; Wi-Fi 6E M.2 card. The Lenovo parts lookup lists the Intel AX211 card (5W10V25812).",
+  "replaceable_parts": "Bottom cover; Battery; SSD; Wi-Fi card; Coin-cell battery; Fan; Heatsink; Speakers; Palmrest/top cover with keyboard; Touchpad; Display assembly; USB board; Fingerprint reader cable; System board",
+  "keyboard": "palmrest",
+  "screen": "assembly",
+  "charge_port": "board",
+  "fan": "separate",
+  "service_manual_url": "",
+  "repair_confidence": "medium",
+  "repair_notes": "No Lenovo HMM was found for the 14IRL8. Parts data is from the Lenovo parts lookup. Keyboard comes only with the upper case. Display comes only as a full touch LCD module (IPS or OLED). The fan is separate from the heatsink. USB-C charge ports are taken to be on the system board.",
+  "replaceable_part_numbers": {
+   "Bottom cover": [
+    "5CB1L40880",
+    "5CB1L40881"
+   ],
+   "Battery": [
+    "5B11K38963",
+    "5B11K38966",
+    "5B11N45944",
+    "5B11N45982"
+   ],
+   "SSD": [
+    "5SS1K16470",
+    "5SS1J92000",
+    "5SS1F28991",
+    "5SS1F28989"
+   ],
+   "Wi-Fi card": [
+    "5W10V25812"
+   ],
+   "Coin-cell battery": [
+    "5B10S34099"
+   ],
+   "Fan": [
+    "5F10S14100",
+    "5F10S14101"
+   ],
+   "Heatsink": [
+    "5H40S20873",
+    "5H40S20874"
+   ],
+   "Speakers": [
+    "5SB0S32015"
+   ],
+   "Palmrest/top cover with keyboard": [
+    "5CB1L40878",
+    "5CB1L40879"
+   ],
+   "Touchpad": [
+    "5T60S94285",
+    "5T60S94286"
+   ],
+   "Display assembly": [
+    "5D10S39948",
+    "5D10S39949",
+    "5D10S39950",
+    "5D10S39951",
+    "5D10S39952",
+    "5D10S39953"
+   ],
+   "USB board": [
+    "5C50S25538"
+   ],
+   "Fingerprint reader cable": [
+    "5C10S30791"
+   ],
+   "System board": [
+    "5B21K97189",
+    "5B21K97191",
+    "5B21K97193",
+    "5B21K97715"
+   ]
+  },
+  "pn_confidence": "high",
+  "pn_source_url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/yoga-series/yoga-7-14irl8/82yl/parts/display/compatible",
+  "pn_notes": "Lenovo compatible-parts list for machine type 82YL (267 parts). Colors: STGY (Storm Grey) and TT variants. Display assembly: 2.2K IPS, WUXGA OLED, 2.8K OLED, WQXGA+ OLED. Palmrest/top cover: 96 language variants; 2 shown (USA English 5CB1L40878). System board: 16 variants; 4 shown."
+ },
+ {
   "brand": "Metabox",
   "model": "Alpha-S (NP60PNP)",
   "alias": [],
@@ -27332,5 +31934,72 @@ window.BATTERIES = [
   "pn_confidence": "high",
   "pn_source_url": "https://learn.microsoft.com/en-us/surface/service-guides/surface-prox/surface-prox-device-information-and-service-parts",
   "pn_notes": "From the Microsoft service parts list (model 1876). CRU numbers shown except the display. SSD: first three for SQ1 (128, 256, 512 GB), last two for SQ2 (256, 512 GB). Kickstand: Black SQ1, Black SQ2, Platinum SQ2. SSD door: Black, Platinum."
+ },
+ {
+  "brand": "MSI",
+  "model": "Sword 16 HX B13V (B13VGKG, 2023, 16 in)",
+  "alias": [
+   "Sword 16 HX B13VGKG",
+   "Micro-Star",
+   "MSI Sword 16 HX B13VGKG",
+   "Sword 16 HX B13VFKG",
+   "Sword 16 HX B13VEKG",
+   "Sword 16 HX B13V",
+   "MS-15P2",
+   "MS-15P1"
+  ],
+  "battery_type": [
+   "BTY-M5A"
+  ],
+  "part_numbers": [
+   "BTY-M5A"
+  ],
+  "wh": 65,
+  "cells": 4,
+  "confidence": "low",
+  "source_url": "https://www.nzbattery.co.nz/msi-nz/battery-msi-sword-16-hx-b14vfkg-050es.htm",
+  "notes": "4-cell 65 Wh 15.48 V Li-polymer. MSI confirms 4-cell 65 Whr. The code BTY-M5A is from one replacement-battery shop that lists Sword 16 HX B13VGKG-643SG and the B14V; no MSI page confirms it. Verify against the label on the pack.",
+  "image": "",
+  "image_source": "",
+  "image_note": "",
+  "charger_watts": 200,
+  "charger_connector": "MSI barrel",
+  "charger_output": "20V 10A",
+  "charger_part_numbers": [],
+  "charger_confidence": "medium",
+  "charger_source_url": "https://storage-asset.msi.com/excelSku/us/nb/Sword%2016%20HX%20B13VGKG-649US.pdf",
+  "charger_notes": "MSI spec sheet: 200 W adapter. The USB-C port supports PD 3.0 charging. No MSI part number confirmed for this model; MSI 200 W adapters are 20 V 10 A (for example S93-0409530-D04, Delta ADP-200JB, listed for other MSI models). Tip size not confirmed.",
+  "ram_upgradable": "yes",
+  "ram_type": "DDR5-5600 SO-DIMM",
+  "ram_slots": 2,
+  "ram_max": "96 GB",
+  "ram_configs": [],
+  "ram_confidence": "medium",
+  "ram_source_url": "https://notebookspec.com/notebook/13983-msi-sword-16-hx-b13vgkg-817th.html",
+  "ram_notes": "MSI spec sheet for B13VGKG-649US shows 32 GB (16 GB x2) DDR5-5600. Two slots and 96 GB max are from a retailer spec page.",
+  "storage_upgradable": "yes",
+  "storage_slots": 2,
+  "storage_type": "M.2 2280 PCIe 4.0 x4 NVMe",
+  "wifi_upgradable": "yes",
+  "wifi_type": "Intel AX211 (Wi-Fi 6E; M.2 2230 CNVi; replace only with another CNVi card)",
+  "wwan": "no",
+  "wwan_notes": "",
+  "gpu": "NVIDIA GeForce RTX 4070 8 GB (B13VGKG); RTX 4060 (B13VFKG) or RTX 4050 (B13VEKG)",
+  "gpu_upgradable": "no",
+  "parts_confidence": "medium",
+  "parts_source_url": "https://storage-asset.msi.com/excelSku/us/nb/Sword%2016%20HX%20B13VGKG-649US.pdf",
+  "parts_notes": "MSI spec sheet names the Intel Wi-Fi 6E AX211 and a Gen4 x4 NVMe SSD. Two M.2 slots are from a retailer spec page. The Wi-Fi is assumed to be an M.2 card as in other MSI gaming laptops; no B13V teardown was found to confirm it.",
+  "replaceable_parts": "Bottom cover; Battery; RAM; SSD; Wi-Fi card",
+  "keyboard": "",
+  "screen": "",
+  "charge_port": "",
+  "fan": "",
+  "service_manual_url": "",
+  "repair_confidence": "low",
+  "repair_notes": "No MSI service manual found. A LaptopMedia guide for the sister B14V says 13 Phillips screws hold the bottom panel and 4 screws hold the 65 Wh battery. Keyboard, screen, charge port and fan part structure not confirmed.",
+  "replaceable_part_numbers": {},
+  "pn_confidence": "",
+  "pn_source_url": "",
+  "pn_notes": "No MSI part numbers confirmed for this model."
  }
 ];
