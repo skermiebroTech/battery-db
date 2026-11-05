@@ -44,7 +44,7 @@
     return `<div class="thumb">no photo yet</div>`;
   }
   function deviceThumb(r) {
-    if (!r.device_image) return `<div class="thumb">no laptop photo</div>`;
+    if (!r.device_image) return "";
     const name = esc(`${r.brand} ${r.model}`);
     return `<button type="button" class="thumb device" data-img="${esc(r.device_image)}" data-cap="${name}" data-alt="${name} laptop" title="Click to enlarge"><img src="${esc(r.device_image)}" alt="${name} laptop" loading="lazy" referrerpolicy="no-referrer"></button>`;
   }
