@@ -43,6 +43,17 @@
     }
     return `<div class="thumb">no photo yet</div>`;
   }
+  function deviceThumb(r) {
+    if (!r.device_image) return `<div class="thumb">no laptop photo</div>`;
+    const name = esc(`${r.brand} ${r.model}`);
+    return `<button type="button" class="thumb device" data-img="${esc(r.device_image)}" data-cap="${name}" data-alt="${name} laptop" title="Click to enlarge"><img src="${esc(r.device_image)}" alt="${name} laptop" loading="lazy" referrerpolicy="no-referrer"></button>`;
+  }
+  function devicePhotoSrc(r) {
+    if (!r.device_image_source) return "";
+    let host = "";
+    try { host = new URL(r.device_image_source).hostname.replace(/^www\./, ""); } catch (e) { host = "source"; }
+    return `<a href="${esc(r.device_image_source)}" target="_blank" rel="noopener" title="Laptop photo source">laptop photo: ${esc(host)}</a>`;
+  }
   function photoSrc(r) {
     if (!r.image_source) return "";
     let host = "";
@@ -130,12 +141,12 @@
     const src = r.source_url ? `<a href="${esc(r.source_url)}" target="_blank" rel="noopener">source</a>` : "";
     const notes = r.notes ? `<details class="notes"><summary>Notes</summary>${esc(r.notes)}</details>` : "";
     return `<article class="card">
-      ${thumb(r)}
+      <div class="thumbs">${deviceThumb(r)}${thumb(r)}</div>
       <div>
         <h2><span class="brand">${hilite(r.brand, toks)}</span> ${hilite(r.model, toks)}</h2>
         ${alias}
         <div class="parts">${types}${parts}</div>
-        <div class="meta">${cap ? `<span>${esc(cap)}</span>` : ""}${confBadge(r.confidence)}${src}${photoSrc(r)}</div>
+        <div class="meta">${cap ? `<span>${esc(cap)}</span>` : ""}${confBadge(r.confidence)}${src}${photoSrc(r)}${devicePhotoSrc(r)}</div>
         ${notes}
         ${chargerBlock(r, toks)}
         ${hwBlock(r, toks)}
@@ -273,7 +284,7 @@
   box.addEventListener("click", (e) => { if (e.target === box || e.target.classList.contains("close")) box.close(); });
   results.addEventListener("click", (e) => {
     const t = e.target.closest(".thumb[data-img]"); if (!t) return;
-    box.querySelector("img").src = t.dataset.img; box.querySelector("img").alt = t.dataset.cap + " battery";
+    box.querySelector("img").src = t.dataset.img; box.querySelector("img").alt = t.dataset.alt || t.dataset.cap + " battery";
     box.querySelector("p").textContent = t.dataset.cap; box.showModal();
   });
 

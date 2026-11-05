@@ -28,6 +28,8 @@ The URL hash keeps the search, so you can share a link such as `#q=latitude%2074
    | `image` | Path to a photo in `img/`, for example `img/dell-mhr4g.jpg` |
    | `image_source` | Page the photo came from |
    | `image_note` | Caveat about the photo, for example when it shows an equivalent pack |
+   | `device_image` | URL of the laptop photo on the maker's support site. The page loads it from the maker, so no file goes in `img/` |
+   | `device_image_source` | Maker support page that shows the laptop photo |
    | `charger_watts` | Wattage of the adapter the laptop shipped with |
    | `charger_connector` | Plug type, for example `USB-C` or `Dell 7.4mm barrel` |
    | `charger_output` | Voltage and current, for example `20V 3.25A` |
